@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "78e9755805d8df8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "6c4e8c672f074dad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e620eeaec883a853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/Assembly/Instructions/ADD.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56e7b520980dd59d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46dc766e3b8b6c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d2cd181f734dd38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e251186949aaf4ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d4ea5e9b204f09a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7e892a22650a3600",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 306.5
+  },
+  "right": {
+    "id": "e1f7c6f4feb9a2f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8265d4dec19ad99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f2b9509e6ff41ff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbc1662e1512e961",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1cc52144589ec662",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb28ae73caabd5cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md"
+              }
+            }
+          },
+          {
+            "id": "a5b11fdf23543940",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "1b10da31bd34a32b",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "cf618d54f7fd5a41",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 270.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mathpad:Open Mathpad": false,
+      "obsidian-matrix:Obsidian Matrix": false
+    }
+  },
+  "active": "56e7b520980dd59d",
+  "lastOpenFiles": [
+    "Bachelor 2nd semester/Datateknik/Assembly/Instructions/ADD.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
+    "Bachelor 2nd semester/Kinematik/Inverse kinematics/General.md",
+    "Misc og Links/Pasted image 20230328102744.png",
+    "Misc og Links/Pasted image 20230328102729.png",
+    "Bachelor 2nd semester/Kinematik/Inverse kinematics/planar Inverse kinematics.md",
+    "Bachelor 2nd semester/Kinematik/Inverse kinematics/Choice of Solution.md",
+    "Bachelor 2nd semester/Kinematik/Inverse kinematics/Example.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/DH Parameters.md",
+    "Bachelor 2nd semester/Datateknik/Assembly/Instructions/Multiplication.md",
+    "Misc og Links/Pasted image 20230328102110.png",
+    "Misc og Links/Pasted image 20230328102054.png",
+    "Misc og Links/Pasted image 20230328102042.png",
+    "Misc og Links/Pasted image 20230328101951.png",
+    "Misc og Links/Pasted image 20230328101905.png",
+    "Bachelor 2nd semester/Kinematik/Inverse kinematics",
+    "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
+    "Bachelor 2nd semester/Kinematik/Opgaver/inverse kinematics.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/Translationsmatrices.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen",
+    "Misc og Links/Pasted Image 20230328085541_988.png",
+    "Bachelor 2nd semester/Kinematik/Mappings/Cases.md",
+    "Misc og Links/Pasted image 20230328084056.png",
+    "Bachelor 2nd semester/Kinematik/Mappings",
+    "Bachelor 2nd semester/Kinematik/Notation.md",
+    "Bachelor 2nd semester/Kinematik/PA/PA 1.md",
+    "Bachelor 2nd semester/Kinematik/PA/PA 1 opg1.md",
+    "Bachelor 2nd semester/Modbus/Intro.md",
+    "Bachelor 2nd semester/C++/OpenCV/Intro.md",
+    "Bachelor 2nd semester/C++/Libraries/Compile.md",
+    "Bachelor 2nd semester/Datateknik/C/Pin reader.md",
+    "Bachelor 2nd semester/Datateknik/C/Data types(Variables).md",
+    "Bachelor 2nd semester/Datateknik/C/BIT-wise logical operations.md",
+    "Bachelor 2nd semester/Datateknik/C/Arrays.md",
+    "Bachelor 2nd semester/Datateknik/C/Structure and Compilation.md",
+    "Bachelor 2nd semester/Datateknik/Assembly/Instructions/IN & OUT.md",
+    "Bachelor 2nd semester/Datateknik/C/Arithmetic operations.md",
+    "Misc og Links/Pasted image 20230323140117.png",
+    "Excalidraw/desktop.ini",
+    "Bachelor 2nd semester/Softwareudvikling/Databaser/desktop.ini",
+    "Bachelor 1st semester/Semester projekt/desktop.ini",
+    "Bachelor 1st semester/Eksamener/Fysik Eksamen/desktop.ini",
+    "Bachelor 1st semester/Matematiske metoder i Programmering/desktop.ini",
+    "Bachelor 1st semester/Matematiske Metoder/Eksamens opgaver/desktop.ini",
+    "Bachelor 1st semester/Matematiske Metoder/desktop.ini"
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "78e9755805d8df8e",
+    "type": "split",
+    "children": [
+      {
+        "id": "c41a6f176befe450",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Bachelor 1. semester/Matematiske Metoder/Dæmpede-Svingninger anden ordens diff ligninger.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "46dc766e3b8b6c27",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d2cd181f734dd38",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e251186949aaf4ce",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d4ea5e9b204f09a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7e892a22650a3600",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e1f7c6f4feb9a2f6",
+    "type": "split",
+    "children": [
+      {
+        "id": "a8265d4dec19ad99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f2b9509e6ff41ff",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Bachelor 1. semester/Matematiske Metoder/Dæmpede-Svingninger anden ordens diff ligninger.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cbc1662e1512e961",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Bachelor 1. semester/Matematiske Metoder/Dæmpede-Svingninger anden ordens diff ligninger.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1cc52144589ec662",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "eb28ae73caabd5cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Bachelor 1. semester/Matematiske Metoder/Dæmpede-Svingninger anden ordens diff ligninger.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c41a6f176befe450",
+  "lastOpenFiles": [
+    "Formelsamlingen.md",
+    "Bachelor 1. semester/Robotters Fysik/Bevægelsesmængder/Bevægelsesmængde.md",
+    "Bachelor 1. semester/Matematiske Metoder/Dæmpede-Svingninger anden ordens diff ligninger.md",
+    "Bachelor 1. semester/Matematiske Metoder/Koblede diff ligninger.md",
+    "Bachelor 1. semester/Matematiske Metoder/1. ordens differentialeligninger.md",
+    "Bachelor 1. semester/Elektro fysik/Operationsforstærker.md",
+    "Bachelor 1. semester/Elektro fysik/Effekt.md",
+    "Bachelor 1. semester/Elektro fysik/Elektro.md",
+    "Bachelor 1. semester/Elektro fysik/Kondensator.md",
+    "Bachelor 1. semester/Elektro fysik/Spoler.md"
+  ]
+}
