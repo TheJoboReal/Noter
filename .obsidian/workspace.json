@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "56e7b520980dd59d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/C++/Functions and stuff/Boolean Operators.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5950ebf5292e782",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "52b2310991cb716d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "811edba251b54185",
             "type": "leaf",
             "state": {
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,6 +177,9 @@
   },
   "active": "811edba251b54185",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/C++/Functions and stuff/enum and enum class.md",
+    "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
+    "Bachelor 2nd semester/C++/Libraries/Compile.md",
     "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Classes.md",
@@ -252,9 +218,6 @@
     "Bachelor 2nd semester/Kinematik/Mappings",
     "Bachelor 2nd semester/Kinematik/Notation.md",
     "Bachelor 2nd semester/Kinematik/PA/PA 1.md",
-    "Bachelor 2nd semester/Kinematik/PA/PA 1 opg1.md",
-    "Bachelor 2nd semester/Modbus/Intro.md",
-    "Bachelor 2nd semester/C++/OpenCV/Intro.md",
     "Excalidraw/desktop.ini",
     "Bachelor 2nd semester/Softwareudvikling/Databaser/desktop.ini",
     "Bachelor 1st semester/Semester projekt/desktop.ini",
