@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
+                "file": "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
+                "file": "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
+                "file": "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md"
+                "file": "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md"
               }
             }
           },
@@ -214,12 +214,12 @@
   },
   "active": "811edba251b54185",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Classes.md",
     "Misc og Links/Pasted image 20230329101939.png",
     "Misc og Links/Pasted image 20230329101921.png",
     "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
-    "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Misc og Links/Pasted image 20230329094729.png",
     "Misc og Links/Pasted image 20230329094647.png",
     "Misc og Links/Pasted image 20230329085454.png",
