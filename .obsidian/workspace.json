@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
+                "file": "Bachelor 2nd semester/C++/Libraries/Compile.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
+                "file": "Bachelor 2nd semester/C++/Libraries/Compile.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
+                "file": "Bachelor 2nd semester/C++/Libraries/Compile.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md"
+                "file": "Bachelor 2nd semester/C++/Libraries/Compile.md"
               }
             }
           },
@@ -177,8 +177,9 @@
   },
   "active": "811edba251b54185",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/C++/Functions and stuff/enum and enum class.md",
+    "Bachelor 2nd semester/Modbus/Intro.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
+    "Bachelor 2nd semester/C++/Functions and stuff/enum and enum class.md",
     "Bachelor 2nd semester/C++/Libraries/Compile.md",
     "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
@@ -217,7 +218,6 @@
     "Bachelor 2nd semester/Kinematik/Mappings/Cases.md",
     "Bachelor 2nd semester/Kinematik/Mappings",
     "Bachelor 2nd semester/Kinematik/Notation.md",
-    "Bachelor 2nd semester/Kinematik/PA/PA 1.md",
     "Excalidraw/desktop.ini",
     "Bachelor 2nd semester/Softwareudvikling/Databaser/desktop.ini",
     "Bachelor 1st semester/Semester projekt/desktop.ini",
