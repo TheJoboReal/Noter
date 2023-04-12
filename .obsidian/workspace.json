@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "811edba251b54185",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "5bca55040fb5b1f4",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,6 +177,7 @@
   },
   "active": "5bca55040fb5b1f4",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230412083647.png",
     "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/C++/Abstract Classes/Abstract Classes.md",
     "Bachelor 2nd semester/C++/Abstract Classes",
@@ -230,7 +218,6 @@
     "Bachelor 2nd semester/Kinematik/Eksamen/Translationsmatrices.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
     "Bachelor 2nd semester/Kinematik/Eksamen",
-    "Bachelor 2nd semester/Kinematik/Mappings/Cases.md",
     "Bachelor 2nd semester/Kinematik/Mappings",
     "Excalidraw/desktop.ini",
     "Bachelor 2nd semester/Softwareudvikling/Databaser/desktop.ini",
