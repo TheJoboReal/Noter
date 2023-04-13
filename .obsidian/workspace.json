@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Assembly/Instructions/Conditional Jump (CP & CPI).md",
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Assembly/Instructions/Conditional Jump (CP & CPI).md",
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Assembly/Instructions/Conditional Jump (CP & CPI).md"
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md"
               }
             }
           },
@@ -187,13 +188,16 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "323540dc9ccad0f3",
+  "active": "0faf3ba3177e1646",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230413133623.png",
+    "Misc og Links/Pasted image 20230413133043.png",
+    "Misc og Links/Pasted image 20230413133027.png",
+    "Bachelor 2nd semester/Datateknik/Counters.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
     "Bachelor 2nd semester/Datateknik/Assembly/Instructions/Conditional Jump (CP & CPI).md",
     "Bachelor 2nd semester/Datateknik/Assembly/Instructions/IN & OUT.md",
     "Bachelor 2nd semester/Datateknik/Assembly/Instructions/LDS and LDI.md",
-    "Bachelor 2nd semester/Datateknik/Counters.md",
     "Bachelor 2nd semester/Datateknik/Nummereringssystemer.md",
     "Misc og Links/Pasted image 20230413123550.png",
     "Misc og Links/Pasted image 20230413123339.png",
@@ -206,7 +210,6 @@
     "Misc og Links/Pasted image 20230413121855.png",
     "Excalidraw/Drawing 2023-04-12 16.12.54.excalidraw.md",
     "Bachelor 2nd semester/C++/Abstract Classes/Abstract Classes.md",
-    "Misc og Links/Pasted image 20230412083647.png",
     "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/C++/Abstract Classes",
     "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
@@ -215,7 +218,6 @@
     "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
     "Bachelor 2nd semester/C++/Functions and stuff/enum and enum class.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Classes.md",
-    "Misc og Links/Pasted image 20230329101939.png",
     "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Inheritance.md",
     "Bachelor 2nd semester/C++/Inheritance",
@@ -227,7 +229,6 @@
     "Bachelor 2nd semester/Datateknik/Assembly/Instructions/ADD.md",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics/General.md",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics/planar Inverse kinematics.md",
-    "Bachelor 2nd semester/Kinematik/Inverse kinematics/Choice of Solution.md",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics",
     "Bachelor 2nd semester/Kinematik/Eksamen",
     "Bachelor 2nd semester/Kinematik/Mappings",
