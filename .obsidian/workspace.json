@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a403a219c0a33b8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md"
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md"
               }
             }
           },
@@ -175,13 +188,14 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "f25ba7e1d01b110b",
+  "active": "a403a219c0a33b8f",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230413140644.png",
+    "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
+    "Misc og Links/Pasted image 20230413140644.png",
     "Misc og Links/Pasted image 20230413140633.png",
     "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
     "Misc og Links/Pasted image 20230413133623.png",
     "Misc og Links/Pasted image 20230413133043.png",
     "Misc og Links/Pasted image 20230413133027.png",
@@ -193,7 +207,6 @@
     "Misc og Links/Pasted image 20230413123550.png",
     "Misc og Links/Pasted image 20230413123339.png",
     "Misc og Links/Pasted image 20230413122921.png",
-    "Bachelor 2nd semester/Datateknik/ATmega32/Untitled.md",
     "Misc og Links/Pasted image 20230413122855.png",
     "Misc og Links/Pasted image 20230413122757.png",
     "Excalidraw/Drawing 2023-04-12 16.12.54.excalidraw.md",

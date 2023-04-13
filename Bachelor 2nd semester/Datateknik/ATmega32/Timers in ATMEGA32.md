@@ -8,6 +8,7 @@ TIFR contain both TOV0 and OCF0.
 ![[Pasted image 20230413123550.png]]
 ![[Pasted image 20230413123339.png]]
 ![[Pasted image 20230413133623.png]]
+10 er noninverting mens 11 er inverting
 ![[Pasted image 20230413133043.png]]
 
 
