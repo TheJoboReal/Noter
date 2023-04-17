@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md"
+                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md"
               }
             }
           },
@@ -190,9 +190,12 @@
   },
   "active": "a403a219c0a33b8f",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
+    "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
+    "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
     "Misc og Links/Pasted image 20230413140644.png",
     "Misc og Links/Pasted image 20230413140633.png",
     "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
@@ -211,15 +214,12 @@
     "Misc og Links/Pasted image 20230413122757.png",
     "Excalidraw/Drawing 2023-04-12 16.12.54.excalidraw.md",
     "Bachelor 2nd semester/C++/Abstract Classes/Abstract Classes.md",
-    "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/C++/Abstract Classes",
-    "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
     "Bachelor 2nd semester/C++/Libraries/Compile.md",
     "Bachelor 2nd semester/Modbus/Intro.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
     "Bachelor 2nd semester/C++/Functions and stuff/enum and enum class.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Classes.md",
-    "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Inheritance.md",
     "Bachelor 2nd semester/C++/Inheritance",
     "Bachelor 2nd semester/C++/Functions and stuff/Boolean Operators.md",
