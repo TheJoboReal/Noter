@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "59a2e224bea65aeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
+                "file": "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
+                "file": "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Inheritance.md"
+                "file": "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md"
               }
             }
           },
@@ -188,11 +200,14 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "a403a219c0a33b8f",
+  "active": "59a2e224bea65aeb",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230417220248.png",
+    "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
+    "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
+    "Bachelor 2nd semester/Kinematik/Building robots in matlab",
     "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
     "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
-    "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
@@ -227,13 +242,11 @@
     "Bachelor 2nd semester/C++/WSL Ubuntu Basics.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
     "Bachelor 2nd semester/C++/Functions and stuff",
-    "Bachelor 2nd semester/Datateknik/Assembly/Instructions/ADD.md",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics",
     "Bachelor 2nd semester/Kinematik/Eksamen",
     "Bachelor 2nd semester/Kinematik/Mappings",
     "Excalidraw/desktop.ini",
     "Bachelor 2nd semester/Softwareudvikling/Databaser/desktop.ini",
-    "Bachelor 1st semester/Semester projekt/desktop.ini",
-    "Bachelor 1st semester/Eksamener/Fysik Eksamen/desktop.ini"
+    "Bachelor 1st semester/Semester projekt/desktop.ini"
   ]
 }
