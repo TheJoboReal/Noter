@@ -8,42 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59a2e224bea65aeb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e04351bbcdc8913",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Velocity/Point velocity in frame.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "91a83d6d0c858d83",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Velocity/Point velocity in frame.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "91c4095b0f295fef",
             "type": "leaf",
             "state": {
@@ -55,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
