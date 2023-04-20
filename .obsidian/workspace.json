@@ -8,43 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "91c4095b0f295fef",
+            "id": "2da3d1f01d245da4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/C++/OpenCV/Intro.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "29da54d1d07a927e",
+            "id": "8070f06595745f7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73c619a3c426704c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md"
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md"
               }
             }
           },
@@ -200,11 +188,17 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "73c619a3c426704c",
+  "active": "8070f06595745f7c",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/How to use ADC.md",
+    "Misc og Links/Pasted image 20230420132510.png",
+    "Misc og Links/Pasted image 20230420132323.png",
+    "Misc og Links/Pasted image 20230420132112.png",
     "Misc og Links/Pasted image 20230420124558.png",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
     "Misc og Links/Pasted image 20230420123012.png",
     "Bachelor 2nd semester/C++/OpenCV/Intro.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
@@ -226,11 +220,7 @@
     "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
-    "Misc og Links/Pasted image 20230413140644.png",
-    "Misc og Links/Pasted image 20230413140633.png",
     "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
-    "Misc og Links/Pasted image 20230413133623.png",
-    "Misc og Links/Pasted image 20230413133043.png",
     "Bachelor 2nd semester/Datateknik/Counters.md",
     "Bachelor 2nd semester/Datateknik/Assembly/Instructions/Conditional Jump (CP & CPI).md",
     "Bachelor 2nd semester/Datateknik/Assembly/Instructions/IN & OUT.md",
@@ -239,9 +229,6 @@
     "Excalidraw/Drawing 2023-04-12 16.12.54.excalidraw.md",
     "Bachelor 2nd semester/C++/Abstract Classes/Abstract Classes.md",
     "Bachelor 2nd semester/C++/Abstract Classes",
-    "Bachelor 2nd semester/C++/Libraries/Compile.md",
-    "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
-    "Bachelor 2nd semester/C++/Functions and stuff/enum and enum class.md",
     "Bachelor 2nd semester/C++/Inheritance",
     "Bachelor 2nd semester/C++/Functions and stuff",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics",
