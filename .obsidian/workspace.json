@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md"
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md"
               }
             }
           },
@@ -178,16 +178,16 @@
   "active": "d7a087ad2b6b8d39",
   "lastOpenFiles": [
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
-    "Misc og Links/Pasted image 20230420133403.png",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/How to use ADC.md",
+    "Misc og Links/Pasted image 20230420133403.png",
     "Misc og Links/Pasted image 20230420132510.png",
     "Misc og Links/Pasted image 20230420132323.png",
     "Misc og Links/Pasted image 20230420132112.png",
     "Misc og Links/Pasted image 20230420124558.png",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
     "Misc og Links/Pasted image 20230420123012.png",
     "Bachelor 2nd semester/C++/OpenCV/Intro.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
