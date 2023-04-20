@@ -13,9 +13,8 @@ int main(void) {
 
   while (1) {
     ADCSRA |= 11000011;  //ADC start conversion
-    while (ADCSRA == 10000011) // Check if convers is done
-      ;
-    PORTB = ~ADCH;  //Send inverted results to 
+    while (ADCSRA == 10000011); // Check if convers is done
+    PORTB = ~ADCH;  //Send inverted results to PORTB LEDS
   }
 }
 ```

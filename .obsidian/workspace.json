@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2da3d1f01d245da4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8070f06595745f7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d7a087ad2b6b8d39",
             "type": "leaf",
             "state": {
@@ -43,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
