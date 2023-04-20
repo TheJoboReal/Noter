@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "29da54d1d07a927e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/C++/OpenCV/Intro.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/C++/OpenCV/Intro.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/C++/OpenCV/Intro.md"
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md"
               }
             }
           },
@@ -175,10 +188,13 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "91c4095b0f295fef",
+  "active": "29da54d1d07a927e",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/Modbus/Intro.md",
+    "Misc og Links/Pasted image 20230420123012.png",
     "Bachelor 2nd semester/C++/OpenCV/Intro.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital",
+    "Bachelor 2nd semester/Modbus/Intro.md",
     "Bachelor 2nd semester/Kinematik/Velocity/Angular velocity.md",
     "Misc og Links/Pasted image 20230418090053.png",
     "Bachelor 2nd semester/Kinematik/Velocity/Linear velocity of rigid bodies.md",
@@ -214,14 +230,11 @@
     "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
     "Bachelor 2nd semester/C++/Functions and stuff/enum and enum class.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Classes.md",
-    "Bachelor 2nd semester/C++/Functions and stuff/Inheritance.md",
     "Bachelor 2nd semester/C++/Inheritance",
-    "Bachelor 2nd semester/C++/Functions and stuff/Boolean Operators.md",
     "Bachelor 2nd semester/C++/Functions and stuff",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics",
     "Bachelor 2nd semester/Kinematik/Eksamen",
     "Bachelor 2nd semester/Kinematik/Mappings",
-    "Excalidraw/desktop.ini",
-    "Bachelor 2nd semester/Softwareudvikling/Databaser/desktop.ini"
+    "Excalidraw/desktop.ini"
   ]
 }
