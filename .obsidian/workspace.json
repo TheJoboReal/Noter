@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md"
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md"
               }
             }
           },
@@ -177,8 +177,8 @@
   },
   "active": "d7a087ad2b6b8d39",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
