@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md"
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md"
               }
             }
           },
@@ -177,12 +177,25 @@
   },
   "active": "d7a087ad2b6b8d39",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/How to use ADC.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
+    "Bachelor 2nd semester/Datateknik/Counters.md",
+    "Bachelor 2nd semester/Datateknik/Boolean algebra.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/Schematic.md",
+    "Bachelor 2nd semester/Datateknik/C/Arithmetic operations.md",
+    "Bachelor 2nd semester/Datateknik/C/Arrays.md",
+    "Bachelor 2nd semester/Datateknik/C/BIT-wise logical operations.md",
+    "Bachelor 2nd semester/Datateknik/C/Data types(Variables).md",
+    "Bachelor 2nd semester/Datateknik/C/Pin reader.md",
+    "Bachelor 2nd semester/Datateknik/C/Structure and Compilation.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/How to use ADC.md",
     "Misc og Links/Pasted image 20230420133403.png",
     "Misc og Links/Pasted image 20230420132510.png",
     "Misc og Links/Pasted image 20230420132323.png",
@@ -203,19 +216,6 @@
     "Bachelor 2nd semester/Kinematik/Velocity",
     "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/Kinematik/Building robots in matlab",
-    "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
-    "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
-    "Bachelor 2nd semester/Datateknik/Counters.md",
-    "Bachelor 2nd semester/Datateknik/Assembly/Instructions/Conditional Jump (CP & CPI).md",
-    "Bachelor 2nd semester/Datateknik/Assembly/Instructions/IN & OUT.md",
-    "Bachelor 2nd semester/Datateknik/Assembly/Instructions/LDS and LDI.md",
-    "Bachelor 2nd semester/Datateknik/Nummereringssystemer.md",
-    "Excalidraw/Drawing 2023-04-12 16.12.54.excalidraw.md",
-    "Bachelor 2nd semester/C++/Abstract Classes/Abstract Classes.md",
     "Bachelor 2nd semester/C++/Abstract Classes",
     "Bachelor 2nd semester/C++/Inheritance",
     "Bachelor 2nd semester/C++/Functions and stuff",

@@ -1,5 +1,5 @@
 
-Potentiometer outputs the to PORTB aka te LEDS on the microcontroller.
+Potentiometer outputs the position to PORTB aka te LEDS on the microcontroller.
 ```C
 #define F_CPU 8000000 // CPU frekvens defination.
 #include <avr/io.h>
