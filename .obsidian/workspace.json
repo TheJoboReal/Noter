@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "73c619a3c426704c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md"
+                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md"
               }
             }
           },
@@ -188,11 +200,13 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "29da54d1d07a927e",
+  "active": "73c619a3c426704c",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230420124558.png",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
     "Misc og Links/Pasted image 20230420123012.png",
     "Bachelor 2nd semester/C++/OpenCV/Intro.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
     "Bachelor 2nd semester/Modbus/Intro.md",
     "Bachelor 2nd semester/Kinematik/Velocity/Angular velocity.md",
@@ -217,7 +231,6 @@
     "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
     "Misc og Links/Pasted image 20230413133623.png",
     "Misc og Links/Pasted image 20230413133043.png",
-    "Misc og Links/Pasted image 20230413133027.png",
     "Bachelor 2nd semester/Datateknik/Counters.md",
     "Bachelor 2nd semester/Datateknik/Assembly/Instructions/Conditional Jump (CP & CPI).md",
     "Bachelor 2nd semester/Datateknik/Assembly/Instructions/IN & OUT.md",
@@ -229,7 +242,6 @@
     "Bachelor 2nd semester/C++/Libraries/Compile.md",
     "Bachelor 2nd semester/C++/Functions and stuff/Header guard.md",
     "Bachelor 2nd semester/C++/Functions and stuff/enum and enum class.md",
-    "Bachelor 2nd semester/C++/Functions and stuff/Classes.md",
     "Bachelor 2nd semester/C++/Inheritance",
     "Bachelor 2nd semester/C++/Functions and stuff",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics",
