@@ -11,12 +11,23 @@
             "id": "9fac6ecbbc25f830",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "75c5e2c39fa784c5"
+          }
+        ]
+      },
+      {
+        "id": "57a7f34f38f4904d",
+        "type": "tabs",
+        "children": [
           {
-            "id": "852e81bde70e9745",
+            "id": "b5be4ff41e018767",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -25,10 +36,10 @@
                 "mode": "preview",
                 "source": false
               }
-            }
+            },
+            "group": "75c5e2c39fa784c5"
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 306.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -163,7 +175,7 @@
             }
           },
           {
-            "id": "4af1b8fe0b0b8ff4",
+            "id": "df623382e7c839f5",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
@@ -175,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 270.5
+    "width": 270.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,8 +205,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "852e81bde70e9745",
+  "active": "9fac6ecbbc25f830",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2023-04-24 12.37.17.excalidraw.md",
     "Untitled.md",
     "Bachelor 2nd semester/Softwareudvikling/UML/Generel UML.md",
     "Excalidraw/Drawing 2023-04-24 12.22.17.excalidraw.md",
@@ -220,7 +234,6 @@
     "Bachelor 2nd semester/Datateknik/C/Arrays.md",
     "Bachelor 2nd semester/Datateknik/C/BIT-wise logical operations.md",
     "Bachelor 2nd semester/Datateknik/C/Data types(Variables).md",
-    "Bachelor 2nd semester/Datateknik/C/Pin reader.md",
     "Misc og Links/Pasted image 20230420133403.png",
     "Misc og Links/Pasted image 20230420132510.png",
     "Misc og Links/Pasted image 20230420132323.png",
