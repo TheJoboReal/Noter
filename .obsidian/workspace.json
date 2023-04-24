@@ -4,29 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "3f6ccafdf3777e38",
+        "id": "f9a78082c76e56b2",
         "type": "tabs",
         "children": [
           {
-            "id": "d7a087ad2b6b8d39",
+            "id": "9fac6ecbbc25f830",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
-            "id": "b5ece135c03f1110",
+            "id": "852e81bde70e9745",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md",
-                "mode": "source",
+                "file": "Untitled.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md",
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -165,14 +161,21 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "4af1b8fe0b0b8ff4",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
-    "width": 270.5,
-    "collapsed": true
+    "width": 270.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,14 +188,23 @@
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mathpad:Open Mathpad": false,
-      "obsidian-matrix:Obsidian Matrix": false
+      "obsidian-matrix:Obsidian Matrix": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b5ece135c03f1110",
+  "active": "852e81bde70e9745",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Bachelor 2nd semester/Softwareudvikling/UML/Generel UML.md",
+    "Excalidraw/Drawing 2023-04-24 12.22.17.excalidraw.md",
+    "Bachelor 2nd semester/Softwareudvikling/Databaser/Normalisering af Data.md",
+    "Bachelor 2nd semester/Softwareudvikling/SQL/Having.md",
+    "Bachelor 2nd semester/Softwareudvikling/SQL/Groups.md",
+    "Bachelor 2nd semester/Softwareudvikling/Scrum/Untitled.md",
+    "Bachelor 2nd semester/Softwareudvikling/Databaser/Gemme og Hente data..md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md",
     "Misc og Links/Pasted image 20230420155519.png",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/How to use ADC.md",
@@ -209,22 +221,15 @@
     "Bachelor 2nd semester/Datateknik/C/BIT-wise logical operations.md",
     "Bachelor 2nd semester/Datateknik/C/Data types(Variables).md",
     "Bachelor 2nd semester/Datateknik/C/Pin reader.md",
-    "Bachelor 2nd semester/Datateknik/C/Structure and Compilation.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
     "Misc og Links/Pasted image 20230420133403.png",
     "Misc og Links/Pasted image 20230420132510.png",
     "Misc og Links/Pasted image 20230420132323.png",
     "Misc og Links/Pasted image 20230420132112.png",
     "Misc og Links/Pasted image 20230420124558.png",
     "Misc og Links/Pasted image 20230420123012.png",
-    "Bachelor 2nd semester/C++/OpenCV/Intro.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
-    "Bachelor 2nd semester/Modbus/Intro.md",
-    "Bachelor 2nd semester/Kinematik/Velocity/Angular velocity.md",
     "Misc og Links/Pasted image 20230418090053.png",
-    "Bachelor 2nd semester/Kinematik/Velocity/Linear velocity of rigid bodies.md",
     "Misc og Links/Pasted image 20230418085200.png",
-    "Bachelor 2nd semester/Kinematik/Velocity/Point velocity in frame.md",
     "Misc og Links/Pasted image 20230418084713.png",
     "Bachelor 2nd semester/Kinematik/Velocity",
     "Bachelor 2nd semester/Kinematik/Building robots in matlab",
