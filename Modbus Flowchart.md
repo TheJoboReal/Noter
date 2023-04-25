@@ -2,7 +2,7 @@
 graph TD
 a([Tegn bane]) -->b(output koordinater)-->
 c(send start signal til robot)-->
-d(Send signal til at starte lade function)-->
+d(Send signal til at starte lade function)
 e(kør placer domino funktion)
 f(is done?)-->|No|d
 f-->|Yes|g(afbryd forbindelse til robot)-->
@@ -20,6 +20,7 @@ a4(Kør til hjem position)-->
 a5(Slut Lade Funktion)
 end
 
+a5-->e
 e-->b1
 
 subgraph Plasere Funktion

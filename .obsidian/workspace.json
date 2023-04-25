@@ -17,27 +17,7 @@
                 "mode": "preview",
                 "source": false
               }
-            },
-            "group": "39ca0c59138b7697"
-          }
-        ]
-      },
-      {
-        "id": "f5b75b54d999c0c3",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "371b1371ddfc3fb2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Modbus Flowchart.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "39ca0c59138b7697"
+            }
           }
         ]
       }
@@ -205,7 +185,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "371b1371ddfc3fb2",
+  "active": "b5be4ff41e018767",
   "lastOpenFiles": [
     "Excalidraw/Drawing 2023-04-24 12.37.17.excalidraw.md",
     "Modbus Flowchart.md",
