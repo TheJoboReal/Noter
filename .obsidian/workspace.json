@@ -18,8 +18,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d727528b06ad30c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a3f4b2f864bb995",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "224ca61dc5c691b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Global interrupt enable.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6fa61545b34ce181",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/External interrupt register.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fe1a3d335fc6a942",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -69,8 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -86,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Modbus Flowchart.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Modbus Flowchart.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Modbus Flowchart.md"
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md"
               }
             }
           },
@@ -185,10 +245,22 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b5be4ff41e018767",
+  "active": "fe1a3d335fc6a942",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2023-04-24 12.37.17.excalidraw.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/External interrupt register.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
+    "Misc og Links/Pasted image 20230427124158.png",
+    "Misc og Links/Pasted image 20230427124036.png",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/Global interrupt enable.md",
+    "Misc og Links/Pasted image 20230427123951.png",
+    "Misc og Links/Pasted image 20230427123741.png",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt addresses.md",
+    "Misc og Links/Pasted image 20230427123349.png",
+    "Misc og Links/Pasted image 20230427123330.png",
     "Modbus Flowchart.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt",
+    "Excalidraw/Drawing 2023-04-24 12.37.17.excalidraw.md",
     "Bachelor 2nd semester/Softwareudvikling/UML/Generel UML.md",
     "Excalidraw/Drawing 2023-04-24 12.22.17.excalidraw.md",
     "Bachelor 2nd semester/Softwareudvikling/Databaser/Normalisering af Data.md",
@@ -209,21 +281,10 @@
     "Bachelor 2nd semester/Datateknik/Boolean algebra.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/Schematic.md",
-    "Bachelor 2nd semester/Datateknik/C/Arithmetic operations.md",
-    "Bachelor 2nd semester/Datateknik/C/Arrays.md",
-    "Bachelor 2nd semester/Datateknik/C/BIT-wise logical operations.md",
-    "Bachelor 2nd semester/Datateknik/C/Data types(Variables).md",
     "Misc og Links/Pasted image 20230420133403.png",
     "Misc og Links/Pasted image 20230420132510.png",
     "Misc og Links/Pasted image 20230420132323.png",
-    "Misc og Links/Pasted image 20230420132112.png",
-    "Misc og Links/Pasted image 20230420124558.png",
-    "Misc og Links/Pasted image 20230420123012.png",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
-    "Misc og Links/Pasted image 20230418090053.png",
-    "Misc og Links/Pasted image 20230418085200.png",
-    "Misc og Links/Pasted image 20230418084713.png",
     "Bachelor 2nd semester/Kinematik/Velocity",
     "Bachelor 2nd semester/Kinematik/Building robots in matlab",
     "Bachelor 2nd semester/C++/Abstract Classes",
@@ -231,7 +292,6 @@
     "Bachelor 2nd semester/C++/Functions and stuff",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics",
     "Bachelor 2nd semester/Kinematik/Eksamen",
-    "Bachelor 2nd semester/Kinematik/Mappings",
-    "Excalidraw/desktop.ini"
+    "Bachelor 2nd semester/Kinematik/Mappings"
   ]
 }
