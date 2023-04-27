@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "578ff01083e6f15f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md"
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md"
               }
             }
           },
@@ -169,22 +182,24 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-matrix:Obsidian Matrix": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "mathpad:Open Mathpad": false
+      "mathpad:Open Mathpad": false,
+      "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "ff1eee93fad0e359",
+  "active": "578ff01083e6f15f",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt addresses.md",
+    "Misc og Links/Pasted image 20230427135435.png",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/Global interrupt enable.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/External interrupt register.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt addresses.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
     "Misc og Links/Pasted image 20230427124158.png",
     "Misc og Links/Pasted image 20230427124036.png",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Global interrupt enable.md",
     "Misc og Links/Pasted image 20230427123951.png",
     "Misc og Links/Pasted image 20230427123741.png",
     "Misc og Links/Pasted image 20230427123349.png",
@@ -210,8 +225,6 @@
     "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
     "Bachelor 2nd semester/Datateknik/Counters.md",
     "Bachelor 2nd semester/Datateknik/Boolean algebra.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
     "Misc og Links/Pasted image 20230420133403.png",
     "Misc og Links/Pasted image 20230420132510.png",
     "Misc og Links/Pasted image 20230420132323.png",
