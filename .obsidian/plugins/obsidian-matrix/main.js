@@ -51,7 +51,7 @@ var __async = (__this, __arguments, generator) => {
 __export(exports, {
   default: () => MyPlugin
 });
-var import_obsidian3 = __toModule(require("obsidian"));
+var import_obsidian4 = __toModule(require("obsidian"));
 
 // CreationModal.ts
 var import_obsidian2 = __toModule(require("obsidian"));
@@ -72,17 +72,69 @@ var ErrorModal = class extends import_obsidian.Modal {
 };
 
 // CreationModal.ts
-var CreationModal = class extends import_obsidian2.Modal {
-  constructor(app) {
+var _CreationModal = class extends import_obsidian2.Modal {
+  constructor(app, plugin) {
     super(app);
     this.matrixWidth = 2;
     this.matrixHeight = 2;
+    this.selectedMatrix = "Plain (matrix)";
+    this.MAX_WIDTH = 10;
+    this.MAX_HEIGHT = 10;
+    this.keyEventHandler = (evt) => {
+      const widthSliderComponent = this.widthSlider.components[0];
+      const heightSliderComponent = this.heightSlider.components[0];
+      if (evt.key == "Enter") {
+        this.constructOutput();
+      } else if (evt.key == "ArrowRight" && evt.altKey && this.matrixWidth < this.MAX_WIDTH) {
+        this.matrixWidth += 1;
+        widthSliderComponent.setValue(this.matrixWidth);
+        this.regenerateMatrix();
+        const firstTextBox = this.matrixDiv.children[0];
+        firstTextBox.focus();
+      } else if (evt.key == "ArrowLeft" && evt.altKey && this.matrixWidth > 1) {
+        this.matrixWidth -= 1;
+        widthSliderComponent.setValue(this.matrixWidth);
+        this.regenerateMatrix();
+        const firstTextBox = this.matrixDiv.children[0];
+        firstTextBox.focus();
+      } else if (evt.key == "ArrowUp" && evt.altKey && this.matrixHeight > 1) {
+        this.matrixHeight -= 1;
+        heightSliderComponent.setValue(this.matrixHeight);
+        this.regenerateMatrix();
+        const firstTextBox = this.matrixDiv.children[0];
+        firstTextBox.focus();
+      } else if (evt.key == "ArrowDown" && evt.altKey && this.matrixHeight < this.MAX_HEIGHT) {
+        this.matrixHeight += 1;
+        heightSliderComponent.setValue(this.matrixHeight);
+        this.regenerateMatrix();
+        const firstTextBox = this.matrixDiv.children[0];
+        firstTextBox.focus();
+      }
+    };
+    this.parentPlugin = plugin;
   }
   onOpen() {
     this.createHTML();
-    new import_obsidian2.Setting(this.settingsDiv).setName("Matrix width").addSlider((slider) => {
-      slider.setValue(2);
-      slider.setLimits(1, 10, 1);
+    new import_obsidian2.Setting(this.settingsDiv).setName("Matrix type").addDropdown((dc) => {
+      Object.keys(_CreationModal.matrixTypes).forEach((key) => {
+        dc.addOption(key, key);
+      });
+      dc.onChange((value) => {
+        this.selectedMatrix = value;
+      });
+      if (this.parentPlugin.settings.rememberMatrixType && this.parentPlugin.settings.lastUsedMatrix) {
+        dc.setValue(this.parentPlugin.settings.lastUsedMatrix);
+        this.selectedMatrix = this.parentPlugin.settings.lastUsedMatrix;
+      }
+    });
+    this.widthSlider = new import_obsidian2.Setting(this.settingsDiv).setName("Matrix width").addSlider((slider) => {
+      if (this.parentPlugin.settings.rememberMatrixDimensions) {
+        slider.setValue(this.parentPlugin.settings.prevX == null ? 2 : this.parentPlugin.settings.prevX);
+        this.matrixWidth = this.parentPlugin.settings.prevX == null ? 2 : this.parentPlugin.settings.prevX;
+      } else {
+        slider.setValue(2);
+      }
+      slider.setLimits(1, this.MAX_WIDTH, 1);
       slider.showTooltip();
       slider.setDynamicTooltip();
       slider.onChange((value) => {
@@ -90,9 +142,14 @@ var CreationModal = class extends import_obsidian2.Modal {
         this.regenerateMatrix();
       });
     });
-    new import_obsidian2.Setting(this.settingsDiv).setName("Matrix height").addSlider((slider) => {
-      slider.setValue(2);
-      slider.setLimits(1, 10, 1);
+    this.heightSlider = new import_obsidian2.Setting(this.settingsDiv).setName("Matrix height").addSlider((slider) => {
+      if (this.parentPlugin.settings.rememberMatrixDimensions) {
+        slider.setValue(this.parentPlugin.settings.prevY == null ? 2 : this.parentPlugin.settings.prevY);
+        this.matrixHeight = this.parentPlugin.settings.prevY == null ? 2 : this.parentPlugin.settings.prevY;
+      } else {
+        slider.setValue(2);
+      }
+      slider.setLimits(1, this.MAX_HEIGHT, 1);
       slider.showTooltip();
       slider.setDynamicTooltip();
       slider.onChange((value) => {
@@ -104,30 +161,47 @@ var CreationModal = class extends import_obsidian2.Modal {
       button.setIcon("checkmark");
       button.setCta();
       button.onClick(() => {
-        let chunks = Array.from(this.matrixDiv.children).map((child) => {
-          return child.value;
-        }).reduce((resultArray, item, index) => {
-          const chunkIndex = Math.floor(index / this.matrixWidth);
-          if (!resultArray[chunkIndex]) {
-            resultArray[chunkIndex] = [];
-          }
-          resultArray[chunkIndex].push(item);
-          return resultArray;
-        }, []);
-        let latexString = chunks.map((chunk) => {
-          return chunk.join(" & ");
-        }).join(" \\\\\n");
-        this.writeAtCursor(`\\begin{pmatrix}
-${latexString}
-\\end{pmatrix}`);
-        this.close();
+        this.constructOutput();
       });
     });
+    this.parentDiv.addEventListener("keyup", this.keyEventHandler);
     this.createInputs();
     this.applyCorrectStyle();
   }
   onClose() {
     this.contentEl.empty();
+  }
+  constructOutput() {
+    if (this.parentPlugin.settings.rememberMatrixType) {
+      this.parentPlugin.settings.lastUsedMatrix = this.selectedMatrix;
+      this.parentPlugin.saveSettings();
+    }
+    if (this.parentPlugin.settings.rememberMatrixDimensions) {
+      this.parentPlugin.settings.prevX = this.matrixWidth;
+      this.parentPlugin.settings.prevY = this.matrixHeight;
+      this.parentPlugin.saveSettings();
+    }
+    const chunks = Array.from(this.matrixDiv.children).map((child) => {
+      return child.value;
+    }).reduce((resultArray, item, index) => {
+      const chunkIndex = Math.floor(index / this.matrixWidth);
+      if (!resultArray[chunkIndex]) {
+        resultArray[chunkIndex] = [];
+      }
+      resultArray[chunkIndex].push(item);
+      return resultArray;
+    }, []);
+    const latexString = chunks.map((chunk) => {
+      return chunk.join(" & ");
+    }).join(this.parentPlugin.settings.inline ? " \\\\" : " \\\\\n");
+    if (this.parentPlugin.settings.inline) {
+      this.writeAtCursor(`\\begin{${_CreationModal.matrixTypes[this.selectedMatrix]}}${latexString}\\end{${_CreationModal.matrixTypes[this.selectedMatrix]}}`);
+    } else {
+      this.writeAtCursor(`\\begin{${_CreationModal.matrixTypes[this.selectedMatrix]}}
+${latexString}
+\\end{${_CreationModal.matrixTypes[this.selectedMatrix]}}`);
+    }
+    this.close();
   }
   createHTML() {
     this.parentDiv = this.contentEl.createEl("div", { cls: "parentDiv" });
@@ -158,15 +232,76 @@ ${latexString}
     }
   }
 };
+var CreationModal = _CreationModal;
+CreationModal.matrixTypes = {
+  "Plain (matrix)": "matrix",
+  "Parentheses (pmatrix)": "pmatrix",
+  "Square brackets (bmatrix)": "bmatrix",
+  "Curly braces (Bmatrix)": "BMatrix",
+  "Pipes (vmatrix)": "vmatrix",
+  "Double Pipes (Vmatrix)": "Vmatrix"
+};
+
+// settings.ts
+var import_obsidian3 = __toModule(require("obsidian"));
+var MatrixSettingTab = class extends import_obsidian3.PluginSettingTab {
+  constructor(app, plugin) {
+    super(app, plugin);
+    this.plugin = plugin;
+  }
+  display() {
+    let { containerEl } = this;
+    containerEl.empty();
+    new import_obsidian3.Setting(containerEl).setName("Remember previous matrix type").setDesc('After choosing a matrix type and clicking "Create", the type will be selected by default the next time you open the matrix creation window.').addToggle((toggle) => toggle.setValue(this.plugin.settings.rememberMatrixType).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.rememberMatrixType = value;
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian3.Setting(containerEl).setName("Remember previous matrix dimensions").setDesc('After entering a matrix and clicking "Create", the dimensions will be selected by default the next time you open the matrix creation window.').addToggle((toggle) => toggle.setValue(this.plugin.settings.rememberMatrixDimensions).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.rememberMatrixDimensions = value;
+      yield this.plugin.saveSettings();
+    })));
+    new import_obsidian3.Setting(containerEl).setName("Put matrix command on one line").setDesc("Rather than inserting a newline after each row of the matrix, all text will be placed on one line. This will allow the matrix to immediately work between inline (single) $-signs, as well as multiline $$-signs.").addToggle((toggle) => toggle.setValue(this.plugin.settings.inline).onChange((value) => __async(this, null, function* () {
+      this.plugin.settings.inline = value;
+      yield this.plugin.saveSettings();
+    })));
+  }
+};
 
 // main.ts
-var MyPlugin = class extends import_obsidian3.Plugin {
+var DEFAULT_SETTINGS = {
+  rememberMatrixType: true,
+  rememberMatrixDimensions: true,
+  inline: false,
+  lastUsedMatrix: "",
+  prevX: null,
+  prevY: null
+};
+var MyPlugin = class extends import_obsidian4.Plugin {
   onload() {
     return __async(this, null, function* () {
       this.addRibbonIcon("pane-layout", "Obsidian Matrix", () => {
-        new CreationModal(this.app).open();
+        new CreationModal(this.app, this).open();
       });
+      this.addCommand({
+        id: "obsidian-matrix-shortcut",
+        name: "Open Obsidian Matrix menu",
+        hotkeys: [],
+        callback: () => {
+          new CreationModal(this.app, this).open();
+        }
+      });
+      yield this.loadSettings();
+      this.addSettingTab(new MatrixSettingTab(this.app, this));
+    });
+  }
+  loadSettings() {
+    return __async(this, null, function* () {
+      this.settings = Object.assign({}, DEFAULT_SETTINGS, yield this.loadData());
+    });
+  }
+  saveSettings() {
+    return __async(this, null, function* () {
+      yield this.saveData(this.settings);
     });
   }
 };
-//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsibWFpbi50cyIsICJDcmVhdGlvbk1vZGFsLnRzIiwgIkVycm9yTW9kYWwudHMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImltcG9ydCB7UGx1Z2lufSBmcm9tICdvYnNpZGlhbic7XHJcbmltcG9ydCBDcmVhdGlvbk1vZGFsIGZyb20gXCIuL0NyZWF0aW9uTW9kYWxcIjtcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGNsYXNzIE15UGx1Z2luIGV4dGVuZHMgUGx1Z2luIHtcclxuXHJcblx0YXN5bmMgb25sb2FkKCkge1xyXG5cdFx0dGhpcy5hZGRSaWJib25JY29uKFwicGFuZS1sYXlvdXRcIiwgXCJPYnNpZGlhbiBNYXRyaXhcIiwgKCkgPT4ge1xyXG5cdFx0XHRuZXcgQ3JlYXRpb25Nb2RhbCh0aGlzLmFwcCkub3BlbigpXHJcblx0XHR9KTtcclxuXHR9XHJcbn1cclxuIiwgImltcG9ydCB7QXBwLCBNYXJrZG93blZpZXcsIE1vZGFsLCBTZXR0aW5nfSBmcm9tIFwib2JzaWRpYW5cIjtcbmltcG9ydCBFcnJvck1vZGFsIGZyb20gXCIuL0Vycm9yTW9kYWxcIjtcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgQ3JlYXRpb25Nb2RhbCBleHRlbmRzIE1vZGFsIHtcblxuXHRwcml2YXRlIG1hdHJpeFdpZHRoOiBudW1iZXIgPSAyO1xuXHRwcml2YXRlIG1hdHJpeEhlaWdodDogbnVtYmVyID0gMjtcblx0cHJpdmF0ZSBwYXJlbnREaXY6IEhUTUxEaXZFbGVtZW50O1xuXHRwcml2YXRlIHNldHRpbmdzRGl2OiBIVE1MRGl2RWxlbWVudDtcblx0cHJpdmF0ZSBtYXRyaXhEaXY6IEhUTUxEaXZFbGVtZW50O1xuXG5cdGNvbnN0cnVjdG9yKGFwcDogQXBwKSB7XG5cdFx0c3VwZXIoYXBwKTtcblx0fVxuXG5cdG9uT3BlbigpIHtcblx0XHR0aGlzLmNyZWF0ZUhUTUwoKTtcblx0XHRuZXcgU2V0dGluZyh0aGlzLnNldHRpbmdzRGl2KS5zZXROYW1lKFwiTWF0cml4IHdpZHRoXCIpLmFkZFNsaWRlcigoc2xpZGVyKSA9PiB7XG5cdFx0XHRzbGlkZXIuc2V0VmFsdWUoMik7XG5cdFx0XHRzbGlkZXIuc2V0TGltaXRzKDEsIDEwLCAxKTtcblx0XHRcdHNsaWRlci5zaG93VG9vbHRpcCgpO1xuXHRcdFx0c2xpZGVyLnNldER5bmFtaWNUb29sdGlwKCk7XG5cdFx0XHRzbGlkZXIub25DaGFuZ2UoKHZhbHVlKSA9PiB7XG5cdFx0XHRcdHRoaXMubWF0cml4V2lkdGggPSB2YWx1ZTtcblx0XHRcdFx0dGhpcy5yZWdlbmVyYXRlTWF0cml4KCk7XG5cdFx0XHR9KTtcblx0XHR9KTtcblx0XHRuZXcgU2V0dGluZyh0aGlzLnNldHRpbmdzRGl2KS5zZXROYW1lKFwiTWF0cml4IGhlaWdodFwiKS5hZGRTbGlkZXIoKHNsaWRlcikgPT4ge1xuXHRcdFx0c2xpZGVyLnNldFZhbHVlKDIpO1xuXHRcdFx0c2xpZGVyLnNldExpbWl0cygxLCAxMCwgMSk7XG5cdFx0XHRzbGlkZXIuc2hvd1Rvb2x0aXAoKTtcblx0XHRcdHNsaWRlci5zZXREeW5hbWljVG9vbHRpcCgpO1xuXHRcdFx0c2xpZGVyLm9uQ2hhbmdlKCh2YWx1ZSkgPT4ge1xuXHRcdFx0XHR0aGlzLm1hdHJpeEhlaWdodCA9IHZhbHVlO1xuXHRcdFx0XHR0aGlzLnJlZ2VuZXJhdGVNYXRyaXgoKTtcblx0XHRcdH0pO1xuXHRcdH0pO1xuXHRcdG5ldyBTZXR0aW5nKHRoaXMuc2V0dGluZ3NEaXYpLnNldE5hbWUoXCJDcmVhdGVcIikuYWRkQnV0dG9uKChidXR0b24pID0+IHtcblx0XHRcdGJ1dHRvbi5zZXRJY29uKFwiY2hlY2ttYXJrXCIpO1xuXHRcdFx0YnV0dG9uLnNldEN0YSgpO1xuXHRcdFx0YnV0dG9uLm9uQ2xpY2soKCkgPT4ge1xuXHRcdFx0XHRsZXQgY2h1bmtzOiBBcnJheTxBcnJheTxzdHJpbmc+PiA9IEFycmF5LmZyb20odGhpcy5tYXRyaXhEaXYuY2hpbGRyZW4pLm1hcCgoY2hpbGQpID0+IHtcblx0XHRcdFx0XHQvL0B0cy1pZ25vcmVcblx0XHRcdFx0XHRyZXR1cm4gY2hpbGQudmFsdWU7XG5cdFx0XHRcdH0pLnJlZHVjZSgocmVzdWx0QXJyYXksIGl0ZW0sIGluZGV4KSA9PiB7XG5cdFx0XHRcdFx0Y29uc3QgY2h1bmtJbmRleCA9IE1hdGguZmxvb3IoaW5kZXggLyB0aGlzLm1hdHJpeFdpZHRoKTtcblx0XHRcdFx0XHRpZiAoIXJlc3VsdEFycmF5W2NodW5rSW5kZXhdKSB7XG5cdFx0XHRcdFx0XHRyZXN1bHRBcnJheVtjaHVua0luZGV4XSA9IFtdO1xuXHRcdFx0XHRcdH1cblx0XHRcdFx0XHRyZXN1bHRBcnJheVtjaHVua0luZGV4XS5wdXNoKGl0ZW0pO1xuXHRcdFx0XHRcdHJldHVybiByZXN1bHRBcnJheTtcblx0XHRcdFx0fSwgW10pO1xuXHRcdFx0XHRsZXQgbGF0ZXhTdHJpbmcgPSBjaHVua3MubWFwKChjaHVuaykgPT4ge1xuXHRcdFx0XHRcdHJldHVybiBjaHVuay5qb2luKFwiICYgXCIpO1xuXHRcdFx0XHR9KS5qb2luKFwiIFxcXFxcXFxcXFxuXCIpO1xuXHRcdFx0XHR0aGlzLndyaXRlQXRDdXJzb3IoYFxcXFxiZWdpbntwbWF0cml4fVxcbiR7bGF0ZXhTdHJpbmd9XFxuXFxcXGVuZHtwbWF0cml4fWApO1xuXHRcdFx0XHR0aGlzLmNsb3NlKCk7XG5cdFx0XHR9KTtcblx0XHR9KTtcblx0XHR0aGlzLmNyZWF0ZUlucHV0cygpO1xuXHRcdHRoaXMuYXBwbHlDb3JyZWN0U3R5bGUoKTtcblx0fVxuXG5cdG9uQ2xvc2UoKSB7XG5cdFx0dGhpcy5jb250ZW50RWwuZW1wdHkoKTtcblx0fVxuXG5cdHByaXZhdGUgY3JlYXRlSFRNTCgpIHtcblx0XHR0aGlzLnBhcmVudERpdiA9IHRoaXMuY29udGVudEVsLmNyZWF0ZUVsKFwiZGl2XCIsIHtjbHM6IFwicGFyZW50RGl2XCJ9KTtcblx0XHR0aGlzLnNldHRpbmdzRGl2ID0gdGhpcy5wYXJlbnREaXYuY3JlYXRlRWwoXCJkaXZcIiwge2NsczogXCJzZXR0aW5nc0RpdlwifSk7XG5cdFx0dGhpcy5tYXRyaXhEaXYgPSB0aGlzLnBhcmVudERpdi5jcmVhdGVFbChcImRpdlwiLCB7Y2xzOiBcIm1hdHJpeERpdlwifSk7XG5cblx0fVxuXG5cdHByaXZhdGUgYXBwbHlDb3JyZWN0U3R5bGUoKSB7XG5cdFx0dGhpcy5tYXRyaXhEaXYuc3R5bGUuZ3JpZFRlbXBsYXRlQ29sdW1ucyA9IGByZXBlYXQoJHt0aGlzLm1hdHJpeFdpZHRofSwgMWZyKWA7XG5cdFx0dGhpcy5tYXRyaXhEaXYuc3R5bGUuZ3JpZFRlbXBsYXRlUm93cyA9IGByZXBlYXQoJHt0aGlzLm1hdHJpeEhlaWdodH0sIDFmcilgO1xuXHR9XG5cblx0cHJpdmF0ZSBjcmVhdGVJbnB1dHMoKSB7XG5cdFx0Zm9yIChsZXQgaSA9IDA7IGkgPCB0aGlzLm1hdHJpeFdpZHRoICogdGhpcy5tYXRyaXhIZWlnaHQ7IGkrKykge1xuXHRcdFx0dGhpcy5tYXRyaXhEaXYuY3JlYXRlRWwoXCJpbnB1dFwiLCB7dHlwZTogXCJ0ZXh0XCIsIGNsczogXCJtYXRyaXhJbnB1dFwifSk7XG5cdFx0fVxuXHR9XG5cblx0cHJpdmF0ZSByZWdlbmVyYXRlTWF0cml4KCkge1xuXHRcdHRoaXMubWF0cml4RGl2LmVtcHR5KCk7XG5cdFx0dGhpcy5jcmVhdGVJbnB1dHMoKTtcblx0XHR0aGlzLmFwcGx5Q29ycmVjdFN0eWxlKCk7XG5cdH1cblxuXHRwcml2YXRlIHdyaXRlQXRDdXJzb3IodG9Xcml0ZTogc3RyaW5nKSB7XG5cdFx0Y29uc3QgbWRWaWV3ID0gdGhpcy5hcHAud29ya3NwYWNlLmdldEFjdGl2ZVZpZXdPZlR5cGUoTWFya2Rvd25WaWV3KTtcblx0XHRpZiAobWRWaWV3KSB7XG5cdFx0XHRtZFZpZXcuZWRpdG9yLnJlcGxhY2VSYW5nZSh0b1dyaXRlLCBtZFZpZXcuZWRpdG9yLmdldEN1cnNvcigpKTtcblx0XHR9IGVsc2Uge1xuXHRcdFx0dGhpcy5jbG9zZSgpXG5cdFx0XHRuZXcgRXJyb3JNb2RhbCh0aGlzLmFwcCwgbmV3IEVycm9yKFwiTm8gbWFya2Rvd24gdmlldyBvcGVuXCIpKS5vcGVuKCk7XG5cdFx0fVxuXHR9XG59XG4iLCAiaW1wb3J0IHtBcHAsIE1vZGFsfSBmcm9tIFwib2JzaWRpYW5cIjtcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgRXJyb3JNb2RhbCBleHRlbmRzIE1vZGFsIHtcblxuXHRwcml2YXRlIHJlYWRvbmx5IGVycm9yOiBFcnJvcjtcblxuXHRjb25zdHJ1Y3RvcihhcHA6IEFwcCwgZXJyb3I6IEVycm9yKSB7XG5cdFx0c3VwZXIoYXBwKTtcblx0XHR0aGlzLmVycm9yID0gZXJyb3I7XG5cdH1cblxuXHRvbk9wZW4oKSB7XG5cdFx0dGhpcy5jb250ZW50RWwuY3JlYXRlRWwoXCJoMVwiLCB7IHRleHQ6IHRoaXMuZXJyb3IubWVzc2FnZSB9KTtcblx0fVxuXG5cdG9uQ2xvc2UoKSB7XG5cdFx0dGhpcy5jb250ZW50RWwuZW1wdHkoKTtcblx0fVxuXG59XG4iXSwKICAibWFwcGluZ3MiOiAiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBO0FBQUE7QUFBQTtBQUFBLHVCQUFxQjs7O0FDQXJCLHVCQUFnRDs7O0FDQWhELHNCQUF5QjtBQUV6QiwrQkFBd0Msc0JBQU07QUFBQSxFQUk3QyxZQUFZLEtBQVUsT0FBYztBQUNuQyxVQUFNO0FBQ04sU0FBSyxRQUFRO0FBQUE7QUFBQSxFQUdkLFNBQVM7QUFDUixTQUFLLFVBQVUsU0FBUyxNQUFNLEVBQUUsTUFBTSxLQUFLLE1BQU07QUFBQTtBQUFBLEVBR2xELFVBQVU7QUFDVCxTQUFLLFVBQVU7QUFBQTtBQUFBOzs7QURiakIsa0NBQTJDLHVCQUFNO0FBQUEsRUFRaEQsWUFBWSxLQUFVO0FBQ3JCLFVBQU07QUFQQyx1QkFBc0I7QUFDdEIsd0JBQXVCO0FBQUE7QUFBQSxFQVMvQixTQUFTO0FBQ1IsU0FBSztBQUNMLFFBQUkseUJBQVEsS0FBSyxhQUFhLFFBQVEsZ0JBQWdCLFVBQVUsQ0FBQyxX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
