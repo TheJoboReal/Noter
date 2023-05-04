@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "UARt",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -176,7 +177,7 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "578ff01083e6f15f",
+  "active": "d4ea5e9b204f09a5",
   "lastOpenFiles": [
     "Bachelor 2nd semester/Datateknik/ATmega32/Schematic.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
