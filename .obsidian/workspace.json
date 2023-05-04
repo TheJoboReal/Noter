@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ff1eee93fad0e359",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "578ff01083e6f15f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md"
+                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md"
               }
             }
           },
@@ -191,9 +178,25 @@
   },
   "active": "578ff01083e6f15f",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/Datateknik/ATmega32/Schematic.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/IO ports.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/Inside of AVR port.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/Display schematic.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/How to use ADC.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+    "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
     "Misc og Links/Pasted image 20230427135435.png",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/Global interrupt enable.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/External interrupt register.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt addresses.md",
@@ -209,25 +212,9 @@
     "Excalidraw/Drawing 2023-04-24 12.37.17.excalidraw.md",
     "Bachelor 2nd semester/Softwareudvikling/UML/Generel UML.md",
     "Excalidraw/Drawing 2023-04-24 12.22.17.excalidraw.md",
-    "Bachelor 2nd semester/Softwareudvikling/Databaser/Normalisering af Data.md",
-    "Bachelor 2nd semester/Softwareudvikling/SQL/Having.md",
-    "Bachelor 2nd semester/Softwareudvikling/SQL/Groups.md",
-    "Bachelor 2nd semester/Softwareudvikling/Scrum/Untitled.md",
-    "Bachelor 2nd semester/Softwareudvikling/Databaser/Gemme og Hente data..md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/Example.md",
     "Misc og Links/Pasted image 20230420155519.png",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCH or ADCL Result register.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/How to use ADC.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADMUX.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
-    "Bachelor 2nd semester/Datateknik/Counters.md",
-    "Bachelor 2nd semester/Datateknik/Boolean algebra.md",
     "Misc og Links/Pasted image 20230420133403.png",
     "Misc og Links/Pasted image 20230420132510.png",
-    "Misc og Links/Pasted image 20230420132323.png",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
     "Bachelor 2nd semester/Kinematik/Velocity",
     "Bachelor 2nd semester/Kinematik/Building robots in matlab",
