@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2afec820d1f8b21",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.2.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -62,6 +73,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f8960dea9e5d40ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -176,7 +195,7 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "e251186949aaf4ce",
+  "active": "f2afec820d1f8b21",
   "lastOpenFiles": [
     "Bachelor 2nd semester/Datateknik/ATmega32/Schematic.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
