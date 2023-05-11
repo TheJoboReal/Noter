@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+                "file": "Bachelor 2nd semester/C++/OpenCV/Intro.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f2afec820d1f8b21",
+            "id": "d91868dbbd8cdec0",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.2.7"
+                "currentVersion": "1.2.8"
               }
             }
           }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+                "file": "Bachelor 2nd semester/C++/OpenCV/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
+                "file": "Bachelor 2nd semester/C++/OpenCV/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md"
+                "file": "Bachelor 2nd semester/C++/OpenCV/Intro.md"
               }
             }
           },
@@ -195,8 +195,9 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "f2afec820d1f8b21",
+  "active": "d91868dbbd8cdec0",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/Schematic.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/IO ports.md",
@@ -211,7 +212,6 @@
     "Bachelor 2nd semester/Datateknik/Analog to Digital/How to use ADC.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/Timers in ATMEGA32.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/UCSRA Control and register Status.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
     "Misc og Links/Pasted image 20230427135435.png",
