@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
                 "mode": "preview",
                 "source": false
               }
@@ -73,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md"
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md"
               }
             }
           },
@@ -187,9 +186,10 @@
   },
   "active": "2fd108a67ddcc817",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
     "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
     "Misc og Links/Pasted image 20230524103559.png",
     "Misc og Links/Pasted image 20230524103520.png",
