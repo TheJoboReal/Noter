@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
-                "mode": "source",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "timer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md"
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md"
               }
             }
           },
@@ -186,13 +187,13 @@
   },
   "active": "2fd108a67ddcc817",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230524103559.png",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
     "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
-    "Misc og Links/Pasted image 20230524103520.png",
-    "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
-    "Bachelor 1st semester/Elektro fysik/Eksamen/Op-Amp.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+    "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
+    "Misc og Links/Pasted image 20230524103559.png",
+    "Misc og Links/Pasted image 20230524103520.png",
+    "Bachelor 1st semester/Elektro fysik/Eksamen/Op-Amp.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
@@ -222,7 +223,6 @@
     "Misc og Links/Pasted image 20230427123330.png",
     "Bachelor 2nd semester/Datateknik/C/Interrupt",
     "Misc og Links/Pasted image 20230420155519.png",
-    "Misc og Links/Pasted image 20230420133403.png",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
     "Bachelor 2nd semester/Kinematik/Velocity",
     "Bachelor 2nd semester/Kinematik/Building robots in matlab",
