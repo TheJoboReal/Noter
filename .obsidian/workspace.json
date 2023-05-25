@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "06cf90fec88d82cd",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.4"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md"
+                "file": "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md"
               }
             }
           },
@@ -195,11 +184,13 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "06cf90fec88d82cd",
+  "active": "2fd108a67ddcc817",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
     "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt addresses.md",
+    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
     "Misc og Links/Pasted image 20230524103559.png",
@@ -211,8 +202,6 @@
     "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/External interrupt register.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/Global interrupt enable.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt addresses.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
     "Bachelor 2nd semester/Datateknik/Microcontrollers/Full Adder.md",
     "Bachelor 2nd semester/Datateknik/Microcontrollers/CPU.md",
     "Bachelor 2nd semester/Datateknik/C/Data types(Variables).md",
