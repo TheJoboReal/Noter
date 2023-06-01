@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
+                "file": "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
                 "mode": "preview",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
+                "file": "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
+                "file": "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md"
+                "file": "Bachelor 2nd semester/C++/Inheritance/Virtual.md"
               }
             }
           },
@@ -186,6 +186,8 @@
   },
   "active": "2fd108a67ddcc817",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
+    "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
     "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
@@ -212,8 +214,6 @@
     "Bachelor 2nd semester/Datateknik/ATmega32/Schematic.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM pulse width modulation..md",
     "Bachelor 2nd semester/Datateknik/C/Arithmetic operations.md",
-    "Modbus Flowchart.md",
-    "Bachelor 2nd semester/C++/OpenCV/Intro.md",
     "Misc og Links/Pasted image 20230427135435.png",
     "Misc og Links/Pasted image 20230427124158.png",
     "Misc og Links/Pasted image 20230427124036.png",
