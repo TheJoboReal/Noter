@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "378978de3eaa39ce",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +195,7 @@
       "obsidian-matrix:Obsidian Matrix": false
     }
   },
-  "active": "2fd108a67ddcc817",
+  "active": "378978de3eaa39ce",
   "lastOpenFiles": [
     "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
