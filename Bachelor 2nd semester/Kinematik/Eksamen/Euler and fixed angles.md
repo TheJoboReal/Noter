@@ -1,3 +1,6 @@
+![[Pasted image 20230622111438.png]]
+
+***
 #### Euler angles
 ![[Pasted image 20230622110004.png]]
 
