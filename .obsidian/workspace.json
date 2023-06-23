@@ -189,11 +189,11 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "mathpad:Open Mathpad": false,
-      "obsidian-matrix:Obsidian Matrix": false
+      "obsidian-matrix:Obsidian Matrix": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "2fd108a67ddcc817",
