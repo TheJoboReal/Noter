@@ -41,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
+                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
+                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md"
+                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md"
               }
             }
           },
@@ -207,12 +208,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2fd108a67ddcc817",
+  "active": "ee05a44e40a0f391",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
     "Misc og Links/Pasted image 20230624215115.png",
     "Misc og Links/Pasted image 20230624214821.png",
     "Bachelor 2nd semester/Kinematik/Eksamen/Drawing 2023-06-24 01.04.29.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
     "Misc og Links/Pasted image 20230623122612.png",
     "Misc og Links/Pasted image 20230622211815.png",
     "Misc og Links/Pasted image 20230622211442.png",
@@ -236,7 +237,6 @@
     "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt addresses.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
-    "Misc og Links/Pasted image 20230524103559.png",
     "Bachelor 1st semester/Elektro fysik/Eksamen/Op-Amp.md",
     "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
