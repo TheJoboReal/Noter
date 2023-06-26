@@ -11,11 +11,9 @@
             "id": "2fd108a67ddcc817",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
-                "mode": "source",
-                "source": false
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md"
               }
             }
           },
@@ -33,9 +31,21 @@
             "id": "700cc721f886c376",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Translationsmatrices.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71f95b21c4a9e112",
+            "type": "leaf",
+            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md"
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Transformation Matrix.excalidraw.md"
               }
             }
           },
@@ -62,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -137,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Transformation Matrix.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Transformation Matrix.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md"
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Transformation Matrix.excalidraw.md"
               }
             }
           },
@@ -228,13 +238,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0fcee18efd4b772e",
+  "active": "71f95b21c4a9e112",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/Transformation Matrix.excalidraw.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/Translationsmatrices.md",
+    "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
     "Misc og Links/Pasted image 20230624215115.png",
     "Misc og Links/Pasted image 20230624214821.png",
     "Misc og Links/Pasted image 20230623122612.png",
@@ -248,7 +260,6 @@
     "Misc og Links/Pasted image 20230622110232.png",
     "Bachelor 2nd semester/Kinematik/Eksamen/DH Parameters.md",
     "Misc og Links/Pasted image 20230622110004.png",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Translationsmatrices.md",
     "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
     "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
     "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
@@ -265,7 +276,6 @@
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/External interrupt register.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Global interrupt enable.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
     "Bachelor 2nd semester/Kinematik/Velocity",
