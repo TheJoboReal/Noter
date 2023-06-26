@@ -25,7 +25,7 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Drawing 2023-06-24 01.04.29.excalidraw.md"
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md"
               }
             }
           },
@@ -62,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md"
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md"
               }
             }
           },
@@ -228,13 +228,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b54a1c9502c94010",
+  "active": "700cc721f886c376",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/Kinematik/Eksamen/Drawing 2023-06-24 01.04.29.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
     "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md",
     "Misc og Links/Pasted image 20230624215115.png",
     "Misc og Links/Pasted image 20230624214821.png",
     "Misc og Links/Pasted image 20230623122612.png",
