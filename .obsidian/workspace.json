@@ -37,8 +37,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md"
+                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md"
               }
             }
           },
@@ -204,11 +203,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "122251247b1537d9",
+  "active": "0fcee18efd4b772e",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Translationsmatrices.md",
     "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Transformation Matrix.excalidraw.md",
