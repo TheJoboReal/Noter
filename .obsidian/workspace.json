@@ -8,37 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0fcee18efd4b772e",
+            "id": "3f099ee69bdf7610",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "0402e20882d7b797",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "122251247b1537d9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,8 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -113,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -204,11 +176,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "122251247b1537d9",
+  "active": "3f099ee69bdf7610",
   "lastOpenFiles": [
     "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
+    "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Transformation Matrix.excalidraw.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Translationsmatrices.md",
     "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
