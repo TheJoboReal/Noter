@@ -176,8 +176,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3f099ee69bdf7610",
+  "active": "e251186949aaf4ce",
   "lastOpenFiles": [
+    "Bachelor 3th Semester/Untitled",
+    "Bachelor 3th Semester",
     "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
     "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
@@ -213,7 +215,6 @@
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
     "Bachelor 2nd semester/Datateknik/Analog to Digital/ADC.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/AVR interrupt.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/External interrupt register.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
     "Bachelor 2nd semester/Kinematik/Velocity",
@@ -222,7 +223,6 @@
     "Bachelor 2nd semester/C++/Inheritance",
     "Bachelor 2nd semester/C++/Functions and stuff",
     "Bachelor 2nd semester/Kinematik/Inverse kinematics",
-    "Bachelor 2nd semester/Kinematik/Eksamen",
-    "Bachelor 2nd semester/Kinematik/Mappings"
+    "Bachelor 2nd semester/Kinematik/Eksamen"
   ]
 }
