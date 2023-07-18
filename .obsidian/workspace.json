@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Read & Write to file/Read and write txt file example.md",
-                "mode": "preview",
+                "file": "C++/Read & Write to file/Read and Write class to file example.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -90,8 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5,
-    "collapsed": true
+    "width": 306.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Read & Write to file/Read and write txt file example.md",
+                "file": "C++/Read & Write to file/Read and Write class to file example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Read & Write to file/Read and write txt file example.md",
+                "file": "C++/Read & Write to file/Read and Write class to file example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Read & Write to file/Read and write txt file example.md"
+                "file": "C++/Read & Write to file/Read and Write class to file example.md"
               }
             }
           },
@@ -200,8 +199,9 @@
   },
   "active": "2ce028250ccae523",
   "lastOpenFiles": [
+    "C++/Read & Write to file/Read and write string to file example.md",
+    "C++/Read & Write to file/Read and Write class to file example.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
-    "C++/Read & Write to file/Read and write txt file example.md",
     "Bachelor 2nd semester/Datateknik/Microcontrollers/Architecture.md",
     "Bachelor 2nd semester/Datateknik/Microcontrollers/ALU (Arithmetic Logic Unit).md",
     "Bachelor 2nd semester/Datateknik/C/Pin reader.md",
@@ -238,7 +238,6 @@
     "C++/Inheritance/Derived constructers.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
-    "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
     "Bachelor 2nd semester/Kinematik/Velocity",
