@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "C++/Read & Write to file/Read and Write class to file example.md",
                 "mode": "preview",
                 "source": false
               }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 356.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "C++/Read & Write to file/Read and Write class to file example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "C++/Read & Write to file/Read and Write class to file example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md"
+                "file": "C++/Read & Write to file/Read and Write class to file example.md"
               }
             }
           },
@@ -186,6 +186,11 @@
   },
   "active": "3f099ee69bdf7610",
   "lastOpenFiles": [
+    "C++/Read & Write to file/Read and write string to file example.md",
+    "C++/Read & Write to file/Read and Write class to file example.md",
+    "Bachelor 3th Semester/Untitled/test.md",
+    "C++/Libraries/Compile.md",
+    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
     "Bachelor 1st semester/Calculus/Opgaver/De Moivre.excalidraw.md",
     "Bachelor 1st semester/Calculus/Opgaver/De Moivre w4 -81.md",
     "Bachelor 1st semester/Calculus/Ulige funktioner.md",
@@ -208,11 +213,6 @@
     "Bachelor 1st semester/Elektro fysik/Bipolar Junction Transistor (BJT), FET og PNP.md",
     "Bachelor 2nd semester/Semester Projekt/Design udkast.excalidraw.md",
     "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
-    "Bachelor 1st semester/Semester projekt/Billede.md",
-    "Bachelor 1st semester/Eksamener/Fysik Eksamen/Emner.md",
-    "Bachelor 1st semester/Eksamener/Elektro Eksamen/Emner.md",
-    "Bachelor 1st semester/Eksamener/Elektro Eksamen/Spørgsmål 1..md",
-    "C++/Read & Write to file/Read and Write class to file example.md",
     "C++/Read & Write to file",
     "Bachelor 3th Semester/Untitled",
     "Bachelor 3th Semester",
