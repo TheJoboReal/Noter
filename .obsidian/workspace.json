@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "6c91166357cddafd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gjendsige Spørgsmål.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Read & Write to file/Read and Write class to file example.md",
+                "file": "Gjendsige Spørgsmål.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Read & Write to file/Read and Write class to file example.md",
+                "file": "Gjendsige Spørgsmål.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Read & Write to file/Read and Write class to file example.md"
+                "file": "Gjendsige Spørgsmål.md"
               }
             }
           },
@@ -184,10 +197,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3f099ee69bdf7610",
+  "active": "6c91166357cddafd",
   "lastOpenFiles": [
-    "C++/Read & Write to file/Read and write string to file example.md",
     "C++/Read & Write to file/Read and Write class to file example.md",
+    "Gjendsige Spørgsmål.md",
+    "C++/Read & Write to file/Read and write string to file example.md",
     "Bachelor 3th Semester/Untitled/test.md",
     "C++/Libraries/Compile.md",
     "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
@@ -212,7 +226,6 @@
     "Bachelor 1st semester/Elektro fysik/Effekt.md",
     "Bachelor 1st semester/Elektro fysik/Bipolar Junction Transistor (BJT), FET og PNP.md",
     "Bachelor 2nd semester/Semester Projekt/Design udkast.excalidraw.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
     "C++/Read & Write to file",
     "Bachelor 3th Semester/Untitled",
     "Bachelor 3th Semester",
