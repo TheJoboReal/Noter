@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux Terminal commands.md",
+                "file": "Gjendsige Spørgsmål.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "b0f680d260242adb",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -59,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "timer",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -104,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linux Terminal commands.md",
+                "file": "Gjendsige Spørgsmål.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linux Terminal commands.md",
+                "file": "Gjendsige Spørgsmål.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linux Terminal commands.md"
+                "file": "Gjendsige Spørgsmål.md"
               }
             }
           },
@@ -195,14 +184,34 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b0f680d260242adb",
+  "active": "ee05a44e40a0f391",
   "lastOpenFiles": [
+    "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
+    "Bachelor 2nd semester/Kinematik/Joints and Links/Joints and Links.md",
+    "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
+    "Bachelor 2nd semester/Modbus/Intro.md",
+    "Bachelor 1st semester/Calculus/Dæmpede-Svingninger anden ordens diff ligninger.md",
+    "Modbus Flowchart.md",
+    "C++/Inheritance/Virtual.md",
+    "C++/Inheritance/Inheritance.md",
+    "C++/Inheritance/Derived constructers.md",
+    "C++/Abstract Classes/Abstract Classes.md",
+    "Bachelor 1st semester/Elektro fysik/Superposition.md",
+    "Bachelor 1st semester/Elektro fysik/Tidsvarierende signaler.md",
+    "Bachelor 1st semester/Elektro fysik/Spoler.md",
+    "Bachelor 1st semester/Elektro fysik/Spilt power supply.md",
+    "Bachelor 1st semester/Elektro fysik/Sinusformet signal.md",
+    "Bachelor 1st semester/Elektro fysik/RMS Effekt.md",
+    "Bachelor 1st semester/Elektro fysik/Komponenter og subcircuits.md",
+    "Bachelor 1st semester/Elektro fysik/Impedans.md",
+    "Bachelor 1st semester/Elektro fysik/Frekvens og phasor.md",
+    "Bachelor 1st semester/Elektro fysik/Kondensator.md",
+    "Bachelor 1st semester/Elektro fysik/Effekt.md",
+    "Bachelor 1st semester/Elektro fysik/Ækvivalentkredsløb.md",
+    "Bachelor 3th Semester/Untitled/test.md",
+    "Linux Terminal commands.md",
     "Gjendsige Spørgsmål.md",
     "conflict-files-obsidian-git.md",
-    "Linux Terminal commands.md",
-    "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
-    "Fomelsamlinger og cheatsheets/Formelsamling Matematik.md",
-    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
     "C++/Løsninger/ex04_recordCollection/src/track.h",
     "C++/Løsninger/ex04_recordCollection/src/track.cpp",
     "C++/Løsninger/ex04_recordCollection/src/CMakeLists.txt",
@@ -212,27 +221,7 @@
     "C++/Løsninger/ex04_recordCollection/src/album.cpp",
     "C++/Løsninger/ex04_recordCollection/src/album.h",
     "C++/Løsninger/ex04_recordCollection/src",
-    "C++/Read & Write to file/Read and write string to file example.md",
-    "C++/OpenCV/Intro.md",
-    "C++/Read & Write to file/Read and Write class to file example.md",
     "C++/Løsninger/ex04_recordCollection",
-    "C++/Libraries/Compile.md",
-    "C++/Abstract Classes/Abstract Classes.md",
-    "C++/Inheritance/Virtual.md",
-    "C++/Functions and stuff/Struct.md",
-    "C++/Inheritance/Inheritance.md",
-    "C++/Inheritance/Derived constructers.md",
-    "C++/Functions and stuff/Strings.md",
-    "C++/Functions and stuff/Streams.md",
-    "C++/Functions and stuff/Smart Pointers.md",
-    "C++/Functions and stuff/Reference operator.md",
-    "C++/Functions and stuff/References.md",
-    "C++/Functions and stuff/Pointers.md",
-    "C++/Functions and stuff/Namespace.md",
-    "C++/Functions and stuff/Memory(Heap and Stacks).md",
-    "C++/Functions and stuff/If, while, for loops.md",
-    "C++/Functions and stuff/Hello World.md",
-    "C++/Functions and stuff/Header guard.md",
     "Bachelor 1st semester/Calculus/Opgaver/Drawing 2022-12-02 12.37.17.excalidraw.svg",
     "Bachelor 1st semester/Calculus/Opgaver/De Moivre.excalidraw.svg",
     "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.svg",
