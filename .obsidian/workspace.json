@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
+                "file": "Linux Terminal commands.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
+                "file": "Linux Terminal commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
+                "file": "Linux Terminal commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md"
+                "file": "Linux Terminal commands.md"
               }
             }
           },
@@ -186,9 +186,11 @@
   },
   "active": "ee05a44e40a0f391",
   "lastOpenFiles": [
-    "Fomelsamlinger og cheatsheets/Formelsamling Matematik.md",
-    "Linux Terminal commands.md",
     "Gjendsige Spørgsmål.md",
+    "conflict-files-obsidian-git.md",
+    "Linux Terminal commands.md",
+    "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
+    "Fomelsamlinger og cheatsheets/Formelsamling Matematik.md",
     "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
     "C++/Løsninger/ex04_recordCollection/src/track.h",
     "C++/Løsninger/ex04_recordCollection/src/track.cpp",
@@ -220,8 +222,6 @@
     "C++/Functions and stuff/If, while, for loops.md",
     "C++/Functions and stuff/Hello World.md",
     "C++/Functions and stuff/Header guard.md",
-    "C++/Functions and stuff/enum and enum class.md",
-    "C++/Functions and stuff/Const.md",
     "Bachelor 1st semester/Calculus/Opgaver/Drawing 2022-12-02 12.37.17.excalidraw.svg",
     "Bachelor 1st semester/Calculus/Opgaver/De Moivre.excalidraw.svg",
     "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.svg",
