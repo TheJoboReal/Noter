@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b0f680d260242adb",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +195,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ee05a44e40a0f391",
+  "active": "b0f680d260242adb",
   "lastOpenFiles": [
     "Gjendsige Spørgsmål.md",
     "conflict-files-obsidian-git.md",
