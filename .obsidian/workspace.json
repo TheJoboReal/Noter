@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Matematik.md",
+                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Matematik.md",
+                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Matematik.md",
+                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Matematik.md"
+                "file": "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md"
               }
             }
           },
@@ -186,51 +186,51 @@
   },
   "active": "ee05a44e40a0f391",
   "lastOpenFiles": [
-    "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationsmatrices.md",
-    "conflict-files-obsidian-git.md",
+    "Fomelsamlinger og cheatsheets/Formelsamling Matematik.md",
+    "Linux Terminal commands.md",
+    "Gjendsige Spørgsmål.md",
+    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+    "C++/Løsninger/ex04_recordCollection/src/track.h",
+    "C++/Løsninger/ex04_recordCollection/src/track.cpp",
+    "C++/Løsninger/ex04_recordCollection/src/CMakeLists.txt",
+    "C++/Løsninger/ex04_recordCollection/src/recordCollection.h",
+    "C++/Løsninger/ex04_recordCollection/src/artist.h",
+    "C++/Løsninger/ex04_recordCollection/src/main.cpp",
+    "C++/Løsninger/ex04_recordCollection/src/album.cpp",
+    "C++/Løsninger/ex04_recordCollection/src/album.h",
+    "C++/Løsninger/ex04_recordCollection/src",
+    "C++/Read & Write to file/Read and write string to file example.md",
+    "C++/OpenCV/Intro.md",
+    "C++/Read & Write to file/Read and Write class to file example.md",
+    "C++/Løsninger/ex04_recordCollection",
+    "C++/Libraries/Compile.md",
+    "C++/Abstract Classes/Abstract Classes.md",
+    "C++/Inheritance/Virtual.md",
+    "C++/Functions and stuff/Struct.md",
+    "C++/Inheritance/Inheritance.md",
+    "C++/Inheritance/Derived constructers.md",
+    "C++/Functions and stuff/Strings.md",
+    "C++/Functions and stuff/Streams.md",
+    "C++/Functions and stuff/Smart Pointers.md",
+    "C++/Functions and stuff/Reference operator.md",
+    "C++/Functions and stuff/References.md",
+    "C++/Functions and stuff/Pointers.md",
+    "C++/Functions and stuff/Namespace.md",
+    "C++/Functions and stuff/Memory(Heap and Stacks).md",
+    "C++/Functions and stuff/If, while, for loops.md",
+    "C++/Functions and stuff/Hello World.md",
+    "C++/Functions and stuff/Header guard.md",
+    "C++/Functions and stuff/enum and enum class.md",
+    "C++/Functions and stuff/Const.md",
+    "Bachelor 1st semester/Calculus/Opgaver/Drawing 2022-12-02 12.37.17.excalidraw.svg",
+    "Bachelor 1st semester/Calculus/Opgaver/De Moivre.excalidraw.svg",
+    "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.svg",
+    "Bachelor 1st semester/Calculus/Eksamens opgaver/Februar 2021 opg 4.excalidraw.svg",
     "Misc og Links/Pasted image 20230624215115.png",
     "Misc og Links/Pasted image 20230624214821.png",
-    "Bachelor 3th Semester/Untitled/test.md",
-    "Bachelor 3th Semester/Untitled",
-    "Bachelor 3th Semester",
-    "Bachelor 2nd semester/Kinematik/Eksamen/inverse kinematics.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Transformation Matrix.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Rotationmatrices.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Forward Kinematics.excalidraw.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Drawing 2023-06-24 01.04.29.excalidraw.md",
     "Misc og Links/Pasted image 20230623122612.png",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Translationsmatrices.md",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Euler and fixed angles.md",
     "Misc og Links/Pasted image 20230622211815.png",
     "Misc og Links/Pasted image 20230622211442.png",
-    "Bachelor 2nd semester/Kinematik/Eksamen/Joints.md",
-    "Misc og Links/Pasted image 20230622210108.png",
-    "Misc og Links/Pasted image 20230622111438.png",
-    "Misc og Links/Pasted image 20230622110408.png",
-    "Misc og Links/Pasted image 20230622110232.png",
-    "Bachelor 2nd semester/Kinematik/Eksamen/DH Parameters.md",
-    "Misc og Links/Pasted image 20230622110004.png",
-    "Bachelor 2nd semester/C++/Inheritance/Virtual.md",
-    "Bachelor 2nd semester/C++/Inheritance/Inheritance.md",
-    "Bachelor 2nd semester/C++/Inheritance/Derived constructers.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/TIMER0 interrupt.md",
-    "Bachelor 2nd semester/Datateknik/C/TCCR0 timer counter control register.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt example.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt/Interrupt addresses.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/PWM example.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/CTC example.md",
-    "Bachelor 1st semester/Elektro fysik/Eksamen/Op-Amp.md",
-    "Bachelor 2nd semester/Datateknik/ATmega32/ADD or Multiply function.md",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital/ADCSRA Register.md",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital",
-    "Bachelor 2nd semester/Kinematik/Velocity",
-    "Bachelor 2nd semester/Kinematik/Building robots in matlab",
-    "Bachelor 2nd semester/C++/Abstract Classes",
-    "Bachelor 2nd semester/C++/Inheritance",
-    "Bachelor 2nd semester/C++/Functions and stuff",
-    "Bachelor 2nd semester/Kinematik/Inverse kinematics"
+    "Misc og Links/Pasted image 20230622210108.png"
   ]
 }
