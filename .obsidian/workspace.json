@@ -11,8 +11,12 @@
             "id": "56f5da8e21349ac6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -89,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md"
+              }
             }
           },
           {
@@ -178,20 +186,22 @@
   },
   "active": "56f5da8e21349ac6",
   "lastOpenFiles": [
+    "Bachelor 1st semester/Calculus/Matricer.md",
+    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+    "Bachelor 3th Semester/Untitled/test.md",
     "Gjendsige Spørgsmål.md",
+    "Linux Terminal commands.md",
+    "Modbus Flowchart.md",
     "conflict-files-obsidian-git.md",
     "Misc og Links/Pasted image 20230810204539.png",
     "C++/Read & Write to file/Read and Write class to file example.md",
     "C++/Read & Write to file/Read and write string to file example.md",
-    "Bachelor 3th Semester/Untitled/test.md",
     "C++/Libraries/Compile.md",
-    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
     "Bachelor 1st semester/Calculus/Opgaver/De Moivre.excalidraw.md",
     "Bachelor 1st semester/Calculus/Opgaver/De Moivre w4 -81.md",
     "Bachelor 1st semester/Calculus/Ulige funktioner.md",
     "Bachelor 1st semester/Calculus/Specielle Matricer.md",
     "Bachelor 1st semester/Calculus/Middelværdier.md",
-    "Bachelor 1st semester/Calculus/Matricer.md",
     "Bachelor 1st semester/Calculus/Matrice opgaver.md",
     "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.svg",
     "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.md",
@@ -204,8 +214,6 @@
     "Bachelor 1st semester/Robotters Fysik/Bevægelsesmængder/Bevægelsesmængde for et partikel.md",
     "Bachelor 1st semester/Robotters Fysik/Bevægelsesmængder/Bevægelsesmængde.md",
     "Bachelor 1st semester/Elektro fysik/Op og Afladning.md",
-    "Bachelor 1st semester/Elektro fysik/Effekt.md",
-    "Bachelor 1st semester/Elektro fysik/Bipolar Junction Transistor (BJT), FET og PNP.md",
     "C++/Read & Write to file",
     "Bachelor 3th Semester/Untitled",
     "Bachelor 3th Semester",
