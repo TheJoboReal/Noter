@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8b0773dd4c3addb4",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +195,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ee05a44e40a0f391",
+  "active": "8b0773dd4c3addb4",
   "lastOpenFiles": [
     "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
     "Bachelor 2nd semester/Kinematik/Joints and Links/Joints and Links.md",
