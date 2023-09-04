@@ -4,28 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "034407d7f0ee1a81",
+        "id": "3367a99a21235b00",
         "type": "tabs",
         "children": [
           {
-            "id": "ee05a44e40a0f391",
+            "id": "6cfe8c182894cbc3",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "9098fe7a24627565",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gjendsige Spørgsmål.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "8b0773dd4c3addb4",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
               }
             }
           }
@@ -59,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "works",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -84,7 +82,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -104,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gjendsige Spørgsmål.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gjendsige Spørgsmål.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gjendsige Spørgsmål.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -195,8 +194,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8b0773dd4c3addb4",
+  "active": "d4ea5e9b204f09a5",
   "lastOpenFiles": [
+    "Gjendsige Spørgsmål.md",
+    "conflict-files-obsidian-git.md",
+    "Misc og Links/Pasted image 20230810204539.png",
     "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
     "Bachelor 2nd semester/Kinematik/Joints and Links/Joints and Links.md",
     "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
@@ -221,8 +223,6 @@
     "Bachelor 1st semester/Elektro fysik/Ækvivalentkredsløb.md",
     "Bachelor 3th Semester/Untitled/test.md",
     "Linux Terminal commands.md",
-    "Gjendsige Spørgsmål.md",
-    "conflict-files-obsidian-git.md",
     "C++/Løsninger/ex04_recordCollection/src/track.h",
     "C++/Løsninger/ex04_recordCollection/src/track.cpp",
     "C++/Løsninger/ex04_recordCollection/src/CMakeLists.txt",
@@ -241,7 +241,6 @@
     "Misc og Links/Pasted image 20230624214821.png",
     "Misc og Links/Pasted image 20230623122612.png",
     "Misc og Links/Pasted image 20230622211815.png",
-    "Misc og Links/Pasted image 20230622211442.png",
-    "Misc og Links/Pasted image 20230622210108.png"
+    "Misc og Links/Pasted image 20230622211442.png"
   ]
 }

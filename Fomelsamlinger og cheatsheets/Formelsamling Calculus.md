@@ -92,6 +92,51 @@ $$
 
 ### Lineær Algebra
 #### [[Matricer]]
+
+#### Tangentplan
+
+***
+Tangentvektoren eller normalvektor til en overflade.
+Man bruger matricer til at tage krydsproduktet.
+$$
+\vec n
+=
+\begin{bmatrix}
+f_x'(x,y) \\
+f_y'(x,y) \\
+-1
+\end{bmatrix}
+=
+\begin{bmatrix}
+0 \\
+1 \\
+f_y'(x,y)
+\end{bmatrix}
+\times
+\begin{bmatrix}
+1 \\
+0 \\
+f_x'(x,y)
+\end{bmatrix}
+$$
+
+***
+Tangentplan til punktet $P_{0}(a,b,f(a,b))$.
+$$z=f(a,b)+f_a'(a,b)\cdot(x-a)+f_y'(a,b)\cdot(y-b)$$
+
+***
+Normalligningen.
+$$\frac{x-a}{fa'(a,b)}=\frac{y-b}{f_b'(a,b)}=\frac{z-f(a,b)}{-1}$$
+
+***
+Kædereglen
+
+ Se video: 
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/XipB_uEexF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+$$\frac{d}{\partial t}f(u(t),v(t))$$
+
+
 ##### Egenværdi
 
 ***
@@ -481,6 +526,7 @@ $$\text{Trivielle løsning }\vec x=\vec 0\text{ gælder altid}$$
 
 
 ### [[Middelværdier]]
+
 ##### Middelværdisætningen
 
 >Der er altid minimum et punkt på funktionen mellem *a* og *b* hvor hældningen er den samme som middelinjen 
@@ -581,12 +627,6 @@ $$
 
 ***
 
-### Multivariable Clalculus
-
- > [Tavlenoter fra adgangskursus](file:///G%3A%2FOther%20computers%2FMin%20Computer%2FSkole%2FMatematik%20A%2FTavlenoter)
-
-***
-
 ##### Partielt afledte
 
 Det skrives som $\frac{\partial f}{\partial x}=f_x'(x,y)\land\frac{\partial f}{\partial y}=f_y'(x,y)$ hvor vi bruger tegnet partial
@@ -598,51 +638,6 @@ I øvrigt: $$\frac{\partial f}{\partial x}f_x'(x,y)=f_1(x,y)\lor\frac{\partial f
 Og modsat:$$\frac{\partial f}{\partial y}f_y'(x,y)=f_2(x,y)\lor\frac{\partial f}{\partial b}f_b'(a,b)=f_2(a,b)$$
 
 ***
-
-##### Tangentplan
-
-***
-Tangentvektoren eller normalvektor til en overflade.
-Man bruger matricer til at tage krydsproduktet.
-$$
-\vec n
-=
-\begin{bmatrix}
-f_x'(x,y) \\
-f_y'(x,y) \\
--1
-\end{bmatrix}
-=
-\begin{bmatrix}
-0 \\
-1 \\
-f_y'(x,y)
-\end{bmatrix}
-\times
-\begin{bmatrix}
-1 \\
-0 \\
-f_x'(x,y)
-\end{bmatrix}
-$$
-
-***
-Tangentplan til punktet $P_{0}(a,b,f(a,b))$.
-$$z=f(a,b)+f_a'(a,b)\cdot(x-a)+f_y'(a,b)\cdot(y-b)$$
-
-***
-Normalligningen.
-$$\frac{x-a}{fa'(a,b)}=\frac{y-b}{f_b'(a,b)}=\frac{z-f(a,b)}{-1}$$
-
-***
-Kædereglen
-
- Se video: 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/XipB_uEexF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-$$\frac{d}{\partial t}f(u(t),v(t))$$
-
-
 
 ### Taylor
 
