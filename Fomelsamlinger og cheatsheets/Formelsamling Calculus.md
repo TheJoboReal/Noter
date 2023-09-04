@@ -641,7 +641,9 @@ Og modsat:$$\frac{\partial f}{\partial y}f_y'(x,y)=f_2(x,y)\lor\frac{\partial f}
 
 ### Taylor
 
-
+$$
+\hat{f}(x)= \text{Approksimation}
+$$
 $$
 p_{n}(x)=f(c)+\frac{f'(c)\cdot(x-c)^1}{1}+\frac{f''(c)\cdot(x-c)^2}{2}+\frac{f'''(c)\cdot(x-c)^3}{3}+\dots \frac{f^n(c)\cdot(x-c)^y}{y}
 $$
