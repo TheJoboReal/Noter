@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md"
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md"
               }
             }
           },
@@ -186,10 +186,13 @@
   },
   "active": "56f5da8e21349ac6",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230904123849.png",
+    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+    "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
+    "Bachelor 3th Semester/Multivariable Calculus",
     "Misc og Links/Pasted image 20230904105354.png",
     "Misc og Links/Pasted image 20230904103645.png",
     "Bachelor 1st semester/Calculus/Matricer.md",
-    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
     "Bachelor 3th Semester/Untitled/test.md",
     "Gjendsige Spørgsmål.md",
     "Linux Terminal commands.md",
@@ -214,7 +217,6 @@
     "Bachelor 1st semester/Calculus/Calculus noter.md",
     "Bachelor 1st semester/Calculus/1. ordens differentialeligninger.md",
     "Bachelor 1st semester/Robotters Fysik/Bevægelsesmængder/Bevægelsesmængde for et partikel.md",
-    "Bachelor 1st semester/Robotters Fysik/Bevægelsesmængder/Bevægelsesmængde.md",
     "C++/Read & Write to file",
     "Bachelor 3th Semester/Untitled",
     "Bachelor 3th Semester",
@@ -224,13 +226,11 @@
     "Misc og Links/Pasted image 20230622211815.png",
     "Misc og Links/Pasted image 20230622211442.png",
     "Misc og Links/Pasted image 20230622210108.png",
-    "Misc og Links/Pasted image 20230622111438.png",
     "Bachelor 2nd semester/Datateknik/C/Interrupt",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
     "Bachelor 2nd semester/Kinematik/Velocity",
     "Bachelor 2nd semester/Kinematik/Building robots in matlab",
     "C++/Abstract Classes",
-    "C++/Inheritance",
-    "C++/Functions and stuff"
+    "C++/Inheritance"
   ]
 }
