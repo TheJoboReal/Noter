@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9f566b2e4d4240fc",
+        "id": "3367a99a21235b00",
         "type": "tabs",
         "children": [
           {
-            "id": "65e3c2b0fa9014e7",
+            "id": "6cfe8c182894cbc3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "timer",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 306.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md"
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md"
               }
             }
           },
@@ -184,52 +184,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "65e3c2b0fa9014e7",
+  "active": "6cfe8c182894cbc3",
   "lastOpenFiles": [
-    "Bachelor 3th Semester/Data Kommunikation/Noter/Protocols.md",
-    "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
     "Misc og Links/Pasted image 20230905133653.png",
     "Misc og Links/Pasted image 20230905133644.png",
     "Misc og Links/Pasted image 20230905133626.png",
     "Misc og Links/Pasted image 20230905133608.png",
     "Misc og Links/Pasted image 20230905133557.png",
     "Misc og Links/Pasted image 20230905133520.png",
-    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
-    "Fomelsamlinger og cheatsheets/Elektro Formelsamling.md",
-    "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
-    "Bachelor 3th Semester/Multivariable Calculus/Noter/Fourier Rækker.md",
-    "Bachelor 3th Semester/Data Kommunikation/Noter/Untitled",
-    "Bachelor 3th Semester/Data Kommunikation/Opgaver",
-    "Bachelor 3th Semester/Data Kommunikation/Noter",
-    "Bachelor 3th Semester/Data Kommunikation/Untitled.md",
-    "Bachelor 3th Semester/Data Kommunikation",
-    "Bachelor 3th Semester/Multivariable Calculus/Noter",
-    "Bachelor 3th Semester/Multivariable Calculus/Noter.md",
     "Misc og Links/Pasted image 20230905131729.png",
-    "Bachelor 3th Semester/Untitled/test.md",
     "Misc og Links/Pasted image 20230905121150.png",
     "Misc og Links/Pasted image 20230905104228.png",
-    "Misc og Links/Pasted Image 20230905101548_074.png",
+    "Misc og Links/Pasted image 20230904133517.png",
+    "Misc og Links/Pasted image 20230904124753.png",
+    "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
+    "Bachelor 3th Semester/Multivariable Calculus/Noter/Fourier Rækker.md",
     "Bachelor 3th Semester/Multivariable Calculus/Opgaver",
+    "Bachelor 3th Semester/Multivariable Calculus/Noter",
     "Bachelor 3th Semester/Multivariable Calculus",
-    "Bachelor 1st semester/Calculus/Matricer.md",
-    "Gjendsige Spørgsmål.md",
-    "Linux Terminal commands.md",
-    "Modbus Flowchart.md",
+    "Bachelor 3th Semester/Data Kommunikation/Noter/Protocols.md",
+    "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
+    "Bachelor 3th Semester/Data Kommunikation/Noter",
+    "Bachelor 3th Semester/Data Kommunikation",
+    "Fomelsamlinger og cheatsheets/Elektro Formelsamling.md",
+    "Fomelsamlinger og cheatsheets/Formelsamling Kinematik.md",
     "conflict-files-obsidian-git.md",
-    "C++/Read & Write to file/Read and Write class to file example.md",
-    "C++/Read & Write to file/Read and write string to file example.md",
-    "C++/Libraries/Compile.md",
-    "Bachelor 1st semester/Calculus/Opgaver/De Moivre.excalidraw.md",
-    "Bachelor 1st semester/Calculus/Opgaver/De Moivre w4 -81.md",
-    "Bachelor 1st semester/Calculus/Ulige funktioner.md",
-    "Bachelor 1st semester/Calculus/Specielle Matricer.md",
-    "Bachelor 1st semester/Calculus/Middelværdier.md",
-    "Bachelor 1st semester/Calculus/Matrice opgaver.md",
-    "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.md",
-    "Bachelor 1st semester/Calculus/Ligningssystemer.md",
-    "C++/Read & Write to file",
-    "Bachelor 3th Semester",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt"
+    "Gjendsige Spørgsmål.md",
+    "Bachelor 2nd semester/Kinematik/Joints and Links/DH Parameters.md",
+    "Bachelor 2nd semester/Kinematik/Joints and Links/Joints and Links.md",
+    "Bachelor 2nd semester/Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
+    "Bachelor 2nd semester/Modbus/Intro.md",
+    "Bachelor 1st semester/Calculus/Dæmpede-Svingninger anden ordens diff ligninger.md",
+    "Modbus Flowchart.md",
+    "C++/Inheritance/Virtual.md",
+    "C++/Inheritance/Inheritance.md",
+    "C++/Inheritance/Derived constructers.md",
+    "C++/Abstract Classes/Abstract Classes.md",
+    "Bachelor 1st semester/Elektro fysik/Superposition.md",
+    "Bachelor 1st semester/Elektro fysik/Tidsvarierende signaler.md",
+    "Bachelor 1st semester/Elektro fysik/Spoler.md",
+    "Bachelor 1st semester/Elektro fysik/Spilt power supply.md",
+    "Bachelor 1st semester/Elektro fysik/Sinusformet signal.md",
+    "Bachelor 1st semester/Elektro fysik/RMS Effekt.md",
+    "Bachelor 1st semester/Elektro fysik/Komponenter og subcircuits.md",
+    "C++/Løsninger/ex04_recordCollection/src/track.h",
+    "C++/Løsninger/ex04_recordCollection/src/track.cpp",
+    "C++/Løsninger/ex04_recordCollection/src/CMakeLists.txt",
+    "C++/Løsninger/ex04_recordCollection/src/recordCollection.h",
+    "C++/Løsninger/ex04_recordCollection/src/artist.h"
   ]
 }
