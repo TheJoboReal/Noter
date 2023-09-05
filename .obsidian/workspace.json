@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "c0dd54114a21b7ef",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.5"
+              }
+            }
+          },
+          {
             "id": "bf8991b4248e6e76",
             "type": "leaf",
             "state": {
@@ -105,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md"
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md"
               }
             }
           },
@@ -196,10 +206,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bf8991b4248e6e76",
+  "active": "c0dd54114a21b7ef",
   "lastOpenFiles": [
-    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20230905121150.png",
     "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
+    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
     "Misc og Links/Pasted image 20230905104228.png",
     "Misc og Links/Pasted Image 20230905101548_074.png",
     "Bachelor 3th Semester/Multivariable Calculus/Opgaver",

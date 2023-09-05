@@ -741,6 +741,8 @@ Eksempler på De Moivre:
 
 #### Fourier Transform
 
+![[Pasted image 20230905121150.png]]
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/spUNpyF58BY?si=pIrsqt-Y5cB7lQzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ***
