@@ -736,6 +736,9 @@ Eksempler på De Moivre:
 
 
 ### Multivariable Calculus
+#### Fourier Rækker
+![[Pasted image 20230905104228.png]]
+
 #### Fourier Transform
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/spUNpyF58BY?si=pIrsqt-Y5cB7lQzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
