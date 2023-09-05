@@ -747,7 +747,7 @@ $$
 
 Lad $f$ være en periodisk funktion med periode $2L$ og lad $f(x)$ og $f'(x)$ være stykvis kontinuerlige på intervallet $-L<x<L$. Så vil $f$ have en konvengerende Fourierrække:
 $$
-f(x)=\frac{a_{0}}{2}+\sum^{inf}_{n=1}\left( a_{n}\cos\left( \frac{{n\pi x}}{L} \right)+b_{n}\sin\left( \frac{n\pi x}{L} \right) \right)=\sum^{inf}_{n=-inf}c_{n}e^{jn\pi x/L}
+f(x)=\frac{a_{0}}{2}+\sum^{\infty}_{n=1}\left( a_{n}\cos\left( \frac{{n\pi x}}{L} \right)+b_{n}\sin\left( \frac{n\pi x}{L} \right) \right)=\sum^{\infty}_{n=-\infty}c_{n}e^{jn\pi x/L}
 $$
 Med koefficienter $a_{n}, b_{n} \text{ og }c_{n}\text{ givet som}$
 $$
