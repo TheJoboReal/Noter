@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
+                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "bf8991b4248e6e76",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 356.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md"
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md"
               }
             }
           },
@@ -184,13 +196,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "56f5da8e21349ac6",
+  "active": "bf8991b4248e6e76",
   "lastOpenFiles": [
+    "Misc og Links/Pasted Image 20230905101548_074.png",
+    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+    "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
+    "Bachelor 3th Semester/Multivariable Calculus/Opgaver",
+    "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
     "Misc og Links/Pasted image 20230904133517.png",
     "Misc og Links/Pasted image 20230904124753.png",
     "Misc og Links/Pasted image 20230904123849.png",
-    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
-    "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
     "Bachelor 3th Semester/Multivariable Calculus",
     "Misc og Links/Pasted image 20230904105354.png",
     "Misc og Links/Pasted image 20230904103645.png",
@@ -218,19 +233,16 @@
     "Bachelor 1st semester/Calculus/Dæmpede-Svingninger anden ordens diff ligninger.md",
     "Bachelor 1st semester/Calculus/Calculus noter.md",
     "Bachelor 1st semester/Calculus/1. ordens differentialeligninger.md",
-    "Bachelor 1st semester/Robotters Fysik/Bevægelsesmængder/Bevægelsesmængde for et partikel.md",
     "C++/Read & Write to file",
     "Bachelor 3th Semester/Untitled",
     "Bachelor 3th Semester",
     "Misc og Links/Pasted image 20230624215115.png",
     "Misc og Links/Pasted image 20230624214821.png",
     "Misc og Links/Pasted image 20230623122612.png",
-    "Misc og Links/Pasted image 20230622211815.png",
     "Bachelor 2nd semester/Datateknik/C/Interrupt",
     "Bachelor 2nd semester/Datateknik/Analog to Digital",
     "Bachelor 2nd semester/Kinematik/Velocity",
     "Bachelor 2nd semester/Kinematik/Building robots in matlab",
-    "C++/Abstract Classes",
-    "C++/Inheritance"
+    "C++/Abstract Classes"
   ]
 }
