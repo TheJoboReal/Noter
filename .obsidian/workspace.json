@@ -13,19 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Noter/Fourier Rækker.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "c0dd54114a21b7ef",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.5"
               }
             }
           },
@@ -39,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
-    "collapsed": true
+    "width": 356.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -115,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Noter/Fourier Rækker.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Noter/Fourier Rækker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md"
+                "file": "Bachelor 3th Semester/Multivariable Calculus/Noter/Fourier Rækker.md"
               }
             }
           },
@@ -206,15 +194,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c0dd54114a21b7ef",
+  "active": "e251186949aaf4ce",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230905121150.png",
-    "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
+    "Bachelor 3th Semester/Data Kommunikation/Noter/Untitled",
+    "Bachelor 3th Semester/Data Kommunikation/Opgaver",
+    "Bachelor 3th Semester/Data Kommunikation/Noter",
+    "Bachelor 3th Semester/Data Kommunikation/Untitled.md",
+    "Bachelor 3th Semester/Multivariable Calculus/Noter/Fourier Rækker.md",
+    "Bachelor 3th Semester/Data Kommunikation",
+    "Bachelor 3th Semester/Multivariable Calculus/Noter",
+    "Bachelor 3th Semester/Multivariable Calculus/Noter.md",
     "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20230905131729.png",
+    "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
+    "Bachelor 3th Semester/Untitled/test.md",
+    "Misc og Links/Pasted image 20230905121150.png",
     "Misc og Links/Pasted image 20230905104228.png",
     "Misc og Links/Pasted Image 20230905101548_074.png",
     "Bachelor 3th Semester/Multivariable Calculus/Opgaver",
-    "Bachelor 3th Semester/Multivariable Calculus/Fourier Rækker.md",
     "Misc og Links/Pasted image 20230904133517.png",
     "Misc og Links/Pasted image 20230904124753.png",
     "Misc og Links/Pasted image 20230904123849.png",
@@ -222,7 +219,6 @@
     "Misc og Links/Pasted image 20230904105354.png",
     "Misc og Links/Pasted image 20230904103645.png",
     "Bachelor 1st semester/Calculus/Matricer.md",
-    "Bachelor 3th Semester/Untitled/test.md",
     "Gjendsige Spørgsmål.md",
     "Linux Terminal commands.md",
     "Modbus Flowchart.md",
@@ -237,22 +233,14 @@
     "Bachelor 1st semester/Calculus/Specielle Matricer.md",
     "Bachelor 1st semester/Calculus/Middelværdier.md",
     "Bachelor 1st semester/Calculus/Matrice opgaver.md",
-    "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.svg",
     "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.md",
     "Bachelor 1st semester/Calculus/Ligningssystemer.md",
     "Bachelor 1st semester/Calculus/Koblede diff ligninger.md",
     "Bachelor 1st semester/Calculus/Gauss Elimination.md",
     "Bachelor 1st semester/Calculus/Dæmpede-Svingninger anden ordens diff ligninger.md",
-    "Bachelor 1st semester/Calculus/Calculus noter.md",
-    "Bachelor 1st semester/Calculus/1. ordens differentialeligninger.md",
     "C++/Read & Write to file",
-    "Bachelor 3th Semester/Untitled",
     "Bachelor 3th Semester",
-    "Misc og Links/Pasted image 20230624215115.png",
     "Bachelor 2nd semester/Datateknik/C/Interrupt",
-    "Bachelor 2nd semester/Datateknik/Analog to Digital",
-    "Bachelor 2nd semester/Kinematik/Velocity",
-    "Bachelor 2nd semester/Kinematik/Building robots in matlab",
-    "C++/Abstract Classes"
+    "Bachelor 2nd semester/Datateknik/Analog to Digital"
   ]
 }
