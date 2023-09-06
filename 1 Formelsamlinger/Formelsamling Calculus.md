@@ -760,8 +760,8 @@ $$
 c_{n}=\frac{1}{2}(a_{n}-jb_{n})\text{ } n> 0
 $$
 
-Se eksempel: [[Fourier Rækker.excalidraw]]
-![[Fourier Rækker.excalidraw|1600]] 
+Se eksempel: [[Opgave 1.excalidraw]]
+![[Opgave 1.excalidraw|1600]] 
 #### Fourier Transform
 
 Fouriertransfomation af $h(t)$:

@@ -11,9 +11,29 @@
             "id": "65e3c2b0fa9014e7",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "b18c75e73fc580af",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "5888ae7f0f7453bf",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Protocols.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 356.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -93,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Protocols.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Protocols.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Protocols.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md"
               }
             }
           },
@@ -184,8 +205,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e251186949aaf4ce",
+  "active": "b18c75e73fc580af",
   "lastOpenFiles": [
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker",
+    "Data Kommunikation/Noter/Protocols.md",
     "Microcontrollers/Boolean algebra/Boolean algebra.md",
     "Microcontrollers/Boolean algebra/Python Converter.md",
     "Microcontrollers/Boolean algebra",
@@ -195,16 +221,13 @@
     "C++/Modbus/Intro.md",
     "Elektronik/Emner",
     "Data Kommunikation/Noter/OSI model.md",
-    "Data Kommunikation/Noter/Protocols.md",
     "Misc og Links/Pasted image 20230905133653.png",
     "Misc og Links/Pasted image 20230905133644.png",
     "Misc og Links/Pasted image 20230905133626.png",
     "Misc og Links/Pasted image 20230905133608.png",
     "Misc og Links/Pasted image 20230905133557.png",
     "Misc og Links/Pasted image 20230905133520.png",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "1 Formelsamlinger/Elektro Formelsamling.md",
-    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
     "Calculus/Multivariable Calculus/Noter/Fourier Rækker.md",
     "Bachelor 3th Semester/Data Kommunikation/Noter/Untitled",
     "Data Kommunikation/Opgaver",
@@ -229,8 +252,6 @@
     "C++/Read & Write to file/Read and write string to file example.md",
     "C++/Libraries/Compile.md",
     "Calculus/Opgaver/De Moivre.excalidraw.md",
-    "Calculus/Opgaver/De Moivre w4 -81.md",
-    "Calculus/Ulige funktioner.md",
-    "C++/Read & Write to file"
+    "Calculus/Opgaver/De Moivre w4 -81.md"
   ]
 }
