@@ -18,6 +18,16 @@
             }
           },
           {
+            "id": "f52378fbfb4ad420",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md"
+              }
+            }
+          },
+          {
             "id": "bd84db32c6c68751",
             "type": "leaf",
             "state": {
@@ -29,7 +39,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -87,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 356.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -103,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md"
               }
             }
           },
@@ -194,12 +206,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "65e3c2b0fa9014e7",
+  "active": "f52378fbfb4ad420",
   "lastOpenFiles": [
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker",
     "Data Kommunikation/Noter/Protocols.md",
     "Microcontrollers/Boolean algebra/Boolean algebra.md",
@@ -240,7 +253,6 @@
     "C++/Read & Write to file/Read and Write class to file example.md",
     "C++/Read & Write to file/Read and write string to file example.md",
     "C++/Libraries/Compile.md",
-    "Calculus/Opgaver/De Moivre.excalidraw.md",
-    "Calculus/Opgaver/De Moivre w4 -81.md"
+    "Calculus/Opgaver/De Moivre.excalidraw.md"
   ]
 }
