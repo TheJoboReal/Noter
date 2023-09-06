@@ -28418,10 +28418,10 @@ b9834c3c1b16501115e93e0676bf32d7e65967b4: [[Pasted Image 20230906131448_707.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 456.5348286628723,
-		"scrollY": -886.0636467933655,
+		"scrollX": 1084.8999481201172,
+		"scrollY": 541.5025546550751,
 		"zoom": {
-			"value": 1
+			"value": 0.5
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
