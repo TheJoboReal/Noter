@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md"
               }
             }
           },
@@ -206,13 +205,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "f52378fbfb4ad420",
+  "active": "65e3c2b0fa9014e7",
   "lastOpenFiles": [
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
     "conflict-files-obsidian-git.md",
-    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker",
     "Data Kommunikation/Noter/Protocols.md",
     "Microcontrollers/Boolean algebra/Boolean algebra.md",
