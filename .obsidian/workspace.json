@@ -18,17 +18,19 @@
             }
           },
           {
-            "id": "b18c75e73fc580af",
+            "id": "ed72d4c0c41bbebe",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md"
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "5888ae7f0f7453bf",
+            "id": "bd84db32c6c68751",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -39,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
-    "collapsed": true
+    "width": 356.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -114,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -205,11 +207,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "b18c75e73fc580af",
+  "active": "ed72d4c0c41bbebe",
   "lastOpenFiles": [
-    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "conflict-files-obsidian-git.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
-    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Drawing 2023-09-06 12.13.01.excalidraw.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker",
     "Data Kommunikation/Noter/Protocols.md",
     "Microcontrollers/Boolean algebra/Boolean algebra.md",
@@ -247,7 +250,6 @@
     "Gjendsige Spørgsmål.md",
     "Linux Terminal commands.md",
     "Modbus Flowchart.md",
-    "conflict-files-obsidian-git.md",
     "C++/Read & Write to file/Read and Write class to file example.md",
     "C++/Read & Write to file/Read and write string to file example.md",
     "C++/Libraries/Compile.md",
