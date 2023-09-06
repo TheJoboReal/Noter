@@ -145,7 +145,7 @@ $$
 
 ***
 
-### [[Bachelor 1st semester/Elektro fysik/Halvledere]]
+### [[Elektronik/Emner/Halvledere]]
 
 Shockley's ligning. Eller strøm over diode:
 I_D er strømmen over dioden.

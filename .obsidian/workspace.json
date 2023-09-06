@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
+                "file": "Data Kommunikation/Noter/Protocols.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
+                "file": "Data Kommunikation/Noter/Protocols.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
+                "file": "Data Kommunikation/Noter/Protocols.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md"
+                "file": "Data Kommunikation/Noter/Protocols.md"
               }
             }
           },
@@ -184,35 +184,43 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "65e3c2b0fa9014e7",
+  "active": "e251186949aaf4ce",
   "lastOpenFiles": [
-    "Bachelor 3th Semester/Data Kommunikation/Noter/Protocols.md",
-    "Bachelor 3th Semester/Data Kommunikation/Noter/OSI model.md",
+    "Microcontrollers/Boolean algebra/Boolean algebra.md",
+    "Microcontrollers/Boolean algebra/Python Converter.md",
+    "Microcontrollers/Boolean algebra",
+    "Microcontrollers/Boolean algebra/Nummereringssystemer.md",
+    "Microcontrollers/Boolean algebra/Counters.md",
+    "Elektronik/Emner/AC-kredsløb.md",
+    "C++/Modbus/Intro.md",
+    "Elektronik/Emner",
+    "Data Kommunikation/Noter/OSI model.md",
+    "Data Kommunikation/Noter/Protocols.md",
     "Misc og Links/Pasted image 20230905133653.png",
     "Misc og Links/Pasted image 20230905133644.png",
     "Misc og Links/Pasted image 20230905133626.png",
     "Misc og Links/Pasted image 20230905133608.png",
     "Misc og Links/Pasted image 20230905133557.png",
     "Misc og Links/Pasted image 20230905133520.png",
-    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
-    "Fomelsamlinger og cheatsheets/Elektro Formelsamling.md",
-    "Bachelor 3th Semester/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
-    "Bachelor 3th Semester/Multivariable Calculus/Noter/Fourier Rækker.md",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "1 Formelsamlinger/Elektro Formelsamling.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
+    "Calculus/Multivariable Calculus/Noter/Fourier Rækker.md",
     "Bachelor 3th Semester/Data Kommunikation/Noter/Untitled",
-    "Bachelor 3th Semester/Data Kommunikation/Opgaver",
-    "Bachelor 3th Semester/Data Kommunikation/Noter",
+    "Data Kommunikation/Opgaver",
+    "Data Kommunikation/Noter",
     "Bachelor 3th Semester/Data Kommunikation/Untitled.md",
-    "Bachelor 3th Semester/Data Kommunikation",
-    "Bachelor 3th Semester/Multivariable Calculus/Noter",
+    "Data Kommunikation",
+    "Calculus/Multivariable Calculus/Noter",
     "Bachelor 3th Semester/Multivariable Calculus/Noter.md",
     "Misc og Links/Pasted image 20230905131729.png",
     "Bachelor 3th Semester/Untitled/test.md",
     "Misc og Links/Pasted image 20230905121150.png",
     "Misc og Links/Pasted image 20230905104228.png",
     "Misc og Links/Pasted Image 20230905101548_074.png",
-    "Bachelor 3th Semester/Multivariable Calculus/Opgaver",
-    "Bachelor 3th Semester/Multivariable Calculus",
-    "Bachelor 1st semester/Calculus/Matricer.md",
+    "Calculus/Multivariable Calculus/Opgaver",
+    "Calculus/Multivariable Calculus",
+    "Calculus/Matricer.md",
     "Gjendsige Spørgsmål.md",
     "Linux Terminal commands.md",
     "Modbus Flowchart.md",
@@ -220,16 +228,9 @@
     "C++/Read & Write to file/Read and Write class to file example.md",
     "C++/Read & Write to file/Read and write string to file example.md",
     "C++/Libraries/Compile.md",
-    "Bachelor 1st semester/Calculus/Opgaver/De Moivre.excalidraw.md",
-    "Bachelor 1st semester/Calculus/Opgaver/De Moivre w4 -81.md",
-    "Bachelor 1st semester/Calculus/Ulige funktioner.md",
-    "Bachelor 1st semester/Calculus/Specielle Matricer.md",
-    "Bachelor 1st semester/Calculus/Middelværdier.md",
-    "Bachelor 1st semester/Calculus/Matrice opgaver.md",
-    "Bachelor 1st semester/Calculus/Linear algebra og matrice opgaver.md",
-    "Bachelor 1st semester/Calculus/Ligningssystemer.md",
-    "C++/Read & Write to file",
-    "Bachelor 3th Semester",
-    "Bachelor 2nd semester/Datateknik/C/Interrupt"
+    "Calculus/Opgaver/De Moivre.excalidraw.md",
+    "Calculus/Opgaver/De Moivre w4 -81.md",
+    "Calculus/Ulige funktioner.md",
+    "C++/Read & Write to file"
   ]
 }
