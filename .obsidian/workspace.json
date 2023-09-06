@@ -8,22 +8,22 @@
         "type": "tabs",
         "children": [
           {
-            "id": "65e3c2b0fa9014e7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "f52378fbfb4ad420",
+            "id": "292cf4b2c53b93c8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
                 "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "07b9f240991a461e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md"
               }
             }
           },
@@ -39,7 +39,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -114,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md"
               }
             }
           },
@@ -205,11 +206,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "65e3c2b0fa9014e7",
+  "active": "07b9f240991a461e",
   "lastOpenFiles": [
-    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
+    "Misc og Links/Pasted Image 20230906131933_743.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
+    "Misc og Links/Pasted Image 20230906131448_707.png",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
+    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Untitled.md",
+    "Misc og Links/Pasted Image 20230906124936_436.png",
     "conflict-files-obsidian-git.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker",
     "Data Kommunikation/Noter/Protocols.md",
@@ -240,8 +246,6 @@
     "Misc og Links/Pasted image 20230905131729.png",
     "Bachelor 3th Semester/Untitled/test.md",
     "Misc og Links/Pasted image 20230905121150.png",
-    "Misc og Links/Pasted image 20230905104228.png",
-    "Misc og Links/Pasted Image 20230905101548_074.png",
     "Calculus/Multivariable Calculus/Opgaver",
     "Calculus/Multivariable Calculus",
     "Calculus/Matricer.md",
@@ -249,8 +253,6 @@
     "Linux Terminal commands.md",
     "Modbus Flowchart.md",
     "C++/Read & Write to file/Read and Write class to file example.md",
-    "C++/Read & Write to file/Read and write string to file example.md",
-    "C++/Libraries/Compile.md",
-    "Calculus/Opgaver/De Moivre.excalidraw.md"
+    "C++/Read & Write to file/Read and write string to file example.md"
   ]
 }
