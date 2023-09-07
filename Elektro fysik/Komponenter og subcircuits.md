@@ -6,7 +6,7 @@
 ***
 [[Operationsforstærker]]
 ***
-[[Bachelor 1st semester/Elektro fysik/Kondensator]]
+[[Elektro fysik/Kondensator]]
 ***
 [[Resistor]]
 ***

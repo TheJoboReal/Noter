@@ -563,7 +563,7 @@ $$
 
 
 ### Penduler
-##### [[Bachelor 1st semester/Robotters Fysik/Matematisk Pendul]]
+##### [[Robotters Fysik/Matematisk Pendul]]
 
 >Forskellen på et matematisk pendul og fysisk pendul er at et matematisk pendul har en meget reduceret masse lige for enden af pendulet. Og det gælder kun ved små vinkler under 30 grader.
 
@@ -625,7 +625,7 @@ $$U(\theta)=mgh=mgl$$
 
 ***
 
-##### [[Bachelor 1st semester/Robotters Fysik/Fysisk pendul]]
+##### [[Robotters Fysik/Fysisk pendul]]
 
 ***
 Ethvert legeme som er ophængt i et punkt som er forskudt i forhold til massemidtpunktet, kan svinge og kan beregnes med krafmoment
