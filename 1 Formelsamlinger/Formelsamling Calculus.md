@@ -830,6 +830,8 @@ $$
 \int_{-\infty}^{\infty} \delta(t-t_{0}) \, dt=1 
 $$
 hvor $f$ er en kontinuerlig funktion.
-#### Laplace transformation
+#### Indgang & Udgangssignaler
 ##### Superpositionsintegralet
 ![[Pasted image 20230907083733.png]]
+##### Enheds step funktion
+![[Pasted image 20230907084817.png]]
