@@ -1,7 +1,6 @@
-Matlab plot af $H(s)=\frac{1}{s+k}$:
-
 ![[Pasted image 20230907094228.png]]
 
+Matlab plot af $H(s)=\frac{1}{s+k}$:
 ```Matlab
 k=1;
 s=tf('s');
