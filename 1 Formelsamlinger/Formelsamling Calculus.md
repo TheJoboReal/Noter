@@ -837,3 +837,4 @@ hvor $f$ er en kontinuerlig funktion.
 ![[Pasted image 20230907084817.png]]
 ##### Laplace Transformation
 ![[Pasted image 20230907085351.png]]
+![[Pasted image 20230907090733.png]]
