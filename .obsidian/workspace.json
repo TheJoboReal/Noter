@@ -35,8 +35,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
-                "mode": "preview",
+                "file": "1 Formelsamlinger/Matlab addons.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -100,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
-    "collapsed": true
+    "width": 356.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
+                "file": "1 Formelsamlinger/Matlab addons.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
+                "file": "1 Formelsamlinger/Matlab addons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md"
+                "file": "1 Formelsamlinger/Matlab addons.md"
               }
             }
           },
@@ -210,8 +209,9 @@
   },
   "active": "bd6ebbc105d3f43c",
   "lastOpenFiles": [
-    "Calculus/Multivariable Calculus/Opgaver/Laplace/Opgave 2.1 Laplace.excalidraw.md",
     "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Calculus/Multivariable Calculus/Opgaver/Laplace/Opgave 2.1 Laplace.excalidraw.md",
+    "1 Formelsamlinger/Matlab addons.md",
     "Calculus/Multivariable Calculus/Noter/BODE plot.md",
     "Misc og Links/Pasted Image 20230907102137_211.png",
     "Misc og Links/Pasted Image 20230907101543_170.png",
