@@ -4,78 +4,45 @@
     "type": "split",
     "children": [
       {
-        "id": "37584e593e1d4cc0",
-        "type": "split",
+        "id": "9f566b2e4d4240fc",
+        "type": "tabs",
         "children": [
           {
-            "id": "9f566b2e4d4240fc",
-            "type": "tabs",
-            "dimension": 41.511035653650254,
-            "children": [
-              {
-                "id": "ce0f41073acd3fff",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1 Formelsamlinger/Formelsamling Calculus.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                },
-                "group": "4773663666698fe6"
-              },
-              {
-                "id": "bd6ebbc105d3f43c",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
-                    "mode": "source",
-                    "source": true
-                  }
-                },
-                "group": "9ba5c2119f296ec1"
+            "id": "ce0f41073acd3fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "mode": "preview",
+                "source": true
               }
-            ]
+            }
           },
           {
-            "id": "91eeac635e176458",
-            "type": "tabs",
-            "dimension": 58.488964346349746,
-            "children": [
-              {
-                "id": "6d336fface4548a6",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "1 Formelsamlinger/Formelsamling Calculus.md",
-                    "mode": "preview",
-                    "source": true
-                  }
-                },
-                "group": "4773663666698fe6"
-              },
-              {
-                "id": "fa8ca57272c75f99",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
-                    "mode": "preview",
-                    "source": true
-                  }
-                },
-                "group": "9ba5c2119f296ec1"
+            "id": "f2c6de951c595363",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Laplace/Opgave 2.1 Laplace.excalidraw.md"
               }
-            ],
-            "currentTab": 1
+            }
+          },
+          {
+            "id": "bd6ebbc105d3f43c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
         ],
-        "direction": "horizontal"
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 356.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -149,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md"
               }
             }
           },
@@ -240,23 +208,26 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ce0f41073acd3fff",
+  "active": "bd6ebbc105d3f43c",
   "lastOpenFiles": [
-    "Calculus/Multivariable Calculus/Noter/BODE plot.md",
+    "Calculus/Multivariable Calculus/Opgaver/Laplace/Opgave 2.1 Laplace.excalidraw.md",
     "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Calculus/Multivariable Calculus/Noter/BODE plot.md",
+    "Misc og Links/Pasted Image 20230907102137_211.png",
+    "Misc og Links/Pasted Image 20230907101543_170.png",
+    "Calculus/Multivariable Calculus/Opgaver/Laplace/Untitled.md",
+    "Calculus/Multivariable Calculus/Opgaver/Laplace",
+    "Misc og Links/Pasted image 20230907101415.png",
+    "Misc og Links/Pasted image 20230907101345.png",
+    "Misc og Links/Pasted image 20230907101254.png",
+    "Misc og Links/Pasted image 20230907100754.png",
     "Misc og Links/Pasted image 20230907094228.png",
     "Misc og Links/Pasted image 20230907090733.png",
     "Misc og Links/Pasted image 20230907085351.png",
     "Misc og Links/Pasted image 20230907084817.png",
-    "Misc og Links/Pasted image 20230907083733.png",
     "Calculus/Multivariable Calculus/Noter/Superpositionsprincippet.md",
-    "Misc og Links/Pasted image 20230907083037.png",
-    "Misc og Links/Pasted image 20230907082943.png",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 4.excalidraw.md",
-    "Misc og Links/Pasted image 20230906144408.png",
-    "Misc og Links/Pasted image 20230906143121.png",
-    "Misc og Links/Pasted image 20230906143106.png",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Untitled.md",
@@ -283,9 +254,6 @@
     "Bachelor 3th Semester/Multivariable Calculus/Noter.md",
     "Bachelor 3th Semester/Untitled/test.md",
     "Calculus/Multivariable Calculus/Opgaver",
-    "Calculus/Multivariable Calculus",
-    "Calculus/Matricer.md",
-    "Gjendsige Spørgsmål.md",
-    "Linux Terminal commands.md"
+    "Calculus/Matricer.md"
   ]
 }

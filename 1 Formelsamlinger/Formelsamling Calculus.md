@@ -839,3 +839,7 @@ hvor $f$ er en kontinuerlig funktion.
 ![[Pasted image 20230907085351.png]]
 ![[Pasted image 20230907090733.png]]
 ##### Invers Laplace Transformation
+
+##### Overføringsfunktion
+![[Pasted image 20230907101254.png]]
+![[Pasted image 20230907101415.png]]

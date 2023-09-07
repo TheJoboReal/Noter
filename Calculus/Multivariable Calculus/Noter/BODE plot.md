@@ -4,7 +4,7 @@ Matlab plot af $H(s)=\frac{1}{s+k}$:
 
 ```Matlab
 k=1;
-s=t'f('s');
+s=tf('s');
 H=1/(s+k);
 
 figure
