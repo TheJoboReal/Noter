@@ -24,6 +24,19 @@
                   }
                 },
                 "group": "4773663666698fe6"
+              },
+              {
+                "id": "bd6ebbc105d3f43c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                },
+                "group": "9ba5c2119f296ec1"
               }
             ]
           },
@@ -44,8 +57,22 @@
                   }
                 },
                 "group": "4773663666698fe6"
+              },
+              {
+                "id": "fa8ca57272c75f99",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Calculus/Multivariable Calculus/Noter/BODE plot.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                },
+                "group": "9ba5c2119f296ec1"
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "horizontal"
@@ -106,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
-    "collapsed": true
+    "width": 356.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -216,21 +242,21 @@
   },
   "active": "ce0f41073acd3fff",
   "lastOpenFiles": [
+    "Calculus/Multivariable Calculus/Noter/BODE plot.md",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20230907094228.png",
     "Misc og Links/Pasted image 20230907090733.png",
     "Misc og Links/Pasted image 20230907085351.png",
     "Misc og Links/Pasted image 20230907084817.png",
     "Misc og Links/Pasted image 20230907083733.png",
     "Calculus/Multivariable Calculus/Noter/Superpositionsprincippet.md",
     "Misc og Links/Pasted image 20230907083037.png",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Misc og Links/Pasted image 20230907082943.png",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 4.excalidraw.md",
     "Misc og Links/Pasted image 20230906144408.png",
     "Misc og Links/Pasted image 20230906143121.png",
     "Misc og Links/Pasted image 20230906143106.png",
-    "Misc og Links/Pasted image 20230906142938.png",
-    "Misc og Links/Pasted Image 20230906142410_266.png",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 2.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Untitled.md",
@@ -260,7 +286,6 @@
     "Calculus/Multivariable Calculus",
     "Calculus/Matricer.md",
     "Gjendsige Spørgsmål.md",
-    "Linux Terminal commands.md",
-    "Modbus Flowchart.md"
+    "Linux Terminal commands.md"
   ]
 }

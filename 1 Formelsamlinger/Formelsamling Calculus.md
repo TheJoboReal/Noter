@@ -838,3 +838,4 @@ hvor $f$ er en kontinuerlig funktion.
 ##### Laplace Transformation
 ![[Pasted image 20230907085351.png]]
 ![[Pasted image 20230907090733.png]]
+##### Invers Laplace Transformation
