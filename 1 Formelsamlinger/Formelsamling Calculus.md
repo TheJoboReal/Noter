@@ -831,3 +831,5 @@ $$
 $$
 hvor $f$ er en kontinuerlig funktion.
 #### Laplace transformation
+##### Superpositionsintegralet
+![[Pasted image 20230907083733.png]]

@@ -10,6 +10,7 @@
           {
             "id": "9f566b2e4d4240fc",
             "type": "tabs",
+            "dimension": 41.511035653650254,
             "children": [
               {
                 "id": "ce0f41073acd3fff",
@@ -29,6 +30,7 @@
           {
             "id": "91eeac635e176458",
             "type": "tabs",
+            "dimension": 58.488964346349746,
             "children": [
               {
                 "id": "6d336fface4548a6",
@@ -214,6 +216,7 @@
   },
   "active": "ce0f41073acd3fff",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230907083733.png",
     "Calculus/Multivariable Calculus/Noter/Superpositionsprincippet.md",
     "Misc og Links/Pasted image 20230907083037.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
