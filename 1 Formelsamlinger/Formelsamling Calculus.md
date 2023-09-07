@@ -736,7 +736,8 @@ Eksempler på De Moivre:
 
 
 ### Multivariable Calculus
-#### Fourier Rækker
+#### Fourier
+##### Fourier Rækker
 
 ![[Pasted image 20230905131729.png|300]]
 $L$ betegnes er perioden af en funktion og betegnes som $L=\frac{P}{2}$. Hvis man fks grafen ovenover, så kan vi se at den går fra $-1$ til $1$ , dvs at der er to steps fra start til slut. I det tilfælde vil $L$ være $L=\frac{2}{2}=1$.
@@ -760,18 +761,20 @@ $$
 c_{n}=\frac{1}{2}(a_{n}-jb_{n})\text{ } n> 0
 $$
 
-Se eksempel: [[Fourier Rækker.excalidraw]]
-![[Fourier Rækker.excalidraw|1600]] 
-#### Fourier Transform
+Se eksempel: [[Opgave 1.excalidraw]]
+![[Opgave 1.excalidraw|1600]] 
+##### Fourier Transform
 
 Fouriertransfomation af $h(t)$:
 $$
 H(\omega)={\int_{-\infty}^{\infty} h(t)e^{-j\omega t} \, dt }
 $$
 Invers Fouriertransformation af $H(\omega)$:
+
 $$
 h(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty} H(\omega)e^{j \omega t} \, d\omega 
 $$
+***
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/spUNpyF58BY?si=pIrsqt-Y5cB7lQzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -794,3 +797,51 @@ Hvor funktionsværdien giver et kompleks tal der beskriver center of mass på fu
 Fourier funktionen kan bruges til at adskille forskellige bølger ad i en summeret funktion.
 Hver gang beats/sekund og frekvens bliver ens på Fourier funktionen, vil vi se et spike på den transformeret funktion.
 ***
+##### Fourier Koefficienter
+
+Fourier koefficienterne har en vigtig fortolkning i forhold til frekvensindholdet i et signal, hvilket kaldes et signals *spektrum*.
+Vi benytter følgende trigonometriske identitet:
+$$
+a\cos(\omega x)+b\sin(\omega x)=A\cos(\omega x-\phi)
+$$
+hvor
+$A=\sqrt{ a²+b² }$             og           $\phi=\tan^{⁻1}\left( \frac{b}{a} \right)$
+Her er $\phi$ fasevinklen og $A$ er amplituden.
+
+Vi benytter ovenstående trigonometriske identitet på det $n$te led i Fourierrækken:
+$$
+a_{n}\cos\left( \frac{n\pi x}{L} \right)+b_{n}\sin\left( \frac{n\pi x}{L} \right)=A_{n}\cos\left( \frac{n\pi x}{L}-\phi_{n} \right)
+$$
+hvor
+$A_{n}=\sqrt{ a²_{n}+b²_{n} }$        og         $\phi_{n}=\tan^{-1}\left( \frac{b_{n}}{a_{n}} \right)$
+##### Fourier Tabeller
+![[Pasted image 20230906143106.png]]
+![[Pasted image 20230906143121.png]]
+
+
+##### Dirac delta funktion
+
+En Dirac delta-funktion $\delta(t)$, som er et meget kort og kraftig signal der er uendelig høj og uendelig smal.
+$$
+\int_{-\infty}^{\infty} f(t) \delta(t-t_{0}) \, dt=f(t_{0}) 
+$$
+dvs:
+$$
+\int_{-\infty}^{\infty} \delta(t-t_{0}) \, dt=1 
+$$
+hvor $f$ er en kontinuerlig funktion.
+#### Indgang & Udgangssignaler
+##### Superpositionsintegralet
+![[Pasted image 20230907083733.png]]
+##### Enheds step funktion
+![[Pasted image 20230907084817.png]]
+##### Laplace Transformation
+![[Pasted image 20230907085351.png]]
+![[Pasted image 20230907090733.png]]
+##### Invers Laplace Transformation
+
+##### Overføringsfunktion
+![[Pasted image 20230907101254.png]]
+Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomeret output.
+![[Pasted image 20230907101415.png]]
+![[Pasted image 20230907114342.png]]

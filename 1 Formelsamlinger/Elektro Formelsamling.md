@@ -145,7 +145,11 @@ $$
 
 ***
 
+<<<<<<< HEAD:Fomelsamlinger og cheatsheets/Elektro Formelsamling.md
 ### [[Elektro fysik/Halvledere]]
+=======
+### [[Elektronik/Emner/Halvledere]]
+>>>>>>> origin/main:1 Formelsamlinger/Elektro Formelsamling.md
 
 Shockley's ligning. Eller strøm over diode:
 I_D er strømmen over dioden.

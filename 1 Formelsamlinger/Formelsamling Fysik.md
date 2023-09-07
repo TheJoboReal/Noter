@@ -563,7 +563,11 @@ $$
 
 
 ### Penduler
+<<<<<<< HEAD:Fomelsamlinger og cheatsheets/Formelsamling Fysik.md
 ##### [[Robotters Fysik/Matematisk Pendul]]
+=======
+##### [[Fysik/Matematisk Pendul]]
+>>>>>>> origin/main:1 Formelsamlinger/Formelsamling Fysik.md
 
 >Forskellen på et matematisk pendul og fysisk pendul er at et matematisk pendul har en meget reduceret masse lige for enden af pendulet. Og det gælder kun ved små vinkler under 30 grader.
 
@@ -625,7 +629,11 @@ $$U(\theta)=mgh=mgl$$
 
 ***
 
+<<<<<<< HEAD:Fomelsamlinger og cheatsheets/Formelsamling Fysik.md
 ##### [[Robotters Fysik/Fysisk pendul]]
+=======
+##### [[Fysik/Fysisk pendul]]
+>>>>>>> origin/main:1 Formelsamlinger/Formelsamling Fysik.md
 
 ***
 Ethvert legeme som er ophængt i et punkt som er forskudt i forhold til massemidtpunktet, kan svinge og kan beregnes med krafmoment

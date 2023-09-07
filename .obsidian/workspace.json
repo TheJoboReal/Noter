@@ -11,15 +11,24 @@
             "id": "6cfe8c182894cbc3",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "61e72b15cf24683b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -184,53 +193,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e251186949aaf4ce",
+  "active": "61e72b15cf24683b",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230905133653.png",
-    "Misc og Links/Pasted image 20230905133644.png",
-    "Misc og Links/Pasted image 20230905133626.png",
-    "Misc og Links/Pasted image 20230905133608.png",
-    "Misc og Links/Pasted image 20230905133557.png",
-    "Misc og Links/Pasted image 20230905133520.png",
-    "Misc og Links/Pasted image 20230905131729.png",
-    "Misc og Links/Pasted image 20230905121150.png",
-    "Misc og Links/Pasted image 20230905104228.png",
-    "Misc og Links/Pasted image 20230904133517.png",
-    "Misc og Links/Pasted image 20230904124753.png",
-    "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker.excalidraw.md",
-    "Calculus/Multivariable Calculus/Noter/Fourier Rækker.md",
-    "Calculus/Multivariable Calculus/Opgaver",
-    "Calculus/Multivariable Calculus/Noter",
-    "Calculus/Multivariable Calculus",
-    "Data Kommunikation/Noter/Protocols.md",
-    "Data Kommunikation/Noter/OSI model.md",
-    "Data Kommunikation/Noter",
-    "Data Kommunikation",
-    "Fomelsamlinger og cheatsheets/Elektro Formelsamling.md",
-    "Fomelsamlinger og cheatsheets/Formelsamling Kinematik.md",
+    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
     "conflict-files-obsidian-git.md",
-    "Gjendsige Spørgsmål.md",
-    "Kinematik/Joints and Links/DH Parameters.md",
-    "Kinematik/Joints and Links/Joints and Links.md",
-    "Kinematik/Building robots in matlab/2 axis 2D planar robot.md",
-    "Modbus/Intro.md",
-    "Calculus/Dæmpede-Svingninger anden ordens diff ligninger.md",
-    "Modbus Flowchart.md",
-    "C++/Inheritance/Virtual.md",
-    "C++/Inheritance/Inheritance.md",
-    "C++/Inheritance/Derived constructers.md",
-    "C++/Abstract Classes/Abstract Classes.md",
-    "Elektro fysik/Superposition.md",
-    "Elektro fysik/Tidsvarierende signaler.md",
-    "Elektro fysik/Spoler.md",
-    "Elektro fysik/Spilt power supply.md",
-    "Elektro fysik/Sinusformet signal.md",
-    "Elektro fysik/RMS Effekt.md",
-    "Elektro fysik/Komponenter og subcircuits.md",
-    "C++/Løsninger/ex04_recordCollection/src/track.h",
-    "C++/Løsninger/ex04_recordCollection/src/track.cpp",
-    "C++/Løsninger/ex04_recordCollection/src/CMakeLists.txt",
-    "C++/Løsninger/ex04_recordCollection/src/recordCollection.h",
-    "C++/Løsninger/ex04_recordCollection/src/artist.h"
+    "Microcontrollers/C/Interrupt/TIMER0 interrupt.md",
+    "Microcontrollers/C/Interrupt/TIMER0.md",
+    "Microcontrollers/C/Interrupt/Interrupt example.md",
+    "Microcontrollers/C/Interrupt/Interrupt addresses.md",
+    "Microcontrollers/C/Interrupt/External interrupt register.md",
+    "Microcontrollers/C/Interrupt/Global interrupt enable.md",
+    "Microcontrollers/Assembly/Stacks/Stacks.md",
+    "Microcontrollers/Assembly/Stacks/Stack Pointer set.md",
+    "Microcontrollers/C/Interrupt/AVR interrupt.md",
+    "Microcontrollers/Assembly/Stacks/PUSH, POP.md",
+    "Microcontrollers/Assembly/Instructions/Sub(Subtract).md",
+    "Microcontrollers/Assembly/Instructions/SUBI.md",
+    "Microcontrollers/Assembly/Subroutine/Subroutines.md",
+    "Microcontrollers/Assembly/Subroutine/RET.md",
+    "Microcontrollers/Assembly/Subroutine/CALL, RCALL.md",
+    "Microcontrollers/Assembly/Instructions/STS.md",
+    "Microcontrollers/Assembly/Instructions/Setup PORT as Input or Output.md",
+    "Microcontrollers/Assembly/Instructions/SBC.md",
+    "Microcontrollers/Assembly/Instructions/OUT (from IO).md",
+    "Microcontrollers/Assembly/Instructions/No operation(NOP).md",
+    "Microcontrollers/Assembly/Instructions/Multiplication.md",
+    "Microcontrollers/Assembly/Instructions/MOV.md",
+    "Microcontrollers/Assembly/Instructions/Loops.md",
+    "Microcontrollers/Assembly/Instructions/LDS and LDI.md",
+    "Microcontrollers/C/Interrupt",
+    "Microcontrollers/Assembly/Stacks",
+    "Microcontrollers/Assembly/Subroutine",
+    "Microcontrollers/Assembly/Instructions",
+    "Microcontrollers/Assembly/Directives",
+    "Microcontrollers/C",
+    "Microcontrollers/Microcontrollers",
+    "Microcontrollers/Boolean algebra",
+    "Microcontrollers/ATmega32",
+    "Microcontrollers/Assembly",
+    "Misc og Links/Pasted image 20230907114342.png",
+    "Misc og Links/Pasted image 20230907101415.png",
+    "Misc og Links/Pasted image 20230907101345.png",
+    "Misc og Links/Pasted image 20230907101254.png",
+    "Misc og Links/Pasted image 20230907100754.png",
+    "Misc og Links/Pasted image 20230907094228.png",
+    "Misc og Links/Pasted image 20230907090733.png",
+    "Misc og Links/Pasted image 20230907085351.png",
+    "Misc og Links/Pasted image 20230907084817.png",
+    "Misc og Links/Pasted image 20230907083733.png"
   ]
 }
