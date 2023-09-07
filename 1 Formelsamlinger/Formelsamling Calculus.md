@@ -843,3 +843,4 @@ hvor $f$ er en kontinuerlig funktion.
 ##### Overføringsfunktion
 ![[Pasted image 20230907101254.png]]
 ![[Pasted image 20230907101415.png]]
+![[Pasted image 20230907114342.png]]
