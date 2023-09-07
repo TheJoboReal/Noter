@@ -842,5 +842,6 @@ hvor $f$ er en kontinuerlig funktion.
 
 ##### Overføringsfunktion
 ![[Pasted image 20230907101254.png]]
+Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomeret output.
 ![[Pasted image 20230907101415.png]]
 ![[Pasted image 20230907114342.png]]

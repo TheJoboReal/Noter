@@ -10,6 +10,7 @@
           {
             "id": "9f566b2e4d4240fc",
             "type": "tabs",
+            "dimension": 35.059422750424446,
             "children": [
               {
                 "id": "ce0f41073acd3fff",
@@ -51,6 +52,7 @@
           {
             "id": "b854109a052fbd9f",
             "type": "tabs",
+            "dimension": 64.94057724957555,
             "children": [
               {
                 "id": "b49d4e13b4b69ea4",
@@ -234,7 +236,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ce0f41073acd3fff",
+  "active": "b49d4e13b4b69ea4",
   "lastOpenFiles": [
     "1 Formelsamlinger/Matlab addons.md",
     "1 Formelsamlinger/Formelsamling Calculus.md",
