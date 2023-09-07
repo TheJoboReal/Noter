@@ -820,7 +820,7 @@ $A_{n}=\sqrt{ a²_{n}+b²_{n} }$        og         $\phi_{n}=\tan^{-1}\left( \fr
 
 
 ##### Dirac delta funktion
-![[Pasted image 20230906144408.png]]
+
 En Dirac delta-funktion $\delta(t)$, som er et meget kort og kraftig signal der er uendelig høj og uendelig smal.
 $$
 \int_{-\infty}^{\infty} f(t) \delta(t-t_{0}) \, dt=f(t_{0}) 
@@ -830,3 +830,4 @@ $$
 \int_{-\infty}^{\infty} \delta(t-t_{0}) \, dt=1 
 $$
 hvor $f$ er en kontinuerlig funktion.
+#### Laplace transformation

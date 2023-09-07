@@ -4,43 +4,60 @@
     "type": "split",
     "children": [
       {
-        "id": "9f566b2e4d4240fc",
-        "type": "tabs",
+        "id": "37584e593e1d4cc0",
+        "type": "split",
         "children": [
           {
-            "id": "07b9f240991a461e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md"
+            "id": "9f566b2e4d4240fc",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "07b9f240991a461e",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "ce0f41073acd3fff",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                },
+                "group": "4773663666698fe6"
               }
-            }
+            ],
+            "currentTab": 1
           },
           {
-            "id": "2a28c09520462c2f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 4.excalidraw.md"
+            "id": "91eeac635e176458",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "6d336fface4548a6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                },
+                "group": "4773663666698fe6"
               }
-            }
-          },
-          {
-            "id": "bd84db32c6c68751",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
+            ]
           }
         ],
-        "currentTab": 2
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -98,8 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5,
-    "collapsed": true
+    "width": 356.5
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -206,12 +222,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bd84db32c6c68751",
+  "active": "6d336fface4548a6",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230906144408.png",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 4.excalidraw.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20230906144408.png",
     "Misc og Links/Pasted image 20230906143121.png",
     "Misc og Links/Pasted image 20230906143106.png",
     "Misc og Links/Pasted image 20230906142938.png",
@@ -236,7 +252,6 @@
     "Elektronik/Emner",
     "Data Kommunikation/Noter/OSI model.md",
     "Misc og Links/Pasted image 20230905133653.png",
-    "Misc og Links/Pasted image 20230905133644.png",
     "1 Formelsamlinger/Elektro Formelsamling.md",
     "Calculus/Multivariable Calculus/Noter/Fourier Rækker.md",
     "Bachelor 3th Semester/Data Kommunikation/Noter/Untitled",
