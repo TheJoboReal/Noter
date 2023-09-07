@@ -4,31 +4,73 @@
     "type": "split",
     "children": [
       {
-        "id": "3367a99a21235b00",
-        "type": "tabs",
+        "id": "b53ea8ca0a33d689",
+        "type": "split",
         "children": [
           {
-            "id": "6cfe8c182894cbc3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
+            "id": "9f566b2e4d4240fc",
+            "type": "tabs",
+            "dimension": 35.059422750424446,
+            "children": [
+              {
+                "id": "ce0f41073acd3fff",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                    "mode": "source",
+                    "source": true
+                  }
+                },
+                "group": "5d14e6530e52d137"
+              },
+              {
+                "id": "f2c6de951c595363",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Calculus/Multivariable Calculus/Opgaver/Laplace/Opgave 2.1 Laplace.excalidraw.md"
+                  }
+                }
+              },
+              {
+                "id": "bd6ebbc105d3f43c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1 Formelsamlinger/Matlab addons.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                }
+              }
+            ]
           },
           {
-            "id": "61e72b15cf24683b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
-                "source": false
+            "id": "b854109a052fbd9f",
+            "type": "tabs",
+            "dimension": 64.94057724957555,
+            "children": [
+              {
+                "id": "b49d4e13b4b69ea4",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                    "mode": "preview",
+                    "source": true
+                  }
+                },
+                "group": "5d14e6530e52d137"
               }
-            }
+            ]
           }
         ],
-        "currentTab": 1
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -57,7 +99,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "timer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -86,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 306.5
+    "width": 356.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -102,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md"
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
               }
             }
           },
@@ -193,53 +236,53 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "61e72b15cf24683b",
+  "active": "ce0f41073acd3fff",
   "lastOpenFiles": [
-    "Fomelsamlinger og cheatsheets/Formelsamling Calculus.md",
-    "conflict-files-obsidian-git.md",
-    "Microcontrollers/C/Interrupt/TIMER0 interrupt.md",
-    "Microcontrollers/C/Interrupt/TIMER0.md",
-    "Microcontrollers/C/Interrupt/Interrupt example.md",
-    "Microcontrollers/C/Interrupt/Interrupt addresses.md",
-    "Microcontrollers/C/Interrupt/External interrupt register.md",
-    "Microcontrollers/C/Interrupt/Global interrupt enable.md",
-    "Microcontrollers/Assembly/Stacks/Stacks.md",
-    "Microcontrollers/Assembly/Stacks/Stack Pointer set.md",
-    "Microcontrollers/C/Interrupt/AVR interrupt.md",
-    "Microcontrollers/Assembly/Stacks/PUSH, POP.md",
-    "Microcontrollers/Assembly/Instructions/Sub(Subtract).md",
-    "Microcontrollers/Assembly/Instructions/SUBI.md",
-    "Microcontrollers/Assembly/Subroutine/Subroutines.md",
-    "Microcontrollers/Assembly/Subroutine/RET.md",
-    "Microcontrollers/Assembly/Subroutine/CALL, RCALL.md",
-    "Microcontrollers/Assembly/Instructions/STS.md",
-    "Microcontrollers/Assembly/Instructions/Setup PORT as Input or Output.md",
-    "Microcontrollers/Assembly/Instructions/SBC.md",
-    "Microcontrollers/Assembly/Instructions/OUT (from IO).md",
-    "Microcontrollers/Assembly/Instructions/No operation(NOP).md",
-    "Microcontrollers/Assembly/Instructions/Multiplication.md",
-    "Microcontrollers/Assembly/Instructions/MOV.md",
-    "Microcontrollers/Assembly/Instructions/Loops.md",
-    "Microcontrollers/Assembly/Instructions/LDS and LDI.md",
-    "Microcontrollers/C/Interrupt",
-    "Microcontrollers/Assembly/Stacks",
-    "Microcontrollers/Assembly/Subroutine",
-    "Microcontrollers/Assembly/Instructions",
-    "Microcontrollers/Assembly/Directives",
-    "Microcontrollers/C",
-    "Microcontrollers/Microcontrollers",
-    "Microcontrollers/Boolean algebra",
-    "Microcontrollers/ATmega32",
-    "Microcontrollers/Assembly",
-    "Misc og Links/Pasted image 20230907114342.png",
-    "Misc og Links/Pasted image 20230907101415.png",
-    "Misc og Links/Pasted image 20230907101345.png",
-    "Misc og Links/Pasted image 20230907101254.png",
-    "Misc og Links/Pasted image 20230907100754.png",
-    "Misc og Links/Pasted image 20230907094228.png",
-    "Misc og Links/Pasted image 20230907090733.png",
-    "Misc og Links/Pasted image 20230907085351.png",
-    "Misc og Links/Pasted image 20230907084817.png",
-    "Misc og Links/Pasted image 20230907083733.png"
+    "Robotters Fysik/Tabeller/restitutionskoefficient.md",
+    "Robotters Fysik/Tabeller/Densitet.md",
+    "Robotters Fysik/PDF powerpoints/Lektion 1-Intro.pdf",
+    "Robotters Fysik/Eksamen/Matematisk pendul.png",
+    "Robotters Fysik/Eksamen/Matematisk pendul.md",
+    "Robotters Fysik/Eksamen/Flytningsformel.png",
+    "Robotters Fysik/Eksamen/Flytningsformel.md",
+    "Robotters Fysik/Bevægelsesmængder/Elastisk stød.md",
+    "Robotters Fysik/Bevægelsesmængder/Bevægelsesmængde.md",
+    "Robotters Fysik/Bevægelsesmængder/Bevægelsesmængde for et partikel.md",
+    "Robotters Fysik/Vigtige formler.md",
+    "Robotters Fysik/Tvungne Svingninger.md",
+    "Robotters Fysik/Tabeller",
+    "Robotters Fysik/Stift legemes Rotation.md",
+    "Robotters Fysik/Rulning.md",
+    "Robotters Fysik/Potentiel og kinetisk energi.md",
+    "Robotters Fysik/Pendul i store vinkler.md",
+    "Robotters Fysik/PDF powerpoints",
+    "Robotters Fysik/Matematisk Pendul.md",
+    "Robotters Fysik/Kraftmoment..md",
+    "Robotters Fysik/Inertimoment og flytningsmoment.md",
+    "Robotters Fysik/Harmoniske bevægelser.md",
+    "Robotters Fysik/Fysisk pendul.md",
+    "Robotters Fysik/Flytningsmoment.md",
+    "Robotters Fysik/Eksamen",
+    "Robotters Fysik/Effekt og arbejde.md",
+    "Robotters Fysik/Dæmpede svingninger.md",
+    "Robotters Fysik/Bevægelsesmængder",
+    "Robotters Fysik",
+    "Modbus/Intro.md",
+    "Modbus",
+    "Elektro fysik/Eksamen/Transistor.md",
+    "Elektro fysik/Eksamen/Thevening.md",
+    "Elektro fysik/Eksamen/Spændingsdeler.png",
+    "Elektro fysik/Eksamen/Spændings og strøm deler.md",
+    "Elektro fysik/Eksamen/Spole.png",
+    "Elektro fysik/Eksamen/Spole.md",
+    "Elektro fysik/Eksamen/Resonans.png",
+    "Elektro fysik/Eksamen/OpAfLadning.excalidraw.png",
+    "Elektro fysik/Eksamen/Ohms Lov Serie og Parallel.png",
+    "Elektro fysik/Eksamen/Maskemetoden.png",
+    "Elektro fysik/Eksamen/Kondensator.png",
+    "Elektro fysik/Eksamen/Knudepunktmetoden.png",
+    "Elektro fysik/Opgaver",
+    "Elektro fysik/Eksamen",
+    "Elektro fysik"
   ]
 }
