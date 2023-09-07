@@ -12,16 +12,6 @@
             "type": "tabs",
             "children": [
               {
-                "id": "07b9f240991a461e",
-                "type": "leaf",
-                "state": {
-                  "type": "excalidraw",
-                  "state": {
-                    "file": "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md"
-                  }
-                }
-              },
-              {
                 "id": "ce0f41073acd3fff",
                 "type": "leaf",
                 "state": {
@@ -34,8 +24,7 @@
                 },
                 "group": "4773663666698fe6"
               }
-            ],
-            "currentTab": 1
+            ]
           },
           {
             "id": "91eeac635e176458",
@@ -115,7 +104,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 356.5
+    "width": 356.5,
+    "collapsed": true
   },
   "right": {
     "id": "e1f7c6f4feb9a2f6",
@@ -222,9 +212,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6d336fface4548a6",
+  "active": "ce0f41073acd3fff",
   "lastOpenFiles": [
+    "Calculus/Multivariable Calculus/Noter/Superpositionsprincippet.md",
+    "Misc og Links/Pasted image 20230907083037.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20230907082943.png",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 3.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 4.excalidraw.md",
     "Misc og Links/Pasted image 20230906144408.png",
@@ -238,7 +231,6 @@
     "Misc og Links/Pasted Image 20230906131448_707.png",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Opgave 1.excalidraw.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker/Untitled.md",
-    "Misc og Links/Pasted Image 20230906124936_436.png",
     "conflict-files-obsidian-git.md",
     "Calculus/Multivariable Calculus/Opgaver/Fourier Rækker",
     "Data Kommunikation/Noter/Protocols.md",
@@ -251,7 +243,6 @@
     "C++/Modbus/Intro.md",
     "Elektronik/Emner",
     "Data Kommunikation/Noter/OSI model.md",
-    "Misc og Links/Pasted image 20230905133653.png",
     "1 Formelsamlinger/Elektro Formelsamling.md",
     "Calculus/Multivariable Calculus/Noter/Fourier Rækker.md",
     "Bachelor 3th Semester/Data Kommunikation/Noter/Untitled",
@@ -267,7 +258,6 @@
     "Calculus/Matricer.md",
     "Gjendsige Spørgsmål.md",
     "Linux Terminal commands.md",
-    "Modbus Flowchart.md",
-    "C++/Read & Write to file/Read and Write class to file example.md"
+    "Modbus Flowchart.md"
   ]
 }
