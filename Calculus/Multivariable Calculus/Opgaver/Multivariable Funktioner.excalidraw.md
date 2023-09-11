@@ -15,6 +15,7 @@ tags: [excalidraw]
 dd66fcadae036420705fc31c85c692552b028922: [[Pasted Image 20230911145331_061.png]]
 bee6f3d4bc76f6914510000ec6782b2a156ecf50: [[Pasted Image 20230911150432_213.png]]
 72210b6c8419322c452b46b9ebcfc9f243a0dae3: [[Pasted Image 20230911153230_852.png]]
+5406412bd85cb28f20433638781fec51546be2c8: [[Pasted Image 20230911153746_907.png]]
 
 %%
 # Drawing
@@ -77143,6 +77144,38 @@ bee6f3d4bc76f6914510000ec6782b2a156ecf50: [[Pasted Image 20230911150432_213.png]
 				1,
 				1
 			]
+		},
+		{
+			"id": "1q7bVlQUoyG852RPVUVZJ",
+			"type": "image",
+			"x": -749.4567894119011,
+			"y": 4765.188010618163,
+			"width": 560.9296287714047,
+			"height": 305.79998779296875,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"roundness": null,
+			"seed": 193492399,
+			"version": 121,
+			"versionNonce": 890310945,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1694439475251,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "5406412bd85cb28f20433638781fec51546be2c8",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -77160,8 +77193,8 @@ bee6f3d4bc76f6914510000ec6782b2a156ecf50: [[Pasted Image 20230911150432_213.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 994.5407155905893,
-		"scrollY": -4002.1504968852532,
+		"scrollX": 939.3289297972849,
+		"scrollY": -3960.08434621997,
 		"zoom": {
 			"value": 1
 		},
