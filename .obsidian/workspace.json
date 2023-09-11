@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ønskelist.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -93,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Ønskelist.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ønskelist.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,11 +134,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ønskelist.md"
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
               }
             }
+          },
+          {
+            "id": "c426248791ecd4a3",
+            "type": "leaf",
+            "state": {
+              "type": "mathpad-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -159,8 +169,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a428545083e6b13",
+  "active": "c426248791ecd4a3",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230911123103.png",
+    "Misc og Links/Pasted image 20230911122844.png",
     "Ønskelist.md"
   ]
 }

@@ -845,3 +845,8 @@ hvor $f$ er en kontinuerlig funktion.
 Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomeret output.
 ![[Pasted image 20230907101415.png]]
 ![[Pasted image 20230907114342.png]]
+#### Multivariable Funktioner
+##### Limits on Mulivariable Functions
+![[Pasted image 20230911122844.png]]
+##### Level Curves
+![[Pasted image 20230911123103.png]]
