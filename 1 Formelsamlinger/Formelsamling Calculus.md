@@ -855,3 +855,11 @@ Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomere
 
 ##### Tangent Plane
 ![[Pasted image 20230911130719.png]]
+or $z=z_{0}+f'_{x}(x_{0},y_{0}){}(x-x_{0})+f'_{y}(x_{0},y_{0}){}(y-y_{0})$
+
+##### Distance from point to plane
+![[Pasted image 20230911133917.png]]
+or $dist(P,a)=\frac{|a\cdot x_{1}+b\cdot y_{1}+c\cdot z_{1}+d|}{\sqrt{ a²+b²+c² }}$ hvor a,b,c er planets tangentvektor.
+
+##### Higher order derivatives
+![[Pasted image 20230911134453.png]]
