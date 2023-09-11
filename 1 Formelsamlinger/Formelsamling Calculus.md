@@ -850,3 +850,6 @@ Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomere
 ##### Level Curves
 ![[Pasted image 20230911123103.png]]
 ![[Pasted image 20230911124540.png|1000]]
+
+##### Tangent Plane
+![[Pasted image 20230911130719.png]]
