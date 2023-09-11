@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md"
               }
             }
           },
@@ -179,13 +180,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a428545083e6b13",
+  "active": "cebe57feb2b8be36",
   "lastOpenFiles": [
+    "Misc og Links/Pasted Image 20230911150432_213.png",
+    "Misc og Links/Pasted Image 20230911145331_061.png",
+    "Misc og Links/Pasted Image 20230911143553_934.png",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Misc og Links/Pasted image 20230911134453.png",
     "Misc og Links/Pasted image 20230911133917.png",
     "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md",
     "Misc og Links/Pasted Image 20230911133751_600.png",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Untitled.md",
     "Calculus/Multivariable Calculus/Opgaver/Untitled",
     "Misc og Links/Pasted image 20230911130719.png",
