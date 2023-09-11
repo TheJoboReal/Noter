@@ -724,7 +724,6 @@ $$
 
 
 ### Komplekse tal
-
 ##### De Moivre
 
 ***
