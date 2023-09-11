@@ -845,6 +845,8 @@ Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomere
 ![[Pasted image 20230907101415.png]]
 ![[Pasted image 20230907114342.png]]
 #### Multivariable Funktioner
+##### Domæner og Ranges
+>Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
 ##### Limits on Mulivariable Functions
 ![[Pasted image 20230911122844.png]]
 ##### Level Curves
