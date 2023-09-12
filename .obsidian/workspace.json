@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
+                "file": "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
+                "file": "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
+                "file": "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md"
+                "file": "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md"
               }
             }
           },
@@ -181,10 +181,23 @@
   },
   "active": "1a428545083e6b13",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230912132640.png",
+    "Data Kommunikation/Noter/Line coding/Multilevel/Multitransition MLT-3.md",
+    "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
+    "Misc og Links/Pasted image 20230912132314.png",
+    "Data Kommunikation/Noter/Line coding/Multilevel/4D-PAM5.md",
+    "Misc og Links/Pasted image 20230912132101.png",
+    "Data Kommunikation/Noter/Line coding/Multilevel/8B6T.md",
+    "Data Kommunikation/Noter/Line coding/Multilevel/Definittion 2B1Q.md",
+    "Misc og Links/Pasted image 20230912131534.png",
+    "Data Kommunikation/Noter/Line coding/Multilevel",
+    "Misc og Links/Pasted image 20230912131318.png",
+    "Data Kommunikation/Noter/Line coding/Bipolar AMI & Pseudoternary.md",
+    "Misc og Links/Pasted image 20230912130923.png",
+    "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
     "Data Kommunikation/Noter/Line coding/Polar RZ.md",
     "Data Kommunikation/Noter/Line coding/Polar NRZ.md",
     "Data Kommunikation/Noter/Line coding/Unipolar NRZ.md",
-    "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
     "Misc og Links/Pasted image 20230912125510.png",
     "Misc og Links/Pasted image 20230912125448.png",
     "Misc og Links/Pasted image 20230912125414.png",
@@ -195,16 +208,11 @@
     "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
     "Misc og Links/Pasted image 20230912124122.png",
     "Data Kommunikation/Noter/Noise/Noiseless channel.md",
-    "Misc og Links/Pasted image 20230912123358.png",
     "Data Kommunikation/Noter/Noise/Transmission Distrortion.md",
     "Data Kommunikation/Noter/Protocols.md",
     "Data Kommunikation/Noter/OSI model.md",
     "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md",
-    "Misc og Links/Pasted image 20230912122206.png",
     "Data Kommunikation/Noter/Digital to Digital Conversion",
-    "Misc og Links/Pasted image 20230912121947.png",
-    "Misc og Links/Pasted image 20230912121348.png",
-    "Misc og Links/Pasted image 20230912121232.png",
     "Data Kommunikation/Noter/Noise",
     "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Untitled.md",
