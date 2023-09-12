@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md",
+                "file": "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md",
+                "file": "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md",
+                "file": "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md"
+                "file": "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md"
               }
             }
           },
@@ -179,14 +179,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d7de1ef2807bd2b",
+  "active": "1a428545083e6b13",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230912124122.png",
+    "Data Kommunikation/Noter/Line coding/Polar RZ.md",
+    "Data Kommunikation/Noter/Line coding/Polar NRZ.md",
+    "Data Kommunikation/Noter/Line coding/Unipolar NRZ.md",
+    "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
+    "Misc og Links/Pasted image 20230912125510.png",
+    "Misc og Links/Pasted image 20230912125448.png",
+    "Misc og Links/Pasted image 20230912125414.png",
+    "Misc og Links/Pasted image 20230912125334.png",
+    "Data Kommunikation/Noter/Line coding/Line Coding.md",
+    "Data Kommunikation/Noter/Line coding",
     "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
-    "Data Kommunikation/Noter/Noise/Noiseless channel.md",
     "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
+    "Misc og Links/Pasted image 20230912124122.png",
+    "Data Kommunikation/Noter/Noise/Noiseless channel.md",
     "Misc og Links/Pasted image 20230912123358.png",
-    "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md",
     "Data Kommunikation/Noter/Noise/Transmission Distrortion.md",
     "Data Kommunikation/Noter/Protocols.md",
     "Data Kommunikation/Noter/OSI model.md",
@@ -196,13 +205,8 @@
     "Misc og Links/Pasted image 20230912121947.png",
     "Misc og Links/Pasted image 20230912121348.png",
     "Misc og Links/Pasted image 20230912121232.png",
-    "Misc og Links/Pasted image 20230912121125.png",
     "Data Kommunikation/Noter/Noise",
-    "Misc og Links/Pasted image 20230912121032.png",
-    "Misc og Links/Pasted image 20230912121021.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
-    "Misc og Links/Pasted Image 20230911153746_907.png",
-    "Misc og Links/Pasted Image 20230911153230_852.png",
     "Calculus/Multivariable Calculus/Opgaver/Untitled.md",
     "Calculus/Multivariable Calculus/Opgaver/Untitled",
     "Ønskelist.md"
