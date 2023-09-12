@@ -13,19 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cebe57feb2b8be36",
+            "id": "49f95a95289139bc",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md"
+                "file": "Data Kommunikation/Noter/Noise/Noiseless channel.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -79,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md"
               }
             }
           },
@@ -161,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,22 +179,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a428545083e6b13",
+  "active": "8d7de1ef2807bd2b",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230912124122.png",
+    "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
+    "Data Kommunikation/Noter/Noise/Noiseless channel.md",
+    "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
+    "Misc og Links/Pasted image 20230912123358.png",
+    "Data Kommunikation/Noter/Digital to Digital Conversion/Line Coding.md",
+    "Data Kommunikation/Noter/Noise/Transmission Distrortion.md",
+    "Data Kommunikation/Noter/Protocols.md",
+    "Data Kommunikation/Noter/OSI model.md",
     "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md",
+    "Misc og Links/Pasted image 20230912122206.png",
+    "Data Kommunikation/Noter/Digital to Digital Conversion",
+    "Misc og Links/Pasted image 20230912121947.png",
+    "Misc og Links/Pasted image 20230912121348.png",
+    "Misc og Links/Pasted image 20230912121232.png",
+    "Misc og Links/Pasted image 20230912121125.png",
+    "Data Kommunikation/Noter/Noise",
+    "Misc og Links/Pasted image 20230912121032.png",
+    "Misc og Links/Pasted image 20230912121021.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
     "Misc og Links/Pasted Image 20230911153746_907.png",
     "Misc og Links/Pasted Image 20230911153230_852.png",
-    "Misc og Links/Pasted Image 20230911150432_213.png",
-    "Misc og Links/Pasted Image 20230911145331_061.png",
-    "Misc og Links/Pasted Image 20230911143553_934.png",
-    "Misc og Links/Pasted image 20230911134453.png",
-    "Misc og Links/Pasted image 20230911133917.png",
-    "Misc og Links/Pasted Image 20230911133751_600.png",
     "Calculus/Multivariable Calculus/Opgaver/Untitled.md",
     "Calculus/Multivariable Calculus/Opgaver/Untitled",
-    "Misc og Links/Pasted image 20230911130719.png",
-    "Misc og Links/Pasted image 20230911124540.png",
     "Ønskelist.md"
   ]
 }
