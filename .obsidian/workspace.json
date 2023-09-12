@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
+                "file": "Data Kommunikation/Opgaver/Lektion 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "4d29d0a80fec2864",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c0c023c7afb7c7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Kommunikation/Noter/Transmission Impairment/Attenuation.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +43,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Noise/Noiseless channel.md",
+                "file": "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "05a725e59bda8e6c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +112,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -105,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
+                "file": "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
+                "file": "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md"
+                "file": "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md"
               }
             }
           },
@@ -162,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -179,11 +212,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1a428545083e6b13",
+  "active": "49f95a95289139bc",
   "lastOpenFiles": [
+    "Data Kommunikation/Noter/Noise/Transmission Distrortion.md",
+    "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
+    "Data Kommunikation/Noter/Transmission Impairment/Attenuation.md",
+    "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
+    "Data Kommunikation/Opgaver/Lektion 2.md",
+    "Data Kommunikation/Noter/Noise/Noiseless channel.md",
+    "Misc og Links/Pasted image 20230912135622.png",
+    "Misc og Links/Pasted image 20230912135557.png",
+    "Data Kommunikation/Noter/Transmission Impairment",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/questions-kom-02.pdf",
+    "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
     "Misc og Links/Pasted image 20230912132640.png",
     "Data Kommunikation/Noter/Line coding/Multilevel/Multitransition MLT-3.md",
-    "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
     "Misc og Links/Pasted image 20230912132314.png",
     "Data Kommunikation/Noter/Line coding/Multilevel/4D-PAM5.md",
     "Misc og Links/Pasted image 20230912132101.png",
@@ -200,21 +244,13 @@
     "Data Kommunikation/Noter/Line coding/Unipolar NRZ.md",
     "Misc og Links/Pasted image 20230912125510.png",
     "Misc og Links/Pasted image 20230912125448.png",
-    "Misc og Links/Pasted image 20230912125414.png",
-    "Misc og Links/Pasted image 20230912125334.png",
     "Data Kommunikation/Noter/Line coding/Line Coding.md",
     "Data Kommunikation/Noter/Line coding",
-    "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
-    "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
-    "Misc og Links/Pasted image 20230912124122.png",
-    "Data Kommunikation/Noter/Noise/Noiseless channel.md",
-    "Data Kommunikation/Noter/Noise/Transmission Distrortion.md",
     "Data Kommunikation/Noter/Protocols.md",
     "Data Kommunikation/Noter/OSI model.md",
     "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md",
     "Data Kommunikation/Noter/Digital to Digital Conversion",
     "Data Kommunikation/Noter/Noise",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Untitled.md",
     "Calculus/Multivariable Calculus/Opgaver/Untitled",
     "Ønskelist.md"
