@@ -35,6 +35,12 @@ H(s)=\frac{\left( \frac{s}{6000} \right)⁴}{(1+0.7654\cdot\frac{s}{6000}+(\frac
 $$
 Vi kan nu plotte det i matlab.
 ```matlab
+clear
 
+s= tf('s')
+
+h=(s/6000)^4/((1+0.7654*(s/6000)+(s/6000)^2)*(1+1.8478*(s/6000)+(s/6000)^2));
+
+bode(h)
 ```
-^
+![](file:////tmp/ConnectorClipboard7636333817782471186/image16946836001820.png)
