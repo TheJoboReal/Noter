@@ -42,8 +42,22 @@ s= tf('s')
 h=(s/6000)^4/((1+0.7654*(s/6000)+(s/6000)^2)*(1+1.8478*(s/6000)+(s/6000)^2));
 
 bode(h)
+
+f3 = @(x) sin(x * 10000);
+
+t = 1:0.0000001:1.15;
+
+  
+
+lsim(h,f3(t),t)
 ```
 ![](file:////tmp/ConnectorClipboard7636333817782471186/image16946836001820.png)
 
+5.000Hz
+![](file:////tmp/ConnectorClipboard7636333817782471186/image16946852926470.png)
+
+10.000Hz
+![](file:////tmp/ConnectorClipboard7636333817782471186/image16946850999200.png)
+Vi kan se at ved en frekvens på 10.000Hz så bløder den helt ud fordi den frekvens er uden for vore dæmpnings område.
 ***
 1.2 Chebyshev
