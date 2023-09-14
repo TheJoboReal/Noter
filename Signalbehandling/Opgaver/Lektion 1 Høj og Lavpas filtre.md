@@ -1,5 +1,5 @@
 ![[Lektion1Opgaver.pdf]]
-1.1
+1.1Butterworth
 Vi finder stopbåndsfrekvensen ved at nomere: $\frac{\omega_{a}}{\omega_{s}}=\frac{6000}{1200}=5$.
 Vi kan nu kigge i tabellen og finde et filter som passer.
 Vi aflæser i [[Butterworth]] tabellen og ser at en filterorden på 4 passer til vores udregning.
@@ -44,3 +44,6 @@ h=(s/6000)^4/((1+0.7654*(s/6000)+(s/6000)^2)*(1+1.8478*(s/6000)+(s/6000)^2));
 bode(h)
 ```
 ![](file:////tmp/ConnectorClipboard7636333817782471186/image16946836001820.png)
+
+***
+1.2 Chebyshev
