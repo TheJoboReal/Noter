@@ -19,3 +19,17 @@ $$V_{S}=4Khz\cdot \log_{2}(1+\frac{10V}{5mV})\approx40000\frac{bit}{sec}$$
 2.1 One data element can contain multiple signal elements to form one bit.
 
 2.2 Data rate is bits per second, ie the amount of data we can transfer. Signal rate is the amount of signalchanges in a second.
+
+2.3 We use the formula for signal rate [[Signal rate]] 
+$$
+S_{Case_{1}}=\frac{1}{2}\cdot 1Mbps\cdot\frac{1}{1}=500000Hz
+$$
+$$
+S_{Case_{2}}=\frac{1}{2}\cdot 1Mbps\cdot\frac{1}{\frac{1}{2}}=1000000Hz
+$$
+$$
+S_{Case_{3}}=\frac{1}{2}\cdot 1Mbps\cdot\frac{1}{2}=250000Hz
+$$
+$$
+S_{Case_{4}}=\frac{1}{2}\cdot 1Mbps\cdot \frac{1}{\frac{4}{3}}=375000Hz
+$$

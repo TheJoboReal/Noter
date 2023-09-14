@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c40d35b7703d6003",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.11"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "4d29d0a80fec2864",
@@ -43,7 +54,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
+                "file": "Data Kommunikation/Noter/Noise/Signal rate.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
+                "file": "Data Kommunikation/Opgaver/Lektion 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
+                "file": "Data Kommunikation/Opgaver/Lektion 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +188,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md"
+                "file": "Data Kommunikation/Opgaver/Lektion 2.md"
               }
             }
           },
@@ -188,14 +199,23 @@
               "type": "mathpad-view",
               "state": {}
             }
+          },
+          {
+            "id": "98c03e6ae032a5df",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -212,13 +232,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "49f95a95289139bc",
+  "active": "c426248791ecd4a3",
   "lastOpenFiles": [
-    "Data Kommunikation/Noter/Noise/Transmission Distrortion.md",
-    "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
-    "Data Kommunikation/Noter/Transmission Impairment/Attenuation.md",
+    "Data Kommunikation/Noter/Noise/Signal rate.md",
     "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
+    "Data Kommunikation/Noter/Transmission Impairment/Attenuation.md",
     "Data Kommunikation/Opgaver/Lektion 2.md",
+    "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
+    "Data Kommunikation/Noter/Noise/Transmission Distrortion.md",
     "Data Kommunikation/Noter/Noise/Noiseless channel.md",
     "Misc og Links/Pasted image 20230912135622.png",
     "Misc og Links/Pasted image 20230912135557.png",
