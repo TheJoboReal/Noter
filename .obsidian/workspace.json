@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md",
+                "file": "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md",
+                "file": "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md",
+                "file": "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md"
+                "file": "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md"
               }
             }
           },
@@ -180,11 +180,16 @@
   },
   "active": "a4a44da709971526",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230914085411.png",
+    "Misc og Links/Pasted image 20230914085400.png",
+    "Misc og Links/Pasted image 20230914084914.png",
+    "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md",
+    "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
+    "Misc og Links/Pasted image 20230914084846.png",
     "Misc og Links/Pasted image 20230914082443.png",
     "Signalbehandling/Noter/Elektroniske Filtre",
     "Signalbehandling/Opgaver",
     "Signalbehandling/Noter",
-    "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md",
     "Signalbehandling",
     "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
     "Data Kommunikation/Noter/Noise/Signal rate.md",
@@ -208,15 +213,11 @@
     "Data Kommunikation/Noter/Line coding/Multilevel/Definittion 2B1Q.md",
     "Misc og Links/Pasted image 20230912131534.png",
     "Data Kommunikation/Noter/Line coding/Multilevel",
-    "Misc og Links/Pasted image 20230912131318.png",
     "Data Kommunikation/Noter/Line coding/Bipolar AMI & Pseudoternary.md",
-    "Misc og Links/Pasted image 20230912130923.png",
     "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
     "Data Kommunikation/Noter/Line coding/Polar RZ.md",
     "Data Kommunikation/Noter/Line coding/Polar NRZ.md",
     "Data Kommunikation/Noter/Line coding/Unipolar NRZ.md",
-    "Misc og Links/Pasted image 20230912125510.png",
-    "Misc og Links/Pasted image 20230912125448.png",
     "Data Kommunikation/Noter/Line coding/Line Coding.md",
     "Data Kommunikation/Noter/Line coding",
     "Data Kommunikation/Noter/Protocols.md",
@@ -224,7 +225,6 @@
     "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md",
     "Data Kommunikation/Noter/Digital to Digital Conversion",
     "Data Kommunikation/Noter/Noise",
-    "Calculus/Multivariable Calculus/Opgaver/Untitled.md",
-    "Ønskelist.md"
+    "Calculus/Multivariable Calculus/Opgaver/Untitled.md"
   ]
 }
