@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til Højpasfilter.md",
+                "file": "Signalbehandling/Opgaver/Lektion 1 Høj og Lavpas filtre.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8d60ff8903db6faf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til båndpasfilter.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til Højpasfilter.md",
+                "file": "Signalbehandling/Opgaver/Lektion 1 Høj og Lavpas filtre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til Højpasfilter.md",
+                "file": "Signalbehandling/Opgaver/Lektion 1 Høj og Lavpas filtre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til Højpasfilter.md"
+                "file": "Signalbehandling/Opgaver/Lektion 1 Høj og Lavpas filtre.md"
               }
             }
           },
@@ -160,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,26 +191,29 @@
   },
   "active": "a4a44da709971526",
   "lastOpenFiles": [
+    "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til båndpasfilter.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Højpasfilter.md",
+    "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til Højpasfilter.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Valg af filter.md",
+    "Signalbehandling/Opgaver/Lektion 1 Høj og Lavpas filtre.md",
+    "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Chebyshevfilter.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Butterworth.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til Højpasfilter.md",
-    "Misc og Links/Pasted image 20230914092632.png",
-    "Misc og Links/Pasted image 20230914092547.png",
-    "Misc og Links/Pasted image 20230914092523.png",
-    "Signalbehandling/Noter/Elektroniske Filtre/Konstruktion af filter.md",
-    "Misc og Links/Pasted image 20230914092320.png",
-    "Misc og Links/Pasted image 20230914092255.png",
-    "Misc og Links/Pasted image 20230914092101.png",
-    "Misc og Links/Pasted image 20230914092044.png",
-    "Misc og Links/Pasted image 20230914091834.png",
-    "Misc og Links/Pasted image 20230914091648.png",
-    "Misc og Links/Pasted image 20230914091633.png",
-    "Signalbehandling/Noter/Elektroniske Filtre/Bessel Butterworth & Chebushev.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Bessel.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
+    "Signalbehandling/Noter/Elektroniske Filtre/Bessel Butterworth & Chebushev.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md",
+    "Signalbehandling/Noter/Elektroniske Filtre/Konstruktion af filter.md",
+    "Misc og Links/Lektion1Opgaver.pdf",
+    "Misc og Links/Pasted image 20230914094857.png",
+    "Misc og Links/Pasted image 20230914094838.png",
+    "Misc og Links/Pasted image 20230914094811.png",
+    "Misc og Links/Pasted image 20230914094800.png",
+    "Misc og Links/Pasted image 20230914094434.png",
+    "Misc og Links/Pasted image 20230914094353.png",
+    "Misc og Links/Pasted image 20230914094213.png",
+    "Misc og Links/Pasted image 20230914094158.png",
+    "Misc og Links/Pasted image 20230914093844.png",
+    "Misc og Links/Pasted image 20230914092632.png",
     "Signalbehandling/Noter/Elektroniske Filtre",
     "Signalbehandling/Opgaver",
     "Signalbehandling/Noter",
@@ -220,10 +234,7 @@
     "Data Kommunikation/Noter/Line coding/Multilevel/8B6T.md",
     "Data Kommunikation/Noter/Line coding/Multilevel/Definittion 2B1Q.md",
     "Data Kommunikation/Noter/Line coding/Multilevel",
-    "Data Kommunikation/Noter/Line coding/Bipolar AMI & Pseudoternary.md",
-    "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
     "Data Kommunikation/Noter/Line coding",
-    "Data Kommunikation/Noter/Digital to Digital Conversion",
-    "Data Kommunikation/Noter/Noise"
+    "Data Kommunikation/Noter/Digital to Digital Conversion"
   ]
 }
