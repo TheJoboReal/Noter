@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md"
+                "file": "Data Kommunikation/Noter/Data Links Layers/Burst error.md"
               }
             }
           },
@@ -180,21 +180,24 @@
   },
   "active": "8d60ff8903db6faf",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230919134423.png",
+    "Data Kommunikation/Noter/Data Links Layers/Single-Bit error.md",
+    "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
+    "Misc og Links/Pasted image 20230919134351.png",
+    "Misc og Links/Pasted image 20230919134313.png",
+    "Data Kommunikation/Noter/Data Links Layers/Data Polynomial.md",
+    "Misc og Links/Pasted image 20230919134252.png",
+    "Misc og Links/Pasted image 20230919134246.png",
+    "Misc og Links/Pasted image 20230919134241.png",
+    "Misc og Links/Pasted image 20230919134221.png",
+    "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md",
     "Misc og Links/Pasted image 20230919133514.png",
     "Misc og Links/Pasted image 20230919133507.png",
     "Misc og Links/Pasted image 20230919133120.png",
     "Data Kommunikation/Noter/Data Links Layers/Bit Error detection.md",
-    "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md",
     "Misc og Links/Pasted image 20230919131502.png",
     "Data Kommunikation/Noter/Data Links Layers/Block Coding.md",
-    "Misc og Links/Pasted image 20230919130751.png",
-    "Misc og Links/Pasted image 20230919130424.png",
     "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
-    "Misc og Links/Pasted image 20230919124536.png",
-    "Misc og Links/Pasted image 20230919124433.png",
-    "Misc og Links/Pasted image 20230919124413.png",
-    "Misc og Links/Pasted image 20230919124401.png",
-    "Misc og Links/Pasted image 20230919124331.png",
     "Data Kommunikation/Noter/Data Links Layers/ARP Request Reply example.md",
     "Data Kommunikation/Noter/Data Links Layers/ARP-Package format.md",
     "Data Kommunikation/Noter/Data Links Layers/ARP Address Resolution Protocol.md",
@@ -214,14 +217,11 @@
     "Signalbehandling/Noter/Elektroniske Filtre/Chebyshevfilter.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Bessel.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Bessel Butterworth & Chebushev.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Konstruktion af filter.md",
     "Misc og Links/Lektion1Opgaver.pdf",
     "Signalbehandling/Noter/Elektroniske Filtre",
     "Signalbehandling/Opgaver",
     "Signalbehandling/Noter",
     "Signalbehandling",
-    "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
     "Data Kommunikation/Noter/Transmission Impairment",
     "Misc og Links/questions-kom-02.pdf",
     "Data Kommunikation/Noter/Line coding/Multilevel",
