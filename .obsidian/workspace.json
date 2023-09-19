@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f057248f24c15749",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Vifm Cheatsheet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
+                "file": "Vifm Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
+                "file": "Vifm Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Burst error.md"
+                "file": "Vifm Cheatsheet.md"
               }
             }
           },
@@ -178,11 +191,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d60ff8903db6faf",
+  "active": "f057248f24c15749",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230919135740.png",
+    "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
+    "Vifm Cheatsheet.md",
     "Misc og Links/Pasted image 20230919134423.png",
     "Data Kommunikation/Noter/Data Links Layers/Single-Bit error.md",
-    "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
     "Misc og Links/Pasted image 20230919134351.png",
     "Misc og Links/Pasted image 20230919134313.png",
     "Data Kommunikation/Noter/Data Links Layers/Data Polynomial.md",
@@ -195,7 +210,6 @@
     "Misc og Links/Pasted image 20230919133507.png",
     "Misc og Links/Pasted image 20230919133120.png",
     "Data Kommunikation/Noter/Data Links Layers/Bit Error detection.md",
-    "Misc og Links/Pasted image 20230919131502.png",
     "Data Kommunikation/Noter/Data Links Layers/Block Coding.md",
     "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
     "Data Kommunikation/Noter/Data Links Layers/ARP Request Reply example.md",
@@ -216,7 +230,6 @@
     "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Chebyshevfilter.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Bessel.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Bessel Butterworth & Chebushev.md",
     "Misc og Links/Lektion1Opgaver.pdf",
     "Signalbehandling/Noter/Elektroniske Filtre",
     "Signalbehandling/Opgaver",
