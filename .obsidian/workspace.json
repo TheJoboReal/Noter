@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Block Coding.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Block Coding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Block Coding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Communication example.md"
+                "file": "Data Kommunikation/Noter/Data Links Layers/Block Coding.md"
               }
             }
           },
@@ -180,22 +180,24 @@
   },
   "active": "8d60ff8903db6faf",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230919130751.png",
+    "Data Kommunikation/Noter/Data Links Layers/Bit Error detection.md",
+    "Data Kommunikation/Noter/Data Links Layers/Block Coding.md",
+    "Misc og Links/Pasted image 20230919130424.png",
+    "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
     "Misc og Links/Pasted image 20230919124536.png",
     "Misc og Links/Pasted image 20230919124433.png",
     "Misc og Links/Pasted image 20230919124413.png",
     "Misc og Links/Pasted image 20230919124401.png",
     "Misc og Links/Pasted image 20230919124331.png",
     "Data Kommunikation/Noter/Data Links Layers/ARP Request Reply example.md",
-    "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
     "Misc og Links/Pasted image 20230919124257.png",
     "Data Kommunikation/Noter/Data Links Layers/ARP-Package format.md",
     "Misc og Links/Pasted image 20230919124229.png",
     "Misc og Links/Pasted image 20230919124157.png",
     "Data Kommunikation/Noter/Data Links Layers/ARP Address Resolution Protocol.md",
     "Misc og Links/Pasted image 20230919123704.png",
-    "Misc og Links/Pasted image 20230919123241.png",
     "Data Kommunikation/Noter/Data Links Layers/Three types of addresses.md",
-    "Misc og Links/Pasted image 20230919123211.png",
     "Data Kommunikation/Noter/Data Links Layers/Link-Layer Addressing.md",
     "Data Kommunikation/Noter/Data Links Layers/Two Categories of Links.md",
     "Data Kommunikation/Noter/Data Links Layers/Services.md",
@@ -220,8 +222,6 @@
     "Signalbehandling",
     "Data Kommunikation/Noter/Noise/SNR signal to noice ratio.md",
     "Data Kommunikation/Noter/Noise/Signal rate.md",
-    "Data Kommunikation/Noter/Transmission Impairment/Attenuation.md",
-    "Data Kommunikation/Opgaver/Lektion 2.md",
     "Data Kommunikation/Noter/Transmission Impairment",
     "Misc og Links/questions-kom-02.pdf",
     "Data Kommunikation/Noter/Line coding/Multilevel",
