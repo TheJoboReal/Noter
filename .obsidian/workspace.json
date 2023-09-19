@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Link-Layer Addressing.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Link-Layer Addressing.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Link-Layer Addressing.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Link-Layer Addressing.md"
+                "file": "Data Kommunikation/Noter/Data Links Layers/Communication example.md"
               }
             }
           },
@@ -180,22 +180,31 @@
   },
   "active": "8d60ff8903db6faf",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230919122606.png",
-    "Data Kommunikation/Noter/Data Links Layers/Two Categories of Links.md",
+    "Misc og Links/Pasted image 20230919124536.png",
+    "Misc og Links/Pasted image 20230919124433.png",
+    "Misc og Links/Pasted image 20230919124413.png",
+    "Misc og Links/Pasted image 20230919124401.png",
+    "Misc og Links/Pasted image 20230919124331.png",
+    "Data Kommunikation/Noter/Data Links Layers/ARP Request Reply example.md",
+    "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
+    "Misc og Links/Pasted image 20230919124257.png",
+    "Data Kommunikation/Noter/Data Links Layers/ARP-Package format.md",
+    "Misc og Links/Pasted image 20230919124229.png",
+    "Misc og Links/Pasted image 20230919124157.png",
+    "Data Kommunikation/Noter/Data Links Layers/ARP Address Resolution Protocol.md",
+    "Misc og Links/Pasted image 20230919123704.png",
+    "Misc og Links/Pasted image 20230919123241.png",
+    "Data Kommunikation/Noter/Data Links Layers/Three types of addresses.md",
+    "Misc og Links/Pasted image 20230919123211.png",
     "Data Kommunikation/Noter/Data Links Layers/Link-Layer Addressing.md",
+    "Data Kommunikation/Noter/Data Links Layers/Two Categories of Links.md",
     "Data Kommunikation/Noter/Data Links Layers/Services.md",
-    "Misc og Links/Pasted image 20230919122459.png",
-    "Misc og Links/Pasted image 20230919122203.png",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Layer.md",
-    "Misc og Links/Pasted image 20230919122117.png",
-    "Misc og Links/Pasted image 20230919122050.png",
     "Signalbehandling/Opgaver/Lektion 1 Høj og Lavpas filtre.md",
     "Data Kommunikation/Noter/Data Links Layers",
     "Signalbehandling/Noter/Elektroniske Filtre/Butterworth.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til Højpasfilter.md",
-    "Misc og Links/Pasted image 20230914103351.png",
     "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til båndpasfilter.md",
-    "Misc og Links/Pasted image 20230914102627.png",
     "Signalbehandling/Noter/Elektroniske Filtre/Højpasfilter.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Valg af filter.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
@@ -205,10 +214,6 @@
     "Signalbehandling/Noter/Elektroniske Filtre/Filtre Typer.md",
     "Signalbehandling/Noter/Elektroniske Filtre/Konstruktion af filter.md",
     "Misc og Links/Lektion1Opgaver.pdf",
-    "Misc og Links/Pasted image 20230914094857.png",
-    "Misc og Links/Pasted image 20230914094838.png",
-    "Misc og Links/Pasted image 20230914094811.png",
-    "Misc og Links/Pasted image 20230914094800.png",
     "Signalbehandling/Noter/Elektroniske Filtre",
     "Signalbehandling/Opgaver",
     "Signalbehandling/Noter",
@@ -217,13 +222,8 @@
     "Data Kommunikation/Noter/Noise/Signal rate.md",
     "Data Kommunikation/Noter/Transmission Impairment/Attenuation.md",
     "Data Kommunikation/Opgaver/Lektion 2.md",
-    "Data Kommunikation/Noter/Noise/Noisy channel Shannon Capacity.md",
-    "Data Kommunikation/Noter/Noise/Transmission Distrortion.md",
-    "Data Kommunikation/Noter/Noise/Noiseless channel.md",
     "Data Kommunikation/Noter/Transmission Impairment",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Misc og Links/questions-kom-02.pdf",
-    "Data Kommunikation/Noter/Line coding/Line Coding Schemes.md",
     "Data Kommunikation/Noter/Line coding/Multilevel",
     "Data Kommunikation/Noter/Line coding"
   ]
