@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d0de787f0b67592e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -178,7 +189,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d60ff8903db6faf",
+  "active": "d0de787f0b67592e",
   "lastOpenFiles": [
     "Misc og Links/Pasted image 20230919131502.png",
     "Data Kommunikation/Noter/Data Links Layers/Block Coding.md",
