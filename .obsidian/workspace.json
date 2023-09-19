@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "10e2fc526ddfd07e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.12"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -179,7 +190,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8d60ff8903db6faf",
+  "active": "10e2fc526ddfd07e",
   "lastOpenFiles": [
     "Signalbehandling/Noter/Elektroniske Filtre/Butterworth.md",
     "Signalbehandling/Opgaver/Lektion 1 Høj og Lavpas filtre.md",
