@@ -8,27 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8d60ff8903db6faf",
+            "id": "02e150cd4806b196",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
+                "file": "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f057248f24c15749",
+            "id": "5fa6464a87d9990e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Vifm Cheatsheet.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -61,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "sampleinter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +102,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vifm Cheatsheet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +118,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vifm Cheatsheet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,9 +139,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Vifm Cheatsheet.md"
-              }
+              "state": {}
             }
           },
           {
@@ -191,53 +183,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f057248f24c15749",
+  "active": "5fa6464a87d9990e",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230919135740.png",
+    "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
+    "Signalbehandling/Opgaver/Lektion 2 Sampling og Rekonstruktion.md",
+    "Misc og Links/Lektion2_Opgaver.pdf",
+    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver/Lektion2_Opgaver.pdf.md",
+    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver",
+    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling",
+    "home/kasper/Documents/Civilingeniør_Robotteknologi",
+    "home/kasper/Documents",
+    "home/kasper",
+    "home",
+    "Signalbehandling/Noter/Sampling/Aliasing.md",
+    "Signalbehandling/Noter/Sampling/Sekvens/Laplacetransformeret frekvens.md",
+    "Misc og Links/Pasted image 20230921130009.png",
+    "Misc og Links/Pasted image 20230921125959.png",
+    "Misc og Links/Pasted image 20230921125946.png",
+    "Misc og Links/Pasted image 20230921125658.png",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20230921125416.png",
+    "Signalbehandling/Noter/Sampling/Sekvens/Standard Frekvenser.md",
+    "Misc og Links/Pasted image 20230921125110.png",
+    "Signalbehandling/Noter/Sampling/Sekvens/Sekvenser Definition.md",
+    "Misc og Links/Pasted image 20230921125009.png",
+    "Misc og Links/Pasted image 20230921124929.png",
+    "Signalbehandling/Noter/Sampling/Rekonstruktion/Rekonstruktionsfilter.md",
+    "Signalbehandling/Noter/Sampling/Sekvens",
+    "Misc og Links/Pasted image 20230921124701.png",
+    "Signalbehandling/Noter/Sampling/Rekonstruktion/Rekonstruktion Princip.md",
+    "Misc og Links/Pasted image 20230921124335.png",
+    "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
+    "Signalbehandling/Noter/Sampling/Rekonstruktion",
+    "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
+    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md",
+    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampling Princip.md",
+    "Signalbehandling/Noter/Sampling/Pulssampling",
+    "Signalbehandling/Noter/Sampling/Impulssampling.md",
+    "Signalbehandling/Noter/Sampling/Nyquist-Shannon sætning.md",
+    "Signalbehandling/Noter/Sampling/Samplingfrekvens.md",
+    "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
+    "Signalbehandling/Noter/Sampling/Frekvensanalyse.md",
+    "Signalbehandling/Noter/Sampling/Overblik over Systemer.md",
     "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
     "Vifm Cheatsheet.md",
-    "Misc og Links/Pasted image 20230919134423.png",
     "Data Kommunikation/Noter/Data Links Layers/Single-Bit error.md",
-    "Misc og Links/Pasted image 20230919134351.png",
-    "Misc og Links/Pasted image 20230919134313.png",
     "Data Kommunikation/Noter/Data Links Layers/Data Polynomial.md",
-    "Misc og Links/Pasted image 20230919134252.png",
-    "Misc og Links/Pasted image 20230919134246.png",
-    "Misc og Links/Pasted image 20230919134241.png",
-    "Misc og Links/Pasted image 20230919134221.png",
-    "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md",
-    "Misc og Links/Pasted image 20230919133514.png",
-    "Misc og Links/Pasted image 20230919133507.png",
-    "Misc og Links/Pasted image 20230919133120.png",
-    "Data Kommunikation/Noter/Data Links Layers/Bit Error detection.md",
-    "Data Kommunikation/Noter/Data Links Layers/Block Coding.md",
-    "Data Kommunikation/Noter/Data Links Layers/Communication example.md",
-    "Data Kommunikation/Noter/Data Links Layers/ARP Request Reply example.md",
-    "Data Kommunikation/Noter/Data Links Layers/ARP-Package format.md",
-    "Data Kommunikation/Noter/Data Links Layers/ARP Address Resolution Protocol.md",
-    "Data Kommunikation/Noter/Data Links Layers/Three types of addresses.md",
-    "Data Kommunikation/Noter/Data Links Layers/Link-Layer Addressing.md",
-    "Data Kommunikation/Noter/Data Links Layers/Two Categories of Links.md",
-    "Data Kommunikation/Noter/Data Links Layers/Services.md",
-    "Data Kommunikation/Noter/Data Links Layers/Data Link Layer.md",
-    "Signalbehandling/Opgaver/Lektion 1 Høj og Lavpas filtre.md",
-    "Data Kommunikation/Noter/Data Links Layers",
-    "Signalbehandling/Noter/Elektroniske Filtre/Butterworth.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til Højpasfilter.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Lavpas til båndpasfilter.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Højpasfilter.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Valg af filter.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Gruppeløstid.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Chebyshevfilter.md",
-    "Signalbehandling/Noter/Elektroniske Filtre/Bessel.md",
-    "Misc og Links/Lektion1Opgaver.pdf",
-    "Signalbehandling/Noter/Elektroniske Filtre",
-    "Signalbehandling/Opgaver",
-    "Signalbehandling/Noter",
-    "Signalbehandling",
-    "Data Kommunikation/Noter/Transmission Impairment",
-    "Misc og Links/questions-kom-02.pdf",
-    "Data Kommunikation/Noter/Line coding/Multilevel",
-    "Data Kommunikation/Noter/Line coding"
+    "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md"
   ]
 }
