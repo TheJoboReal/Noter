@@ -23,8 +23,12 @@
             "id": "5fa6464a87d9990e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Arkitektur/Noter/Producer.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -102,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Arkitektur/Noter/Producer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Arkitektur/Noter/Producer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +145,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Arkitektur/Noter/Producer.md"
+              }
             }
           },
           {
@@ -185,6 +193,9 @@
   },
   "active": "5fa6464a87d9990e",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230922082940.png",
+    "Computer Arkitektur/Noter/Consumer.md",
+    "Computer Arkitektur/Noter/Producer.md",
     "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
     "Signalbehandling/Opgaver/Lektion 2 Sampling og Rekonstruktion.md",
     "Misc og Links/Lektion2_Opgaver.pdf",
@@ -227,8 +238,6 @@
     "Signalbehandling/Noter/Sampling/Overblik over Systemer.md",
     "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
     "Vifm Cheatsheet.md",
-    "Data Kommunikation/Noter/Data Links Layers/Single-Bit error.md",
-    "Data Kommunikation/Noter/Data Links Layers/Data Polynomial.md",
-    "Data Kommunikation/Noter/Data Links Layers/Cyclic Codes.md"
+    "Data Kommunikation/Noter/Data Links Layers/Single-Bit error.md"
   ]
 }
