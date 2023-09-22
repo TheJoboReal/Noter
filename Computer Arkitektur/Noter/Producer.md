@@ -1,5 +1,7 @@
 ![[Pasted image 20230922082940.png]]
 ***
+>See also [[Consumer]]
+
 An example: Bounded buffer
 Producer: a process produces information
 
