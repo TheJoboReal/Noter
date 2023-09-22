@@ -1,7 +1,11 @@
+![[Pasted image 20230922093538.png|400]]
+>Five Philosophers, five bowls of rice but only 5 chopsticks in total. Represents shared resources.
+
 ![[Pasted image 20230922092148.png]]
 
 ***
-[[Semaphores]] Solution
+[[Semaphore]] Solution. This solution is not the best as it can result in a [[Deadlock]] situation.
+
 Philosopher *i*
 ```cpp
 while (TRUE) {
@@ -20,7 +24,7 @@ while (TRUE) {
 
 ***
 [[Monitors]] solution
-
+Here it checks if the two neighboring philosophers are *eating* before itself starts to *eat* to make sure a deadlock situation does not occur. 
 ```cpp
 {
 	enum {THINKING; HUNGRY, EATING} state [5] ;

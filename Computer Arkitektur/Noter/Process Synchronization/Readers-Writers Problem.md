@@ -1,5 +1,5 @@
 ![[Pasted image 20230922091822.png]]
->See also [[Semaphores]]
+>See also [[Semaphore]]
 
 ***
 #### Writers Process
