@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md"
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md"
               }
             }
           },
@@ -193,7 +193,15 @@
   },
   "active": "5fa6464a87d9990e",
   "lastOpenFiles": [
+    "Computer Arkitektur/Noter/Process Synchronization/Monitors.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
     "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Deadlocks.md",
+    "Misc og Links/Pasted image 20230922085958.png",
+    "Misc og Links/Pasted image 20230922085741.png",
+    "Misc og Links/Pasted image 20230922085502.png",
+    "Misc og Links/Pasted image 20230922085434.png",
+    "Misc og Links/Pasted image 20230922085415.png",
     "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
     "Misc og Links/Pasted image 20230922084225.png",
     "Misc og Links/Pasted image 20230922084156.png",
@@ -202,9 +210,7 @@
     "Computer Arkitektur/Noter/Process Synchronization/Race Condition.md",
     "Computer Arkitektur/Noter/Process Synchronization",
     "Misc og Links/Pasted image 20230922084026.png",
-    "Misc og Links/Pasted image 20230922083955.png",
     "Computer Arkitektur/Noter/Process Synchronization/Producer.md",
-    "Misc og Links/Pasted image 20230922082940.png",
     "Computer Arkitektur/Noter/Process Synchronization/Consumer.md",
     "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
     "Signalbehandling/Opgaver/Lektion 2 Sampling og Rekonstruktion.md",
@@ -218,9 +224,6 @@
     "home",
     "Signalbehandling/Noter/Sampling/Aliasing.md",
     "Signalbehandling/Noter/Sampling/Sekvens/Laplacetransformeret frekvens.md",
-    "Misc og Links/Pasted image 20230921130009.png",
-    "Misc og Links/Pasted image 20230921125959.png",
-    "Misc og Links/Pasted image 20230921125946.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
     "Signalbehandling/Noter/Sampling/Sekvens/Standard Frekvenser.md",
     "Signalbehandling/Noter/Sampling/Sekvens/Sekvenser Definition.md",
@@ -235,8 +238,6 @@
     "Signalbehandling/Noter/Sampling/Impulssampling.md",
     "Signalbehandling/Noter/Sampling/Nyquist-Shannon sætning.md",
     "Signalbehandling/Noter/Sampling/Samplingfrekvens.md",
-    "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
-    "Signalbehandling/Noter/Sampling/Frekvensanalyse.md",
-    "Signalbehandling/Noter/Sampling/Overblik over Systemer.md"
+    "Signalbehandling/Noter/Sampling/Samplingsignalet.md"
   ]
 }
