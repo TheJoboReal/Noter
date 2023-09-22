@@ -11,3 +11,4 @@ counter--;
 /* consume the item in next consumed */
 }
 ```
+![[Pasted image 20230922091746.png|400]]

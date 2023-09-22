@@ -1,4 +1,6 @@
 ![[Pasted image 20230922082940.png]]
+![[Pasted image 20230922091658.png|250]]
+
 ***
 >See also [[Consumer]]
 

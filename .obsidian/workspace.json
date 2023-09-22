@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sampleinter",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md"
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md"
               }
             }
           },
@@ -193,25 +193,28 @@
   },
   "active": "5fa6464a87d9990e",
   "lastOpenFiles": [
-    "Computer Arkitektur/Noter/Process Synchronization/Monitors.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Readers-Writers Problem.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
+    "Misc og Links/Pasted image 20230922092708.png",
+    "Misc og Links/Pasted image 20230922092148.png",
+    "Misc og Links/Pasted image 20230922091822.png",
+    "Computer Arkitektur/Noter/Process Synchronization/Consumer.md",
+    "Misc og Links/Pasted image 20230922091746.png",
+    "Computer Arkitektur/Noter/Process Synchronization/Producer.md",
+    "Misc og Links/Pasted image 20230922091658.png",
+    "Computer Arkitektur/Noter/Process Synchronization/Bounded Buffer.md",
+    "Misc og Links/Pasted image 20230922091641.png",
     "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Monitors.md",
     "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
     "Computer Arkitektur/Noter/Process Synchronization/Deadlocks.md",
     "Misc og Links/Pasted image 20230922085958.png",
     "Misc og Links/Pasted image 20230922085741.png",
     "Misc og Links/Pasted image 20230922085502.png",
     "Misc og Links/Pasted image 20230922085434.png",
-    "Misc og Links/Pasted image 20230922085415.png",
     "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
-    "Misc og Links/Pasted image 20230922084225.png",
-    "Misc og Links/Pasted image 20230922084156.png",
-    "Misc og Links/Pasted image 20230922084136.png",
-    "Misc og Links/Pasted image 20230922084124.png",
     "Computer Arkitektur/Noter/Process Synchronization/Race Condition.md",
     "Computer Arkitektur/Noter/Process Synchronization",
-    "Misc og Links/Pasted image 20230922084026.png",
-    "Computer Arkitektur/Noter/Process Synchronization/Producer.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Consumer.md",
     "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
     "Signalbehandling/Opgaver/Lektion 2 Sampling og Rekonstruktion.md",
     "Misc og Links/Lektion2_Opgaver.pdf",
@@ -234,10 +237,6 @@
     "Signalbehandling/Noter/Sampling/Rekonstruktion",
     "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md",
-    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampling Princip.md",
-    "Signalbehandling/Noter/Sampling/Impulssampling.md",
-    "Signalbehandling/Noter/Sampling/Nyquist-Shannon sætning.md",
-    "Signalbehandling/Noter/Sampling/Samplingfrekvens.md",
-    "Signalbehandling/Noter/Sampling/Samplingsignalet.md"
+    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampling Princip.md"
   ]
 }
