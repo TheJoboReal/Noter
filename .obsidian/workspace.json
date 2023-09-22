@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Producer.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Arkitektur/Noter/Producer.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Arkitektur/Noter/Producer.md",
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Arkitektur/Noter/Producer.md"
+                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md"
               }
             }
           },
@@ -193,9 +193,19 @@
   },
   "active": "5fa6464a87d9990e",
   "lastOpenFiles": [
+    "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Semaphores.md",
+    "Misc og Links/Pasted image 20230922084225.png",
+    "Misc og Links/Pasted image 20230922084156.png",
+    "Misc og Links/Pasted image 20230922084136.png",
+    "Misc og Links/Pasted image 20230922084124.png",
+    "Computer Arkitektur/Noter/Process Synchronization/Race Condition.md",
+    "Computer Arkitektur/Noter/Process Synchronization",
+    "Misc og Links/Pasted image 20230922084026.png",
+    "Misc og Links/Pasted image 20230922083955.png",
+    "Computer Arkitektur/Noter/Process Synchronization/Producer.md",
     "Misc og Links/Pasted image 20230922082940.png",
-    "Computer Arkitektur/Noter/Consumer.md",
-    "Computer Arkitektur/Noter/Producer.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Consumer.md",
     "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
     "Signalbehandling/Opgaver/Lektion 2 Sampling og Rekonstruktion.md",
     "Misc og Links/Lektion2_Opgaver.pdf",
@@ -211,33 +221,22 @@
     "Misc og Links/Pasted image 20230921130009.png",
     "Misc og Links/Pasted image 20230921125959.png",
     "Misc og Links/Pasted image 20230921125946.png",
-    "Misc og Links/Pasted image 20230921125658.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
-    "Misc og Links/Pasted image 20230921125416.png",
     "Signalbehandling/Noter/Sampling/Sekvens/Standard Frekvenser.md",
-    "Misc og Links/Pasted image 20230921125110.png",
     "Signalbehandling/Noter/Sampling/Sekvens/Sekvenser Definition.md",
-    "Misc og Links/Pasted image 20230921125009.png",
-    "Misc og Links/Pasted image 20230921124929.png",
     "Signalbehandling/Noter/Sampling/Rekonstruktion/Rekonstruktionsfilter.md",
     "Signalbehandling/Noter/Sampling/Sekvens",
-    "Misc og Links/Pasted image 20230921124701.png",
     "Signalbehandling/Noter/Sampling/Rekonstruktion/Rekonstruktion Princip.md",
-    "Misc og Links/Pasted image 20230921124335.png",
     "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
     "Signalbehandling/Noter/Sampling/Rekonstruktion",
     "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampling Princip.md",
-    "Signalbehandling/Noter/Sampling/Pulssampling",
     "Signalbehandling/Noter/Sampling/Impulssampling.md",
     "Signalbehandling/Noter/Sampling/Nyquist-Shannon sætning.md",
     "Signalbehandling/Noter/Sampling/Samplingfrekvens.md",
     "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
     "Signalbehandling/Noter/Sampling/Frekvensanalyse.md",
-    "Signalbehandling/Noter/Sampling/Overblik over Systemer.md",
-    "Data Kommunikation/Noter/Data Links Layers/Burst error.md",
-    "Vifm Cheatsheet.md",
-    "Data Kommunikation/Noter/Data Links Layers/Single-Bit error.md"
+    "Signalbehandling/Noter/Sampling/Overblik over Systemer.md"
   ]
 }
