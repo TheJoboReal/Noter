@@ -845,6 +845,16 @@ Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomere
 ![[Pasted image 20230907101415.png]]
 ![[Pasted image 20230907114342.png]]
 #### Multivariable Funktioner
+##### Double Integration
+###### Riemann sum
+![[Pasted image 20230925122408.png|700]]
+$$
+R(f,P)=\sum_{i=1}^m \sum_{j=1}^n f(x^*_{ij},y^*_{ij})\Delta A_{ij}
+$$
+Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij},y^*_{ij})>0$ is a positive function.
+
+**Def:** The function $f$ is integrable over the rectangle $D$ and has double integral $I=\int_{D} f(x,y) \, dA$
+
 ##### Domæner og Ranges
 >Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
 ##### Limits on Mulivariable Functions
@@ -863,3 +873,4 @@ or $dist(P,a)=\frac{|a\cdot x_{1}+b\cdot y_{1}+c\cdot z_{1}+d|}{\sqrt{ a²+b²+c
 
 ##### Higher order derivatives
 ![[Pasted image 20230911134453.png]]
+

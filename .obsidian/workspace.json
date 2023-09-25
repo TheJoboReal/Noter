@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphore.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphore.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphore.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Arkitektur/Noter/Process Synchronization/Semaphore.md"
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
               }
             }
           },
@@ -193,10 +193,12 @@
   },
   "active": "5fa6464a87d9990e",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230925122408.png",
+    "Misc og Links/Pasted image 20230925122350.png",
+    "Computer Arkitektur/Noter/Process Synchronization/Semaphore.md",
     "Computer Arkitektur/Noter/Process Synchronization/Condition Variable.md",
     "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
     "Computer Arkitektur/Noter/Process Synchronization/Monitors.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Semaphore.md",
     "Computer Arkitektur/Noter/Process Synchronization/Deadlock.md",
     "Misc og Links/Pasted image 20230922093538.png",
     "Computer Arkitektur/Noter/Process Synchronization/Readers-Writers Problem.md",
@@ -213,7 +215,6 @@
     "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
     "Misc og Links/Pasted image 20230922085958.png",
     "Misc og Links/Pasted image 20230922085741.png",
-    "Misc og Links/Pasted image 20230922085502.png",
     "Computer Arkitektur/Noter/Process Synchronization/Race Condition.md",
     "Computer Arkitektur/Noter/Process Synchronization",
     "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
@@ -237,7 +238,6 @@
     "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
     "Signalbehandling/Noter/Sampling/Rekonstruktion",
     "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
-    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md",
-    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampling Princip.md"
+    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md"
   ]
 }
