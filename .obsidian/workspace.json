@@ -42,7 +42,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md"
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
               }
             }
           },
@@ -202,11 +202,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ae7dc9412311ce",
+  "active": "5fa6464a87d9990e",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230925133742.png",
+    "Misc og Links/Pasted image 20230925133711.png",
+    "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md",
     "Misc og Links/Pasted Image 20230925124846_219.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
-    "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md",
     "Misc og Links/Pasted image 20230925123741.png",
     "Misc og Links/Pasted image 20230925123644.png",
     "Misc og Links/Pasted image 20230925122408.png",
@@ -222,9 +224,7 @@
     "Misc og Links/Pasted image 20230922092148.png",
     "Misc og Links/Pasted image 20230922091822.png",
     "Computer Arkitektur/Noter/Process Synchronization/Consumer.md",
-    "Misc og Links/Pasted image 20230922091746.png",
     "Computer Arkitektur/Noter/Process Synchronization/Producer.md",
-    "Misc og Links/Pasted image 20230922091658.png",
     "Computer Arkitektur/Noter/Process Synchronization/Bounded Buffer.md",
     "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
     "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
