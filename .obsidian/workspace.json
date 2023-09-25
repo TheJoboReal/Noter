@@ -92,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -203,6 +204,7 @@
   },
   "active": "73ae7dc9412311ce",
   "lastOpenFiles": [
+    "Misc og Links/Pasted Image 20230925223457_092.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
     "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
     "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",

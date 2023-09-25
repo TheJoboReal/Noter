@@ -11,6 +11,7 @@ tags: [excalidraw]
 
 # Embedded files
 ecc5301a8403c6b627804ef1b2bdb10e4cf2a78b: [[Pasted Image 20230925124846_219.png]]
+51128423ba8dd8b923c15ed6ce2f15b81add94cb: [[Pasted Image 20230925223457_092.png]]
 
 %%
 # Drawing
@@ -41906,6 +41907,38 @@ ecc5301a8403c6b627804ef1b2bdb10e4cf2a78b: [[Pasted Image 20230925124846_219.png]
 				323.199951171875,
 				-57.5999755859375
 			]
+		},
+		{
+			"id": "Tx3Pz6wcXqNkZNZuMtiM6",
+			"type": "image",
+			"x": 2653.1865931348484,
+			"y": -481.12441902601586,
+			"width": 864,
+			"height": 171,
+			"angle": 0,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"roundness": null,
+			"seed": 467507289,
+			"version": 20,
+			"versionNonce": 1849273625,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1695674098916,
+			"link": null,
+			"locked": false,
+			"status": "pending",
+			"fileId": "51128423ba8dd8b923c15ed6ce2f15b81add94cb",
+			"scale": [
+				1,
+				1
+			]
 		}
 	],
 	"appState": {
@@ -41923,10 +41956,10 @@ ecc5301a8403c6b627804ef1b2bdb10e4cf2a78b: [[Pasted Image 20230925124846_219.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 899.8118301211543,
-		"scrollY": 582.8044345629633,
+		"scrollX": 753.0841969652492,
+		"scrollY": 1280.1743763014065,
 		"zoom": {
-			"value": 1
+			"value": 0.25
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,
