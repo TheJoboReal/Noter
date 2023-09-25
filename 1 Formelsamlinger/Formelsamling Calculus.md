@@ -855,6 +855,10 @@ Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij
 
 **Def:** The function $f$ is integrable over the rectangle $D$ and has double integral $I=\int_{D} f(x,y) \, dA$
 
+###### Propeties of Double integrals
+![[Pasted image 20230925123644.png]]
+![[Pasted image 20230925123741.png]]
+
 ##### Domæner og Ranges
 >Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
 ##### Limits on Mulivariable Functions
