@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "73ae7dc9412311ce",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -106,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md"
               }
             }
           },
@@ -191,8 +202,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5fa6464a87d9990e",
+  "active": "73ae7dc9412311ce",
   "lastOpenFiles": [
+    "Misc og Links/Pasted Image 20230925124846_219.png",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Calculus/Multivariable Calculus/Opgaver/Drawing 2023-09-25 12.48.16.excalidraw.md",
     "Misc og Links/Pasted image 20230925123741.png",
     "Misc og Links/Pasted image 20230925123644.png",
     "Misc og Links/Pasted image 20230925122408.png",
@@ -212,7 +226,6 @@
     "Computer Arkitektur/Noter/Process Synchronization/Producer.md",
     "Misc og Links/Pasted image 20230922091658.png",
     "Computer Arkitektur/Noter/Process Synchronization/Bounded Buffer.md",
-    "Misc og Links/Pasted image 20230922091641.png",
     "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
     "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
     "Computer Arkitektur/Noter/Process Synchronization/Race Condition.md",
@@ -229,7 +242,6 @@
     "home",
     "Signalbehandling/Noter/Sampling/Aliasing.md",
     "Signalbehandling/Noter/Sampling/Sekvens/Laplacetransformeret frekvens.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Signalbehandling/Noter/Sampling/Sekvens/Standard Frekvenser.md",
     "Signalbehandling/Noter/Sampling/Sekvens/Sekvenser Definition.md",
     "Signalbehandling/Noter/Sampling/Rekonstruktion/Rekonstruktionsfilter.md",
@@ -237,7 +249,6 @@
     "Signalbehandling/Noter/Sampling/Rekonstruktion/Rekonstruktion Princip.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
     "Signalbehandling/Noter/Sampling/Rekonstruktion",
-    "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
-    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md"
+    "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md"
   ]
 }
