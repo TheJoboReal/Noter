@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5fa6464a87d9990e",
+            "id": "03c034dab16a7387",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -71,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ackno",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -117,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md"
+                "file": "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md"
               }
             }
           },
@@ -202,28 +200,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ae7dc9412311ce",
+  "active": "02e150cd4806b196",
   "lastOpenFiles": [
-    "Misc og Links/Pasted Image 20230925223457_092.png",
+    "Misc og Links/Pasted image 20230926125426.png",
+    "Data Kommunikation/Noter/Data Links Layers/Protocols/Stop-and-wait.md",
+    "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
+    "Misc og Links/Pasted image 20230926124954.png",
+    "Misc og Links/Pasted image 20230926124810.png",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
+    "Misc og Links/Pasted image 20230926124401.png",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Character-oriented framing.md",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Finite State Machine (FSM).md",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Framing.md",
+    "Misc og Links/Pasted image 20230926124224.png",
+    "Data Kommunikation/Noter/Data Links Layers/Protocols/Simple protocol.md",
+    "Misc og Links/Pasted image 20230926124036.png",
+    "Misc og Links/Pasted image 20230926123945.png",
+    "Data Kommunikation/Noter/Data Links Layers/Protocols",
+    "Misc og Links/Pasted image 20230926123757.png",
+    "Misc og Links/Pasted image 20230926123443.png",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Bit-oriented framing.md",
+    "Misc og Links/Pasted image 20230926123306.png",
+    "Misc og Links/Pasted image 20230926123205.png",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Data Link Control DLC.md",
     "1 Formelsamlinger/Formelsamling Calculus.md",
-    "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC",
     "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
-    "Misc og Links/Pasted image 20230925133742.png",
-    "Misc og Links/Pasted image 20230925133711.png",
-    "Misc og Links/Pasted Image 20230925124846_219.png",
-    "Misc og Links/Pasted image 20230925123741.png",
-    "Misc og Links/Pasted image 20230925123644.png",
-    "Misc og Links/Pasted image 20230925122408.png",
-    "Misc og Links/Pasted image 20230925122350.png",
+    "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
     "Computer Arkitektur/Noter/Process Synchronization/Semaphore.md",
     "Computer Arkitektur/Noter/Process Synchronization/Condition Variable.md",
     "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
     "Computer Arkitektur/Noter/Process Synchronization/Monitors.md",
     "Computer Arkitektur/Noter/Process Synchronization/Deadlock.md",
-    "Misc og Links/Pasted image 20230922093538.png",
     "Computer Arkitektur/Noter/Process Synchronization/Readers-Writers Problem.md",
-    "Misc og Links/Pasted image 20230922092708.png",
-    "Misc og Links/Pasted image 20230922092148.png",
     "Computer Arkitektur/Noter/Process Synchronization/Consumer.md",
     "Computer Arkitektur/Noter/Process Synchronization/Producer.md",
     "Computer Arkitektur/Noter/Process Synchronization/Bounded Buffer.md",
@@ -233,22 +242,11 @@
     "Computer Arkitektur/Noter/Process Synchronization",
     "Signalbehandling/Opgaver/Lektion 2 Sampling og Rekonstruktion.md",
     "Misc og Links/Lektion2_Opgaver.pdf",
-    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver/Lektion2_Opgaver.pdf.md",
     "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver",
     "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling",
     "home/kasper/Documents/Civilingeniør_Robotteknologi",
     "home/kasper/Documents",
     "home/kasper",
-    "home",
-    "Signalbehandling/Noter/Sampling/Aliasing.md",
-    "Signalbehandling/Noter/Sampling/Sekvens/Laplacetransformeret frekvens.md",
-    "Signalbehandling/Noter/Sampling/Sekvens/Standard Frekvenser.md",
-    "Signalbehandling/Noter/Sampling/Sekvens/Sekvenser Definition.md",
-    "Signalbehandling/Noter/Sampling/Rekonstruktion/Rekonstruktionsfilter.md",
-    "Signalbehandling/Noter/Sampling/Sekvens",
-    "Signalbehandling/Noter/Sampling/Rekonstruktion/Rekonstruktion Princip.md",
-    "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
-    "Signalbehandling/Noter/Sampling/Rekonstruktion",
-    "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md"
+    "home"
   ]
 }
