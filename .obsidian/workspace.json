@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "03c034dab16a7387",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
+                "file": "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +59,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ackno",
+                "query": "byte",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md"
               }
             }
           },
@@ -200,53 +189,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02e150cd4806b196",
+  "active": "73ae7dc9412311ce",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20230926125426.png",
-    "Data Kommunikation/Noter/Data Links Layers/Protocols/Stop-and-wait.md",
-    "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
-    "Misc og Links/Pasted image 20230926124954.png",
-    "Misc og Links/Pasted image 20230926124810.png",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Multiplexing.md",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Network Control Protocols.md",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Link Control Protocol.md",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Example.md",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Point-ToPoint-Protocol-(PPP).md",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
-    "Misc og Links/Pasted image 20230926124401.png",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Character-oriented framing.md",
-    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Finite State Machine (FSM).md",
-    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Framing.md",
-    "Misc og Links/Pasted image 20230926124224.png",
-    "Data Kommunikation/Noter/Data Links Layers/Protocols/Simple protocol.md",
-    "Misc og Links/Pasted image 20230926124036.png",
-    "Misc og Links/Pasted image 20230926123945.png",
-    "Data Kommunikation/Noter/Data Links Layers/Protocols",
-    "Misc og Links/Pasted image 20230926123757.png",
-    "Misc og Links/Pasted image 20230926123443.png",
+    "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Bit-oriented framing.md",
-    "Misc og Links/Pasted image 20230926123306.png",
-    "Misc og Links/Pasted image 20230926123205.png",
-    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Data Link Control DLC.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20230926135147.png",
+    "Misc og Links/Pasted image 20230926135120.png",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Data from the Network Layer.md",
+    "Misc og Links/Pasted image 20230926134932.png",
+    "Misc og Links/Pasted image 20230926134807.png",
+    "Misc og Links/Pasted image 20230926134709.png",
+    "Misc og Links/Pasted image 20230926134533.png",
+    "Misc og Links/Pasted image 20230926134334.png",
+    "Misc og Links/Pasted image 20230926134142.png",
+    "Misc og Links/Pasted image 20230926134109.png",
+    "Misc og Links/Pasted image 20230926134015.png",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Transition phases.md",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Frame Format.md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Control Field.md",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/HDLC Connect and Disconnect.md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/Example P F bit.md",
+    "Data Kommunikation/Noter/Data Links Layers/Protocols/Stop-and-wait.md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/FCS field.md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Information field.md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Address Field.md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Flag Fields.md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Frames – three types.md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/Asynchronous Balanced Mode (ABM).md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/Normal Response Mode (NRM).md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/High-Level Data Link Control (HDLC).md",
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Finite State Machine (FSM).md",
+    "Data Kommunikation/Noter/Data Links Layers/Protocols",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC",
-    "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
-    "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Semaphore.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Condition Variable.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Monitors.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Deadlock.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Readers-Writers Problem.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Consumer.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Producer.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Bounded Buffer.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Atomic Acces.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Race Condition.md",
     "Computer Arkitektur/Noter/Process Synchronization",
-    "Signalbehandling/Opgaver/Lektion 2 Sampling og Rekonstruktion.md",
     "Misc og Links/Lektion2_Opgaver.pdf",
     "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver",
     "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling",
-    "home/kasper/Documents/Civilingeniør_Robotteknologi",
-    "home/kasper/Documents",
-    "home/kasper",
-    "home"
+    "home/kasper/Documents/Civilingeniør_Robotteknologi"
   ]
 }

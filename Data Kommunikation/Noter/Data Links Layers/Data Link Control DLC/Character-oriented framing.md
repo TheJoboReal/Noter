@@ -21,6 +21,7 @@ Here a special character (Esc code) is used, which is added in the data section
 just before the characters that have the same pattern as the flag.
 However, it may also happen that the Esc code itself appears in the data
 section. If this happens, an Esc code is inserted here just before this character.
+Byte stuffing is the use of escape characters used to “escape” a byte that might represent a flag in a frame.
 
 ![[Pasted image 20230926123053.png]]
 
@@ -32,3 +33,6 @@ popular, such as UniCode. This conflicts with the old-fashioned 8-bit
 characters.
 We can generally say that the trend is moving away from the character-
 oriented framing and in the direction of the bit-oriented framing.
+
+#### What is the difference between a bit-oriented and byte-oriented protocol?
+Both define how the data of a frame is structured. Bit-oriented protocols structure the data as a bit-stream of either fixed or variable length. Byte-oriented protocols structure frames in byte-sized sections.

@@ -18,3 +18,11 @@ retransmission of these frames.
 In the Data Link layer, the primary method of error control is
 Retransmission.
 This method is called Automatic Repeat reQuest (ARQ).
+
+
+#### What is Flow Control?
+In most protocols, flow control is a set of procedures that tells the sender how much data it can transmit before it must wait for an acknowledgment from the receiver.
+
+#### How is error control typically achieved in the Data Link Layer?
+Most protocols implement error control using re-transmission, a process called the automatic repeat request (ARQ). Here, acknowledgment messages are used to indicate whether a transmission was successful, were a corrupt message (identified via e.g., CRC) is then re-transmitted.
+
