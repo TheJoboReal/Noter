@@ -2,7 +2,9 @@
   "addRibbonIcon": true,
   "showAtStartUp": false,
   "preferBlock": true,
-  "evaluate": true,
+  "preferBlockForInline": false,
+  "preferBlockForCodeblock": true,
+  "evaluate": false,
   "declarationStr": ":=",
   "evaluateStr": "=?",
   "evaluateNumericStr": "=~?",
@@ -12,5 +14,7 @@
   "hidePrefix": "%",
   "plotGrid": true,
   "plotWidth": 0,
-  "plotDerivatives": false
+  "plotDerivatives": false,
+  "precision": 21,
+  "scientific": false
 }
