@@ -28,19 +28,9 @@
                 "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md"
               }
             }
-          },
-          {
-            "id": "597fc26cfbdf5fc3",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.14"
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,7 +190,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "597fc26cfbdf5fc3",
+  "active": "73ae7dc9412311ce",
   "lastOpenFiles": [
     "1 Formelsamlinger/Formelsamling Calculus.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
