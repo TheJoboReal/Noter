@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "9ee2b91757082744",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "73ae7dc9412311ce",
             "type": "leaf",
             "state": {
@@ -80,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -105,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
+                "file": "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
+                "file": "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md"
+                "file": "Signalbehandling/Noter/Sampling/Samplingsignalet.md"
               }
             }
           },
@@ -189,11 +200,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "73ae7dc9412311ce",
+  "active": "9ee2b91757082744",
   "lastOpenFiles": [
+    "Signalbehandling/Noter/Sampling/Overblik over Systemer.md",
+    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampling Princip.md",
+    "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md",
+    "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
+    "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
+    "Signalbehandling/Noter/Sampling/Aliasing.md",
+    "Signalbehandling/Noter/Sampling/Frekvensanalyse.md",
+    "Signalbehandling/Noter/Sampling/Impulssampling.md",
+    "Signalbehandling/Noter/Sampling/Samplingfrekvens.md",
+    "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
     "1 Formelsamlinger/Formelsamling Calculus.md",
-    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
     "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Multiplexing.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Network Control Protocols.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Link Control Protocol.md",
@@ -218,17 +239,7 @@
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Frame Format.md",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Control Field.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/HDLC Connect and Disconnect.md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/Example P F bit.md",
-    "Data Kommunikation/Noter/Data Links Layers/Protocols/Stop-and-wait.md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/FCS field.md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Information field.md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Address Field.md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Flag Fields.md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Frames – three types.md",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/Asynchronous Balanced Mode (ABM).md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/Normal Response Mode (NRM).md",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
     "Data Kommunikation/Noter/Data Links Layers/Protocols",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC",
