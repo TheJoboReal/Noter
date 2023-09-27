@@ -58566,8 +58566,8 @@ ecc5301a8403c6b627804ef1b2bdb10e4cf2a78b: [[Pasted Image 20230925124846_219.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -84.29682450027622,
-		"scrollY": 897.0621433036922,
+		"scrollX": -2325.536091372682,
+		"scrollY": 361.54038713151203,
 		"zoom": {
 			"value": 1
 		},

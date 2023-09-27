@@ -28,8 +28,19 @@
                 "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "597fc26cfbdf5fc3",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -79,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -103,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md"
               }
             }
           },
@@ -188,8 +200,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02e150cd4806b196",
+  "active": "597fc26cfbdf5fc3",
   "lastOpenFiles": [
+    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
     "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Multiplexing.md",
@@ -227,7 +240,6 @@
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/Asynchronous Balanced Mode (ABM).md",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/Normal Response Mode (NRM).md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/High-Level Data Link Control (HDLC).md",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
     "Data Kommunikation/Noter/Data Links Layers/Protocols",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC",
