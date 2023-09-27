@@ -779,17 +779,23 @@ $$
 
 ***
 ##### Diskret Fourier Transformation
-Lad $x(n)$ være en sekvens samplet med sampleintervallet $T$, så er en $N$-punkts Diskret F transformation af $x(n)$ givet som 
+Lad $x(n)$ være en sekvens [[Samplingsignalet|sampling]] med sampleintervallet $T$, så er en $N$-punkts Diskret F transformation af $x(n)$ givet som 
 $$
 X(m)=\sum^{N-1}_{n=0}x(n)W^{-mn}_{N}
 $$
 for $m=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
 ##### Invers Diskret Fourier Transformation
+
+
+
 Sekvensen $x(n)$ kan findes fra  [[Formelsamling Calculus#Diskret Fourier Transformation|spektrumfunktionen]] $X(m)$ som
 $$
 x(n)=\frac{1}{N}\sum^{N-1}_{m=0}X(m)W^{mn}_{N}
 $$
 for $n=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
+##### Fast Fourier Transformation
+Hvis en diskret Fourier Transformation udregnes med [[Formelsamling Calculus#Diskret Fourier Transformation|DFT]] formlerne så skal der andvendes $N^{-2}$ komplekse multiplikationer og additioner.
+
 ##### Fourier function
 ![[Pasted image 20230904103645.png]]
 En skaleret Fourier funktion:

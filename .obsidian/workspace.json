@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "9ee2b91757082744",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "73ae7dc9412311ce",
             "type": "leaf",
             "state": {
@@ -41,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Signalbehandling/Noter/Sampling/Samplingsignalet.md"
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
               }
             }
           },
@@ -200,19 +187,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9ee2b91757082744",
+  "active": "02e150cd4806b196",
   "lastOpenFiles": [
+    "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Signalbehandling/Noter/Sampling/Aliasing.md",
+    "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
+    "Signalbehandling/Noter/Sampling/Frekvensanalyse.md",
+    "Signalbehandling/Noter/Sampling/Samplingfrekvens.md",
     "Signalbehandling/Noter/Sampling/Overblik over Systemer.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampling Princip.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
-    "Signalbehandling/Noter/Sampling/Aliasing.md",
-    "Signalbehandling/Noter/Sampling/Frekvensanalyse.md",
     "Signalbehandling/Noter/Sampling/Impulssampling.md",
-    "Signalbehandling/Noter/Sampling/Samplingfrekvens.md",
-    "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Multiplexing.md",
@@ -237,7 +225,6 @@
     "Misc og Links/Pasted image 20230926134015.png",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Transition phases.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Frame Format.md",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields/Control Field.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
