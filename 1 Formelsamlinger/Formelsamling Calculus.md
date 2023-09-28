@@ -796,6 +796,14 @@ for $n=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
 ##### Fast Fourier Transformation
 Hvis en diskret Fourier Transformation udregnes med [[Formelsamling Calculus#Diskret Fourier Transformation|DFT]] formlerne så skal der andvendes $N^{-2}$ komplekse multiplikationer og additioner.
 
+$$
+X(m)=Y(m)+W^m_{N}Z\left( m+\frac{N}{2} \right)
+$$
+$$
+X\left( m+\frac{N}{2} \right)=Y(m)-W^m_{N}Z\left( m+\frac{N}{2} \right)
+$$
+for $m=0,1,\dots,\frac N2-1$
+Ovenstående ligninger løses i en såkaldt FFT butterfly
 ##### Fourier function
 ![[Pasted image 20230904103645.png]]
 En skaleret Fourier funktion:
