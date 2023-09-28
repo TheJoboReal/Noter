@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md"
               }
             }
           },
@@ -171,8 +172,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,11 +189,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02e150cd4806b196",
+  "active": "73ae7dc9412311ce",
   "lastOpenFiles": [
+    "Misc og Links/Pasted Image 20230928210701_044.png",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Misc og Links/Pasted image 20230928104404.png",
     "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Signalbehandling/Noter/Sampling/Aliasing.md",
     "Signalbehandling/Noter/Sampling/Amplitudespektrum.md",
     "Signalbehandling/Noter/Sampling/Frekvensanalyse.md",
@@ -225,7 +226,6 @@
     "Misc og Links/Pasted image 20230926134334.png",
     "Misc og Links/Pasted image 20230926134142.png",
     "Misc og Links/Pasted image 20230926134109.png",
-    "Misc og Links/Pasted image 20230926134015.png",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Transition phases.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
