@@ -763,16 +763,18 @@ $$
 Se eksempel: [[Opgave 1.excalidraw]]
 ![[Opgave 1.excalidraw|1600]] 
 ##### Fourier Transform
+Fouriertransformation af $x(t)$
+$$
+X(f)=F(x(t))=\int_{-\infty}^{\infty} x(t)e^{-j_{2}\pi ft} \, dt
+$$
 
-Fouriertransfomation af $h(t)$:
-$$
-H(\omega)={\int_{-\infty}^{\infty} h(t)e^{-j\omega t} \, dt }
-$$
-Invers Fouriertransformation af $H(\omega)$:
+Invers Fouriertransformation af $X(f)$:
 
 $$
-h(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty} H(\omega)e^{j \omega t} \, d\omega 
+x(t)=F^{-1}(X(f))=\int_{-\infty}^{\infty} X(f)e^{j_{2}\pi ft} \, df 
 $$
+
+![[Pasted image 20230928104404.png]]
 ***
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/spUNpyF58BY?si=pIrsqt-Y5cB7lQzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -784,7 +786,6 @@ $$
 X(m)=\sum^{N-1}_{n=0}x(n)W^{-mn}_{N}
 $$
 for $m=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
-![[Pasted image 20230928104404.png]]
 ##### Invers Diskret Fourier Transformation
 
 
