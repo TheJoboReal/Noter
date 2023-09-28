@@ -784,6 +784,7 @@ $$
 X(m)=\sum^{N-1}_{n=0}x(n)W^{-mn}_{N}
 $$
 for $m=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
+![[Pasted image 20230928104404.png]]
 ##### Invers Diskret Fourier Transformation
 
 
