@@ -4,7 +4,7 @@
 ![[Pasted image 20230922092148.png]]
 
 ***
-[[Semaphore]] Solution. This solution is not the best as it can result in a [[Deadlock]] situation.
+[[Semaphore]] Solution. This solution is not the best as it can result in a [[Computer Arkitektur/Noter/Process Synchronization/Deadlock]] situation.
 
 Philosopher *i*
 ```cpp
