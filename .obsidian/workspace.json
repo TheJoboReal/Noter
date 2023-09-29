@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md",
+                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Detection.md",
                 "mode": "source",
                 "source": false
               }
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md",
+                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Detection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md",
+                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Detection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md"
+                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Detection.md"
               }
             }
           },
@@ -190,12 +190,16 @@
   },
   "active": "02e150cd4806b196",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20230929094718.png",
+    "Misc og Links/Pasted image 20230929094704.png",
+    "Misc og Links/Pasted image 20230929094548.png",
+    "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md",
+    "Computer Arkitektur/Noter/Deadlocks/Deadlock Detection.md",
     "Misc og Links/Pasted image 20230929093916.png",
     "Misc og Links/Pasted image 20230929093900.png",
     "Misc og Links/Pasted image 20230929093840.png",
     "Misc og Links/Pasted image 20230929093823.png",
     "Computer Arkitektur/Noter/Deadlocks/Resource Allocation Algorithm.md",
-    "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md",
     "Misc og Links/Pasted image 20230929093619.png",
     "Computer Arkitektur/Noter/Deadlocks/Resource allocation.md",
     "Misc og Links/Pasted image 20230929093522.png",
@@ -209,9 +213,6 @@
     "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
     "Microcontrollers/Boolean algebra/Counters.md",
     "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
-    "Misc og Links/Pasted image 20230929083802.png",
-    "Misc og Links/Pasted image 20230929083759.png",
-    "Misc og Links/Pasted image 20230929083755.png",
     "Computer Arkitektur/Noter/Deadlocks",
     "Signalbehandling/Noter/Sampling/Samplingsignalet.md",
     "Signalbehandling/Noter/Sampling/Aliasing.md",
@@ -226,7 +227,6 @@
     "Signalbehandling/Noter/Sampling/Impulssampling.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Multiplexing.md",
-    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Network Control Protocols.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
