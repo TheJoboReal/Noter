@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Prevention.md",
+                "file": "Computer Arkitektur/Noter/Deadlocks/Safe State.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "instanc",
+                "query": "rieman",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Prevention.md",
+                "file": "Computer Arkitektur/Noter/Deadlocks/Safe State.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Prevention.md",
+                "file": "Computer Arkitektur/Noter/Deadlocks/Safe State.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Prevention.md"
+                "file": "Computer Arkitektur/Noter/Deadlocks/Safe State.md"
               }
             }
           },
@@ -190,8 +190,12 @@
   },
   "active": "02e150cd4806b196",
   "lastOpenFiles": [
-    "Computer Arkitektur/Noter/Deadlocks/Resource allocation.md",
+    "Misc og Links/Pasted image 20230929092238.png",
+    "Misc og Links/Pasted image 20230929092103.png",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Computer Arkitektur/Noter/Deadlocks/Safe State.md",
     "Computer Arkitektur/Noter/Deadlocks/Deadlock Prevention.md",
+    "Computer Arkitektur/Noter/Deadlocks/Resource allocation.md",
     "Computer Arkitektur/Noter/Deadlocks/Managing Deadlocks.md",
     "Computer Arkitektur/Noter/Deadlocks/Deadlock Situations.md",
     "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
@@ -201,7 +205,6 @@
     "Misc og Links/Pasted image 20230929083759.png",
     "Misc og Links/Pasted image 20230929083755.png",
     "Misc og Links/Pasted image 20230929083722.png",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Computer Arkitektur/Noter/Deadlocks",
     "Misc og Links/Pasted Image 20230928210701_044.png",
     "Misc og Links/Pasted image 20230928104404.png",
@@ -221,12 +224,9 @@
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Network Control Protocols.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Link Control Protocol.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Example.md",
-    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/Point-ToPoint-Protocol-(PPP).md",
-    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
     "Misc og Links/Pasted image 20230926135147.png",
     "Misc og Links/Pasted image 20230926135120.png",
     "Misc og Links/Pasted image 20230926134932.png",
-    "Misc og Links/Pasted image 20230926134807.png",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
