@@ -130,7 +130,7 @@ $$\frac{x-a}{fa'(a,b)}=\frac{y-b}{f_b'(a,b)}=\frac{z-f(a,b)}{-1}$$
 
 ***
 Kædereglen
-
+	
  Se video: 
   <iframe width="560" height="315" src="https://www.youtube.com/embed/XipB_uEexF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -724,7 +724,6 @@ $$
 
 
 ### Komplekse tal
-
 ##### De Moivre
 
 ***
@@ -764,21 +763,49 @@ $$
 Se eksempel: [[Opgave 1.excalidraw]]
 ![[Opgave 1.excalidraw|1600]] 
 ##### Fourier Transform
+Fouriertransformation af $x(t)$
+$$
+X(f)=F(x(t))=\int_{-\infty}^{\infty} x(t)e^{-j_{2}\pi ft} \, dt
+$$
 
-Fouriertransfomation af $h(t)$:
-$$
-H(\omega)={\int_{-\infty}^{\infty} h(t)e^{-j\omega t} \, dt }
-$$
-Invers Fouriertransformation af $H(\omega)$:
+Invers Fouriertransformation af $X(f)$:
 
 $$
-h(t)=\frac{1}{2\pi}\int_{-\infty}^{\infty} H(\omega)e^{j \omega t} \, d\omega 
+x(t)=F^{-1}(X(f))=\int_{-\infty}^{\infty} X(f)e^{j_{2}\pi ft} \, df 
 $$
+
+![[Pasted image 20230928104404.png]]
 ***
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/spUNpyF58BY?si=pIrsqt-Y5cB7lQzu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ***
+##### Diskret Fourier Transformation
+Lad $x(n)$ være en sekvens [[Samplingsignalet|sampling]] med sampleintervallet $T$, så er en $N$-punkts Diskret F transformation af $x(n)$ givet som 
+$$
+X(m)=\sum^{N-1}_{n=0}x(n)W^{-mn}_{N}
+$$
+for $m=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
+##### Invers Diskret Fourier Transformation
+
+
+
+Sekvensen $x(n)$ kan findes fra  [[Formelsamling Calculus#Diskret Fourier Transformation|spektrumfunktionen]] $X(m)$ som
+$$
+x(n)=\frac{1}{N}\sum^{N-1}_{m=0}X(m)W^{mn}_{N}
+$$
+for $n=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
+##### Fast Fourier Transformation
+Hvis en diskret Fourier Transformation udregnes med [[Formelsamling Calculus#Diskret Fourier Transformation|DFT]] formlerne så skal der andvendes $N^{-2}$ komplekse multiplikationer og additioner.
+
+$$
+X(m)=Y(m)+W^m_{N}Z\left( m+\frac{N}{2} \right)
+$$
+$$
+X\left( m+\frac{N}{2} \right)=Y(m)-W^m_{N}Z\left( m+\frac{N}{2} \right)
+$$
+for $m=0,1,\dots,\frac N2-1$
+Ovenstående ligninger løses i en såkaldt FFT butterfly
 ##### Fourier function
 ![[Pasted image 20230904103645.png]]
 En skaleret Fourier funktion:
@@ -830,6 +857,7 @@ $$
 \int_{-\infty}^{\infty} \delta(t-t_{0}) \, dt=1 
 $$
 hvor $f$ er en kontinuerlig funktion.
+
 #### Indgang & Udgangssignaler
 ##### Superpositionsintegralet
 ![[Pasted image 20230907083733.png]]
@@ -845,3 +873,41 @@ hvor $f$ er en kontinuerlig funktion.
 Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomeret output.
 ![[Pasted image 20230907101415.png]]
 ![[Pasted image 20230907114342.png]]
+#### Multivariable Funktioner
+##### Double Integration
+###### Riemann sum
+![[Pasted image 20230925122408.png|700]]
+$$
+R(f,P)=\sum_{i=1}^m \sum_{j=1}^n f(x^*_{ij},y^*_{ij})\Delta A_{ij}
+$$
+Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij},y^*_{ij})>0$ is a positive function.
+
+**Def:** The function $f$ is integrable over the rectangle $D$ and has double integral $I=\int_{D} f(x,y) \, dA$
+
+###### Propeties of Double integrals
+![[Pasted image 20230925123644.png]]
+![[Pasted image 20230925123741.png]]
+
+###### Double Integral in polar Coordinates
+![[Pasted image 20230925133711.png]]
+![[Pasted image 20230925133742.png]]
+
+##### Domæner og Ranges
+>Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
+##### Limits on Mulivariable Functions
+![[Pasted image 20230911122844.png]]
+##### Level Curves
+![[Pasted image 20230911123103.png]]
+![[Pasted image 20230911124540.png|1000]]
+
+##### Tangent Plane
+![[Pasted image 20230911130719.png]]
+or $z=z_{0}+f'_{x}(x_{0},y_{0}){}(x-x_{0})+f'_{y}(x_{0},y_{0}){}(y-y_{0})$
+
+##### Distance from point to plane
+![[Pasted image 20230911133917.png]]
+or $dist(P,a)=\frac{|a\cdot x_{1}+b\cdot y_{1}+c\cdot z_{1}+d|}{\sqrt{ a²+b²+c² }}$ hvor a,b,c er planets tangentvektor.
+
+##### Higher order derivatives
+![[Pasted image 20230911134453.png]]
+
