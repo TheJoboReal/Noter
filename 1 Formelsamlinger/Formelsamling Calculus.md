@@ -892,6 +892,8 @@ Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij
 ![[Pasted image 20230925133711.png]]
 ![[Pasted image 20230925133742.png]]
 
+##### Triple Integration
+
 ##### Domæner og Ranges
 >Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
 ##### Limits on Mulivariable Functions
