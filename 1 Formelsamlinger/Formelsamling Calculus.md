@@ -899,7 +899,16 @@ Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij
 ###### Triple Integration Riemann
 ![[Pasted image 20231002123714.png]]
 ![[Pasted image 20231002124017.png]]
+##### Change of Variables
+![[Pasted image 20231002125716.png]]
+The change of variables for a double integral extends to triple integrals. Consider the transformation:
 
+$$
+\begin{align}
+x&=(u,v,w) \\
+x&=(u,v,w)
+\end{align}
+$$
 ##### Domæner og Ranges
 >Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
 ##### Limits on Mulivariable Functions
