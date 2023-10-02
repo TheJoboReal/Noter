@@ -91,8 +91,8 @@ $$
 
 
 ### Lineær Algebra
-#### [[Matricer]]
-
+#### Matricer
+![[Matricer]]
 #### Tangentplan
 
 ***
@@ -904,6 +904,19 @@ Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij
 ![[Pasted image 20231002131137.png]]
 ###### Cylindrical Coordinates
 ![[Pasted image 20231002131257.png]]
+Where the Jacobian Transformation is as follows:
+$$
+\frac{\delta(x,y,z)}{\delta(r,\theta,z)}
+=
+\det(
+\begin{bmatrix}
+\cos(\theta) & -r\sin(\theta) & 0 \\
+\sin(\theta) & r\cos(\theta) & 0 \\
+0 & 0 & 1
+\end{bmatrix})
+=
+r
+$$
 
 ##### Domæner og Ranges
 >Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
