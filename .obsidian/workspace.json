@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "8134c2fd594816ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "73ae7dc9412311ce",
             "type": "leaf",
             "state": {
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Recovery.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Recovery.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Recovery.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -188,30 +201,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02e150cd4806b196",
+  "active": "8134c2fd594816ce",
   "lastOpenFiles": [
+    "Computer Arkitektur/Noter/Deadlocks/Deadlock Recovery.md",
+    "conflict-files-obsidian-git.md",
+    "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
+    "SVG fra Remarkable/interactions page 5.svg",
+    "SVG fra Remarkable/interactions page 4.svg",
+    "SVG fra Remarkable/interactions page 3.svg",
+    "SVG fra Remarkable/interactions page 2.svg",
+    "SVG fra Remarkable/interactions page 1.svg",
+    "SVG fra Remarkable/Drawing 2023-09-29 23.38.23.excalidraw.md",
+    "SVG fra Remarkable",
+    "Misc og Links/Pasted Image 20230929233838_477.svg",
     "Misc og Links/Pasted image 20230929100159.png",
     "Computer Arkitektur/Noter/Deadlocks/Deadlock Detection.md",
-    "Computer Arkitektur/Noter/Deadlocks/Deadlock Recovery.md",
     "Misc og Links/Pasted image 20230929094718.png",
     "Misc og Links/Pasted image 20230929094704.png",
     "Misc og Links/Pasted image 20230929094548.png",
     "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md",
-    "Misc og Links/Pasted image 20230929093916.png",
-    "Misc og Links/Pasted image 20230929093900.png",
-    "Misc og Links/Pasted image 20230929093840.png",
-    "Misc og Links/Pasted image 20230929093823.png",
     "Computer Arkitektur/Noter/Deadlocks/Resource Allocation Algorithm.md",
-    "Misc og Links/Pasted image 20230929093619.png",
     "Computer Arkitektur/Noter/Deadlocks/Resource allocation.md",
-    "Misc og Links/Pasted image 20230929093522.png",
     "Computer Arkitektur/Noter/Deadlocks/Safe State.md",
-    "Misc og Links/Pasted image 20230929092238.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
     "Computer Arkitektur/Noter/Deadlocks/Deadlock Prevention.md",
     "Computer Arkitektur/Noter/Deadlocks/Managing Deadlocks.md",
     "Computer Arkitektur/Noter/Deadlocks/Deadlock Situations.md",
-    "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
     "Microcontrollers/Boolean algebra/Counters.md",
     "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
     "Computer Arkitektur/Noter/Deadlocks",
@@ -226,7 +241,6 @@
     "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
     "Signalbehandling/Noter/Sampling/Impulssampling.md",
-    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)/PPP Multilink.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
@@ -234,7 +248,6 @@
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC",
     "Computer Arkitektur/Noter/Process Synchronization",
     "Misc og Links/Lektion2_Opgaver.pdf",
-    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver",
-    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling"
+    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver"
   ]
 }
