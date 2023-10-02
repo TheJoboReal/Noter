@@ -15,7 +15,7 @@ $$
 ***
 
 
-### Kordinatsystemer
+### Koordinatsystemer
 ##### [[Cylendrical Cordinates]]
 
 ![[Pasted image 20221031235630.png]]
@@ -525,8 +525,7 @@ $$\text{Trivielle løsning }\vec x=\vec 0\text{ gælder altid}$$
 
 
 
-### [[Middelværdier]]
-
+### Middelværdier
 ##### Middelværdisætningen
 
 >Der er altid minimum et punkt på funktionen mellem *a* og *b* hvor hældningen er den samme som middelinjen 
@@ -668,7 +667,7 @@ $$
 $$
 f^4(x)=-\frac{6}{x^4}
 $$
-Vi sætter så c ind i alle de afledte, inkl den ikke afledte.
+Vi sætter så $c=1$ ind i alle de afledte, inkl den ikke afledte.
 
 $$
 f(1)=0\land f'(1)=1\land f''(1)(-1)\land f'''(1)=2\land f^4(1)=-6
@@ -686,7 +685,9 @@ $$
 $$
 
 $$
-### [[Dæmpede-Svingninger anden ordens diff ligninger]]
+### Dæmpede-Svingninger anden ordens diff ligninger
+#### Dæmpede Svingninger
+ ![[Dæmpede-Svingninger anden ordens diff ligninger]]
 
 ##### Matlab Input
 
@@ -899,7 +900,7 @@ Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij
 ###### Triple Integration Riemann
 ![[Pasted image 20231002123714.png]]
 ![[Pasted image 20231002124017.png]]
-##### Change of Variables
+###### Change of Variables
 ![[Pasted image 20231002125716.png]]
 ![[Pasted image 20231002131137.png]]
 ###### Cylindrical Coordinates
@@ -918,9 +919,32 @@ $$
 r
 $$
 
+##### Spherical Coordinates
+>See [[Formelsamling Calculus#Spherical Coordinates|Spherical Coordinates]] for foundation.
+
+The conditions are:
+![[Pasted image 20231002135027.png]]
+
+Where the Jacobian is:
+$$
+\frac{\delta(x,y,z)}{\delta(\rho,\phi,\theta)}
+=
+\det(
+\begin{bmatrix}
+\sin(\phi) \cdot \cos(\theta) &\rho \cdot \cos(\phi) \cdot \cos(\theta) & -\rho \cdot(\sin(\phi)\cdot \sin(\theta) \\
+\sin(\phi) \cdot \sin(\theta) & \rho \cdot \cos(\phi) \cdot \sin(\theta) &\rho \sin(\phi) \cdot \cos(\theta) \\
+\cos(\phi) & -\rho \sin(\phi) & 0
+\end{bmatrix})
+$$
+$$
+\frac{\delta(x,y,z)}{\delta(\rho,\phi,\theta)}
+=
+\rho²\sin(\phi)
+$$
+
 ##### Domæner og Ranges
 >Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
-##### Limits on Mulivariable Functions
+##### Limits on Multivariable Functions
 ![[Pasted image 20230911122844.png]]
 ##### Level Curves
 ![[Pasted image 20230911123103.png]]
