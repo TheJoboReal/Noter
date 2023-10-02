@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Deadlocks/Deadlock Recovery.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Calculus/Generelle formler.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,9 +200,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a23ce9c599a43af2",
+  "active": "02e150cd4806b196",
   "lastOpenFiles": [
     "Computer Arkitektur/Noter/Deadlocks/Deadlock Recovery.md",
+    "Calculus/Generelle formler.md",
+    "Calculus/Gauss Elimination.md",
+    "Misc og Links/formulas.pdf",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
     "conflict-files-obsidian-git.md",
     "SVG fra Remarkable/interactions page 5.svg",
@@ -223,7 +226,6 @@
     "Computer Arkitektur/Noter/Deadlocks/Resource Allocation Algorithm.md",
     "Computer Arkitektur/Noter/Deadlocks/Resource allocation.md",
     "Computer Arkitektur/Noter/Deadlocks/Safe State.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Computer Arkitektur/Noter/Deadlocks/Deadlock Prevention.md",
     "Computer Arkitektur/Noter/Deadlocks/Managing Deadlocks.md",
     "Computer Arkitektur/Noter/Deadlocks/Deadlock Situations.md",
@@ -239,15 +241,12 @@
     "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampling Princip.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Pulssampler Model.md",
     "Signalbehandling/Noter/Sampling/Pulssampling/Holdekredsløb.md",
-    "Signalbehandling/Noter/Sampling/Pulssampling/Amplitudespektrum for pulssampling.md",
-    "Signalbehandling/Noter/Sampling/Impulssampling.md",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
     "Data Kommunikation/Noter/Data Links Layers/Protocols",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC",
     "Computer Arkitektur/Noter/Process Synchronization",
-    "Misc og Links/Lektion2_Opgaver.pdf",
-    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver"
+    "Misc og Links/Lektion2_Opgaver.pdf"
   ]
 }
