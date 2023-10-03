@@ -8,36 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "02e150cd4806b196",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8542b3d1ac33bf7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
-                "mode": "source",
+                "file": "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "73ae7dc9412311ce",
+            "id": "926f383fe2bfe50c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md"
+                "file": "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -71,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#ACK",
+                "query": "CDMA",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -116,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
+                "file": "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
+                "file": "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Access/Controlled Access/Polling.md"
+                "file": "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md"
               }
             }
           },
@@ -201,53 +191,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8542b3d1ac33bf7d",
+  "active": "926f383fe2bfe50c",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20231003130948.png",
-    "Misc og Links/Pasted image 20231003130623.png",
-    "Misc og Links/Pasted image 20231003130535.png",
-    "Misc og Links/Pasted image 20231003130532.png",
+    "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
+    "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
+    "Data Kommunikation/Noter/Ethernet/MAC.md",
+    "Data Kommunikation/Noter/Access/Media Access Control/CSMA or CD.md",
+    "Data Kommunikation/Noter/Ethernet/Fast Ethernet.md",
+    "Misc og Links/Pasted image 20231003141350.png",
+    "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet Encoding.md",
+    "Misc og Links/Pasted image 20231003141327.png",
+    "Data Kommunikation/Noter/Ethernet/Gigabit Physical Layer.md",
+    "Misc og Links/Pasted image 20231003141217.png",
+    "Misc og Links/Pasted image 20231003141148.png",
+    "Data Kommunikation/Noter/Protocols.md",
+    "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
+    "Misc og Links/Pasted image 20231003140535.png",
+    "Data Kommunikation/Noter/Ethernet/Encoding.md",
+    "Misc og Links/Pasted image 20231003140436.png",
+    "Data Kommunikation/Noter/Ethernet/Physical Layer.md",
+    "Misc og Links/Pasted image 20231003140353.png",
+    "Misc og Links/Pasted image 20231003140322.png",
+    "Data Kommunikation/Noter/Ethernet/Full-Duplex Switched Ethernet.md",
+    "Misc og Links/Pasted image 20231003140000.png",
+    "Data Kommunikation/Noter/Ethernet/Switched Ethernet.md",
+    "Misc og Links/Pasted image 20231003135754.png",
+    "Data Kommunikation/Noter/Ethernet/Brigdet Ethernet.md",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Data Link Control DLC.md",
+    "Data Kommunikation/Noter/Ethernet/IEEE Standard Ethernet.md",
+    "Data Kommunikation/Noter/Ethernet/Unicast, Multicast and Broadcast addresses.md",
+    "Data Kommunikation/Noter/Ethernet/Addressing.md",
+    "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
+    "Data Kommunikation/Noter/Ethernet",
+    "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
+    "Data Kommunikation/Noter/Access/Controlled Access/Untitled",
     "Data Kommunikation/Noter/Access/Controlled Access/Reservation.md",
     "Data Kommunikation/Noter/Access/Controlled Access/Untitled.md",
-    "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
-    "Misc og Links/Pasted image 20231003130300.png",
-    "Data Kommunikation/Noter/Access/Media Access Control/CSMA or CD.md",
     "Data Kommunikation/Noter/Access/Controlled Access",
-    "Misc og Links/Pasted image 20231003130039.png",
-    "Misc og Links/Pasted image 20231003125707.png",
-    "Misc og Links/Pasted image 20231003125636.png",
-    "Misc og Links/Pasted image 20231003125307.png",
-    "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
     "Data Kommunikation/Noter/Access/Media Access Control/CSMA.md",
-    "Misc og Links/Pasted image 20231003125045.png",
-    "Misc og Links/Pasted image 20231003124838.png",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
     "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Monitors.md",
-    "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md",
-    "Computer Arkitektur/Noter/Deadlocks/Resource allocation.md",
-    "Computer Arkitektur/Noter/Deadlocks/Resource Allocation Algorithm.md",
-    "Computer Arkitektur/Noter/Deadlocks/Safe State.md",
-    "Elektro fysik/Eksamen/AC-kredsløb.md",
-    "Data Kommunikation/Noter/Access/Media Access Control/Random Access.md",
     "Data Kommunikation/Noter/Access/Media Access Control",
-    "Data Kommunikation/Noter/Access/Media Access Control/Media Access Control.md",
-    "Airmon wifi bruteforce.md",
     "Data Kommunikation/Noter/Access",
-    "1 Formelsamlinger/C++ cheatsheet.md",
-    "1 Formelsamlinger/Matlab addons.md",
-    "1 Formelsamlinger/SQL Cheatsheet.md",
-    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver/Lektion2_Opgaver.pdf.md",
-    "Vifm Cheatsheet.md",
-    "Ønskelist.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Calculus/Multivariable Calculus/Noter/Triple Integrals",
     "Misc og Links/formulas.pdf",
     "SVG fra Remarkable",
     "Computer Arkitektur/Noter/Deadlocks",
-    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control"
+    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)"
   ]
 }
