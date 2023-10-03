@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a23ce9c599a43af2",
+            "id": "8542b3d1ac33bf7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calculus/Generelle formler.md",
+                "file": "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rieman",
+                "query": "#ACK",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Data Kommunikation/Noter/Access/Controlled Access/Polling.md"
               }
             }
           },
@@ -200,53 +201,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "02e150cd4806b196",
+  "active": "8542b3d1ac33bf7d",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20231002135116.png",
-    "Misc og Links/Pasted image 20231002135027.png",
-    "Calculus/Middelværdier.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
-    "Calculus/Dæmpede-Svingninger anden ordens diff ligninger.md",
-    "Calculus/Multivariable Calculus/Opgaver/Multivariable Funktioner.excalidraw.md",
-    "Calculus/Multivariable Calculus/Opgaver/Double Integrals.excalidraw.md",
-    "Calculus/Matricer.md",
-    "Calculus/1. ordens differentialeligninger.md",
-    "Calculus/Ligningssystemer.md",
-    "Calculus/Linear algebra og matrice opgaver.svg",
-    "Calculus/Specielle Matricer.md",
-    "Misc og Links/Pasted image 20231002131948.png",
-    "Misc og Links/Pasted image 20231002131257.png",
-    "Misc og Links/Pasted image 20231002131137.png",
-    "Misc og Links/Pasted image 20231002125716.png",
-    "Misc og Links/Pasted image 20231002124017.png",
-    "Misc og Links/Pasted image 20231002123714.png",
-    "Misc og Links/Pasted image 20231002123625.png",
-    "Calculus/Generelle formler.md",
-    "Calculus/Multivariable Calculus/Noter/Triple Integrals/Triple Integrals.md",
-    "Misc og Links/Pasted image 20231002123524.png",
-    "Calculus/Multivariable Calculus/Noter/Triple Integrals",
-    "Computer Arkitektur/Noter/Deadlocks/Deadlock Recovery.md",
-    "Calculus/Gauss Elimination.md",
-    "Misc og Links/formulas.pdf",
-    "conflict-files-obsidian-git.md",
-    "SVG fra Remarkable/Drawing 2023-09-29 23.38.23.excalidraw.md",
-    "SVG fra Remarkable",
-    "Computer Arkitektur/Noter/Deadlocks/Deadlock Detection.md",
+    "Misc og Links/Pasted image 20231003130948.png",
+    "Misc og Links/Pasted image 20231003130623.png",
+    "Misc og Links/Pasted image 20231003130535.png",
+    "Misc og Links/Pasted image 20231003130532.png",
+    "Data Kommunikation/Noter/Access/Controlled Access/Reservation.md",
+    "Data Kommunikation/Noter/Access/Controlled Access/Untitled.md",
+    "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
+    "Misc og Links/Pasted image 20231003130300.png",
+    "Data Kommunikation/Noter/Access/Media Access Control/CSMA or CD.md",
+    "Data Kommunikation/Noter/Access/Controlled Access",
+    "Misc og Links/Pasted image 20231003130039.png",
+    "Misc og Links/Pasted image 20231003125707.png",
+    "Misc og Links/Pasted image 20231003125636.png",
+    "Misc og Links/Pasted image 20231003125307.png",
+    "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
+    "Data Kommunikation/Noter/Access/Media Access Control/CSMA.md",
+    "Misc og Links/Pasted image 20231003125045.png",
+    "Misc og Links/Pasted image 20231003124838.png",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
+    "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Process Synchronization.md",
+    "Computer Arkitektur/Noter/Process Synchronization/Monitors.md",
     "Computer Arkitektur/Noter/Deadlocks/Bankers Algorithm.md",
-    "Computer Arkitektur/Noter/Deadlocks/Resource Allocation Algorithm.md",
     "Computer Arkitektur/Noter/Deadlocks/Resource allocation.md",
+    "Computer Arkitektur/Noter/Deadlocks/Resource Allocation Algorithm.md",
     "Computer Arkitektur/Noter/Deadlocks/Safe State.md",
-    "Computer Arkitektur/Noter/Deadlocks/Deadlock Prevention.md",
-    "Computer Arkitektur/Noter/Deadlocks/Managing Deadlocks.md",
-    "Computer Arkitektur/Noter/Deadlocks/Deadlock Situations.md",
-    "Microcontrollers/Boolean algebra/Counters.md",
-    "Computer Arkitektur/Noter/Process Synchronization/Dining-Philosophers Problem.md",
+    "Elektro fysik/Eksamen/AC-kredsløb.md",
+    "Data Kommunikation/Noter/Access/Media Access Control/Random Access.md",
+    "Data Kommunikation/Noter/Access/Media Access Control",
+    "Data Kommunikation/Noter/Access/Media Access Control/Media Access Control.md",
+    "Airmon wifi bruteforce.md",
+    "Data Kommunikation/Noter/Access",
+    "1 Formelsamlinger/C++ cheatsheet.md",
+    "1 Formelsamlinger/Matlab addons.md",
+    "1 Formelsamlinger/SQL Cheatsheet.md",
+    "home/kasper/Documents/Civilingeniør_Robotteknologi/Signalbehandling/Opgaver/Lektion2_Opgaver.pdf.md",
+    "Vifm Cheatsheet.md",
+    "Ønskelist.md",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Calculus/Multivariable Calculus/Noter/Triple Integrals",
+    "Misc og Links/formulas.pdf",
+    "SVG fra Remarkable",
     "Computer Arkitektur/Noter/Deadlocks",
     "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)",
     "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control/HDLC Fields",
-    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control",
-    "Data Kommunikation/Noter/Data Links Layers/Protocols",
-    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC",
-    "Computer Arkitektur/Noter/Process Synchronization"
+    "Data Kommunikation/Noter/Data Links Layers/High Level Data Link Control"
   ]
 }
