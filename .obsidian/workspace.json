@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CDMA",
+                "query": "hub",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,15 +194,15 @@
   },
   "active": "926f383fe2bfe50c",
   "lastOpenFiles": [
-    "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
+    "Data Kommunikation/Noter/Ethernet/Gigabit Physical Layer.md",
     "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
+    "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
     "Data Kommunikation/Noter/Ethernet/MAC.md",
     "Data Kommunikation/Noter/Access/Media Access Control/CSMA or CD.md",
     "Data Kommunikation/Noter/Ethernet/Fast Ethernet.md",
     "Misc og Links/Pasted image 20231003141350.png",
     "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet Encoding.md",
     "Misc og Links/Pasted image 20231003141327.png",
-    "Data Kommunikation/Noter/Ethernet/Gigabit Physical Layer.md",
     "Misc og Links/Pasted image 20231003141217.png",
     "Misc og Links/Pasted image 20231003141148.png",
     "Data Kommunikation/Noter/Protocols.md",
