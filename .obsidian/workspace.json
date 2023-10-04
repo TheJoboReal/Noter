@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3199ea8ee047828b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -78,12 +88,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -107,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
+                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md"
+                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md"
               }
             }
           },
@@ -192,10 +202,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "926f383fe2bfe50c",
+  "active": "3199ea8ee047828b",
   "lastOpenFiles": [
-    "Data Kommunikation/Noter/Ethernet/Gigabit Physical Layer.md",
+    "Misc og Links/Pasted Image 20231004092043_805.png",
     "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
+    "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
+    "Data Kommunikation/Noter/Ethernet/Gigabit Physical Layer.md",
     "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
     "Data Kommunikation/Noter/Ethernet/MAC.md",
     "Data Kommunikation/Noter/Access/Media Access Control/CSMA or CD.md",
@@ -231,7 +243,6 @@
     "Data Kommunikation/Noter/Access/Controlled Access",
     "Data Kommunikation/Noter/Access/Media Access Control/CSMA.md",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
-    "Data Kommunikation/Noter/Data Links Layers/Protocols/Piggybacking.md",
     "Data Kommunikation/Noter/Access/Media Access Control",
     "Data Kommunikation/Noter/Access",
     "Calculus/Multivariable Calculus/Noter/Triple Integrals",
