@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
-                "mode": "preview",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -40,9 +40,17 @@
                 "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "46bd9b3113df1b1e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -71,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hub",
+                "query": "partia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -92,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -117,7 +124,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +140,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,9 +161,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md"
-              }
+              "state": {}
             }
           },
           {
@@ -202,14 +205,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3199ea8ee047828b",
+  "active": "46bd9b3113df1b1e",
   "lastOpenFiles": [
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/Excalidraw/Partialbrøker.md",
+    "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
+    "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
+    "Misc og Links/Pasted Image 20231004102142_175.png",
+    "Misc og Links/Pasted Image 20231004100023_302.png",
     "Misc og Links/Pasted Image 20231004093901_197.png",
     "Misc og Links/Pasted Image 20231004092043_805.png",
     "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
-    "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
     "Data Kommunikation/Noter/Ethernet/Gigabit Physical Layer.md",
-    "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
     "Data Kommunikation/Noter/Ethernet/MAC.md",
     "Data Kommunikation/Noter/Access/Media Access Control/CSMA or CD.md",
     "Data Kommunikation/Noter/Ethernet/Fast Ethernet.md",
@@ -224,10 +231,7 @@
     "Data Kommunikation/Noter/Ethernet/Encoding.md",
     "Misc og Links/Pasted image 20231003140436.png",
     "Data Kommunikation/Noter/Ethernet/Physical Layer.md",
-    "Misc og Links/Pasted image 20231003140353.png",
-    "Misc og Links/Pasted image 20231003140322.png",
     "Data Kommunikation/Noter/Ethernet/Full-Duplex Switched Ethernet.md",
-    "Misc og Links/Pasted image 20231003140000.png",
     "Data Kommunikation/Noter/Ethernet/Switched Ethernet.md",
     "Data Kommunikation/Noter/Ethernet/Brigdet Ethernet.md",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Data Link Control DLC.md",
@@ -242,7 +246,6 @@
     "Data Kommunikation/Noter/Access/Controlled Access/Untitled.md",
     "Data Kommunikation/Noter/Access/Controlled Access",
     "Data Kommunikation/Noter/Access/Media Access Control/CSMA.md",
-    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
     "Data Kommunikation/Noter/Access/Media Access Control",
     "Data Kommunikation/Noter/Access",
     "Calculus/Multivariable Calculus/Noter/Triple Integrals",
