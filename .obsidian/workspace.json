@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "926f383fe2bfe50c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3199ea8ee047828b",
             "type": "leaf",
             "state": {
@@ -45,12 +33,14 @@
             "id": "46bd9b3113df1b1e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Misc og Links/Excalidraw/Partialbrøker.md"
+              }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,11 +86,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ea697bb70d04073f",
@@ -124,6 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,6 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +155,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md"
+              }
             }
           },
           {
@@ -205,12 +201,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "46bd9b3113df1b1e",
+  "active": "3199ea8ee047828b",
   "lastOpenFiles": [
     "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
     "Misc og Links/Excalidraw/Partialbrøker.md",
     "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
-    "Calculus/Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
     "Misc og Links/Pasted Image 20231004102142_175.png",
     "Misc og Links/Pasted Image 20231004100023_302.png",
     "Misc og Links/Pasted Image 20231004093901_197.png",
