@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Signalbehandling/Noter/Rektangulært Vindue.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Signalbehandling/Noter/Vinduesfunktion.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Signalbehandling/Noter/Rektangulært Vindue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Signalbehandling/Noter/Rektangulært Vindue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Signalbehandling/Noter/Rektangulært Vindue.md"
               }
             }
           },
@@ -191,10 +190,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3199ea8ee047828b",
+  "active": "8542b3d1ac33bf7d",
   "lastOpenFiles": [
-    "Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
+    "Misc og Links/Pasted image 20231005085611.png",
     "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Signalbehandling/Noter/Rektangulært Vindue.md",
+    "Signalbehandling/Noter/Vinduesfunktion.md",
+    "Misc og Links/Pasted image 20231005084806.png",
+    "Misc og Links/Pasted image 20231005084726.png",
+    "Misc og Links/Pasted image 20231005084457.png",
+    "Misc og Links/Pasted image 20231005084347.png",
+    "Misc og Links/Pasted image 20231005084335.png",
+    "Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
     "Misc og Links/Excalidraw/Partialbrøker.md",
     "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
     "Misc og Links/Pasted Image 20231004102142_175.png",
@@ -208,14 +215,9 @@
     "Data Kommunikation/Noter/Ethernet/Fast Ethernet.md",
     "Misc og Links/Pasted image 20231003141350.png",
     "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet Encoding.md",
-    "Misc og Links/Pasted image 20231003141327.png",
-    "Misc og Links/Pasted image 20231003141217.png",
-    "Misc og Links/Pasted image 20231003141148.png",
     "Data Kommunikation/Noter/Protocols.md",
     "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
-    "Misc og Links/Pasted image 20231003140535.png",
     "Data Kommunikation/Noter/Ethernet/Encoding.md",
-    "Misc og Links/Pasted image 20231003140436.png",
     "Data Kommunikation/Noter/Ethernet/Physical Layer.md",
     "Data Kommunikation/Noter/Ethernet/Full-Duplex Switched Ethernet.md",
     "Data Kommunikation/Noter/Ethernet/Switched Ethernet.md",
@@ -228,10 +230,7 @@
     "Data Kommunikation/Noter/Ethernet",
     "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
     "Data Kommunikation/Noter/Access/Controlled Access/Untitled",
-    "Data Kommunikation/Noter/Access/Controlled Access/Reservation.md",
-    "Data Kommunikation/Noter/Access/Controlled Access/Untitled.md",
     "Data Kommunikation/Noter/Access/Controlled Access",
-    "Data Kommunikation/Noter/Access/Media Access Control/CSMA.md",
     "Data Kommunikation/Noter/Access/Media Access Control",
     "Data Kommunikation/Noter/Access",
     "Calculus/Multivariable Calculus/Noter/Triple Integrals",
