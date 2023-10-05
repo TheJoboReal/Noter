@@ -811,8 +811,8 @@ Ovenstående ligninger løses i en såkaldt FFT butterfly
 **Fejlmuligheder ved FFT**
 Når en DFT udføres kan flere fænomener påvirke kvaliteten af den approksimerede spektrumfunktion
 * [[Aliasing]]
-* Lækage
-* Picket fencing
+* [[Lækage]]
+* [[Picket Fencing]]
 Disse fænomener vil medføre en fejlagtig analyse af et signals frekvensspektrum, og skal
 derfor undgås.
 
