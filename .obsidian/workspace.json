@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signalbehandling/Noter/Rektangulært Vindue.md",
+                "file": "Signalbehandling/Noter/Fourier/Hamming og Hanning.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Signalbehandling/Noter/Vinduesfunktion.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Signalbehandling/Noter/Rektangulært Vindue.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Signalbehandling/Noter/Rektangulært Vindue.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Signalbehandling/Noter/Rektangulært Vindue.md"
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
               }
             }
           },
@@ -190,12 +191,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8542b3d1ac33bf7d",
+  "active": "3199ea8ee047828b",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20231005085611.png",
+    "Signalbehandling/Noter/Sampling/Aliasing.md",
     "1 Formelsamlinger/Formelsamling Calculus.md",
-    "Signalbehandling/Noter/Rektangulært Vindue.md",
-    "Signalbehandling/Noter/Vinduesfunktion.md",
+    "Misc og Links/Pasted image 20231005091648.png",
+    "Signalbehandling/Noter/Fourier/Vinduesfunktion.md",
+    "Signalbehandling/Noter/Fourier/Hamming og Hanning.md",
+    "Misc og Links/Pasted image 20231005091500.png",
+    "Misc og Links/Pasted image 20231005091438.png",
+    "Signalbehandling/Noter/Fourier/Barlett Vindue.md",
+    "Signalbehandling/Noter/Fourier",
+    "Misc og Links/Pasted image 20231005091034.png",
+    "Signalbehandling/Noter/Fourier/Rektangulært Vindue.md",
+    "Misc og Links/Pasted image 20231005085611.png",
     "Misc og Links/Pasted image 20231005084806.png",
     "Misc og Links/Pasted image 20231005084726.png",
     "Misc og Links/Pasted image 20231005084457.png",
@@ -204,16 +213,11 @@
     "Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
     "Misc og Links/Excalidraw/Partialbrøker.md",
     "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
-    "Misc og Links/Pasted Image 20231004102142_175.png",
-    "Misc og Links/Pasted Image 20231004100023_302.png",
-    "Misc og Links/Pasted Image 20231004093901_197.png",
-    "Misc og Links/Pasted Image 20231004092043_805.png",
     "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
     "Data Kommunikation/Noter/Ethernet/Gigabit Physical Layer.md",
     "Data Kommunikation/Noter/Ethernet/MAC.md",
     "Data Kommunikation/Noter/Access/Media Access Control/CSMA or CD.md",
     "Data Kommunikation/Noter/Ethernet/Fast Ethernet.md",
-    "Misc og Links/Pasted image 20231003141350.png",
     "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet Encoding.md",
     "Data Kommunikation/Noter/Protocols.md",
     "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
@@ -226,9 +230,7 @@
     "Data Kommunikation/Noter/Ethernet/IEEE Standard Ethernet.md",
     "Data Kommunikation/Noter/Ethernet/Unicast, Multicast and Broadcast addresses.md",
     "Data Kommunikation/Noter/Ethernet/Addressing.md",
-    "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
     "Data Kommunikation/Noter/Ethernet",
-    "Data Kommunikation/Noter/Access/Controlled Access/Polling.md",
     "Data Kommunikation/Noter/Access/Controlled Access/Untitled",
     "Data Kommunikation/Noter/Access/Controlled Access",
     "Data Kommunikation/Noter/Access/Media Access Control",
@@ -236,7 +238,6 @@
     "Calculus/Multivariable Calculus/Noter/Triple Integrals",
     "Misc og Links/formulas.pdf",
     "SVG fra Remarkable",
-    "Computer Arkitektur/Noter/Deadlocks",
-    "Data Kommunikation/Noter/Data Links Layers/Point-To-Point Protocol (PPP)"
+    "Computer Arkitektur/Noter/Deadlocks"
   ]
 }

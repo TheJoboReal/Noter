@@ -807,6 +807,15 @@ X\left( m+\frac{N}{2} \right)=Y(m)-W^m_{N}Z\left( m+\frac{N}{2} \right)
 $$
 for $m=0,1,\dots,\frac N2-1$
 Ovenstående ligninger løses i en såkaldt FFT butterfly
+
+**Fejlmuligheder ved FFT**
+Når en DFT udføres kan flere fænomener påvirke kvaliteten af den approksimerede spektrumfunktion
+* [[Aliasing]]
+* Lækage
+* Picket fencing
+Disse fænomener vil medføre en fejlagtig analyse af et signals frekvensspektrum, og skal
+derfor undgås.
+
 ##### Fourier function
 ![[Pasted image 20230904103645.png]]
 En skaleret Fourier funktion:
