@@ -15,7 +15,7 @@ $$
 ***
 
 
-### Kordinatsystemer
+### Koordinatsystemer
 ##### [[Cylendrical Cordinates]]
 
 ![[Pasted image 20221031235630.png]]
@@ -91,8 +91,8 @@ $$
 
 
 ### Lineær Algebra
-#### [[Matricer]]
-
+#### Matricer
+![[Matricer]]
 #### Tangentplan
 
 ***
@@ -525,8 +525,7 @@ $$\text{Trivielle løsning }\vec x=\vec 0\text{ gælder altid}$$
 
 
 
-### [[Middelværdier]]
-
+### Middelværdier
 ##### Middelværdisætningen
 
 >Der er altid minimum et punkt på funktionen mellem *a* og *b* hvor hældningen er den samme som middelinjen 
@@ -668,7 +667,7 @@ $$
 $$
 f^4(x)=-\frac{6}{x^4}
 $$
-Vi sætter så c ind i alle de afledte, inkl den ikke afledte.
+Vi sætter så $c=1$ ind i alle de afledte, inkl den ikke afledte.
 
 $$
 f(1)=0\land f'(1)=1\land f''(1)(-1)\land f'''(1)=2\land f^4(1)=-6
@@ -686,7 +685,9 @@ $$
 $$
 
 $$
-### [[Dæmpede-Svingninger anden ordens diff ligninger]]
+### Dæmpede-Svingninger anden ordens diff ligninger
+#### Dæmpede Svingninger
+ ![[Dæmpede-Svingninger anden ordens diff ligninger]]
 
 ##### Matlab Input
 
@@ -787,14 +788,14 @@ X(m)=\sum^{N-1}_{n=0}x(n)W^{-mn}_{N}
 $$
 for $m=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
 ##### Invers Diskret Fourier Transformation
-
-
-
 Sekvensen $x(n)$ kan findes fra  [[Formelsamling Calculus#Diskret Fourier Transformation|spektrumfunktionen]] $X(m)$ som
 $$
 x(n)=\frac{1}{N}\sum^{N-1}_{m=0}X(m)W^{mn}_{N}
 $$
 for $n=0,1,\dots,N-1$ og $W_{N}=e^{-j_{2}\pi/N}$.
+Så $N$ er lig med antal punkter i et signal. fks $0-7$ er $8$ punkter da man tæller $0$ med.
+$W_{N}$ kan udregnes en gang og derefter roteres rundt i det komplekse plan.
+
 ##### Fast Fourier Transformation
 Hvis en diskret Fourier Transformation udregnes med [[Formelsamling Calculus#Diskret Fourier Transformation|DFT]] formlerne så skal der andvendes $N^{-2}$ komplekse multiplikationer og additioner.
 
@@ -806,6 +807,15 @@ X\left( m+\frac{N}{2} \right)=Y(m)-W^m_{N}Z\left( m+\frac{N}{2} \right)
 $$
 for $m=0,1,\dots,\frac N2-1$
 Ovenstående ligninger løses i en såkaldt FFT butterfly
+
+**Fejlmuligheder ved FFT**
+Når en DFT udføres kan flere fænomener påvirke kvaliteten af den approksimerede spektrumfunktion
+* [[Aliasing]]
+* [[Lækage]]
+* [[Picket Fencing]]
+Disse fænomener vil medføre en fejlagtig analyse af et signals frekvensspektrum, og skal
+derfor undgås.
+
 ##### Fourier function
 ![[Pasted image 20230904103645.png]]
 En skaleret Fourier funktion:
@@ -858,6 +868,11 @@ $$
 $$
 hvor $f$ er en kontinuerlig funktion.
 
+##### Vinduesfunktion
+Når der laves en [[Formelsamling Calculus#Fast Fourier Transformation|FFT]] analyse på en sekvens, så er den anvendte sekvens fundet fra impulsresponset $h_{\infty}(n)$ ganget med den rektangulære [[Vinduesfunktion]], dvs.
+![[Pasted image 20231005084335.png|450]]
+![[Pasted image 20231005084347.png|350]]
+
 #### Indgang & Udgangssignaler
 ##### Superpositionsintegralet
 ![[Pasted image 20230907083733.png]]
@@ -892,9 +907,58 @@ Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij
 ![[Pasted image 20230925133711.png]]
 ![[Pasted image 20230925133742.png]]
 
+##### Triple Integration
+###### Triple Integration Order
+![[Pasted image 20231002123625.png]]
+
+###### Triple Integration Riemann
+![[Pasted image 20231002123714.png]]
+![[Pasted image 20231002124017.png]]
+###### Change of Variables
+![[Pasted image 20231002125716.png]]
+![[Pasted image 20231002131137.png]]
+###### Cylindrical Coordinates
+![[Pasted image 20231002131257.png]]
+Where the Jacobian Transformation is as follows:
+$$
+\frac{\delta(x,y,z)}{\delta(r,\theta,z)}
+=
+\det(
+\begin{bmatrix}
+\cos(\theta) & -r\sin(\theta) & 0 \\
+\sin(\theta) & r\cos(\theta) & 0 \\
+0 & 0 & 1
+\end{bmatrix})
+=
+r
+$$
+
+##### Spherical Coordinates
+>See [[Formelsamling Calculus#Spherical Coordinates|Spherical Coordinates]] for foundation.
+
+The conditions are:
+![[Pasted image 20231002135027.png]]
+
+Where the Jacobian is:
+$$
+\frac{\delta(x,y,z)}{\delta(\rho,\phi,\theta)}
+=
+\det(
+\begin{bmatrix}
+\sin(\phi) \cdot \cos(\theta) &\rho \cdot \cos(\phi) \cdot \cos(\theta) & -\rho \cdot(\sin(\phi)\cdot \sin(\theta) \\
+\sin(\phi) \cdot \sin(\theta) & \rho \cdot \cos(\phi) \cdot \sin(\theta) &\rho \sin(\phi) \cdot \cos(\theta) \\
+\cos(\phi) & -\rho \sin(\phi) & 0
+\end{bmatrix})
+$$
+$$
+\frac{\delta(x,y,z)}{\delta(\rho,\phi,\theta)}
+=
+\rho²\sin(\phi)
+$$
+
 ##### Domæner og Ranges
 >Domæne er hvad man kan sætte ind i en funktion og range er hvad man kan få ud af funktionen.
-##### Limits on Mulivariable Functions
+##### Limits on Multivariable Functions
 ![[Pasted image 20230911122844.png]]
 ##### Level Curves
 ![[Pasted image 20230911123103.png]]
