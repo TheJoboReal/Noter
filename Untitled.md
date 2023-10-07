@@ -1,0 +1,1 @@
+$$\frac{3 \cdot {y}^{2} + 3 \cdot {z}^{2} + 6 \cdot yz}{2 \cdot {\left(2 \cdot y + 2 \cdot z\right)}^{2} \cdot {\left(y + z\right)}^{2}}$$
