@@ -933,7 +933,7 @@ $$
 r
 $$
 
-##### Spherical Coordinates
+###### Spherical Coordinates
 >See [[Formelsamling Calculus#Spherical Coordinates|Spherical Coordinates]] for foundation.
 
 The conditions are:
