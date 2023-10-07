@@ -1,5 +1,4 @@
-The implementation of paging involves breaking physical memory into fixed-sized blocks called frames and breaking logical memory into blocks of the same size called pages.
-![[Pasted image 20231006123702.png]]
+$$\frac{1}{2 \cdot {\left(y + z\right)}^{2}}$$![[Pasted image 20231006123702.png]]
 ![[Pasted image 20231006123718.png]]
 ![[Pasted image 20231006123746.png]]
 
