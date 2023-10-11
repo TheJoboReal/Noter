@@ -1,52 +1,35 @@
 {
   "main": {
-    "id": "6a5855d1ddc7741c",
+    "id": "70b73e0013807e8c",
     "type": "split",
     "children": [
       {
-        "id": "51cf90dbfb364fbb",
+        "id": "fd602a9ce3a99cfc",
         "type": "tabs",
         "children": [
           {
-            "id": "8542b3d1ac33bf7d",
+            "id": "c5aa133e7dd93fc7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 Formelsamlinger/Matlab addons.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b6746410d34f0ce8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "4f3fde69c3a37197",
+    "id": "884c98e9c331d4d0",
     "type": "split",
     "children": [
       {
-        "id": "ef0042752b17fb18",
+        "id": "9c0f58c42548a37b",
         "type": "tabs",
         "children": [
           {
-            "id": "8d7de1ef2807bd2b",
+            "id": "a50d2ab3b16d9415",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -56,12 +39,12 @@
             }
           },
           {
-            "id": "52dd75dc9997a49e",
+            "id": "8f49950c2e9ebf7c",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "matlab",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -71,7 +54,7 @@
             }
           },
           {
-            "id": "d8ef7f44c8f5ce47",
+            "id": "3627784b4d540501",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,15 +68,15 @@
     "width": 300
   },
   "right": {
-    "id": "ea697bb70d04073f",
+    "id": "3dd688c234dd51d4",
     "type": "split",
     "children": [
       {
-        "id": "8df03221c908f46d",
+        "id": "cef93c7f25962508",
         "type": "tabs",
         "children": [
           {
-            "id": "83659fbf9157b313",
+            "id": "67f1d7b868b57f10",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -101,12 +84,11 @@
             }
           },
           {
-            "id": "58f18ad971a0e46c",
+            "id": "818dd471c712b62b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,19 +100,18 @@
             }
           },
           {
-            "id": "078d936007fcc4d8",
+            "id": "864870e661554a28",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "655573eb8f064a18",
+            "id": "a173f630207dbdb1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -141,25 +122,7 @@
             }
           },
           {
-            "id": "bd670b967eb940e4",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
-              }
-            }
-          },
-          {
-            "id": "c426248791ecd4a3",
-            "type": "leaf",
-            "state": {
-              "type": "mathpad-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "98c03e6ae032a5df",
+            "id": "bf1ba1993493a773",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -167,9 +130,16 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "55edae960a721fea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,53 +161,6 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b6746410d34f0ce8",
-  "lastOpenFiles": [
-    "1 Formelsamlinger/Matlab addons.md",
-    "1 Formelsamlinger/Formelsamling Calculus.md",
-    "Signalbehandling/Noter/Fourier/Picket Fencing.md",
-    "Misc og Links/Pasted image 20231005094346.png",
-    "Signalbehandling/Noter/Fourier/Lækage.md",
-    "Misc og Links/Pasted image 20231005094226.png",
-    "Misc og Links/Pasted image 20231005093941.png",
-    "Signalbehandling/Noter/Sampling/Aliasing.md",
-    "Misc og Links/Pasted image 20231005093745.png",
-    "Signalbehandling/Noter/Fourier/Hamming og Hanning.md",
-    "Misc og Links/Pasted image 20231005091648.png",
-    "Signalbehandling/Noter/Fourier/Vinduesfunktion.md",
-    "Misc og Links/Pasted image 20231005091500.png",
-    "Misc og Links/Pasted image 20231005091438.png",
-    "Signalbehandling/Noter/Fourier/Barlett Vindue.md",
-    "Signalbehandling/Noter/Fourier",
-    "Misc og Links/Pasted image 20231005091034.png",
-    "Signalbehandling/Noter/Fourier/Rektangulært Vindue.md",
-    "Misc og Links/Pasted image 20231005085611.png",
-    "Misc og Links/Pasted image 20231005084806.png",
-    "Multivariable Calculus/Opgaver/Triple Integrals.excalidraw.md",
-    "Misc og Links/Excalidraw/Partialbrøker.md",
-    "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
-    "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet.md",
-    "Data Kommunikation/Noter/Ethernet/Gigabit Physical Layer.md",
-    "Data Kommunikation/Noter/Ethernet/MAC.md",
-    "Data Kommunikation/Noter/Access/Media Access Control/CSMA or CD.md",
-    "Data Kommunikation/Noter/Ethernet/Fast Ethernet.md",
-    "Data Kommunikation/Noter/Ethernet/Gigabit Ethernet Encoding.md",
-    "Data Kommunikation/Noter/Protocols.md",
-    "Data Kommunikation/Noter/Line coding/Polar Manchester and differentiel Manchester.md",
-    "Data Kommunikation/Noter/Ethernet/Encoding.md",
-    "Data Kommunikation/Noter/Ethernet/Physical Layer.md",
-    "Data Kommunikation/Noter/Ethernet/Full-Duplex Switched Ethernet.md",
-    "Data Kommunikation/Noter/Ethernet/Switched Ethernet.md",
-    "Data Kommunikation/Noter/Ethernet/Brigdet Ethernet.md",
-    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Data Link Control DLC.md",
-    "Data Kommunikation/Noter/Ethernet",
-    "Data Kommunikation/Noter/Access/Controlled Access/Untitled",
-    "Data Kommunikation/Noter/Access/Controlled Access",
-    "Data Kommunikation/Noter/Access/Media Access Control",
-    "Data Kommunikation/Noter/Access",
-    "Calculus/Multivariable Calculus/Noter/Triple Integrals",
-    "Misc og Links/formulas.pdf",
-    "SVG fra Remarkable",
-    "Computer Arkitektur/Noter/Deadlocks"
-  ]
+  "active": "c5aa133e7dd93fc7",
+  "lastOpenFiles": []
 }
