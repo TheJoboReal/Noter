@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b6746410d34f0ce8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Matlab addons.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Matlab addons.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Matlab addons.md"
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
               }
             }
           },
@@ -179,8 +191,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8542b3d1ac33bf7d",
+  "active": "b6746410d34f0ce8",
   "lastOpenFiles": [
+    "1 Formelsamlinger/Matlab addons.md",
     "1 Formelsamlinger/Formelsamling Calculus.md",
     "Signalbehandling/Noter/Fourier/Picket Fencing.md",
     "Misc og Links/Pasted image 20231005094346.png",
