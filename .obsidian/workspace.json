@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Network Layer/Untitled.md",
+                "file": "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Memory/Memory Management optimization.md",
+                "file": "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "fragmen",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Network Layer/Untitled.md",
+                "file": "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Network Layer/Untitled.md",
+                "file": "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Network Layer/Untitled.md"
+                "file": "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md"
               }
             }
           }
@@ -183,13 +183,35 @@
   },
   "active": "c5aa133e7dd93fc7",
   "lastOpenFiles": [
-    "Data Kommunikation/Noter/Network Layer/Network Error Control.md",
-    "Data Kommunikation/Noter/Network Layer/Untitled.md",
-    "Data Kommunikation/Noter/Network Layer/Routing and forwarding.md",
-    "Misc og Links/Pasted image 20231011211957.png",
-    "Data Kommunikation/Noter/Network Layer/Network Layer.md",
+    "Misc og Links/Pasted image 20231012105205.png",
+    "Misc og Links/Pasted image 20231012105105.png",
+    "Misc og Links/Pasted image 20231012105056.png",
+    "Misc og Links/Pasted image 20231012105053.png",
+    "Misc og Links/Pasted image 20231012105046.png",
+    "Misc og Links/Pasted image 20231012105025.png",
+    "Misc og Links/Pasted image 20231012104952.png",
+    "Misc og Links/Pasted image 20231012104917.png",
+    "Data Kommunikation/Noter/Network Layer/IPV4 Network Addressing.md",
+    "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
+    "Misc og Links/Pasted image 20231012104654.png",
+    "Misc og Links/Pasted image 20231012104448.png",
+    "Misc og Links/Pasted image 20231012104336.png",
+    "Data Kommunikation/Noter/Network Layer/IPV4 Addressing.md",
+    "Data Kommunikation/Noter/Network Layer/Logical Addressing.md",
+    "Data Kommunikation/Noter/Network Layer/Network Perfomance.md",
+    "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
     "Computer Arkitektur/Noter/Memory/Memory Management optimization.md",
-    "Misc og Links/Pasted image 20231011211609.png",
+    "Data Kommunikation/Noter/Network Layer/Network Connection-oriented service.md",
+    "Data Kommunikation/Noter/Network Layer/Network Forwarding mechanism.md",
+    "Data Kommunikation/Noter/Network Layer/Network Security.md",
+    "Data Kommunikation/Noter/Network Layer/Connectionless Service.md",
+    "Data Kommunikation/Noter/Network Layer/Network Quality of Service (QoS).md",
+    "Data Kommunikation/Noter/Network Layer/Network Congestion control.md",
+    "Data Kommunikation/Noter/Network Layer/Network Flow Control.md",
+    "Data Kommunikation/Noter/Network Layer/Network Error Control.md",
+    "Data Kommunikation/Noter/Network Layer/Routing and forwarding.md",
+    "Data Kommunikation/Noter/Network Layer/Network Layer.md",
     "Data Kommunikation/Noter/Network Layer"
   ]
 }

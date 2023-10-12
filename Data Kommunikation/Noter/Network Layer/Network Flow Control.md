@@ -1,5 +1,6 @@
-Flow control is used to control the amount of data that a sender can send without overloading the receiver.
+**Flow control** is used to control the amount of data that a sender can send without overloading the receiver.
 To make flow control work, the receiver must send some feedback back to the sender.
+
 The network layer does not directly offer any flow control.
 Datagrams are sent when they are ready, without focusing on whether the receiver can receive the datagrams.
 
