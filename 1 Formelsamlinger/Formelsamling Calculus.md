@@ -888,6 +888,30 @@ Når der laves en [[Formelsamling Calculus#Fast Fourier Transformation|FFT]] ana
 Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomeret output.
 ![[Pasted image 20230907101415.png]]
 ![[Pasted image 20230907114342.png]]
+##### z-transformation
+$$
+X(z)=Z[x(n)]=\sum^\infty_{n=0}x(n)z^{-n}
+$$
+Bemærk at $(1)$ konvergerer hvis $|z|<1$.
+$$
+s=\frac{1}{T}\ln(z)
+$$
+z-transformation regler
+![[Pasted image 20231013104400.png]]
+![[Pasted image 20231013104721.png|400]]
+
+##### Invers z-transformation
+
+##### Differensligninger
+$$
+y(n)=\sum^N_{i=0}a_{i}x(n-i)-\sum^N_{i=1}b_{i}y(n-i)
+$$
+hvor $x(n-i)$ er den tidsforsinkede indgangssekvens, $y(n-i)$ er den tidsforsinkede udgangssekvens og $a_{i} \wedge b_{j}$ er reele koefficienter.
+
+>Se [[Differensligning Eksempel]]
+
+##### Overføringsfunktioner
+
 #### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum

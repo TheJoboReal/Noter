@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c5aa133e7dd93fc7",
+            "id": "408b58f21bbd5f3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Paging/Demand Paging.md",
+                "file": "Signalbehandling/Noter/Sampling/Differensligning Eksempel.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "408b58f21bbd5f3a",
+            "id": "5980dc1395f100a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md"
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
               }
             }
           }
@@ -182,11 +182,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "408b58f21bbd5f3a",
+  "active": "5980dc1395f100a8",
   "lastOpenFiles": [
+    "Signalbehandling/Noter/Sampling/Differensligning Eksempel.md",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20231013105753.png",
+    "Misc og Links/Pasted image 20231013105741.png",
+    "Signalbehandling/Noter/Relation mellem s-domæne og z-domæne.md",
+    "Misc og Links/Pasted image 20231013104721.png",
+    "Misc og Links/Pasted image 20231013104400.png",
+    "Misc og Links/Pasted image 20231013104236.png",
+    "Misc og Links/Pasted image 20231013104101.png",
+    "Misc og Links/Pasted image 20231013103940.png",
+    "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
     "Computer Arkitektur/Noter/Paging/Loaclity.md",
     "Computer Arkitektur/Noter/Paging/Page Buffering Algorithm.md",
-    "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
     "Computer Arkitektur/Noter/Paging/Page Replacing.md",
     "Computer Arkitektur/Noter/Paging/Thrashing.md",
     "Data Kommunikation/Noter/Network Layer/Network Perfomance.md",
@@ -199,16 +209,9 @@
     "Misc og Links/Pasted image 20231013094919.png",
     "Misc og Links/Pasted image 20231013094801.png",
     "Misc og Links/Pasted image 20231013094636.png",
-    "Misc og Links/Pasted image 20231013094520.png",
     "C++/Functions and stuff/Memory(Heap and Stacks).md",
-    "Misc og Links/Pasted image 20231013094136.png",
     "Computer Arkitektur/Noter/Memory/Non-Uniform Memory Access (NUMA).md",
-    "Misc og Links/Pasted image 20231013094004.png",
     "Computer Arkitektur/Noter/Memory/Address Binding.md",
-    "Misc og Links/Pasted image 20231013093705.png",
-    "Misc og Links/Pasted image 20231013092339.png",
-    "Misc og Links/Pasted image 20231013092006.png",
-    "Misc og Links/Pasted image 20231013091752.png",
     "Computer Arkitektur/Noter/Paging",
     "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
     "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
@@ -218,10 +221,6 @@
     "Data Kommunikation/Noter/Network Layer/IPV4 Addressing.md",
     "Data Kommunikation/Noter/Network Layer/Logical Addressing.md",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
-    "Computer Arkitektur/Noter/Memory/Memory Management optimization.md",
-    "Data Kommunikation/Noter/Network Layer/Network Connection-oriented service.md",
-    "Data Kommunikation/Noter/Network Layer/Network Forwarding mechanism.md",
-    "Data Kommunikation/Noter/Network Layer/Network Security.md",
     "Data Kommunikation/Noter/Network Layer"
   ]
 }
