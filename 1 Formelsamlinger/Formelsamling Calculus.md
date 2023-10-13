@@ -876,7 +876,7 @@ Når der laves en [[Formelsamling Calculus#Fast Fourier Transformation|FFT]] ana
 #### Indgang & Udgangssignaler
 ##### Impulsrespons
 ![[Pasted image 20231013125630.png]]
-Samme vinkel/argument vil give samme frekvens på et signal. Amplitude vil være forskellig.
+Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i 45 grader. Amplitude vil være forskellig.
 
 ##### Superpositionsintegralet
 ![[Pasted image 20230907083733.png]]
