@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
+                "file": "Computer Arkitektur/Noter/Paging/Demand Paging.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
+                "file": "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "working set",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
+                "file": "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
+                "file": "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md"
+                "file": "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md"
               }
             }
           }
@@ -181,37 +182,46 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c5aa133e7dd93fc7",
+  "active": "408b58f21bbd5f3a",
   "lastOpenFiles": [
-    "Misc og Links/Pasted image 20231012105205.png",
-    "Misc og Links/Pasted image 20231012105105.png",
-    "Misc og Links/Pasted image 20231012105056.png",
-    "Misc og Links/Pasted image 20231012105053.png",
-    "Misc og Links/Pasted image 20231012105046.png",
-    "Misc og Links/Pasted image 20231012105025.png",
-    "Misc og Links/Pasted image 20231012104952.png",
-    "Misc og Links/Pasted image 20231012104917.png",
-    "Data Kommunikation/Noter/Network Layer/IPV4 Network Addressing.md",
+    "Computer Arkitektur/Noter/Paging/Loaclity.md",
+    "Computer Arkitektur/Noter/Paging/Page Buffering Algorithm.md",
+    "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
+    "Computer Arkitektur/Noter/Paging/Page Replacing.md",
+    "Computer Arkitektur/Noter/Paging/Thrashing.md",
+    "Data Kommunikation/Noter/Network Layer/Network Perfomance.md",
+    "Computer Arkitektur/Noter/Paging/Demand Paging.md",
+    "Computer Arkitektur/Noter/Paging/Copy on Write.md",
+    "Computer Arkitektur/Noter/Virtual Memory/Virtual Space Address.md",
+    "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
+    "Computer Arkitektur/Noter/Paging/Allocation of frames.md",
+    "Computer Arkitektur/Noter/Virtual Memory/Virtual Memory Basics.md",
+    "Misc og Links/Pasted image 20231013094919.png",
+    "Misc og Links/Pasted image 20231013094801.png",
+    "Misc og Links/Pasted image 20231013094636.png",
+    "Misc og Links/Pasted image 20231013094520.png",
+    "C++/Functions and stuff/Memory(Heap and Stacks).md",
+    "Misc og Links/Pasted image 20231013094136.png",
+    "Computer Arkitektur/Noter/Memory/Non-Uniform Memory Access (NUMA).md",
+    "Misc og Links/Pasted image 20231013094004.png",
+    "Computer Arkitektur/Noter/Memory/Address Binding.md",
+    "Misc og Links/Pasted image 20231013093705.png",
+    "Misc og Links/Pasted image 20231013092339.png",
+    "Misc og Links/Pasted image 20231013092006.png",
+    "Misc og Links/Pasted image 20231013091752.png",
+    "Computer Arkitektur/Noter/Paging",
+    "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
     "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
-    "Misc og Links/Pasted image 20231012104654.png",
-    "Misc og Links/Pasted image 20231012104448.png",
-    "Misc og Links/Pasted image 20231012104336.png",
+    "Computer Arkitektur/Noter/Virtual Memory",
+    "Computer Arkitektur/Noter/Memory/Virtual.md",
+    "Data Kommunikation/Noter/Network Layer/IPV4 Network Addressing.md",
     "Data Kommunikation/Noter/Network Layer/IPV4 Addressing.md",
     "Data Kommunikation/Noter/Network Layer/Logical Addressing.md",
-    "Data Kommunikation/Noter/Network Layer/Network Perfomance.md",
-    "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
     "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
     "Computer Arkitektur/Noter/Memory/Memory Management optimization.md",
     "Data Kommunikation/Noter/Network Layer/Network Connection-oriented service.md",
     "Data Kommunikation/Noter/Network Layer/Network Forwarding mechanism.md",
     "Data Kommunikation/Noter/Network Layer/Network Security.md",
-    "Data Kommunikation/Noter/Network Layer/Connectionless Service.md",
-    "Data Kommunikation/Noter/Network Layer/Network Quality of Service (QoS).md",
-    "Data Kommunikation/Noter/Network Layer/Network Congestion control.md",
-    "Data Kommunikation/Noter/Network Layer/Network Flow Control.md",
-    "Data Kommunikation/Noter/Network Layer/Network Error Control.md",
-    "Data Kommunikation/Noter/Network Layer/Routing and forwarding.md",
-    "Data Kommunikation/Noter/Network Layer/Network Layer.md",
     "Data Kommunikation/Noter/Network Layer"
   ]
 }
