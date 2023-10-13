@@ -912,6 +912,15 @@ hvor $x(n-i)$ er den tidsforsinkede indgangssekvens, $y(n-i)$ er den tidsforsink
 
 ##### Overføringsfunktioner
 
+$$
+H(z)=\frac{Y(z)}{X(z)}=\frac{\sum^N_{i=0}a_{i}z^{-i}}{\sum^N_{i=1}b_{i}z^{-i}}
+$$
+Hvor $Y(z)$ er den z-transformeret af vores udganssekvens og $X(z)$ er den z-transformeret af vores indgangssekvens.
+
+En overførringsfunktion findes ved at z-transformer en [[Formelsamling Calculus#Differensligninger|differrenslignin]] på formen:
+$$
+y(n)+\sum^N_{i=1}b_{i}y(n-i)=\sum^N_{i=0}a_{i}x(n-i)
+$$
 #### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum
