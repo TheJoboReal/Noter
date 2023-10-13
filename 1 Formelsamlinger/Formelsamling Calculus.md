@@ -874,6 +874,10 @@ Når der laves en [[Formelsamling Calculus#Fast Fourier Transformation|FFT]] ana
 ![[Pasted image 20231005084347.png|350]]
 
 #### Indgang & Udgangssignaler
+##### Impulsrespons
+![[Pasted image 20231013125630.png]]
+Samme vinkel/argument vil give samme frekvens på et signal. Amplitude vil være forskellig.
+
 ##### Superpositionsintegralet
 ![[Pasted image 20230907083733.png]]
 ##### Enheds step funktion

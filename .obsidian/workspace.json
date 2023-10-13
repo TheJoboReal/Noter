@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "working set",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -184,6 +184,7 @@
   },
   "active": "5980dc1395f100a8",
   "lastOpenFiles": [
+    "Misc og Links/Pasted image 20231013125630.png",
     "Signalbehandling/Noter/Sampling/Differensligning Eksempel.md",
     "1 Formelsamlinger/Formelsamling Calculus.md",
     "Misc og Links/Pasted image 20231013105753.png",
