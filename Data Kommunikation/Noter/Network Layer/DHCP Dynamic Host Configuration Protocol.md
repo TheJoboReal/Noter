@@ -1,4 +1,4 @@
-We have seen how ISPs can receive a large block of addresses from ICANN (Internet Corporation for Assigned Names and Numbers).
+- [ ] We have seen how ISPs can receive a large block of addresses from ICANN (Internet Corporation for Assigned Names and Numbers).
 We have seen how smaller organizations can receive smaller blocks of addresses from ISPs.
 After a block of addresses are assigned to an organization, the network administration can manually assign addresses to the individual hosts or routers.
 This can be done manually or automatically. If the automatic method is used, then it is done with Dynamic Host Configuration Protocol (DHCP).
