@@ -23,13 +23,16 @@
             "id": "9ca668f71caf2ebb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Multivariable Calculus/Opgaver/LIne Integral.pdf"
+                "file": "Multivariable Calculus/Noter/BODE plot.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "deter",
+                "query": "bode plot",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -75,12 +78,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "409770966c506fc0",
@@ -104,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Multivariable Calculus/Noter/BODE plot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "file": "Multivariable Calculus/Noter/BODE plot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+                "file": "Multivariable Calculus/Noter/BODE plot.md"
               }
             }
           },
@@ -171,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,8 +191,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "743fcf2cb6628eaa",
+  "active": "9ca668f71caf2ebb",
   "lastOpenFiles": [
+    "Multivariable Calculus/Opgaver/LIne Integral.pdf",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
     "Signalbehandling/Noter/Sampling/Differensligning Eksempel.md",
     "Signalbehandling/Noter/Relation mellem s-domæne og z-domæne.md",
     "Misc og Links/Pasted image 20231013140527.png",
@@ -227,10 +231,7 @@
     "Computer Arkitektur/Noter/Paging/Page Replacing.md",
     "Computer Arkitektur/Noter/Paging/Page Buffering Algorithm.md",
     "Computer Arkitektur/Noter/Paging/Loaclity.md",
-    "Computer Arkitektur/Noter/Paging/Copy on Write.md",
-    "Computer Arkitektur/Noter/Paging/Demand Paging.md",
     "Computer Arkitektur/Noter/Paging",
-    "Multivariable Calculus/Opgaver/LIne Integral.pdf",
     "Multivariable Calculus/Opgaver/Line Integral.pdf",
     "Tripple integrals",
     "Computer Arkitektur/Noter/Memory"
