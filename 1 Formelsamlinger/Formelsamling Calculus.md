@@ -925,6 +925,8 @@ En overførringsfunktion findes ved at z-transformer en [[Formelsamling Calculus
 $$
 y(n)+\sum^N_{i=1}b_{i}y(n-i)=\sum^N_{i=0}a_{i}x(n-i)
 $$
+>Se [[Overføringsfunktion Eksempel|Eksempel]] på overføringsfunktion.
+
 ***
 Nodeplot i matlab. Input overføringsfunktion
 ```matlab
