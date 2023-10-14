@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "70b73e0013807e8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd602a9ce3a99cfc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "408b58f21bbd5f3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Signalbehandling/Noter/Sampling/Differensligning Eksempel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5980dc1395f100a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "884c98e9c331d4d0",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c0f58c42548a37b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a50d2ab3b16d9415",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8f49950c2e9ebf7c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3627784b4d540501",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3dd688c234dd51d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "cef93c7f25962508",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "67f1d7b868b57f10",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "818dd471c712b62b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "864870e661554a28",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a173f630207dbdb1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bf1ba1993493a773",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "55edae960a721fea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1 Formelsamlinger/Formelsamling Calculus.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mathpad:Open Mathpad": false,
+      "obsidian-matrix:Obsidian Matrix": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5980dc1395f100a8",
+  "lastOpenFiles": [
+    "Misc og Links/Pasted image 20231013140527.png",
+    "Misc og Links/Pasted image 20231013140518.png",
+    "Misc og Links/Pasted image 20231013140500.png",
+    "Misc og Links/Pasted image 20231013140415.png",
+    "Misc og Links/Pasted image 20231013125630.png",
+    "Signalbehandling/Noter/Sampling/Differensligning Eksempel.md",
+    "1 Formelsamlinger/Formelsamling Calculus.md",
+    "Misc og Links/Pasted image 20231013105753.png",
+    "Misc og Links/Pasted image 20231013105741.png",
+    "Signalbehandling/Noter/Relation mellem s-domæne og z-domæne.md",
+    "Misc og Links/Pasted image 20231013104721.png",
+    "Misc og Links/Pasted image 20231013104400.png",
+    "Misc og Links/Pasted image 20231013104236.png",
+    "Misc og Links/Pasted image 20231013104101.png",
+    "Computer Arkitektur/Noter/Paging/Page Fault Frequency.md",
+    "Computer Arkitektur/Noter/Paging/Loaclity.md",
+    "Computer Arkitektur/Noter/Paging/Page Buffering Algorithm.md",
+    "Computer Arkitektur/Noter/Paging/Page Replacing.md",
+    "Computer Arkitektur/Noter/Paging/Thrashing.md",
+    "Data Kommunikation/Noter/Network Layer/Network Perfomance.md",
+    "Computer Arkitektur/Noter/Paging/Demand Paging.md",
+    "Computer Arkitektur/Noter/Paging/Copy on Write.md",
+    "Computer Arkitektur/Noter/Virtual Memory/Virtual Space Address.md",
+    "Data Kommunikation/Noter/Access/Controlled Access/Channelization.md",
+    "Computer Arkitektur/Noter/Paging/Allocation of frames.md",
+    "Computer Arkitektur/Noter/Virtual Memory/Virtual Memory Basics.md",
+    "C++/Functions and stuff/Memory(Heap and Stacks).md",
+    "Computer Arkitektur/Noter/Memory/Non-Uniform Memory Access (NUMA).md",
+    "Computer Arkitektur/Noter/Memory/Address Binding.md",
+    "Computer Arkitektur/Noter/Paging",
+    "Data Kommunikation/Noter/Access/Media Access Control/ALOHA.md",
+    "Data Kommunikation/Noter/Network Layer/DHCP Dynamic Host Configuration Protocol.md",
+    "Computer Arkitektur/Noter/Virtual Memory",
+    "Computer Arkitektur/Noter/Memory/Virtual.md",
+    "Data Kommunikation/Noter/Network Layer/IPV4 Network Addressing.md",
+    "Data Kommunikation/Noter/Network Layer/IPV4 Addressing.md",
+    "Data Kommunikation/Noter/Network Layer/Logical Addressing.md",
+    "Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Flow and error control.md",
+    "Data Kommunikation/Noter/Network Layer"
+  ]
+}

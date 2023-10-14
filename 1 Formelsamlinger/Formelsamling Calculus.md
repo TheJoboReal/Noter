@@ -874,6 +874,10 @@ Når der laves en [[Formelsamling Calculus#Fast Fourier Transformation|FFT]] ana
 ![[Pasted image 20231005084347.png|350]]
 
 #### Indgang & Udgangssignaler
+##### Impulsrespons
+![[Pasted image 20231013125630.png]]
+Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i 45 grader. Amplitude vil være forskellig.
+
 ##### Superpositionsintegralet
 ![[Pasted image 20230907083733.png]]
 ##### Enheds step funktion
@@ -888,6 +892,52 @@ Når der laves en [[Formelsamling Calculus#Fast Fourier Transformation|FFT]] ana
 Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomeret output.
 ![[Pasted image 20230907101415.png]]
 ![[Pasted image 20230907114342.png]]
+##### z-transformation
+$$
+X(z)=Z[x(n)]=\sum^\infty_{n=0}x(n)z^{-n}
+$$
+Bemærk at $(1)$ konvergerer hvis $|z|<1$.
+$$
+s=\frac{1}{T}\ln(z)
+$$
+z-transformation regler
+![[Pasted image 20231013104400.png]]
+![[Pasted image 20231013104721.png|400]]
+
+##### Invers z-transformation
+
+##### Differensligninger
+$$
+y(n)=\sum^N_{i=0}a_{i}x(n-i)-\sum^N_{i=1}b_{i}y(n-i)
+$$
+hvor $x(n-i)$ er den tidsforsinkede indgangssekvens, $y(n-i)$ er den tidsforsinkede udgangssekvens og $a_{i} \wedge b_{j}$ er reele koefficienter.
+
+>Se [[Differensligning Eksempel]]
+
+##### Overføringsfunktioner
+
+$$
+H(z)=\frac{Y(z)}{X(z)}=\frac{\sum^N_{i=0}a_{i}z^{-i}}{\sum^N_{i=1}b_{i}z^{-i}}
+$$
+Hvor $Y(z)$ er den z-transformeret af vores udganssekvens og $X(z)$ er den z-transformeret af vores indgangssekvens.
+
+En overførringsfunktion findes ved at z-transformer en [[Formelsamling Calculus#Differensligninger|differrenslignin]] på formen:
+$$
+y(n)+\sum^N_{i=1}b_{i}y(n-i)=\sum^N_{i=0}a_{i}x(n-i)
+$$
+***
+Nodeplot i matlab. Input overføringsfunktion
+```matlab
+Pzmap(H)
+```
+![[Pasted image 20231013140415.png]]
+
+##### Stabilitet i et System
+![[Pasted image 20231013140500.png]]
+
+##### Frekvensrespons
+![[Pasted image 20231013140527.png]]
+
 #### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum
