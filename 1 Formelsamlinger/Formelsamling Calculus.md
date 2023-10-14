@@ -975,3 +975,25 @@ or $dist(P,a)=\frac{|a\cdot x_{1}+b\cdot y_{1}+c\cdot z_{1}+d|}{\sqrt{ a²+b²+c
 ##### Higher order derivatives
 ![[Pasted image 20230911134453.png]]
 
+
+
+##### Vector Fields
+![[Pasted image 20231009214038.png]]
+Plane Vector field $F(x,y)=f_{1}(x,y)i+f_{2}(x,y)j$
+Position Vector $r=xi+yj+zk$ and $r=i+j+k$
+
+##### Conservative Fields
+$F(x,y,z)$ is a conservative vector field if $F(x,y,z)=\nabla \phi(x,y,z)=\frac{\delta \phi}{\delta x}i=\frac{\delta \phi}{\delta x}j=\frac{\delta \phi}{\delta x}k$
+
+Where $\nabla \phi(x,y,z)$ is a Scalar Field.
+
+>If $F(x,y,z)=\nabla \phi(x,y,z)$ in a domain $D$, then $F$ is a conservative vector field in $D$ and function $\phi$ is a potential function for $F$ on $D$
+
+##### Line or Curve Integral
+![[Pasted image 20231009213559.png|250]]
+The length of a line or curve is found using the Line Integral Formula:
+$$
+C=\int f(x,y,z) \, ds=\int_{a}^b f(r(t)) \cdot |\frac{dr}{dt}| \, dt  
+$$
+
+>See example [[LIne Integral.pdf|Line Integral]]
