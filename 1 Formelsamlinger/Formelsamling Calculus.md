@@ -900,7 +900,7 @@ Bemærk at $(1)$ konvergerer hvis $|z|<1$.
 $$
 s=\frac{1}{T}\ln(z)
 $$
-z-transformation regler
+z-transformation Tabel-regler
 ![[Pasted image 20231013104400.png]]
 ![[Pasted image 20231013104721.png|400]]
 
