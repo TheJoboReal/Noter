@@ -887,11 +887,6 @@ Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i
 ![[Pasted image 20230907090733.png]]
 ##### Invers Laplace Transformation
 
-##### Overføringsfunktion
-![[Pasted image 20230907101254.png]]
-Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomeret output.
-![[Pasted image 20230907101415.png]]
-![[Pasted image 20230907114342.png]]
 ##### z-transformation
 $$
 X(z)=Z[x(n)]=\sum^\infty_{n=0}x(n)z^{-n}
@@ -914,7 +909,7 @@ hvor $x(n-i)$ er den tidsforsinkede indgangssekvens, $y(n-i)$ er den tidsforsink
 
 >Se [[Differensligning Eksempel]]
 
-##### Overføringsfunktioner
+##### Overføringsfunktion
 
 $$
 H(z)=\frac{Y(z)}{X(z)}=\frac{\sum^N_{i=0}a_{i}z^{-i}}{\sum^N_{i=1}b_{i}z^{-i}}
@@ -934,6 +929,11 @@ Pzmap(H)
 ```
 ![[Pasted image 20231013140415.png]]
 
+***
+![[Pasted image 20230907101254.png]]
+Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomeret output.
+![[Pasted image 20230907101415.png]]
+![[Pasted image 20230907114342.png]]
 ##### Stabilitet i et System
 ![[Pasted image 20231013140500.png]]
 
