@@ -1058,3 +1058,4 @@ n=|\frac{\delta r}{\delta u}\times\frac{|\delta r}{\delta v}|
 $$
 The Area of the Surface.
 ![[Pasted image 20231023123918.png]]
+
