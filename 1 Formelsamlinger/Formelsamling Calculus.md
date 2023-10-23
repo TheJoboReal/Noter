@@ -1,5 +1,3 @@
-
-***
 ### Generelt Algebra
 
 ***
@@ -1049,3 +1047,5 @@ C=\int f(x,y,z) \, ds=\int_{a}^b f(r(t)) \cdot |\frac{dr}{dt}| \, dt
 $$
 
 >See example [[LIne Integral.pdf|Line Integral]]
+
+##### Surface Integrals
