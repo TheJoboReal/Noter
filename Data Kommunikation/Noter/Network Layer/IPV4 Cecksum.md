@@ -1,3 +1,5 @@
+>Its used to see if the header is corrupted
+
 IPv4 checksum is performed as follows:
 * The checksum is initialized to 0.
 * The entire IPv4 header is divided into 16-bit sections/words.

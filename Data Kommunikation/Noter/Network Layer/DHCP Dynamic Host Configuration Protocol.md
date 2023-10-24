@@ -3,7 +3,7 @@ We have seen how smaller organizations can receive smaller blocks of addresses f
 After a block of addresses are assigned to an organization, the network administration can manually assign addresses to the individual hosts or routers.
 This can be done manually or automatically. If the automatic method is used, then it is done with Dynamic Host Configuration Protocol (DHCP).
 
-* DHCP is an application-layer program that works in the client-server paradigm and that helps TCP/IP at the network layer.
+* DHCP is an application-layer program that works in the client-server paradigm and that helps [[TCP (Transmission Control Protocol)|TCP]]/IP at the network layer.
 * DHCP has found widespread use in the Internet and is so popular that it is often called the plug-and-play protocol.
 * DHCP is often used to assign permanent or temporary IP addresses to network users. (e.g., schools, etc.)
 
@@ -35,8 +35,8 @@ If the tag-field has the value 53, then the value field will define one of 8 dif
 
 ***
 #### State Diagram
-Error control DHCP uses the services of UDP, which is not a reliable protocol!
+Error control DHCP uses the services of [[UDP (User Datagram Protocol)|UDP]], which is not a reliable protocol!
 To add error control, DHCP does the following:
-* DHCP requires UDP to use checksum, which is optional in UDP.
+* DHCP requires [[UDP (User Datagram Protocol)|UDP]] to use checksum, which is optional in UDP.
 * The DHCP client applies a timer and re-transmission policy if it does not receive the DHCP reply to a request
 ![[Pasted image 20231012105205.png]]

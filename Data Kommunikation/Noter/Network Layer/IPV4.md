@@ -68,7 +68,7 @@ The rest is data from the upper layer. If the length of a datagram becomes less 
 * Time to Live: A datagram has a limited lifetime when transmitted around the Internet to avoid circulating on the Internet forever. This value is approximately two times the maximum number of routers between any two hosts. Each router that processes the datagram decrements this number by one. If this value, after being decremented, is zero, the router discards the datagram.
 
 ***
-* Protocol: This 8-bit field indicates which protocol the payload (packet) carried by the IPv4 datagram comes from. An IPv4 datagram can encapsulate data from many different protocols, e.g., TCP, UDP, ICMP and IGMP. The field indicates who is the final receiver of the data that the IPv4 datagram provides, and thus which protocol the data belongs to.
+* Protocol: This 8-bit field indicates which protocol the payload (packet) carried by the IPv4 datagram comes from. An IPv4 datagram can encapsulate data from many different protocols, e.g., [[TCP (Transmission Control Protocol)|TCP]], [[UDP (User Datagram Protocol)|UDP]], [[ICMPv4]] and IGMP. The field indicates who is the final receiver of the data that the IPv4 datagram provides, and thus which protocol the data belongs to.
 ![[Pasted image 20231024131354.png]]
 
 ![[Pasted image 20231024131420.png]]
@@ -77,3 +77,25 @@ The rest is data from the upper layer. If the length of a datagram becomes less 
 * Checksum: We will look at the Checksum concept and its calculation later.
 * Source Address: The sender address is a 32-bit field that indicates the sender. This field must remain unchanged throughout the transmission through the Internet from sender to receiver.
 * Destination address: the receiver address is a 32-bit field that indicates the receiver. This field must remain unchanged throughout the transmission through the Internet from sender to receiver.
+
+***
+#### Option Section
+The fixed part of the header is 20 bytes. In addition, we have a variable part of 40 bytes, which we call option section.
+![[Pasted image 20231024133716.png]]
+Options are divided into two broad categories: single-byte options and multiple-byte options.
+
+* No Operation: this is a 1-byte option used as a filler between options.
+* End of Option: this is a 1-byte option used for padding at the end of the option field. It can only be used as the last option.
+* Record Route: A record route option is used to record the Internet routers that handle the datagram. It can list up to nine router addresses. It can be used for debugging and management purposes.
+
+* Strict Source Route: This option is used by the sender to predetermine the route that a datagram should take through the Internet.
+
+This selection of the route by the senders can have several purposes: o The sender can select a route with specific services, such as minimum delay or maximum throughput. o The sender can choose a route that is safer and more reliable. E.g., you can choose a route so that you do not use the competitors' networks. 
+
+If the sender specifies a specific route, then all routers mentioned in this option must be visited.
+
+A router must not be visited if it is not mentioned in this option. If a datagram visits a router that is not in the list, it is discarded. If a datagram has not visited all the routers in the list when one arrives at the receiver, it will also be discarded.
+
+* Loose Source Route: This option is similar to the Strict Source Route but is less strict. All routers in the list must be visited, but other routers can also be visited.
+* Timestamp: A timestamp option is used to record the time of datagram processed by a router. The time is expressed in milliseconds from midnight, Universal time or Greenwich mean time. Knowing the time when a datagram is processed can help users and managers track the behavior of the routers in the Internet. We can estimate the time it takes for a datagram to go from one router to another.
+
