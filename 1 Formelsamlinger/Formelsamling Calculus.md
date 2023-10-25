@@ -893,7 +893,6 @@ Laplace Tabel
 $$
 f(x)=L^{-1}(f(\omega))=\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\omega) \cdot e^{j \omega x}\, d \omega
 $$
-
 ##### z-transformation
 $$
 X(z)=Z[x(n)]=\sum^\infty_{n=0}x(n)z^{-n}
