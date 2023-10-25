@@ -881,9 +881,18 @@ Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i
 ##### Enheds step funktion
 ![[Pasted image 20230907084817.png]]
 ##### Laplace Transformation
-![[Pasted image 20230907085351.png]]
-![[Pasted image 20230907090733.png]]
+$$
+F(s)=\int_{0}^{\infty} e^{-st}f(t) \, dt 
+$$
+
+Laplace Tabel
+![[mbbsadbhabd.jpg]]
+
+
 ##### Invers Laplace Transformation
+$$
+f(x)=L^{-1}(f(\omega))=\frac{1}{2\pi}\int_{-\infty}^{\infty} f(\omega) \cdot e^{j \omega x}\, d \omega
+$$
 
 ##### z-transformation
 $$
