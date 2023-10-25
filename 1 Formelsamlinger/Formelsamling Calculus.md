@@ -565,12 +565,7 @@ $$
 ### Rationelle funktioner
 ##### Partielle brøker
 
-***
- <iframe width="560" height="315" src="https://www.youtube.com/embed/QKkdYW77xNI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-***
-
 Eks på en partiel brøk:
-
 ![[Partielle Brøker.excalidraw]]
 
 ##### Ægte eller uægte polynomium
@@ -880,10 +875,11 @@ Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i
 ![[Pasted image 20230907083733.png]]
 ##### Enheds step funktion
 ![[Pasted image 20230907084817.png]]
-##### Laplace Transformation
+##### [[Laplace Transformation|Laplace Transformation]]
 $$
 F(s)=\int_{0}^{\infty} e^{-st}f(t) \, dt 
 $$
+
 
 Laplace Tabel
 ![[mbbsadbhabd.jpg]]
