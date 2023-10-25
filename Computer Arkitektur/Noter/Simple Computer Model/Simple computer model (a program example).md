@@ -3,5 +3,6 @@ Illustrate the execution of a simple program in the microcomputer. Assume that t
 
 ***
 #### Program and data in memory together
+We would get 00000110 since it just adds the two registers together
 ![[Pasted image 20231025125233.png]]
 ![[Pasted image 20231025125253.png]]
