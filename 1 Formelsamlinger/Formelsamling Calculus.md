@@ -924,6 +924,10 @@ y(n)+\sum^N_{i=1}b_{i}y(n-i)=\sum^N_{i=0}a_{i}x(n-i)
 $$
 >Se [[Overføringsfunktion Eksempel|Eksempel]] på overføringsfunktion.
 
+Og nedenstående en overførringsfunktion fra en [[Formelsamling Calculus#Laplace Transformation Laplace Transformation|Laplace Transformation]]
+$$
+H(s)=\frac{Y(s)}{X(s)}=\frac{\sum_{i=0}^N a_{i}s^i}{1+\sum_{i=1}^N b_{i}s^i}
+$$
 ***
 Nodeplot i matlab. Input overføringsfunktion
 ```matlab
