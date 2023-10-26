@@ -89,6 +89,15 @@ $$
 
 
 ### Lineær Algebra
+#### De Moivre
+
+***
+
+Eksempler på De Moivre:
+
+![[De Moivre.excalidraw.svg]]
+***
+
 #### Matricer
 ![[Matricer]]
 #### Tangentplan
@@ -697,7 +706,7 @@ Dx=diff(x,t);
 dsolve(eqn,[x(0)==1, Dx(0)==0])
 ```
 
-### Lineær approximation
+#### Lineær approximation
 
 Video:
  <iframe width="560" height="315" src="https://www.youtube.com/embed/FIbpibkywmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -717,18 +726,7 @@ L(x)-f(a)=f'(a)\cdot(x-a)
 $$
 
 
-### Komplekse tal
-##### De Moivre
 
-***
-
-Eksempler på De Moivre:
-
-![[De Moivre.excalidraw.svg]]
-***
-
-
-### Multivariable Calculus
 #### Fourier
 ##### Fourier Rækker
 
@@ -866,7 +864,7 @@ Når der laves en [[Formelsamling Calculus#Fast Fourier Transformation|FFT]] ana
 ![[Pasted image 20231005084335.png|450]]
 ![[Pasted image 20231005084347.png|350]]
 
-#### Indgang & Udgangssignaler
+### Signaler
 ##### Impulsrespons
 ![[Pasted image 20231013125630.png]]
 Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i 45 grader. Amplitude vil være forskellig.
@@ -897,12 +895,14 @@ Bemærk at $(1)$ konvergerer hvis $|z|<1$.
 $$
 s=\frac{1}{T}\ln(z)
 $$
-z-transformation Tabel-regler
+###### z-transformation Tabel-regler
 ![[Pasted image 20231013104400.png]]
 ![[Pasted image 20231013104721.png|400]]
+![[media_ad2_ad2ab6e2-79d0-404a-aab2-c61b7f074dd0_phpHVcpzx 1.png]]
+![[nN9qo 1.png]]
 
 ##### Invers z-transformation
-
+Brug [[Invers z-transformation|tabelopslag]]
 ##### Differensligninger
 $$
 y(n)=\sum^N_{i=0}a_{i}x(n-i)-\sum^N_{i=1}b_{i}y(n-i)
@@ -946,7 +946,20 @@ Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomere
 ##### Frekvensrespons
 ![[Pasted image 20231013140527.png]]
 
-#### Multivariable Funktioner
+##### [[Direkte type 1 og 2#Direkte Type 1|Direkte Type 1]]
+Følgende viser en direkte type 1 realisationsstruktur for differensligningen:
+$$
+y(n)=\sum_{i=0}^N a_{i}x(n-i)-\sum_{i=1}^N b_{i}y(n-i)
+$$
+![[Pasted image 20231026221810.png]]
+
+##### [[Direkte type 1 og 2#Direkte Type 2|Direkte Type 2]]
+Følgende viser en direkte type 2 realisationsstruktur for differensligningen:
+$$
+y(n)=\sum_{i=0}^N a_{i}x(n-i)-\sum_{i=1}^N b_{i}y(n-i)
+$$
+![[Pasted image 20231026221745.png]]
+### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum
 ![[Pasted image 20230925122408.png|700]]
