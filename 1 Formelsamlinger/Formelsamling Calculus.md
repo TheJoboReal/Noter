@@ -881,8 +881,8 @@ Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i
 $$
 F(s)=\int_{0}^{\infty} e^{-st}f(t) \, dt 
 $$
+>Se [[Laplace.pdf|Eksempel]] på Laplace brugt til at løse differentiale ligning.
 
->Se [[Laplace.pdf|Eksempel]]
 Laplace Tabel
 ![[mbbsadbhabd.jpg]]
 
