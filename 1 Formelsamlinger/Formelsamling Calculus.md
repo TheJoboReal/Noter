@@ -763,8 +763,10 @@ $$
 Invers Fouriertransformation af $X(f)$:
 
 $$
-x(t)=F^{-1}(X(f))=\int_{-\infty}^{\infty} X(f)e^{j_{2}\pi ft} \, df 
+x(t)=F^{-1}(X(f))=\int_{-\infty}^{\infty} X(f)e^{j_{2}\pi ft} \, df =
+\int_{-\infty}^{\infty} f(x)\cdot e^{-j\omega x} \, dx 
 $$
+>Se [[Fourier Transform and Evaluate.pdf|Eksempel]]
 
 ![[Pasted image 20230928104404.png]]
 ***
@@ -869,6 +871,8 @@ Når der laves en [[Formelsamling Calculus#Fast Fourier Transformation|FFT]] ana
 ![[Pasted image 20231013125630.png]]
 Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i 45 grader. Amplitude vil være forskellig.
 
+>Se [[Impulsrespons.pdf|Eksempel]]
+
 ##### Superpositionsintegralet
 ![[Pasted image 20230907083733.png]]
 ##### Enheds step funktion
@@ -878,7 +882,7 @@ $$
 F(s)=\int_{0}^{\infty} e^{-st}f(t) \, dt 
 $$
 
-
+>Se [[Laplace.pdf|Eksempel]]
 Laplace Tabel
 ![[mbbsadbhabd.jpg]]
 
@@ -895,6 +899,7 @@ Bemærk at $(1)$ konvergerer hvis $|z|<1$.
 $$
 s=\frac{1}{T}\ln(z)
 $$
+>Se [[Z-transformation.pdf|Eksempel]]
 ###### z-transformation Tabel-regler
 ![[Pasted image 20231013104400.png]]
 ![[Pasted image 20231013104721.png|400]]
@@ -942,7 +947,7 @@ Hvor $U(s)$ er det Laplacetransfomeret input og $Y(s)$ er det Laplacetransfomere
 ![[Pasted image 20230907114342.png]]
 ##### Stabilitet i et System
 ![[Pasted image 20231013140500.png]]
-
+>Se [[System Stabilitet.pdf|Eksempel]]
 ##### Frekvensrespons
 ![[Pasted image 20231013140527.png]]
 
@@ -979,6 +984,7 @@ Sum of *m* and *n* terms, one for each rectangle in the partition and $f(x^*_{ij
 ![[Pasted image 20230925133742.png]]
 
 ##### Triple Integration
+>Se [[Tripple Integral bounded by region.pdf|Eksempel]] på tripple integrale bundet af en region.
 ###### Triple Integration Order
 ![[Pasted image 20231002123625.png]]
 
