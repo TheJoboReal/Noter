@@ -1086,3 +1086,51 @@ $$
 The Area of the Surface.
 ![[Pasted image 20231023123918.png]]
 
+
+##### Differential Operators
+###### Gradient
+Rate of change in a 3-dimensional scalar field $f(x,y,z)$. Fx Temperature Distribution in a room, Topographic maps.
+$$
+\nabla=i \frac{\delta}{\delta x}+j \frac{\delta}{\delta y}+k \frac{\delta}{\delta z}
+$$
+>The gradient of a scalar field gives a vector field.
+
+###### Divergence
+The divergence of a velocity field represents the net flow of fluid out of a smalle volume. Fx Fluid flow in pipes, Weather Patterns.
+
+$$
+div(F(x,y,z))=\nabla \cdot F(x,y,z)=i \frac{\delta f_{1}}{\delta x}+j \frac{\delta f_{2}}{\delta y}+k \frac{\delta f_{3}}{\delta z}
+$$
+where
+$$
+F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k
+$$
+
+###### Curl
+The curl of the electric field gives the rate of change of the magnetic field. Fx Turbulenc in Fluid Flow, Magnetic Fields Around a wire.
+The Cross product of a vector field with a directional vector is curl.
+
+$$
+curl(F(x,y,z))=\nabla\times F(x,y,z)=\det(\begin{matrix}
+i &j & k \\
+\frac{\delta}{\delta x} & \frac{\delta}{\delta y} & \frac{\delta}{\delta z} \\
+f_{1} & f_{2} & f_{3}
+\end{matrix})
+$$
+where
+$$
+F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k
+$$
+
+
+
+##### Greens Theorem
+Let $R$ be a regular closed region in the xy-plane whose boundary $C$ consists of one or more piecewise(Squares or pentagrams fx) smooth, simple, closed curves that are oriented with respect to $R$.
+A circle is a simple closed object while an infinity symbol is cloes but not a simple object.
+
+if $F(x,y)=f_{1}(x,y)i+f_{2}(x,y)j$ is a smooth vector field on $R$.
+
+Then,
+$$
+\oint_{C} f_{1}(x,y)dx+f_{2}(x,y)dy=\int \int_{R} \left( \frac{\delta f_{2}}{\delta x}-\frac{\delta f_{1}}{\delta y} \right) \, \, dA 
+$$
