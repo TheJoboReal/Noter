@@ -1106,6 +1106,27 @@ $$
 F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k
 $$
 
+###### Divergence Theorem(Gauss)
+$$
+\nabla F(x,y,z)=div(F)=\frac{\delta f_{1}}{\delta x}+\frac{\delta f_{2}}{\delta y} + \frac{\delta f_{3}}{\delta z}
+$$
+Let $S$ be a closed piecewise smooth surface which is the boundary of $V$ with normal $\hat{N}$ pointing outwards.
+
+If $F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k$ smooth vector field is defined on V then,
+$$
+\oint\oint_{S}(F\cdot\hat{N})dS=\int\int\int_{V} F \, dV 
+$$
+
+***
+**Variants of Divergence Theorem**
+If $D$ satisfies the conditions of the Divergence Theorem and has surface $S$, and if the $F$ is a smooth vector field and $\phi$ is a smooth scalar field then,
+$$
+\int\int\int_{D} curl (F) \, dV=-\oint\oint_{S}(F \times \hat{N}) dS 
+$$
+$$
+\int\int\int_{D} grad (\phi)  \, dV=\oint\oint_{S} \hat{N} dS
+$$
+
 ###### Curl
 The curl of the electric field gives the rate of change of the magnetic field. Fx Turbulenc in Fluid Flow, Magnetic Fields Around a wire.
 The Cross product of a vector field with a directional vector is curl.
@@ -1123,7 +1144,13 @@ F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k
 $$
 
 
+###### Stokes's Theorem
+Let S be a piecewise smooth, oriented surface in 3-space, having unit normal field $\hat{N}$ and boundary C consisting of one or more piecewise smooth, closed curves with orientation inherited from S.
 
+If **F** is a smooth vector field defined on an open set containing S, Then,
+$$
+\oint_{C}F \cdot dr=\oint\oint_{S}curl(F \cdot \hat{N}) dS
+$$
 ##### Greens Theorem
 Let $R$ be a regular closed region in the xy-plane whose boundary $C$ consists of one or more piecewise(Squares or pentagrams fx) smooth, simple, closed curves that are oriented with respect to $R$.
 A circle is a simple closed object while an infinity symbol is cloes but not a simple object.
@@ -1132,5 +1159,5 @@ if $F(x,y)=f_{1}(x,y)i+f_{2}(x,y)j$ is a smooth vector field on $R$.
 
 Then,
 $$
-\oint_{C} f_{1}(x,y)dx+f_{2}(x,y)dy=\int \int_{R} \left( \frac{\delta f_{2}}{\delta x}-\frac{\delta f_{1}}{\delta y} \right) \, \, dA 
+\oint_{C} f_{1}(x,y)dx+f_{2}(x,y)dy=\int \int_{R} \left(𝑵𝑵  \frac{\delta f_{2}}{\delta x}-\frac{\delta f_{1}}{\delta y} \right) \, \, dA 
 $$
