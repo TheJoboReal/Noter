@@ -17,6 +17,7 @@ In the IPv6 address system, a destination address can belong to one of the follo
 **Unicast:** Such an address defines a single interface (computer or router). The packets sent to a unicast address are sent to only one receiver.
 
 **Anycast:** Such an address defines a group of computers that all share one address. A packet sent to anycast address is only delivered to one member of the group, the easiest one to reach.
+>Ex. If you anycast to Facebook in Odense you will connect to the Datacenter in Odense and not the one in USA.
 
 * Anycast communication is used e.g., when multiple servers can respond to an inquiry.
 * The request is sent only to the one who is easiest to reach.
