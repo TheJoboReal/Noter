@@ -99,8 +99,9 @@ Eksempler på De Moivre:
 ***
 
 #### Matricer
+##### Generelle Matricer
 ![[Matricer]]
-#### Tangentplan
+##### Tangentplan
 
 ***
 Tangentvektoren eller normalvektor til en overflade.
