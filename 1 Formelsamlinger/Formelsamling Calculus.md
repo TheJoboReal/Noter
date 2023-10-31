@@ -1159,5 +1159,5 @@ if $F(x,y)=f_{1}(x,y)i+f_{2}(x,y)j$ is a smooth vector field on $R$.
 
 Then,
 $$
-\oint_{C} f_{1}(x,y)dx+f_{2}(x,y)dy=\int \int_{R} \left(𝑵𝑵  \frac{\delta f_{2}}{\delta x}-\frac{\delta f_{1}}{\delta y} \right) \, \, dA 
+\oint_{C} f_{1}(x,y)dx+f_{2}(x,y)dy=\int \int_{R} \left(  \frac{\delta f_{2}}{\delta x}-\frac{\delta f_{1}}{\delta y} \right) \, \, dA 
 $$
