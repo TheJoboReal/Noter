@@ -1,8 +1,8 @@
 Invers z-transformation benyttes til at bestemme udgangsresponset y(n) for et tidsdiskretsystem for en given indgangsstimulus x(n)via
-1. Systemets overføringsfunktion H(z)opstilles med positive potenser af z.
-2. Indgangssekvensen x(n)z-transformeres. (Anvend tabelopslag)
-3. Udgangsresponset iz-domæne beregnes Y(z) =H(z)X(z).
-4. Udgangssekvensen y(n) udregnes ved invers z-transformation af Y(z). (Anvend tabelopslag)
+1. Systemets overføringsfunktion $H(z)$ opstilles med positive potenser af $z$.
+2. Indgangssekvensen $x(n)$ z-transformeres. (Anvend tabelopslag)
+3. Udgangsresponset i z-domæne beregnes $Y(z) =H(z)X(z)$.
+4. Udgangssekvensen $y(n)$ udregnes ved invers z-transformation af $Y(z)$. (Anvend tabelopslag)
 >Se [[z-transformation og invers z.pdf|Eksempel]]
 
 ![[Pasted image 20231026223436.png]]
