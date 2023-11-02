@@ -927,7 +927,10 @@ For et andet ordens lavpasfilter:
 $$
 H(z)=\frac{a_{0}}{1+b_{1}z^{-1}+b_{2}z^{-1}}
 $$
-hvor $b_{1}=-2e^{\sigma_{1}T}\cos(\sigma{1}T)$ og $b_{2}=e^{2\sigma_{i}T}$ og $a_{0}=1+b_{1}+b_{2}$.
+hvor $b_{1}=-2e^{\sigma_{1}T}\cos(\sigma{1}T)$ og $b_{2}=e^{2\sigma_{i}T}$
+
+Hvis DC forstærkningen for lavpasfiltret skal være 0 dB så gælder det at:
+$$a_{0}=1+b_{1}+b_{2}$$
 Og hvor $\sigma$ er den reelle del i de komplekse rødder.
 
 ##### Differensligninger
