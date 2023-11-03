@@ -4,6 +4,9 @@
 
 >Pin A0 to A15 is addresses. There is 16 of them, making it a 16bit system.
 
+**Pins**
+The ADx(address/data) pins are bi-directional pins that are used for both receiving information (data) and sending out information (address or data).They are primarily realized using latches (single memory cells); during two clock cycles: (1)an address is “latched” (stored), (2) data can be sent or be received on the same lines.Source: https://www.tutorialspoint.com/ad7-0-pins-in-8085-microprocessor
+
 **RAM (Random-access memory)**
 The RAM chipset will only be active when no signal is entering the /CS pin. The [[Gates#NAND, NOR, XNOR Gates|NAND]] gate regulates the activation of this chipset, which means that the chipset will be selected when all the pins A12-A15 are 1. 
 >This practically puts the RAM block to the top of the memory space

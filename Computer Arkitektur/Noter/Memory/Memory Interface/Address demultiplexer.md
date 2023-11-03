@@ -14,3 +14,7 @@ This decoder is used when you have several memory chipsets that are used to form
 This type of address demultiplexer circuit can be programmed with
 Boolean algebra
 ![[Pasted image 20231102233925.png]]
+
+***
+#### Usage
+When numerous memory chipsets compose an address block, it is necessary to demultiplex the ad-dress using some form of decoder. For example, with 8 memory blocks that each have address-pins A0-A14, resulting in a 32K address-spaceperblock, it is possible to separate these and access the memory blocks individually using a 3-to-8 decoder, such that a 3-bit value (pins A15-A17) in combination with a chip-select is used to access a specific block.
