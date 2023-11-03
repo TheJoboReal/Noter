@@ -900,7 +900,7 @@ Bemærk at $(1)$ konvergerer hvis $|z|<1$.
 $$
 s=\frac{1}{T}\ln(z)
 $$
->Se [[Z-transformation.pdf|Eksempel]]
+>Se [[Z-transformation.pdf|Eksempel]] og [[Z-transformation 1.pdf|Eksempel]].
 ###### z-transformation Tabel-regler
 ![[Pasted image 20231013104400.png]]
 ![[Pasted image 20231013104721.png|400]]
@@ -920,8 +920,10 @@ H(z)=\frac{1}{1-e^{\sigma_{1}T}z^{-1}}
 =
 \frac{a_{0}}{1+b_{1}z^{-1}}
 $$
-hvor $b_{1}=-e^{\sigma{1}T}$ og $a_{0}=1+b_{1}$
-
+hvor $b_{1}=-e^{\sigma_{1}T}$ og $a_{0}=1+b_{1}$
+Og hvor $\sigma_{a}=s \cdot w_{a}$ hvor $s$ er polen og hvor $\omega_{a}=f_{a}\cdot_{2}\pi$.
+$f_{a}$ er afskæringsfrekvensen og $f_{s}$ er samplesekvens
+	
 ***
 For et andet ordens lavpasfilter:
 $$
@@ -931,8 +933,10 @@ hvor $b_{1}=-2e^{\sigma_{1}T}\cos(\sigma{1}T)$ og $b_{2}=e^{2\sigma_{i}T}$
 
 Hvis DC forstærkningen for lavpasfiltret skal være 0 dB så gælder det at:
 $$a_{0}=1+b_{1}+b_{2}$$
-Og hvor $\sigma$ er den reelle del i de komplekse rødder.
+Og hvor $\sigma+j \omega_{a}$ er den denominerede pol, hvor $\omega_{a}=f_{a}\cdot_{2}\pi$.
+$f_{a}$ er afskæringsfrekvensen og $f_{s}$ er samplesekvens
 
+>Se [[Matched z-transformation.pdf|Eksempel]]
 ##### Differensligninger
 $$
 y(n)=\sum^N_{i=0}a_{i}x(n-i)-\sum^N_{i=1}b_{i}y(n-i)
@@ -953,6 +957,7 @@ $$
 y(n)+\sum^N_{i=1}b_{i}y(n-i)=\sum^N_{i=0}a_{i}x(n-i)
 $$
 >Se [[Overføringsfunktion Eksempel|Eksempel]] på overføringsfunktion.
+>Opgave [[Overføringsfunktion.pdf|Eksempel]]
 
 Og nedenstående en overførringsfunktion fra en [[Formelsamling Calculus#Laplace Transformation Laplace Transformation|Laplace Transformation]]
 $$
