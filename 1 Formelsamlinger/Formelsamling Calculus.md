@@ -707,6 +707,13 @@ Dx=diff(x,t);
 dsolve(eqn,[x(0)==1, Dx(0)==0])
 ```
 
+#### Wave Equation
+$$
+\frac{d^2u}{dt^2}=c^2 \frac{d^2u}{dx^2}
+$$
+![[Pasted image 20231106155522.png|300]]
+![[Pasted image 20231106155622.png|250]]
+
 #### Lineær approximation
 
 Video:
