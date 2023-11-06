@@ -26,10 +26,10 @@ Polymoniets rødder er funktionernes
 Overdæmpet: to reelle rødder.
 $$y(x) = A \cdot e^{r_1t} + B \cdot e^{r_2t}$$
 Kritisk Dæmpet: én dobbeltrod. Altså en løsning.
-$$y(x) = A \cdot r^{rx} + B \cdot x \cdot e^{rx}$$
+$$y(x) = A \cdot e^{rx} + B \cdot x \cdot e^{rx}$$
 
 Underdæmpet: Når der kun er imaginære løsninger.
-$$y(x) = A \cdot e^{kx} \cdot \cos(\omega x) + B e^{kx} \cdot \sin(\omega x)$$
+$$y(x) = A \cdot e^{kx} \cdot \cos(\omega x) + B\cdot e^{kx} \cdot \sin(\omega x)$$
 $$r = k \pm \omega i$$
 
 ### Kvalificerede gæt.
