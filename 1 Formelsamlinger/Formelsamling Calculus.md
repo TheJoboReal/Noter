@@ -714,6 +714,11 @@ $$
 ![[Pasted image 20231106155522.png|300]]
 ![[Pasted image 20231106155622.png|250]]
 
+#### Heat Equation
+$$
+\frac{du}{dt}=c^2 \frac{d^2u}{dx^2}
+$$
+
 #### Lineær approximation
 
 Video:
