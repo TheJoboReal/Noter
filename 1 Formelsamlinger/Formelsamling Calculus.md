@@ -686,7 +686,7 @@ $$
 $$
 
 $$
-### Dæmpede-Svingninger anden ordens diff ligninger
+### Differentiale Ligninger
 #### Dæmpede Svingninger
  ![[Dæmpede-Svingninger anden ordens diff ligninger]]
 
@@ -704,18 +704,6 @@ eqn = 2*diff(x,t,2)+4*diff(x,t)+2*x(t) == 2*t;
 Dx=diff(x,t);
 dsolve(eqn,[x(0)==1, Dx(0)==0])
 ```
-
-#### Wave Equation
-$$
-\frac{d^2u}{dt^2}=c^2 \frac{d^2u}{dx^2}
-$$
-![[Pasted image 20231106155522.png|300]]
-![[Pasted image 20231106155622.png|250]]
-
-#### Heat Equation
-$$
-\frac{du}{dt}=c^2 \frac{d^2u}{dx^2}
-$$
 
 #### Lineær approximation
 
@@ -1200,3 +1188,22 @@ Then,
 $$
 \oint_{C} f_{1}(x,y)dx+f_{2}(x,y)dy=\int \int_{R} \left(  \frac{\delta f_{2}}{\delta x}-\frac{\delta f_{1}}{\delta y} \right) \, \, dA 
 $$
+
+#### Partial Differential Equations
+##### Auxiliary Conditions
+
+Definition of Dirichlet, Neumann and Robin
+![[Partial Equation Deffinition.pdf]]
+##### Wave Equation
+$$
+\frac{d^2u}{dt^2}=c^2 \frac{d^2u}{dx^2}
+$$
+![[Pasted image 20231106155522.png|300]]
+![[Pasted image 20231106155622.png|250]]
+
+>Se [[Waveform Opgave.pdf|Eksempel]]
+##### Heat Equation
+$$
+\frac{du}{dt}=c^2 \frac{d^2u}{dx^2}
+$$
+>Se [[Heat Equation Opgave.pdf|Eksempel]]

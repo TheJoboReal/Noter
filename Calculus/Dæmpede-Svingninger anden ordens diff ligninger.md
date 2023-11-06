@@ -1,6 +1,7 @@
 >Video for inhomogene ligninger:
 ><iframe width="560" height="315" src="https://www.youtube.com/embed/P3fc6v191mA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+>Se [[Differential Equations.pdf|Eksempel]]
 # Dæmpede Svingninger
 
 $$a \cdot y'' + b \cdot y' + c \cdot y = 0$$
