@@ -4,8 +4,7 @@ Data Link control functions include:
 	• Error control
 There are software-implemented protocols that offer these features
 and provide a smooth and reliable transmission.
-Regarding flow and error control, We have already looked at some methods
-for detecting and/or correcting errors (Hamming distance, CRC, etc.)
+Regarding flow and error control, We have already looked at some methods for detecting and/or correcting errors (Hamming distance, CRC, etc.)
 
 ***
 

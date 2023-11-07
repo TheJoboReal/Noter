@@ -683,9 +683,6 @@ $$
 $$
 p_{4}(x)=(x-1)\frac{-1}{2}(x-1)^2+\frac{1}{3}(x-1)^3-\frac{1}{4}(x-1)^4
 $$
-$$
-
-$$
 ### Dæmpede-Svingninger anden ordens diff ligninger
 #### Dæmpede Svingninger
  ![[Dæmpede-Svingninger anden ordens diff ligninger]]

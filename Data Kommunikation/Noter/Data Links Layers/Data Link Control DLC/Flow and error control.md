@@ -6,6 +6,7 @@ receive data. E.g.:
 • Limited memory for storing incoming data (buffers).
 • The time it takes to process incoming data
 
+After transmitting one packet, **the sender waits for an acknowledgment (ACK) from the receiver before transmitting the next one**. In this way, the sender can recognize that the previous packet is transmitted successfuly and we could say "[[Stop and Wait Protocol]]" guarantees reliable transfer between nodes.
 ![[Pasted image 20230926123443.png]]
 
 ***
