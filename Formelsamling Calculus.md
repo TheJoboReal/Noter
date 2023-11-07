@@ -1006,13 +1006,14 @@ $$
 ![[Pasted image 20231026221745.png]]
 ##### Nedre Cutoff Frekvens
 $$
-f_{1}=f_{0}\left( \sqrt{ 1+\frac{1}{4Q^2}-\frac{1}{2Q} } \right)
+f_{1}=f_{0}\left( \sqrt{ 1+\frac{1}{4Q^2}}-\frac{1}{2Q}  \right)
 $$
 Hvor $Q=\frac{f_{0}}{f_{2}-f_{1}}$ hvor $f_{0}$ er centerfrekvensen.
+Og hvor båndbredden er $f_{2}-f_{1}=\frac{f_{0}}{Q}$
 
 ##### Øvre Cutoff Frekvens
 $$
-f_{2}=f_{0}\cdot\left( \sqrt{ 1+\frac{1}{4Q^2}+\frac{1}{2Q} } \right)
+f_{2}=f_{0}\cdot\left( \sqrt{ 1+\frac{1}{4Q^2}}+\frac{1}{2Q}  \right)
 $$
 Hvor $Q=\frac{f_{0}}{f_{2}-f_{1}}$ hvor $f_{0}$ er centerfrekvensen.
 Og hvor båndbredden er $f_{2}-f_{1}=\frac{f_{0}}{Q}$
