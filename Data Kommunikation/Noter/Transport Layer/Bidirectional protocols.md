@@ -6,3 +6,5 @@ But in the real world, bidirectional communication is usually used.
 ![[Pasted image 20231107130738.png]]
 Piggybacking is shown here with [[Go-Back-N Protocol|Go-Back-N]].
 The client and server each use two independent sender and receiver windows
+
+>See also [[Piggybacking]]
