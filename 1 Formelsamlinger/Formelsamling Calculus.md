@@ -994,30 +994,32 @@ $$
 ![[Pasted image 20231026221745.png]]
 
 ##### FIIR Filter
-
 **Forsinkelse eller gruppeløbstid**
 $$
 T_{g}=\frac{d\phi(\omega)}{d \omega}=MT=\frac{N-1}{2}T
 $$
 Hvor $T$ er sampleintervallet [s] og $\phi(\omega)$ er fasen af $H(\omega)$
-	Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{a}}$ altså $f_{a}$ afskæringsfrekvensen.
+Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{a}}$ altså $f_{a}$afskæringsfrekvensen.
 
-$a_{i}=C_{M-i}$
+
+Når man har filterkoefficienterne kan man gange dem på de tilsvarende $z^i$ for at få ens filter. e.g. $a_{1}$ ganges på $z^1$ og $a_{2}$ ganges på $z^2$.
 ###### Lavpasfiltrets 
-koefficienter kan findes med:
+Fourier koefficienter kan findes med:
 $$
 c_{m}=\frac{1}{m\pi}\sin(2\pi mTf_{a})
 $$
 Sidste koefficient findes med $c_{0}=2Tf_{A}$
+Hvor filterkoefficienterne er $a_{i}=C_{M-i}$
 ###### Højpasfilter
-Højpasfiltrets koefficienter kan beregnes som for $(m\neq 0)$
+Højpasfiltrets Fourier koefficienter kan beregnes som for $(m\neq 0)$
 $$
 c_{m}=\frac{1}{m\pi}(\sin(m\pi)-\sin(2\pi mTf_{a})
 $$
 Sidste koefficient er $c_{0}1-2T f_{a}$
+Hvor filterkoefficienterne er $a_{i}=C_{M-i}$
 
 ###### Båndpasfilter
-Båndpasfiltrets koefficienter:
+Båndpasfiltrets Fourier koefficienter:
 $$
 c_{m}=\frac{1}{m \pi}(\sin(2\pi mTf_{a_{2}}-f_{a_{1}}))
 $$
@@ -1028,7 +1030,7 @@ $$
 Med centerfrekvensen $f_{c}=\frac{f_{a_{2}}+f_{a_{1}}}{2}$
 
 ###### Båndstopfilter
-Båndstopfiltrets koefficienter kan beregnes som for $(m\neq 0)$
+Båndstopfiltrets Fourier koefficienter kan beregnes som for $(m\neq 0)$
 $$
 c_{m}=\frac{1}{m\pi}\sin(m\pi)+\sin(2\pi mTf_{a_{1}})-\sin(2\pi mTf_{a_{2}})
 $$
@@ -1037,6 +1039,7 @@ $$
 c_{0}=2T(f_{a_{2}}-f_{a_{1}})
 $$
 Med centerfrekvensen $f_{c}=\frac{f_{a_{2}}+f_{a_{1}}}{2}$
+Hvor filterkoefficienterne er $a_{i}=C_{M-i}$
 
 ### Multivariable Funktioner
 ##### Double Integration
