@@ -1003,6 +1003,12 @@ Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{a}}$ al
 
 
 Når man har filterkoefficienterne kan man gange dem på de tilsvarende $z^i$ for at få ens filter. e.g. $a_{1}$ ganges på $z^1$ og $a_{2}$ ganges på $z^2$.
+
+Når man har sine koefficienter kan man lave en [[1 Formelsamlinger/Formelsamling Calculus#Overføringsfunktion|Overførringsfunktion]]:
+$$
+H(z)=\sum^{2M}_{i=0}a_{i}\cdot z^{-i}
+$$
+Hvor $a_{i}=C_{M-i}$ som findes ved de nedenstående formler.
 ###### Lavpasfiltrets 
 Fourier koefficienter kan findes med:
 $$
