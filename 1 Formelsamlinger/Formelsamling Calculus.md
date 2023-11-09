@@ -1001,6 +1001,42 @@ T_{g}=\frac{d\phi(\omega)}{d \omega}=MT=\frac{N-1}{2}T
 $$
 Hvor $T$ er sampleintervallet [s] og $\phi(\omega)$ er fasen af $H(\omega)$
 	Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{a}}$ altså $f_{a}$ afskæringsfrekvensen.
+
+###### Lavpasfiltrets 
+koefficienter kan findes med:
+$$
+c_{m}=\frac{1}{m\pi}\sin(2\pi mTf_{a})
+$$
+Sidste koefficient findes med $c_{0}=2Tf_{A}$
+###### Højpasfilter
+Højpasfiltrets koefficienter kan beregnes som for $(m\neq 0)$
+$$
+c_{m}=\frac{1}{m\pi}(\sin(m\pi)-\sin(2\pi mTf_{a})
+$$
+Sidste koefficient er $c_{0}1-2T f_{a}$
+
+###### Båndpasfilter
+Båndpasfiltrets koefficienter:
+$$
+c_{m}=\frac{1}{m \pi}(\sin(2\pi mTf_{a_{2}}-f_{a_{1}}))
+$$
+Sidste koefficient er gennem L'Hospitals:
+$$
+c_{0}=2T(f_{a_{2}}-f_{a_{1}})
+$$
+Med centerfrekvensen $f_{c}=\frac{f_{a_{2}}-f_{a_{1}}}{2}$
+
+###### Båndstopfilter
+Båndstopfiltrets koefficienter kan beregnes som for $(m\neq 0)$
+$$
+c_{m}=\frac{1}{m\pi}\sin(m\pi)+\sin(2\pi mTf_{a_{1}})-\sin(2\pi mTf_{a_{2}})
+$$
+Sidste koefficient er gennem L'Hospitals:
+$$
+c_{0}=2T(f_{a_{2}}-f_{a_{1}})
+$$
+Med centerfrekvensen $f_{c}=\frac{f_{a_{2}}-f_{a_{1}}}{2}$
+
 ### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum
