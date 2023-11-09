@@ -993,6 +993,14 @@ y(n)=\sum_{i=0}^N a_{i}x(n-i)-\sum_{i=1}^N b_{i}y(n-i)
 $$
 ![[Pasted image 20231026221745.png]]
 
+##### FIIR Filter
+
+**Forsinkelse eller gruppeløbstid**
+$$
+T_{g}=\frac{d\phi(\omega)}{d \omega}=MT=\frac{N-1}{2}T
+$$
+Hvor $T$ er sampleintervallet [s] og $\phi(\omega)$ er fasen af $H(\omega)$
+
 ### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum
