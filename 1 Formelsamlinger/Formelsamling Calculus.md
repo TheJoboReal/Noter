@@ -1000,7 +1000,7 @@ $$
 T_{g}=\frac{d\phi(\omega)}{d \omega}=MT=\frac{N-1}{2}T
 $$
 Hvor $T$ er sampleintervallet [s] og $\phi(\omega)$ er fasen af $H(\omega)$
-
+	Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{a}}$ altså $f_{a}$ afskæringsfrekvensen.
 ### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum
