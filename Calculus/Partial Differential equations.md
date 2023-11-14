@@ -90,3 +90,4 @@ u(x,y)=Dx^e e^{(c-1)\frac{y^2}{2}}
 $$
 Then we solve for 
 #### Separating variables in Wave Equation
+<iframe width="560" height="315" src="https://www.youtube.com/embed/EJLympg3XMM?si=5_mP1H_GLtMriyum" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
