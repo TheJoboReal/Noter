@@ -1265,3 +1265,8 @@ $$
 \frac{du}{dt}=c^2 \frac{d^2u}{dx^2}
 $$
 >Se [[Heat Equation Opgave.pdf|Eksempel]]
+
+##### D'Alembert solution
+$$
+u(x,t)=\frac{1}{2}(u_{0}(x+ct)+u_{0}(x-ct))+\frac{1}{2c}\int^{x+ct}_{x-ct} v_{0}(s) \, ds 
+$$
