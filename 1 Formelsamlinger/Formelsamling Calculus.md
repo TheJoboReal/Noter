@@ -1001,7 +1001,7 @@ $$
 T_{g}=\frac{d\phi(\omega)}{d \omega}=MT=\frac{N-1}{2}T
 $$
 Hvor $T$ er sampleintervallet [s] og $\phi(\omega)$ er fasen af $H(\omega)$
-Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{a}}$ altså $f_{a}$afskæringsfrekvensen.
+Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{s}}$ altså $f_{a}$samplefrekvensen.
 
 
 Når man har filterkoefficienterne kan man gange dem på de tilsvarende $z^i$ for at få ens filter. e.g. $a_{1}$ ganges på $z^1$ og $a_{2}$ ganges på $z^2\dots a_{n}\cdot z^n$.
