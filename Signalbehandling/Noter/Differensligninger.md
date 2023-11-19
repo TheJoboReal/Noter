@@ -19,3 +19,9 @@ Man Indsætter det så i en [[Formelsamling Calculus#Overføringsfunktion|Overf�
 $$
 H(z)=\frac{Y(z)}{X(z)}=\frac{\sum^N_{i=0}a_{i}z^{-i}}{\sum^N_{i=1}b_{i}z^{-i}}
 $$
+
+$$
+H(z)=\frac{Y(z)}{X(z)}=
+\frac{a_{0}+a_{1}z^{-1}+a_{2}z^{-2}}{1+b_{1}z^{-1}+b_{2}z^{-2}}=
+\frac{a_{0}z^{2}+a_{1}z^1+a_{2}}{z^2+b_{1}z^1+b_{2}}
+$$
