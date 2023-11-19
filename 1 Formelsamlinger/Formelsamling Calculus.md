@@ -996,7 +996,6 @@ $$
 ![[Pasted image 20231026221745.png]]
 
 ##### FIIR Filter
-
 **Forsinkelse eller gruppeløbstid**
 $$
 T_{g}=\frac{d\phi(\omega)}{d \omega}=MT=\frac{N-1}{2}T
