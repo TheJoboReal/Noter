@@ -961,6 +961,8 @@ Og nedenstående en overførringsfunktion fra en [[Formelsamling Calculus#Laplac
 $$
 H(s)=\frac{Y(s)}{X(s)}=\frac{\sum_{i=0}^N a_{i}s^i}{1+\sum_{i=1}^N b_{i}s^i}
 $$
+>Funktionen har lineær fase hvis nulpunkterne er symmetriske omkring enhedscirklen. Fks hvis man har et nulpunkt i $r \angle \phi$ så skal man også have et nulpunkt i $\frac{1}{r}\angle \phi$
+
 ***
 Nodeplot i matlab. Input overføringsfunktion
 ```matlab
