@@ -1060,6 +1060,9 @@ $$
 Med centerfrekvensen $f_{c}=\frac{f_{a_{2}}+f_{a_{1}}}{2}$
 Hvor filterkoefficienterne er $a_{i}=C_{M-i}$
 
+#### Valg af vinduesfunktion
+![[Pasted image 20231123100056.png]]
+
 ### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum
