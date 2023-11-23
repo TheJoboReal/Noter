@@ -961,8 +961,6 @@ Og nedenstående en overførringsfunktion fra en [[Formelsamling Calculus#Laplac
 $$
 H(s)=\frac{Y(s)}{X(s)}=\frac{\sum_{i=0}^N a_{i}s^i}{1+\sum_{i=1}^N b_{i}s^i}
 $$
->Funktionen har lineær fase hvis nulpunkterne er symmetriske omkring enhedscirklen. Fks hvis man har et nulpunkt i $r \angle \phi$ så skal man også have et nulpunkt i $\frac{1}{r}\angle \phi$
-
 ***
 Nodeplot i matlab. Input overføringsfunktion
 ```matlab
@@ -994,63 +992,6 @@ $$
 y(n)=\sum_{i=0}^N a_{i}x(n-i)-\sum_{i=1}^N b_{i}y(n-i)
 $$
 ![[Pasted image 20231026221745.png]]
-
-##### FIIR Filter
-**Forsinkelse eller gruppeløbstid**
-$$
-T_{g}=\frac{d\phi(\omega)}{d \omega}=MT=\frac{N-1}{2}T
-$$
-Hvor $T$ er sampleintervallet [s] og $\phi(\omega)$ er fasen af $H(\omega)$
-Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{s}}$ altså $f_{a}$samplefrekvensen.
-
-
-Når man har filterkoefficienterne kan man gange dem på de tilsvarende $z^i$ for at få ens filter. e.g. $a_{1}$ ganges på $z^1$ og $a_{2}$ ganges på $z^2\dots a_{n}\cdot z^n$.
-
-Når man har sine koefficienter kan man lave en [[1 Formelsamlinger/Formelsamling Calculus#Overføringsfunktion|Overførringsfunktion]]:
-$$
-H(z)=\sum^{2M}_{i=0}a_{i}\cdot z^{-i}
-$$
-Hvor $a_{i}=C_{M-i}$ som findes ved de nedenstående formler.
->Se [[Lektion10_FIIRFilter.pdf|Eksempel]]
-
-###### Lavpasfiltrets 
-Fourier koefficienter kan findes med:
-$$
-c_{m}=\frac{1}{m\pi}\sin(2\pi mTf_{a})
-$$
-Sidste koefficient findes med $c_{0}=2Tf_{A}$
-Hvor filterkoefficienterne er $a_{i}=C_{M-i}$
-###### Højpasfilter
-Højpasfiltrets Fourier koefficienter kan beregnes som for $(m\neq 0)$
-$$
-c_{m}=\frac{1}{m\pi}(\sin(m\pi)-\sin(2\pi mTf_{a})
-$$
-Sidste koefficient er $c_{0}1-2T f_{a}$
-Hvor filterkoefficienterne er $a_{i}=C_{M-i}$
-
-###### Båndpasfilter
-Båndpasfiltrets Fourier koefficienter:
-$$
-c_{m}=\frac{1}{m \pi}(\sin(2\pi mTf_{a_{2}}-f_{a_{1}}))
-$$
-Sidste koefficient er gennem L'Hospitals:
-$$
-c_{0}=2T(f_{a_{2}}+f_{a_{1}})
-$$
-Med centerfrekvensen $f_{c}=\frac{f_{a_{2}}+f_{a_{1}}}{2}$
-
-###### Båndstopfilter
-Båndstopfiltrets Fourier koefficienter kan beregnes som for $(m\neq 0)$
-$$
-c_{m}=\frac{1}{m\pi}\sin(m\pi)+\sin(2\pi mTf_{a_{1}})-\sin(2\pi mTf_{a_{2}})
-$$
-Sidste koefficient er gennem L'Hospitals:
-$$
-c_{0}=2T(f_{a_{2}}-f_{a_{1}})
-$$
-Med centerfrekvensen $f_{c}=\frac{f_{a_{2}}+f_{a_{1}}}{2}$
-Hvor filterkoefficienterne er $a_{i}=C_{M-i}$
-
 ### Multivariable Funktioner
 ##### Double Integration
 ###### Riemann sum
@@ -1267,8 +1208,18 @@ $$
 $$
 >Se [[Heat Equation Opgave.pdf|Eksempel]]
 
-##### D'Alembert solution
-$$
-u(x,t)=\frac{1}{2}(u_{0}(x+ct)+u_{0}(x-ct))+\frac{1}{2c}\int^{x+ct}_{x-ct} v_{0}(s) \, ds 
-$$
 
+##### Classification of PDE
+Betragt ligningen på form:
+$$
+Auxx+2Buxy+Cuyy=F()
+$$
+* **Lineær** $=a,b,c,d,e,$ og $f$ er kun funktioner af $(x,y)$
+* Quasiliniær $=a,b,c,d,e,$ og $f$ kan være funktioner af $(x,y,u,u_{x},u_{y})$ i.e. funktionen er lineær is højeste afledte form fks ingen $u^2_{xx}$.
+* **Fully nonlinear** $=a,b,c,d,e,$ og $f$ kan være funktioner af $(x,y,u,u_{x},u_{y},u_{xy},u_{yy})$.
+
+Indsæt i formlen:
+$$
+AC-B^2
+$$
+Hvor $<0$ er en hyperbolsk, $=0$ er en parabolsk og $>0$ er en ellipse.
