@@ -9,7 +9,7 @@ Et IIR-filter designes ved at følge proceduren
 
 ***
 #### Matched z-transformation
-Følgende procedure benyttes til design af digitale IIR filtre ved brug af matched z-transformation
+Følgende procedure benyttes til design af digitale IIR filtre ved brug af [[1 Formelsamlinger/Formelsamling Calculus#Matched z-transformation|matched -transformation]]
 1. Bestem det analoge prototypefilters frekvensnormerede og faktoriserede [[Overføringsfunktion Eksempel|overførinsfunktion]] $H(s)$.
 2. Bestem de analoge frekvensnormerede poler og nulpunkter.
 3. Bestem de denormerede poler og nulpunkter.

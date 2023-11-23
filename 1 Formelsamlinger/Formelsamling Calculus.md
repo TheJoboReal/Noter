@@ -1013,7 +1013,7 @@ $$
 Hvor $a_{i}=C_{M-i}$ som findes ved de nedenstående formler.
 >Se [[Lektion10_FIIRFilter.pdf|Eksempel]]
 
-###### Lavpasfiltrets 
+###### Lavpasfiltret 
 Fourier koefficienter kan findes med:
 $$
 c_{m}=\frac{1}{m\pi}\sin(2\pi mTf_{a})
