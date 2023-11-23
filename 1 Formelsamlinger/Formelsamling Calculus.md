@@ -1,4 +1,4 @@
-yn## Generelt Algebra
+### Generelt Algebra
 $$
 \sqrt{ a^{2} +a^{2}}=a\cdot \sqrt{ 2 }
 $$
