@@ -1003,6 +1003,15 @@ $$
 Hvor $T$ er sampleintervallet [s] og $\phi(\omega)$ er fasen af $H(\omega)$
 Og hvor $M=\frac{N-1}{2}$ hvor $N$ er antal af samples og $T=\frac{1}{f_{s}}$ altså $f_{a}$samplefrekvensen.
 
+Den frekvensnormerede main lobe bredde er:
+$$
+B_{n}=2M \frac{B}{f_{s}}=2M \frac{\Delta f}{f_{s}}
+$$
+hvor $B$ er main lobe bredden.
+Ordenstallet findes med følgende formel:
+$$
+M=\frac{B_{n}f_{s}}{2\Delta f}
+$$
 
 Når man har filterkoefficienterne kan man gange dem på de tilsvarende $z^i$ for at få ens filter. e.g. $a_{1}$ ganges på $z^1$ og $a_{2}$ ganges på $z^2\dots a_{n}\cdot z^n$.
 
