@@ -1008,7 +1008,7 @@ $$
 B_{n}=2M \frac{B}{f_{s}}=2M \frac{\Delta f}{f_{s}}
 $$
 hvor $B$ er main lobe bredden.
-Ordenstallet findes med følgende formel:
+Ordenstallet findes med $2M+1$ og $M$ findes med nedenstående formel:
 $$
 M=\frac{B_{n}f_{s}}{2\Delta f}
 $$
