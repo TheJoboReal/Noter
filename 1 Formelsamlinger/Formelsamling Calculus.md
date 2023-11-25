@@ -1051,6 +1051,9 @@ $$
 >See [[Formelsamling Calculus#Spherical Coordinates|Spherical Coordinates]] for foundation.
 
 The conditions are:
+$$
+\rho^2=x^2+y^2+z^2
+$$
 ![[Pasted image 20231002135027.png]]
 
 Where the Jacobian is:
