@@ -1100,7 +1100,7 @@ Plane Vector field $F(x,y)=f_{1}(x,y)i+f_{2}(x,y)j$
 Position Vector $r=xi+yj+zk$ and $r=i+j+k$
 
 ##### Conservative Fields
-$F(x,y,z)$ is a conservative vector field if $F(x,y,z)=\nabla \phi(x,y,z)=\frac{\delta \phi}{\delta x}i=\frac{\delta \phi}{\delta x}j=\frac{\delta \phi}{\delta x}k$
+$F(x,y,z)$ is a conservative vector field if the [[Formelsamling Calculus#Curl|curl]]$(F)=0$
 
 Where $\nabla \phi(x,y,z)$ is a Scalar Field.
 
@@ -1181,7 +1181,7 @@ where
 $$
 F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k
 $$
-
+>see [[1 Formelsamlinger/Formelsamling Calculus#Determinant|determinant]]
 
 ###### Stokes's Theorem
 Let S be a piecewise smooth, oriented surface in 3-space, having unit normal field $\hat{N}$ and boundary C consisting of one or more piecewise smooth, closed curves with orientation inherited from S.
