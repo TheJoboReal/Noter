@@ -1,14 +1,25 @@
 ### Generelt Algebra
+#### Regler
+##### Trigonometri
+Double-angle identity
 $$
-\sqrt{ a^{2} +a^{2}}=a\cdot \sqrt{ 2 }
+\sin(2\theta)=2\sin(\theta)\cos(\theta)
 $$
-***
-Centroid point(Centerpoint of n points).
 $$
-c=\frac{\sum^n_{i=0}P_{i}}{n}
+\cos(2\theta)=\cos^2(\theta)-\sin^2(\theta)
+$$
 $$
 
-***
+$$
+![[TrigIdentities.png]]
+
+#### Integrations-regler
+$$
+\int \cos^2(\theta) \, d\theta=\frac{1}{2}(\theta+\sin(\theta)\cos(\theta)) 
+$$
+$$
+\int \sin^2(\theta) \, d\theta=\frac{1}{2}(\theta-\sin(\theta)\cos(\theta))
+$$
 
 
 ### Koordinatsystemer
