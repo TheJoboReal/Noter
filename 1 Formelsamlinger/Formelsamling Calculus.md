@@ -76,7 +76,7 @@ $$
 \rho=R=\sqrt{x^2+y^2+z^2}
 $$
 ***
-Mudulus 2d
+Modulus 2d
 $$
 r=\sqrt{x^2+y^2}
 $$
