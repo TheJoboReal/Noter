@@ -1199,6 +1199,7 @@ Then,
 $$
 \oint_{C} f_{1}(x,y)dx+f_{2}(x,y)dy=\int \int_{R} \left(  \frac{\delta f_{2}}{\delta x}-\frac{\delta f_{1}}{\delta y} \right) \, \, dA 
 $$
+>Se [[Greens theorem.pdf|eksempel]]
 
 #### Partial Differential Equations
 ##### Auxiliary Conditions
