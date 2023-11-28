@@ -40,6 +40,14 @@ The receiver's window is of only size 1.
 The receiver only waits for a specific packet (here 5), all other received packets are discarded and must be retransmitted.
 ![[Pasted image 20231107123828.png]]
 
+Opening and closing the window of the receive window In order to achieve flow control, [[TCP (Transmission Control Protocol)|TCP]] forces the sender and receiver to adjust their windows in a coordinated way.
+* The receive window closes (moves its left wall to the right) when more bytes arrive from the sender.
+* The receiver window opens (moves its right wall to the right) when more bytes are pulled by the process.
+* Note here that it is not allowed to shrink (move the right wall to the left) the receive window. Opening, closing and shrinking of the send window is controlled by the receiver.
+* The send window closes (moves its left wall to the right) when a new acknowledgments ([[Flow and error control#ACK|ACK]]) allow it to do so.
+* The send window opens (moves its right wall to the right) when the receive window size (rwnd) advertised by the receiver allows it to do so (new ackNo + new rwnd > last ackNo + last rwnd).
+* The send window shrinks (moves its right wall to the left) in the event this situation does not occur.
+
 #### Timers
 Only one timer is used here.
 The timer is set all the time so that it reflects the time of dispatch of the oldest packet (the first outstanding packet) that has not yet been acknowledged.
