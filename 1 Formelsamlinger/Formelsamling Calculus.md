@@ -1099,15 +1099,18 @@ or $dist(P,a)=\frac{|a\cdot x_{1}+b\cdot y_{1}+c\cdot z_{1}+d|}{\sqrt{ a²+b²+c
 Plane Vector field $F(x,y)=f_{1}(x,y)i+f_{2}(x,y)j$
 Position Vector $r=xi+yj+zk$ and $r=i+j+k$
 
-##### Conservative Fields
+###### Conservative Fields
 
-$F(x,y,z)$ is a conservative vector field if the [[Formelsamling Calculus#Curl|curl]]$(F)=0$
-Or if  the following is true:
+$F(x,y,z)$ is a conservative vector field if the following is true:
 $\frac{df_{1}}{dy}=\frac{df_{2}}{dx}$ , $\frac{df_{2}}{dz}=\frac{df_{3}}{dy}$ , $\frac{df_{1}}{dz}=\frac{df_{3}}{dx}$
 
 Where $\nabla \phi(x,y,z)$ is a Scalar Field.
 
 >If $F(x,y,z)=\nabla \phi(x,y,z)$ in a domain $D$, then $F$ is a conservative vector field in $D$ and function $\phi$ is a potential function for $F$ on $D$
+
+###### Potential function
+
+
 
 ##### Line or Curve Integral
 ![[Pasted image 20231009213559.png|250]]
