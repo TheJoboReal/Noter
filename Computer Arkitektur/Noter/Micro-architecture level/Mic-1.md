@@ -39,11 +39,11 @@ Here, two registers are used as pointers that support this concept
 (d) procedure C and B are completed, and A has called procedure D which has 5 variables
 
 #### Operand Stack
-[[IJVM instruction set|IJVM]] is a Stack machine
+[[Computer Arkitektur/Noter/Micro-architecture level/IJVM instruction set|IJVM]] is a Stack machine
 Java uses this concept as it does not require the [[CPU]] design for special registers in the [[CPU]] for the various operations.
 Let us see an example: a1 = a2 + a3
 ![[Pasted image 20231110221621.png]]
 
-#### [[IJVM instruction set|IJVM]] memory model
+#### [[Computer Arkitektur/Noter/Micro-architecture level/IJVM instruction set|IJVM]] memory model
 The Data Path contains registers that handle the memory model
 ![[Pasted image 20231110221719.png]]

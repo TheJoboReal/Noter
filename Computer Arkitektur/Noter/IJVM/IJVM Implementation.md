@@ -16,4 +16,5 @@ a micro assembler that solves the following tasks:
 * Handling / calculation of absolute addresses for symbolic labels of micro instructions
 * Location in the control store with the calculation of NEXT_ADR field for each micro instruction
 
-#### 
+#### Micro program
+![[Pasted image 20231201083137.png]]
