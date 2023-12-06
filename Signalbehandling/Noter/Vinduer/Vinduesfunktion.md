@@ -1,7 +1,6 @@
 ![[Pasted image 20231005084457.png]]
 Vi får en foldning mellem $H_{\infty}(f)$ og $W(f)$
 
-***
 #### Foldning
 ![[Pasted image 20231005084726.png]]
 ![[Pasted image 20231005084806.png]]
