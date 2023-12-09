@@ -47,7 +47,6 @@ have to ensure that the data stream contains a sufficient number of
 edges. (Too many 0s or 1s can cause sync problems!)
 
 ##### [[Bit-oriented framing#Bit Stuffing|Bitsuffing]]
-TODO: Lav side om CRC
 CAN uses bit-stuffing technique to ensure synchronization
 ![[Pasted image 20231208083632.png]]
 **The rule is as follows:**
