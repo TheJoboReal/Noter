@@ -1108,9 +1108,15 @@ Where $\nabla \phi(x,y,z)$ is a Scalar Field.
 
 >If $F(x,y,z)=\nabla \phi(x,y,z)$ in a domain $D$, then $F$ is a conservative vector field in $D$ and function $\phi$ is a potential function for $F$ on $D$
 
+>See [[conservative fields.pdf|Example]]
 ###### Potential function
 
+The potential function of a conservative field can be found with:
+$$
+\phi(x,y,z)=\int f_{1} \, dx + \int f_{2} \, dy + \int f_{3} \, dz   
+$$
 
+>See [[conservative fields.pdf|Example]]
 
 ##### Line or Curve Integral
 ![[Pasted image 20231009213559.png|250]]
@@ -1119,7 +1125,7 @@ $$
 C=\int f(x,y,z) \, ds=\int_{a}^b f(r(t)) \cdot |\frac{dr}{dt}| \, dt  
 $$
 
->See example [[LIne Integral.pdf|Line Integral]]
+>See [[Line Integrals.pdf|Example]]
 
 ##### Surface Integrals
 
