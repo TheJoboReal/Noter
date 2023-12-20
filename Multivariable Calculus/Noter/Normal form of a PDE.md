@@ -43,7 +43,7 @@ $$\xi(x, y) = c_{1}, \eta(x,y) = c_{2}$$
 This is done differently depending on the type of PDE.
 
 **Hyperbolic**:
-$$\xi(x, y) = c_{1}, \eta(x,y) = c_{2}$$
+$$\xi(x, y) = c_{1},\: \eta(x,y) = c_{2}$$
 **Parabolic**:
 $\xi(x, y) = c_{1}$ and $\eta$ will be chosen such that is will not be parallel to the $\xi$ coordinate; $\eta$ is chosen such that *the [[Jacobian Matrix|jacobian]] of the transformation is not zero*.
 
