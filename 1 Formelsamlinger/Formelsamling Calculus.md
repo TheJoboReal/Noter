@@ -1151,6 +1151,13 @@ $$
 $$
 >See [[Surface Charge.pdf|Example]]
 
+###### Area of Spiral
+
+$$
+\int \int_{R} |\frac{\delta r}{\delta u} \times \frac{\delta r}{\delta v}| \, du \: dv 
+$$
+
+
 ##### Differential Operators
 ###### Gradient
 Rate of change in a 3-dimensional scalar field $f(x,y,z)$. Fx Temperature Distribution in a room, Topographic maps.
