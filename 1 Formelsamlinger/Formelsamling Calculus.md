@@ -29,6 +29,7 @@ i &j & k \\
 f_{1} & f_{2} & f_{3}
 \end{matrix} \right)
 $$
+TODO: lav færdig
 
 ### Koordinatsystemer
 ##### [[Cylendrical Cordinates]]
