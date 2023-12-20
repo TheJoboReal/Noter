@@ -1136,6 +1136,7 @@ The Normal Vector to the surface.
 ![[Pasted image 20231023123737.png|300]]
 
 ###### The Area of the Surface.
+![[Pasted image 20231023123918.png]]
 $$
 \int \int  \,  \, dS 
 $$
@@ -1144,7 +1145,11 @@ Where $dS=|n|dudv$ or $dS=\sqrt{ 1+(g_{1}(x,y))^2+(g_{2}(x,y))^2dxdy }$
 >See [[Surface Integral.pdf|Example]]
 
 ###### Charge of a surface
-![[Pasted image 20231023123918.png]]
+$$
+\int \int  \,  \, dx=
+\int \int f(r(u,v))|\frac{\delta r}{\delta u} \times \frac{\delta r}{\delta v}| \, du \: dv 
+$$
+
 
 ##### Differential Operators
 ###### Gradient
