@@ -1147,9 +1147,9 @@ Where $dS=|n|dudv$ or $dS=\sqrt{ 1+(g_{1}(x,y))^2+(g_{2}(x,y))^2dxdy }$
 ###### Charge of a surface
 $$
 \int \int  \,  \, dx=
-\int \int f(r(u,v))|\frac{\delta r}{\delta u} \times \frac{\delta r}{\delta v}| \, du \: dv 
+\int \int_{D} f(r(u,v))|\frac{\delta r}{\delta u} \times \frac{\delta r}{\delta v}| \, du \: dv 
 $$
-
+>See [[Surface Charge.pdf|Example]]
 
 ##### Differential Operators
 ###### Gradient
