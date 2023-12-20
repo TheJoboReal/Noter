@@ -1139,7 +1139,7 @@ The Area of the Surface.
 ![[Pasted image 20231023123918.png]]
 Where $dS=|n|dudv$ or $dS=\sqrt{ 1+(g_{1}(x,y))^2+(g_{2}(x,y))^2dxdy }$
 
->See 
+>See [[Surface Integral.pdf|Example]]
 ##### Differential Operators
 ###### Gradient
 Rate of change in a 3-dimensional scalar field $f(x,y,z)$. Fx Temperature Distribution in a room, Topographic maps.
