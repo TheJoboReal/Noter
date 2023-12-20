@@ -19,6 +19,16 @@ $$
 \int \sin^2(\theta) \, d\theta=\frac{1}{2}(\theta-\sin(\theta)\cos(\theta))
 $$
 
+#### Vector Regler
+##### Cross Product of vector
+$$
+\frac{\delta r}{\delta u} \times \frac{\delta r}{\delta v}=
+\det\left( \begin{matrix}
+i &j & k \\
+\frac{\delta}{\delta x} & \frac{\delta}{\delta y} & \frac{\delta}{\delta z} \\
+f_{1} & f_{2} & f_{3}
+\end{matrix} \right)
+$$
 
 ### Koordinatsystemer
 ##### [[Cylendrical Cordinates]]
@@ -1203,7 +1213,8 @@ The curl of the electric field gives the rate of change of the magnetic field. F
 The Cross product of a vector field with a directional vector is curl.
 
 $$
-curl(F(x,y,z))=\nabla\times F(x,y,z)=\det(\begin{matrix}
+curl(F(x,y,z))=\nabla\times F(x,y,z)=
+\det(\begin{matrix}
 i &j & k \\
 \frac{\delta}{\delta x} & \frac{\delta}{\delta y} & \frac{\delta}{\delta z} \\
 f_{1} & f_{2} & f_{3}
