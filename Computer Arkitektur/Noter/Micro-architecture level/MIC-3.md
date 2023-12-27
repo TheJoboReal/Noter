@@ -59,7 +59,7 @@ which take care of different tasks. See e.g., ΔT4:
 
 >Now, the same 4 instructions can be completed within 7 ΔT
 
-##### Hazards and their solutions
+#### Hazards and their solutions
 We distinguish between 3 types of pipeline hazards:
 ###### **Structural hazards**
 These occur when there are resource conflicts, i.e., when the hardware cannot support certain combinations of instructions simultaneously. If different instructions in different stages of the pipeline are to use the same resource, we will get a pipeline stall. How the pipeline works General theory – Hazards
