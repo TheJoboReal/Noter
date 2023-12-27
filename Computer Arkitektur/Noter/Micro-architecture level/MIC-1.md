@@ -1,6 +1,6 @@
 Mic-1 is a processor architecture whose
 data path contains 32-bit registers, buses,
-ALU and shifter.
+[[ALU (Arithmetic Logic Unit)|ALU]] and shifter.
 ![[Pasted image 20231110214757.png]]
 
 #### Mic-1 ALU 1-bit version

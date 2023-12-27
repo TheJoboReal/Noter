@@ -1,4 +1,4 @@
->See [[Mic-1]]
+>See [[MIC-1]]
 
 Micro‐program ‐ address specification 
 
