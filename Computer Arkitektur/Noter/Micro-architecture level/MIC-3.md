@@ -64,9 +64,9 @@ We distinguish between 3 types of pipeline hazards:
 ###### **Structural hazards**
 These occur when there are resource conflicts, i.e., when the hardware cannot support certain combinations of instructions simultaneously. If different instructions in different stages of the pipeline are to use the same resource, we will get a pipeline stall. How the pipeline works General theory – Hazards
 ![[Pasted image 20231201085717.png]]
-We can see that this is a [[Von Neumann Architecture]], as [[CPU|MAR]] is used to
-fetch program instructions.
-Solution
+We can see that this is a [[Von Neumann Architecture]], as [[CPU|MAR]] is used to fetch program instructions.
+
+Solution:
 By duplicating resources, the problem can be remedied.
 * Dual-cache (separate for opcode and data) with separate internal buses
 * Multi-port CPU registers (e.g., MAR) and duplication of internal buses.
@@ -89,8 +89,7 @@ This keeps the pipeline utilized completely and the optimal throughput and perfo
 **Forwarding**
 Forwarding is a design change of the Data Path.
 Here, data hazards can be remedied in the case of register-to-register instructions.
-If the instruction involves an access to the memory, then this solution is not
-applicable.
+If the instruction involves an access to the memory, then this solution is not applicable.
 ![[Pasted image 20231201090519.png]]
 
 ###### **Control hazards**
