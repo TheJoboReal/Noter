@@ -8,5 +8,14 @@
       "key": "O"
     }
   ],
-  "obsidian-shellcommands:shell-command-pt3mgxji9k": []
+  "obsidian-shellcommands:shell-command-pt3mgxji9k": [],
+  "note-refactor-obsidian:app:extract-selection-first-line": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ]
 }

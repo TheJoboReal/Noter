@@ -489,7 +489,7 @@ $$
 ***
 
 
-##### [[Dæmpede svingninger]]
+##### [[Formelsamling/Dæmpede Svingninger]]
 
 ***
 Hvor hvis b<b_c: Underdæmpning.
