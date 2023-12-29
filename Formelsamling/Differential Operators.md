@@ -28,6 +28,8 @@ If $F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k$ smooth vector field is d
 $$
 \oint\oint_{S}(\vec{F}\cdot\vec N)dS=\int\int\int_{V} div(\vec F) \, dV 
 $$
+Where $dV=\rho \cdot \sin(\phi) \ d\rho\ d\phi\ d\theta$
+
 >See 
 
 ***

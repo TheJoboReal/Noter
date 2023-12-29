@@ -44,7 +44,7 @@ $$
 ![[Pasted image 20221031235507.png]]
 Form.
 $$
-Sph=(R,\Theta,\phi)
+Sph=(\rho,\phi,\theta)
 $$
 
 ***
@@ -61,7 +61,7 @@ $$
 ***
 Polar Vinkel.(Vinkel mellem Z-aksen og punkt)
 $$
-\Theta=tan^{-1}(\frac yx)
+\theta=tan^{-1}(\frac yx)
 $$
 
 ***

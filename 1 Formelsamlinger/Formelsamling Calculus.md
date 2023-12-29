@@ -38,7 +38,7 @@ TODO: lav færdig
 ***
 Form.
 $$
-Cyl(R,\Theta,z)
+Cyl(\rho,\theta,z)
 $$
 ***
 Modulus.(Længde ud til punktet i 3 dimensioner.)
@@ -49,7 +49,7 @@ $$
 ***
 Elevation.
 $$
-\Theta=tan^{-1}(\frac yx)
+\theta=tan^{-1}(\frac yx)
 $$
 
 ***
@@ -61,13 +61,13 @@ Cylendrisk
 
 Tilbage til kartesiske kordiater.
 $$
-x=r\cdot sin\Theta\cdot cos\phi
+x=r\cdot sin\theta\cdot cos\phi
 $$
 $$
-y=r\cdot sin\Theta\cdot sin\phi
+y=r\cdot sin\theta\cdot sin\phi
 $$
 $$
-z=r\cdot cos\Theta
+z=r\cdot cos\theta
 $$
 
 ![[degrad.gif]]
@@ -78,7 +78,7 @@ $$
 ![[Pasted image 20221031235507.png]]
 Form.
 $$
-Sph=(R,\Theta,\phi)
+Sph=(\rho,\phi,\theta)
 $$
 
 ***
@@ -95,7 +95,7 @@ $$
 ***
 Polar Vinkel.(Vinkel mellem Z-aksen og punkt)
 $$
-\Theta=tan^{-1}(\frac yx)
+\theta=tan^{-1}(\frac yx)
 $$
 
 ***
