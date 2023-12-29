@@ -26,8 +26,9 @@ Let $S$ be a closed piecewise smooth surface which is the boundary of $V$ with n
 
 If $F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k$ smooth vector field is defined on V then,
 $$
-\oint\oint_{S}(F\cdot\hat{N})dS=\int\int\int_{V} F \, dV 
+\oint\oint_{S}(\vec{F}\cdot\vec N)dS=\int\int\int_{V} div(\vec F) \, dV 
 $$
+>See 
 
 ***
 **Variants of Divergence Theorem**
