@@ -18,6 +18,7 @@ F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k
 $$
 
 ###### Divergence Theorem(Gauss)
+See also [[External/Balder/Notes/Surface Integrals#Flux|Flux]]
 $$
 \nabla F(x,y,z)=div(F)=\frac{\delta f_{1}}{\delta x}+\frac{\delta f_{2}}{\delta y} + \frac{\delta f_{3}}{\delta z}
 $$
