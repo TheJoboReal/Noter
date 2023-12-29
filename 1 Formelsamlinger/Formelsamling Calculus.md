@@ -1121,7 +1121,6 @@ Where $\nabla \phi(x,y,z)$ is a Scalar Field.
 
 >See [[conservative fields.pdf|Example]]
 ###### Potential function
-
 The potential function of a conservative field can be found with:
 $$
 \phi(x,y,z)=\int f_{1} \, dx + \int f_{2} \, dy + \int f_{3} \, dz   
