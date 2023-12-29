@@ -18,4 +18,4 @@ C=\int f(x,y,z) \, ds=\int_{a}^b f(r(t)) \cdot |\frac{dr}{dt}| \, dt  =
 \int _{a}^b f(r(t))\cdot\left( \sqrt{ (\frac{dx}{dt})^2 + (\frac{dy}{dt})^2 + (\frac{dz}{dt})^2 } \right) \, dx
 $$
 
->See [[Line Integrals.pdf|Example]]
+>See [[Line Integrals.pdf|Example]] or [[Line integrals 1.pdf|Example]]

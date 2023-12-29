@@ -30,7 +30,7 @@ $$
 $$
 Where $dV=\rho \cdot \sin(\phi) \ d\rho\ d\phi\ d\theta$
 
->See 
+>See [[Flux.pdf]]
 
 ***
 **Variants of Divergence Theorem**
