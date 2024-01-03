@@ -7,10 +7,10 @@
   "obsidian-mind-map",
   "obsidian-file-link",
   "obsidian-latex-suite",
-  "obsidian-git",
   "obsidian-shellcommands",
   "mermaid-tools",
   "obsidian-latex",
   "colored-text",
-  "omnisearch"
+  "omnisearch",
+  "obsidian-git"
 ]
