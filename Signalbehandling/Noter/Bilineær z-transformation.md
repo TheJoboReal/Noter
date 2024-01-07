@@ -1,4 +1,3 @@
-# Bilineær z-transformation
 $$s = f(z) = C \frac{z-1}{z+1}$$
 $$H(z) = H(s)|_{s = f(z)}$$
 $C$: [[#Pre-Warping|Prewarping-konstanten]]
