@@ -2,7 +2,7 @@ As we have seen before, IP protocol delivers an unreliable and connectionless da
 
 The IP protocol has no error-reporting or any error-correcting mechanism.
 * What happens if a router has to discard a datagram because it cannot find a router to the final destination?
-* What happens if the time-to-live field reaches the value 0?
+* What happens if thsue time-to-live field reaches the value 0?
 * What happens if the final destination host must discard the received fragments of a datagram because it has not received all fragments within a predetermined time limit?
 
 The IP protocol also lacks a mechanism for management queries:
