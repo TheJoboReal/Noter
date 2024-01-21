@@ -15,7 +15,7 @@ The larger the number of instructions, the wider the Opcode field.
 Wider Opcode field →each instruction takes up more memory
 More instructions→the program can be written with fewer and more precise instructions
 
-**More instructions** lead to the **[[CISC]]** design: Complex Instruction Set Computer
+**More instructions** lead to the **[[CISC]]** design: Complex Instruction Set Computer.
 The complexity means that each instruction can take several clock cycles, but the total execution speed of a program is increased due to less instructions.
 
 
