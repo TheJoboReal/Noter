@@ -28,9 +28,7 @@ allocate file, printer → print → release resources
 >Poor utilization of resources and possibility of starvation
 ***
 #### No Preemption
-A thread that holds resources and requests another resource that cannot
-be immediately allocated to it, must implicitly release (devote) all its
-allocated resources.
+A thread that holds resources and requests another resource that cannot be immediately allocated to it, must implicitly release (devote) all its allocated resources.
 
 Alternative
 A thread that holds resources and requests new resources.
@@ -49,8 +47,7 @@ Each resource type in the system is assigned a unique integer number,
 which allows us to compare two resources and to determine whether
 one precedes another in our ordering.
 
-The rule is that all threads only request resources in ascending number
-order.
+The rule is that all threads only request resources in ascending number order.
 *see [[Resource allocation|graph]]*
 e.g.
 R1→R3→R27→R33
