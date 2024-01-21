@@ -7,7 +7,7 @@ It is the control unit that executes a sequence of operations that will correspo
 This sequence of operations, which implement the instruction, are called: **micro‐instructions**
 
 ***
-#### he control unit of Hardwired Circuit design
+#### The control unit of Hardwired Circuit design
 ![[Pasted image 20231025130829.png]]
 Here, a Programmable Logic Array **(PLA)** is used to implement a
 hardwired circuit for the control unit. 
