@@ -896,7 +896,7 @@ Samme vinkel/argument vil give samme frekvens på et signal. Se de to signaler i
 ![[Pasted image 20230907083733.png]]
 ##### Enheds step funktion
 ![[Pasted image 20230907084817.png]]
-##### [[Laplace Transformation|Laplace Transformation]]
+##### [[External/Balder/Notes/Laplace Transformation|Laplace Transformation]]
 $$
 F(s)=\int_{0}^{\infty} e^{-st}f(t) \, dt 
 $$

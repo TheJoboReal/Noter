@@ -1,4 +1,4 @@
-##### [[Laplace Transformation]]
+##### [[External/Balder/Notes/Laplace Transformation]]
 $$
 F(s)=\int_{0}^{\infty} e^{-st}f(t) \, dt 
 $$
