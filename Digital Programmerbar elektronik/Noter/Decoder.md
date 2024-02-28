@@ -5,3 +5,7 @@
 
 #### 3-6 binary decoder with enable
 ![[Pasted image 20240228133409.png]]
+
+#### Binary-coded Decimal (BCD)
+![[Pasted image 20240228134731.png]]
+![[Pasted image 20240228134931.png]]
