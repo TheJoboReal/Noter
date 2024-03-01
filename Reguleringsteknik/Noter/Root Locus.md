@@ -9,3 +9,4 @@ $$
 \phi_{l},ar=\frac{\sum \psi-\sum_{i\neq l}\phi_{i}+180+360(l-1)}{q}
 $$
 Hvor $q$ er multiplicitet.
+Og hvor $l$ går fra $1$ til $q$.
