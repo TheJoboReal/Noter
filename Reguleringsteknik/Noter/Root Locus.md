@@ -10,3 +10,6 @@ $$
 $$
 Hvor $q$ er multiplicitet.
 Og hvor $l$ går fra $1$ til $q$.
+
+> [[lektion_5_opgave_3.pdf|Matlab example]] 
+> [[Lektion5_Root_Locus.pdf|Hand drawn example]]
