@@ -8,7 +8,6 @@ dvantages of working with Bode plots
 3. The Bode plot of a system defined by a series connection is given by the addition of the Bode plots of the individual systems.
 4. The use og log scale permits a much wider range of frequencies to be displayed on a single plot than is possible with linear scales.
 
-
 #### Classes
 In the following, three classes of terms of the transfer function are analyzed
 ##### Class 1
