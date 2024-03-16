@@ -2,7 +2,7 @@
 
 
 #### Simulation
-![[Pasted image 20240316200003.png]]
+![[Pasted image 20240316200003.png|1000]]
 
 #### Code
 ```vhdl
