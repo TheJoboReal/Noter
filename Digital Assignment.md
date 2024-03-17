@@ -1,9 +1,10 @@
 
 
-
+The clock timer has two inputs, a clock and a reset signal. In the code 3 signals are created to be used as temporary variables(count, seconds and minuts). A process is created with clock and reset as inputs. The count signal is incremented at every rising edge of the clock, and when the counter equals the clock speed, we then know that a second has passed, and we can thus increment the seconds signal. When the seconds equal 60 a minut has passed, and we can then increment the minuts signal. At the end the seconds and minuts signals are then used for the outputs.
 #### Simulation
 ![[Pasted image 20240316200003.png|1000]]
-
+We can see that at every rising edge the counter increments by one. 
+And at a clock speed of 1000, the seconds signal increments every time the counter reaches 1000.
 #### Code
 ```vhdl
 library IEEE;
