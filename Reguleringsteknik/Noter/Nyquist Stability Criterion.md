@@ -1,6 +1,10 @@
 #### Definition
 Nyquist Plot viser det samme som et bode plot, men på et Nyquist plot er det meget nemmere at vurdere om systemet er stabilt.
 
+#### Nyquist plot
+![[Pasted image 20240307211931.png]]
+![[Pasted image 20240307211957.png]]
+
 > Se videoer 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/sof3meN96MA?si=ZhM2yeChz8IreJaM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 > 
