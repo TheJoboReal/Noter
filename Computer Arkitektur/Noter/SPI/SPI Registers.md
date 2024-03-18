@@ -5,8 +5,8 @@ SPIF: SPI Interrupt Flag
 In Master mode, set this flag in two situations:
 * If a data transfer is complete.
 * If the SS pin is an input and is driven low by an external device .
-If the SPIE flag in the SPCR (SPI Control Register) register is set, then an
-interruption is generated when the SPIF is set to one. Global
+
+If the SPIE flag in the SPCR (SPI Control Register) register is set, then an interruption is generated when the SPIF is set to one. Global
 Interruption must also be enabled.
 
 ##### WCOL: Write COLlision Flag
