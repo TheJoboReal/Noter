@@ -14,6 +14,9 @@ $GM$ er hvor meget gain skal ændres for at vi rammer 1.
 Hvis man kigger på fase-skalaen, så skal vi se på hvilken gain der er ved -180 grader for at finde vores gain margin.
 
 Omvendt ved gain skal vi kigge på hvornår gain er 0, og så se hvilken fase den har der. Forskellen fra den aflæste fase til -180 er så fase-margin.
+
+Med en [[Lead & Lag kompensatorer#Lead kompensator|Lead kompensator]] kan man løfte grafen så man opnår dette.
+
 > Man må aldrig ændre både fase og gain, da dette kan forsage funky ting.
 
 ![[Pasted image 20240322083828.png]]
