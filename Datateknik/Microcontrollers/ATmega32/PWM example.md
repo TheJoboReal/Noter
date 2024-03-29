@@ -1,5 +1,6 @@
 
-Det her program tager pinc som input og bruger det til at styre styrken af LEDerne.
+Det her program tager pin C som input og bruger det til at styre styrken af LEDerne.
+
 ```C
 #include <avr/io.h>
 #include <util/delay.h>
