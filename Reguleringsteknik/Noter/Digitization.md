@@ -15,7 +15,7 @@ The sampling frequency used for the discrete controller should be about 20 times
 #### Emulation
 ##### Design Procedure
 A discrete controller can be designed by emulation for the system $G(s)$ according to the next procedure.
-1. Design continuous compensation for the system $G_{d}(s)G(s)$ , where $G_{d}(s)$ approximates a delay of T /2.
+1. Design continuous compensation for the system $G_{d}(s)G(s)$ , where $G_{d}(s)$ approximates a delay of T /2. $G_{d}(s)=\frac{1}{\frac{T}{2}s+1}$
 2. Derive the discrete controller by applying Tustin’s rule or the matched pole-zero method (other discretization methods exist, but the mentioned methods are preferred).
 3. Analyze the design by simulation or experimentally.
 
