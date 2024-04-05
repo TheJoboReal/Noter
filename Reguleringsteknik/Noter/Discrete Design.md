@@ -3,7 +3,7 @@ The discrete design method relies on a discretized plant model. The discrete tra
 $$
 G(z)=(1-z^{-1}) \mathcal{Z} \left \{\frac{G(s)}{s} \right\}
 $$
-where Z denotes the z-transformation.
+where $\mathcal{Z}$ denotes the z-transformation.
 
 Subsequent to the discretization, the control system can be analyzed based on the closed-loop transfer function
 $$
