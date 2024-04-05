@@ -6,6 +6,8 @@ Two anti-windup mechanisms are considered
 * Conditional Integration
 Both methods utilize the following signal:
 ![[Pasted image 20240405085300.png]]
+> *"Back-Calculation can be used for analog systems while condition integration are digital since we turn on and off a signal very fast"*
+>-- Balder
 
 #### Back-Calculation
 ![[Pasted image 20240405084204.png]]
