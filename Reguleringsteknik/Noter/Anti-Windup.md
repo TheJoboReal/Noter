@@ -27,5 +27,8 @@ $$
 
 
 #### Conditionel Integration
+The anti-windup scheme called **conditional** **integration** (also known as clamping) is a bit simpler, and just stops integrating, when the system is in saturation.
+![[Pasted image 20240405090550.png]]
+
 Although conditional integration is simpler than back-calculation, it also improves the performance of the system. 
 ![[Pasted image 20240405085124.png]]
