@@ -41,3 +41,5 @@ Alternative navngivningskonventioner er også udbredt:
 - The communications must be well-defined in advance (you can't send random amounts of data whenever you want)
 - The controller must control all communications (peripherals can't talk directly to each other)
 - It usually requires separate CS lines to each peripheral, which can be problematic if numerous peripherals are needed.
+
+> See also [[Computer Arkitektur/Noter/SPI/SPI Protocol|SPI Protocol]] for more details
