@@ -1,3 +1,4 @@
+#### Definition
 The SPI bus was originally started by Motorola Corp., but in recent
 years has become a widely used standard adapted by many
 semiconductor chip companies.
