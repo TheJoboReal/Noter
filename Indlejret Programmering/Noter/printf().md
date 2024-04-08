@@ -1,4 +1,3 @@
-#### Definition
 ##### Specifiers
 ![[Pasted image 20240408132815.png]]
 
