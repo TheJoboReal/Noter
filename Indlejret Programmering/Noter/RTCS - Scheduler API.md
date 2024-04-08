@@ -1,10 +1,12 @@
+> See also [[RTCS (Run to Complete Scheduling)|RTCS]]
 
+***
 ```C
 extern INT8U init_rtcs();
 void schedule();
 ```
-
 ***
+
 #### Task API
 ![[Pasted image 20240318140033.png]]
 
