@@ -24,3 +24,11 @@ The outputs of a Mealy state machine depend on both the inputs and the current s
 Mapping of the different block to code:
 ![[Pasted image 20240410124126.png]]
 
+
+
+#### Other Example
+##### FSM SIMPLEX
+![[Pasted image 20240410125053.png]]
+
+##### FSM COMPLEX
+![[Pasted image 20240410125113.png]]
