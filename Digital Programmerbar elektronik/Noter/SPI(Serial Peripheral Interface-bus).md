@@ -1,5 +1,5 @@
 
-#### Defintion
+### Defintion
 Serial Peripheral Interface Bus, SPI-bus eller blot SPI er en synkron seriel dataforbindelse standard, navngivet af Motorola, som benytter fuld dupleks.
 
 Enheder kommunikerer i master/slave tilstand hvor master-enheden starter datarammer. 
@@ -8,7 +8,7 @@ Flere slave-enheder er tilladt i form af individuel slave-select (chip-select) l
 
 Nogle gange kaldes SPI for en four-wire serielbus, i kontrast til tre-, to- og one-wire serielle busser (stel/skærm er ikke talt med). 
 SPI refereres ofte til som SSI (Synchronous Serial Interface). 
-
+***
 
 ![[Pasted image 20240327093812.png]]
 SPI-bussen specificerer flere logik signaler:
@@ -30,7 +30,7 @@ Alternative navngivningskonventioner er også udbredt:
 ![[Pasted image 20240327094120.png]]
 >En master med mange slaves eks.
 
-#### Pros and cons
+### Pros and cons
  **Advantages of SPI:**
 * It's faster than [[Asynchronous Balanced Mode (ABM)|asynchronoues]] serial
 * The receive hardware can be a simple [[Shift Registers VHDL|shift register]]
