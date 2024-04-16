@@ -24,7 +24,7 @@
 
 #### Choice of FreeRTOS
 * **Pre-emptive**
-	* Always runs the highest available task. Tasks of identical priority share CPU time (fully pre-emptive with round robin time slicing).
+	* Always runs the highest priority available task. Tasks of identical priority share CPU time (fully pre-emptive with [[]] time slicing).
 * **Co-operative**
 	* Context switches only occur if a task blocks or explicitly calls taskYIELD()
 
