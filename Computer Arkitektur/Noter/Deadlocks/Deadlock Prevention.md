@@ -4,6 +4,9 @@ We elaborate on this approach by examining each of the four
 necessary conditions separately.
 
 ***
+#### Context switching
+Context switching is when a task is switched to another. fx if a higher priority task comes in and needs the CPU, we then do a context switch.
+Context switching enables all processes to share a single CPU to finish their execution and store the status of the system's tasks. The execution of the process begins at the same place where there is a conflict when the process is reloaded into the system.
 #### Mutual Exclusion
 If we want to break this condition. Then all resources must be
 shareable …
@@ -41,6 +44,11 @@ been deprived of (preempted), as well as those it lacked.
 
 >Is often used in connection with resources whose state can be easily saved.
 
+
+***
+#### With preemptive scheduling:
+![[Pasted image 20230915090504.png]]
+If the tasks dont arrive at the same time, the CPU will stop execution of the current task, if a higher priority task (shorter burst time) arrives. The CPU compares the remaining time of the current task and the time of the incoming task, and switches task if the new task takes less time than the current task has left. This is called preemptive scheduling and Shortest-remaining-time-first. 
 ***
 #### Circular Wait
 Each resource type in the system is assigned a unique integer number,

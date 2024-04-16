@@ -8,12 +8,14 @@
 * Threads = tasks
 * process data as it comes in, typically without buffer delays
 
+***
 #### Multitasking
 * Kernel – core of OS
 * If it can execute tasks seemingly simultaneously – multi-tasking
 * Allows complex applications to be subdivided into small tasks
 ![[Pasted image 20240415125058.png]]
 
+***
 #### Scheduler
 * Part of the kernel deciding which task will be executed when
 * The scheduler can suspend and resume tasks
@@ -22,18 +24,20 @@
 * Control task will always take over as it has highest priority.
 ![[Pasted image 20240415125122.png]]
 
+***
 #### Choice of FreeRTOS
 * **Pre-emptive**
-	* Always runs the highest priority available task. Tasks of identical priority share CPU time (fully pre-emptive with round robin time slicing).
+	* Always runs the highest priority available task. Tasks of identical priority share CPU time (fully [[Deadlock Prevention#With preemptive scheduling|pre-emptive]] with [[Round-Robin]] time slicing).
 * **Co-operative**
-	* Context switches only occur if a task blocks or explicitly calls taskYIELD()
+	* [[Deadlock Prevention#Context switching|Context switching]] only occur if a task blocks or explicitly calls taskYIELD()
 
+***
 #### Context switching
 * Tasks use different resources of the microcontroller – registers, stack, etc. – context 
 * When the kernel switches tasks, it saves its context
 * When a task is resumed, the context is restored
 
-
+***
 #### Task states
 * **Running**
 	* Actually executing – using the processor
@@ -47,3 +51,5 @@
 	* Not available for scheduling
 	* Tasks only enter or exit suspend by vTaskSuspend() and xTaskResume()
 ![[Pasted image 20240415125744.png]]
+
+***

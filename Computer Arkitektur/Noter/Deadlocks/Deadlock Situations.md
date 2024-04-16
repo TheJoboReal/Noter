@@ -1,7 +1,8 @@
 A deadlock situation can arise if the following four conditions hold
 simultaneously in a system:
 
-#### **Mutual exclusion:** At least one resource must be held in a nonsharable mode; that is, only one thread at a time can use the resource. If another thread requests that resource, the requesting thread must be delayed until the resource has been released.
+#### **Mutual exclusion:**
+At least one resource must be held in a nonsharable mode; that is, only one thread at a time can use the resource. If another thread requests that resource, the requesting thread must be delayed until the resource has been released.
 
 #### **Hold and wait:** a thread holds at least one resource while waiting
 for additional resources held by other threads.
