@@ -73,6 +73,11 @@ u(kT+T)=k_{P}e(kT+T)+u_{I}(kT)+k_{I} \frac{T}{2}(e(kT+T)+e(kT))
 +k_{D} \frac{2}{T}(e(kT+T)-e(kT))-u_{D}(kT)
 $$
 
+Where $k_{p}$ and $d_{D}$ are constants. And where each term is a part of the PID controller, e.i:
+P$=k_{p}e(kT+T)$,
+I$=k_{I} \frac{T}{2}(e(kT+T)+e(kT))$ 
+D$=k_{D} \frac{2}{T}(e(kT+T)-e(kT)-u_{D}(kT))$
+
 Notice that the terms in the controller depends on the sampling time $T$ . Thus, it needs to be known and constant for implementing the PID controller with constant gains.
 
 To analyze the system, the I-term and D-term are z-transformed
