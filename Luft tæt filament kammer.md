@@ -9,5 +9,5 @@ Plastik kasse: https://www.ikea.com/dk/da/p/ikea-365-madopbevaring-stor-rektangu
 18x M3 nut  
 1x M8 threaded rod for spools (length 172mm when fixed midway of box height)  
 2x M8 nuts and some washers as spacers between spools  
-2x Pneumatic air quick release fitting with 6mm diameter thread (see picture)  
-2x Teflon tubes
+2x Pneumatic air quick release fitting with 6mm diameter thread (see picture): https://arduinotech.dk/shop/pc4-m6-pneumatic-push-fitting-4mm-od-tubing-m6/
+2x Teflon tubes: https://3d-lageret.dk/vare/ptfe-tube-2-4mm/
