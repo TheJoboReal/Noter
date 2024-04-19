@@ -27,6 +27,7 @@ vi får så controll matrices $s_{3}[B,AB, A²B]=[0,0,1]$
 
 #### Example: Companion Form
 ![[Pasted image 20240412092127.png]]
+Hvor $A$ er den hvor $x$ er ganget på og $B$ er den hvor $u$ er ganget på.
 Først findes controll matricen. Og vi kan se at systemet er styrbar da $\det(c)$ ikke er lig $0$.
 ![[Pasted image 20240412092214.png]]
 ![[Pasted image 20240412092405.png]]
