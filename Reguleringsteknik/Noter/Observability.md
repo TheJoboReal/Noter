@@ -15,3 +15,7 @@ Hvis en matrix har rang 1 eller hvis determinanten er 0 så er den ikke observer
 ![[Pasted image 20240419083536.png]]
 
 ![[Pasted image 20240419083927.png]]
+
+![[Pasted image 20240419084521.png]]
+
+![[Pasted image 20240419084532.png]]
