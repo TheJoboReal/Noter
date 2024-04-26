@@ -33,7 +33,8 @@ $$
 \dot{e}=(A+LC)e
 $$
 Vi vil have at $\dot{e}=-e$ så hvis vi har en positiv fejl, så vi trækker fejlen fra, istedet for at amplify fejlen.
-Så da $A$ er en matrix, for at den skal være negativ skal vi have egen-værdierne til at være på venstre halvplan.
+Så da $A$ er en matrix, for at den skal være negativ skal vi have egen-værdierne til at være på venstre halvplan. 
+
 
 THEOREM. A full order observer for the system
 $$
@@ -44,6 +45,8 @@ y=Cx
 $$
 with observer gain $L$ is stable, if and only if the eigenvalues of the matrix $A+LC$ all have negative real part.
 Moreover, such an $L$ always exists, if $(A,C)$ is observable.
+
+For at undgå at systemet bliver fucked, skal polerne ligge 5-7 gange længere væk fra 
 
 #### Observable Cannonical form
 ![[Pasted image 20240419090127.png]]
