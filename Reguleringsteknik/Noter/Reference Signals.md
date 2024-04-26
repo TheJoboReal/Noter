@@ -51,4 +51,4 @@ Her er den røde meget bedre, og det har ikke engang kostet et oversving.
 Vi kan kun sætte to nulpunkter ind fordi vi har 2x2 matricer.
 
 > Der må ikke være nulpunkter før vores poler i lukke sløjfe systemet så får man wierd shit.
-	
+
