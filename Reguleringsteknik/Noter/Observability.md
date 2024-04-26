@@ -1,6 +1,16 @@
 > Observability is a dual of [[Condition for Controllability|Controllability]]
 
 #### Definition
+$$
+\mathcal{O} = 
+\begin{bmatrix}
+C \\
+CA \\
+CA^{2}\\
+\vdots \\
+C A^{n-1}
+\end{bmatrix}
+$$
 ![[Pasted image 20240419082958.png]]
 
 #### Condition
