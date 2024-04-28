@@ -7,3 +7,10 @@ Using the FSM complex model for our lock we create a state machine. The models m
 When the correct combination is input, the system goes from the locked to the unlocked state. This turns on an LED and allows the user to press a number from $0$ to A to set the PWM duty cycle between $100\%$ to $0\%$. 
 
 To make sure the correct corresponding duty cycle is output, a mask is put between the PWM generator and the state machine. 
+
+***
+
+```vhdl
+
+
+```
