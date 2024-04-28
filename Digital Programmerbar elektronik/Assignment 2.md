@@ -1,28 +1,183 @@
 
-In order to read the keypad a counter loops through the rows waits for a keypress. When a keypress is detected the MUX translates that to a high-bit output, which then runs back into the counter that is active-low and stops it. We then see what row the counter was on to determine the key that was pressed. The pressed key is output as a 4 bit vector. 
+#### Key detection and MUX
+In order to read the keypad, a counter loops through the rows and waits for a keypress. When a keypress is detected the MUX translates that to a high-bit output, which then runs back into the counter that is active-low and stops it. We then see what row the counter was on to determine the key that was pressed. The pressed key is output as a 4 bit vector. The counter continues to loop through the rows while the enable signal from the MUX is low.
+The MUX works by having the keypad collums as input, and the top bits of the counter (which is rows on the keypad). When a key is pressed the MUX stops the counter and thus stops on the row where the key was pressed. With this we then now the counter value is the value of the pressed key.
 ![[Pasted image 20240428220455.png]]
 
 ***
-A mask that can translate the keypad presses to characters was created. Unfortunately Vivado does not allow the character functions inside block diagrams. Therefore the binary values of the keys were used through the project. The mask works by looking at the pressed key and checks if there was infact a keypress. It then sets the outpur to the corresponding percentage in binary
+#### Keypad Mask
+A mask that can translate the keypad presses to characters was created. Unfortunately Vivado does not allow the character functions inside block diagrams. Therefore the binary values of the keys were used through the project. The mask works by looking at the pressed key and checks if there was infact a keypress. It then sets the output to the corresponding character.
 
 ***
-Using the FSM complex model for our lock we create a state machine. The models makes sure that a person cant bruteforce the lock easily. The machine switches state when a keypress is detected and chooses the next state according to what key was pressed(ei to continue if the press was correct or to reset if wrong)
-When the correct combination is input, the system goes from the locked to the unlocked state. This turns on an LED and allows the user to press a number from $0$ to A to set the PWM duty cycle between $100\%$ to $0\%$. 
+#### State Machine
+Using the FSM complex model for our lock we create a state machine. The models makes sure that a person cant bruteforce the lock easily. This means that if a person inputs one correct number and then a wrong number, the machine will continue until 4 digits have been pressed. This again makes it a lot more difficult to guess the code, since the system wont reset as soon as a wrong number is input.
+![[Pasted image 20240428230456.png]]
+The machine switches state when a keypress is detected and chooses the next state according to what key was pressed(ei to continue if the press was correct or to enter an "error" state if a wrong number is input).
+When the correct combination is input, the system goes from the locked to the unlocked state. This turns on an LED and allows the user to press a number from $0$ to A to set the PWM duty cycle between $0\%$ to $100\%$. When in the unlocked state, the next inputs are used for the duty cycle. If the '*' key is pressed in the unlocked state, the system returns to idle mode.
 ![[Pasted image 20240428220433.png]]
 
 ***
-To make sure the correct corresponding duty cycle is output, a mask is put between the PWM generator and the state machine. 
+#### PWM Mask and Clock Divider
+To make sure the correct corresponding duty cycle is output, a mask is put between the PWM generator and the state machine. The mask works by checking if a keypress was detected, and then the pressed key is output as its corresponding percentage value in binary. The mask is used with if statements to insure that only the number digits and the A key are valid for setting the duty cycle.
 
-A clock divider is used to get a frequency of $16$kHz for the LED and keypad. For the clock divider the formula is used $125\cdot \frac{10^6}{10\cdot 10^3}=7812.5$ and then to get the needed amount of bits $\log_{2}(7812.5)=12.93=13$.
+A clock divider is used to get a frequency of $16$kHz for the LED and keypad. For the clock divider the formula used is $\frac{125\cdot10^6}{10\cdot 10^3}=7812.5$ and then to get the needed amount of bits $\log_{2}(7812.5)=12.93=13$.
 Therefore 13 bits are used in the clock divider.
 
 ***
-I had a bunch of issues with Vivado crashing when attempting to simulate anything and once i finally got a correct simulation i got an error saying failed due to earlier errors. So i included all the importen code down below and i hope you can see that 
+I had a bunch of issues with Vivado crashing when attempting to simulate anything and once i finally got a correct simulation i got an error saying failed due to earlier errors. So i included all the importen code down below and i hope you can use the code to supplement the text. I really put a lot of work into it :)
 
 ***
 ***
+#### Code for the State Machine
 
-Clock Divider Code
+```vhdl
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+
+entity fsm_template is
+    port (
+        --  Std ports:
+        clk     :   in  STD_LOGIC;
+        rst     :   in  STD_LOGIC;
+        key     :   in  std_logic_vector(3 downto 0);
+        key_press   :   in  std_logic;
+        led     :   out std_logic;
+        pwm     :   out std_logic_vector(3 downto 0)
+    );
+end fsm_template;
+
+architecture Behavioral of fsm_template is
+    type    STATE_TYPE      is  (s_bsy, s_idle, s_rst, s0, s1, s2, s3, s4, s5, s6, s7);    --  add states here
+    signal  current_state   :   STATE_TYPE  :=  s_rst;
+    signal  next_state      :   STATE_TYPE  :=  s_rst;
+    constant password : std_logic_vector(15 downto 0) := "0000000100100011";
+begin
+    ------------------------------------------------------------------------------
+    current_state_logic :   process(clk)
+    ------------------------------------------------------------------------------
+    -- Current state logic process. Here goes state transitions and state 
+    -- transition assignments. Clock and reset sensitive.
+    ------------------------------------------------------------------------------
+    begin
+    ------------------------------------------------------------------------------
+        if (rst = '1') then
+            current_state   <=  s_rst;              -- Reset state
+            -- Put additional reset assignments here
+
+        elsif (rising_edge(clk)) then
+            current_state   <=  next_state;         -- State transition (only valid from process exit)
+            case current_state is                   -- State transition assignments
+                when s_rst =>                       -- Remember all possibilities
+                    case next_state is              -- Use others and null for default
+                        when s_rst =>
+                            null;
+                        when others =>
+                            null;
+                    end case;
+                when others =>
+                    null;
+            end case;
+
+        end if;
+    ------------------------------------------------------------------------------
+    end process current_state_logic;
+    ------------------------------------------------------------------------------
+
+    ------------------------------------------------------------------------------
+    next_state_logic    :   process(current_state)  -- Add input signals to sensitivity list
+    ------------------------------------------------------------------------------
+    -- Next state logic process. Here goes state transition conditions. 
+    -- Sensitive to state change and input signals.
+    ------------------------------------------------------------------------------
+    begin
+    ------------------------------------------------------------------------------
+        case current_state is                       -- Remember all state transition cases
+
+        when s0 =>                                  -- Password sequence start
+            if key_press = '1' then
+                if key = password(15 downto 12) then
+                    next_state <= s1;
+                else
+                    next_state <= s5;
+                end if;
+            end if;
+
+        when s1 =>
+            if key_press = '1' then
+                if key = password(11 downto 8) then
+                    next_state <= s2;
+                else
+                    next_state <= s6;
+                end if;
+            end if;
+
+        when s2 =>
+            if key_press = '1' then
+                if key = password(7 downto 4) then
+                    next_state <= s3;
+                else
+                    next_state <= s7;
+                end if;
+            end if;
+
+        when s3 =>
+            if key_press = '1' then
+                if key = password(3 downto 0) then
+                    next_state <= s4;
+                else
+                    next_state <= s0;
+                end if;                             -- Password sequence end
+            end if;
+
+        when s4 =>
+        led <= '1';                                 -- Checks if the key is '*' to reset the password, else the key is used to set the duty cycle.
+            if key_press = '1' then
+                if key = "1011" then
+                    next_state <= s0;
+                end if;
+            end if;
+
+                null;
+        end case;
+    ------------------------------------------------------------------------------
+    end process next_state_logic;
+    ------------------------------------------------------------------------------
+
+    ------------------------------------------------------------------------------
+    output_logic        :   process(current_state)
+    ------------------------------------------------------------------------------
+    -- Output logic process. Here goes output assignments. 
+    -- Sensitive to state change only.
+    ------------------------------------------------------------------------------
+    begin
+    ------------------------------------------------------------------------------
+        case current_state is                       -- Remember all states
+            when s4 =>                           
+                if key_press = '1' then
+                    pwm <= key;        
+                end if;                 -- Assigns the key to the pwm signal
+            when others =>
+                null;
+        end case;
+    ------------------------------------------------------------------------------
+    end process output_logic;
+    ------------------------------------------------------------------------------
+
+end Behavioral;
+```
+
+***
+#### Clock Divider Code
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -61,7 +216,7 @@ end Behavioral;
 
 ***
 
-PWM Code.
+#### PWM Code.
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -90,7 +245,7 @@ end Behavioral;
 ```
 
 ***
-PWM Counter Code
+#### PWM Counter Code
 
 ```vhdl
 library IEEE;
@@ -129,7 +284,7 @@ end Behavioral;
 ```
 
 ***
-Decoder Code
+#### Decoder Code
 
 ```vhdl
 library IEEE;
@@ -164,7 +319,7 @@ end Behavioral;
 ```
 
 ***
-Mask Code For Keypad
+#### Mask Code For Keypad
 
 ```vhdl
 library IEEE;
@@ -209,7 +364,7 @@ end Behavioral;
 ```
 
 ***
-Mask for duty to PWM Code
+#### Mask for duty to PWM Code
 
 ```vhdl
 entity mask_duty is
@@ -255,8 +410,7 @@ end Behavioral;
 ```
 
 ***
-
-Mux Code
+#### Mux Code
 ```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -283,9 +437,9 @@ begin
     y <= d(to_integer(unsigned(s)));
 end Behavioral;
 ```
-***
 
-4 Bit Splitter Code
+***
+#### 4 Bit Splitter Code
 
 ```vhdl
 library IEEE;
