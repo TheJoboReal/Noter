@@ -3,7 +3,7 @@ In order to read the keypad a counter loops through the rows waits for a keypres
 ![[Pasted image 20240428220455.png]]
 
 ***
-A mask that can translate the keypad presses to characters was created. Unfortunately Vivado does not allow the character functions inside blockdiagrams. Therefore the binary values of the keys were used through the project. The mask works by looking at the pressed key and checks if there was infact a keypress. It then sets the outpur to the corresponding percentage in binary
+A mask that can translate the keypad presses to characters was created. Unfortunately Vivado does not allow the character functions inside block diagrams. Therefore the binary values of the keys were used through the project. The mask works by looking at the pressed key and checks if there was infact a keypress. It then sets the outpur to the corresponding percentage in binary
 
 ***
 Using the FSM complex model for our lock we create a state machine. The models makes sure that a person cant bruteforce the lock easily. The machine switches state when a keypress is detected and chooses the next state according to what key was pressed(ei to continue if the press was correct or to reset if wrong)
