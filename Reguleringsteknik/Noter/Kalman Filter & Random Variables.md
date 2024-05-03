@@ -4,16 +4,55 @@ How is it possible to combine noisy measurements, and and an uncertain system mo
 The solution is a Kalman filter that relies on a stochastic model, and noisy measurements.
 
 #### Random Variables
-To introduce uncertainty and noise in the considered system models, we introduce random variables.
-Let X be a random variable describing the outcome of rolling a fair dice. The fair dice is characterized by
-*  It has 6 different outcomes {1, 2, 3, 4, 5, 6}.
-*  The probability of getting each of the six outcomes is the same, i.e., Pr(X = 4) = 1  .
-I The outcome of each roll of the dice is independent.
-To describe the above dice mathematically, a probability mass function pX is associated
-to X that determines the probability that X equals x, i.e.,
-
 ![[Pasted image 20240503123158.png]]
 ![[Pasted image 20240503123208.png]]
-variance er hvor meget varierer resultatet.
+variance er, hvor meget varierer resultatet.
 
-![[Pasted image 20240503123358.png]]
+A continuous random variable $X$ often has zero probability of being one particular value;
+thus, its outcome is described with a probability density function $fx$ as
+$$
+Pr(a \leq X \leq b) = \int ^b_{a} fX(x) \, dx 
+$$
+This means that the probability of the random value being in a particular range [a b] can be determined as shown above.
+
+##### The Expected value
+The expected value (mean value) of a continuous random variable X can be determined from the probability density function $fx$ as
+$$
+E[X]=\int ^\infty_{\infty} xfx(x) \, dx 
+$$
+The variance of $X$ is defined as 
+$$
+Var(X)=E[(X-\mu )^2]
+$$
+where $\mu=E(X)$.
+
+#### Normal Distribution
+The random variable $X$ is said to be normally distributed if it has probability density function
+$$
+f_{X}(x)=\frac{1}{\sqrt{ 2\pi \sigma^2 }}e^{- \frac{(x-\mu)^2}{2 \sigma^2}}
+$$
+where μ is the expectation of $X$ and σ is the standard deviation of $X$ (the standard deviation is defined from $\sigma^2=Var(X)$.
+![[Pasted image 20240503124956.png]]
+vi kan se at de har samme varians, men forskellig middelværdig på den øverste graf.
+
+![[Pasted image 20240503125013.png]]
+
+##### Covariance matrix
+![[Pasted image 20240503125628.png]]
+For a multivariate random variable
+$$
+X=\begin{bmatrix}
+X_{1} \\
+. \\
+. \\
+. \\
+X_{n}
+\end{bmatrix}
+$$
+The covariance matrix is
+$$
+\sum=E[(X-E[X])(X-E[X])^T]
+$$
+>al variancen vil stå på diagonalen af matrixen
+
+We consider random variables that are independent, i.e., for a dice the probability of getting a 6 is the same independent on the previous outcome.
