@@ -35,7 +35,20 @@ $$
 Vi vil have at $\dot{e}=-e$ så hvis vi har en positiv fejl, så vi trækker fejlen fra, istedet for at amplify fejlen.
 Så da $A$ er en matrix, for at den skal være negativ skal vi have egen-værdierne til at være på venstre halvplan. Hvor $L$ er gain i observeren.
 
+#### Observer Gain
+For at finde observer gain bruges følgende
+$$
+A+LC
+$$
+For at isolere $L$ transponere vi matricerne
+$$
+(A+LC)^T=A^T+C^T+L^T
+$$
+$$
+L=place(A^T,-C^T,poler)^T
+$$
 
+#### Theorem
 THEOREM. A full order observer for the system
 $$
 \dot{x}=Ax+Bu
