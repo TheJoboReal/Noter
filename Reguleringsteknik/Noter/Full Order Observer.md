@@ -61,6 +61,8 @@ Moreover, such an $L$ always exists, if $(A,C)$ is observable.
 
 For at undgå at systemet bliver fucked, skal polerne ligge 5-7 gange længere væk fra 
 
+![[Pasted image 20240419093350.png]]For the observer based control to be closer to the state feedback. Place the $A+LC$ poles further to the left in the $s$-plane.
+
 #### Observable Cannonical form
 ![[Pasted image 20240419090127.png]]
 ![[Pasted image 20240419090134.png]]
