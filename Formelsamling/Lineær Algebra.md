@@ -93,7 +93,7 @@ $$\begin{bmatrix}
 -5-\lambda & 2 \\
 2 & -2-\lambda
 \end{bmatrix}=0$$
-$$(-5-\lambda)(-2-\lambda)-4=0$$
+$$(-5-\lambda)(-2-\lambda)-2\cdot2=0$$
 $$\lambda^2+7\lambda+6=0$$
 $$\text{V har nu en andengradsligning}$$
 $$\lambda=-6\lor -1$$
