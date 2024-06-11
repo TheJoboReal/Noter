@@ -12,7 +12,7 @@ $$
 >Se [[Overføringsfunktion Eksempel|Eksempel]] på overføringsfunktion.
 >Opgave [[Overføringsfunktion.pdf|Eksempel]]
 
-Og nedenstående en overførringsfunktion fra en [[Formelsamling Calculus#Laplace Transformation Laplace Transformation|Laplace Transformation]]
+Og nedenstående en overførringsfunktion fra en [[Formelsamling/Laplace Transformation|Laplace Transform]]
 $$
 H(s)=\frac{Y(s)}{X(s)}=\frac{\sum_{i=0}^N a_{i}s^i}{1+\sum_{i=1}^N b_{i}s^i}
 $$
