@@ -1,0 +1,22 @@
+ - [ ] 1.  Battery
+	 - [ ] Check battery charge
+	 - [ ] Check battery condition
+- [ ]  2. Drone
+	- [ ] Check structure and physical appearance
+	- [ ] Full Calibration of sensors(not by pilot)
+	- [ ] Check wires and connections
+	- [ ] Check laptop battery level
+	- [ ] Bring telemetry transponder
+- [ ] 3. Controller
+	- [ ] Check controller battery
+	- [ ] Check if keybinds are unchanged(ei check killswitch working and mode switch)
+	- [ ] Test connection
+- [ ] 4. Flight
+	- [ ] Check flight area for obstacles and people(Acceptable casualties)
+	- [ ] Check weather conditions(wind, rain, visibility)
+- [ ] 5. Ground Crew
+	- [ ] Ensure ground crew is ready and looking at laptop
+	- [ ] Clearly signal that flight is taking place now
+	- [ ] have phone ready for filming
+	- [ ] Make sure no one is in front of the pilot
+	- [ ] 
