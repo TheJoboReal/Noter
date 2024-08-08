@@ -22,10 +22,12 @@
 	- [ ] Make sure no one is in front of the pilot
 	- [ ] Ensure landing and take off position is clear
 	- [ ] Make sure ground crew knows exactly what they are supposed to do
+
+
 5. Post flight check
 	- [ ] Remove propellers 
 	- [ ] Turn off transmitter and drone
 	- [ ] Charge batteries
 	- [ ] Check for any new damage
 	- [ ] Save flight data and documentation
-	- [ ] 
+	
