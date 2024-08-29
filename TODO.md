@@ -1,1 +1,2 @@
-Fix CPU 
+ - [ ] Fix CPU monitor
+ 
