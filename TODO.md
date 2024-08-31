@@ -1,5 +1,8 @@
  - [ ] Fix CPU monitor
  - [ ] Lav git repo til void-packages-backup
- - [ ] install latexmk og zathura
+ - [x] install latexmk og zathura
  - [ ] Install packages: libgcc-32bit libstdc++-32bit libdrm-32bit libglvnd-32bit mesa-dri-32bit 
- 
+	 - [ ] libgcc-32bit
+	 - [ ] libstdc++-32bit
+	 - [ ] libdrm-32bit libglvnd-32bit mesa-dri-32bit
+
