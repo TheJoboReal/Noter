@@ -17,3 +17,4 @@ held by T2,…, Tn – 1 waits for a resource held by Tn and Tn waiting
 for a resource held by T0.
 
 >See also [[Dining-Philosophers Problem]]
+
