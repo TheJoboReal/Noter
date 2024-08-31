@@ -3,7 +3,7 @@
 Hvordan foregår strøm- og spændingsændringer i det naturlige respens for RC-RL-kredsløb? Når de nu ikke kan være momentane.
 
 ***
-Ohms lov.
+[[Ohms Lov]].
 $$U=R\cdot I$$
 
 ***
