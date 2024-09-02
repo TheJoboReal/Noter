@@ -6,9 +6,11 @@
 	 - [x] libstdc++-32bit
 	 - [x] libdrm-32bit libglvnd-32bit mesa-dri-32bit
 
-
+---
+#### Urgent
 - [ ] Fix eduroam
 - [ ] Install matlab
 - [ ] Sæt rclone op
 - [ ] Install Screen snip
 - [ ] Add support for 'æ,ø,å'
+
