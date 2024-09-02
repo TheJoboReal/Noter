@@ -8,7 +8,7 @@
 
 ---
 #### Urgent
-- [ ] Fix eduroam
+- [x] Fix eduroam
 - [ ] Install matlab
 - [ ] Sæt rclone op
 - [ ] Install Screen snip
