@@ -14,3 +14,7 @@
 - [ ] Install Screen snip
 - [ ] Add support for 'æ,ø,å'
 
+
+---
+#### Gut shit
+- [ ] Lav C++ lib til python
