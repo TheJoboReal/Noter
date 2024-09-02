@@ -6,3 +6,6 @@
 	 - [x] libstdc++-32bit
 	 - [x] libdrm-32bit libglvnd-32bit mesa-dri-32bit
 
+- [ ] Fix eduroam
+- [ ] Install matlab
+- [ ] Sæt rclone op
