@@ -9,7 +9,7 @@
 ---
 #### Urgent
 - [x] Fix eduroam
-- [ ] Install matlab
+- [x] Install matlab
 - [ ] Sæt rclone op
 - [ ] Install Screen snip
 - [ ] Add support for 'æ,ø,å'
