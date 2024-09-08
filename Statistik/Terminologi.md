@@ -24,3 +24,11 @@ Vi går mod uendelig fordi hvis vi kaster terning 100 gange, så burde der være
 * $P(Ø)=0$ sandsynlighed for den tomme mængde skal være lig 0
 * $P(S)=1$ sandsynlighed for et eller andet udfald skal være lig med 1.
 * Hvis $A\cap B=Ø$(disjunkte) $\rightarrow$ $P(A\cup B)=P(A)+P(B)$ 
+
+---
+#### Betinget sandsynlighed
+![[Pasted image 20240908203627.png]]
+
+---
+#### Total Sandsynlighed
+![[Pasted image 20240908204000.png]]
