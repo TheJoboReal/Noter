@@ -10,10 +10,13 @@
 #### Urgent
 - [x] Fix eduroam
 - [x] Install matlab
-- [ ] Sæt rclone op
-- [ ] Install Screen snip
+- [x] Sæt rclone op
+- [x] Install Screen snip
 - [ ] Add support for 'æ,ø,å'
 
+---
+#### Skole
+- [ ] Kig på Statistik
 
 ---
 #### Gut shit
