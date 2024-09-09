@@ -21,5 +21,4 @@
 ---
 #### Gut shit
 - [ ] Lav C++ lib til python
-- [ ] Ændre pause-skærm
-- [ ] 
+- [x] Ændre pause-skærm
