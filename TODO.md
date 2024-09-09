@@ -16,8 +16,10 @@
 
 ---
 #### Skole
-- [ ] Kig på Statistik
+- [x] Kig på Statistik
 
 ---
 #### Gut shit
 - [ ] Lav C++ lib til python
+- [ ] Ændre pause-skærm
+- [ ] 
