@@ -8,15 +8,14 @@
 
 ---
 #### Urgent
-- [x] Fix eduroam
-- [x] Install matlab
-- [x] Sæt rclone op
-- [x] Install Screen snip
 - [ ] Installer KiCAD
+- [ ] Få flatpacks til at virke i hyprland
 
 ---
 #### Skole
 - [x] Kig på Statistik
+- [ ] Få styr på store "O"
+- [ ] Lav algoritme øvelser
 
 ---
 #### Gut shit
