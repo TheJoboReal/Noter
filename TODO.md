@@ -12,7 +12,7 @@
 - [x] Install matlab
 - [x] Sæt rclone op
 - [x] Install Screen snip
-- [ ] Add support for 'æ,ø,å'
+- [ ] Installer KiCAD
 
 ---
 #### Skole
