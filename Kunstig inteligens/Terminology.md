@@ -5,3 +5,12 @@
 
 * Reinforcement Learning - Learn to interact with the world from the reinforcement you get.
 
+#### Strong vs Weak AI
+* Strong/full AI or artificial general intelligence (AGI):
+	* AI has the full range of human cognitive capabilities
+	* AI can perform any task that a human can
+	* (Machines capable of experiencing consciousness)
+* Narrow/weak/applied AI:
+	* AI able to solve a specific problem
+	* All the AI used today
+	* Example: spam filtering, digital assistants, finding webpages, 	playing chess, Go etc.

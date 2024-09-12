@@ -9,6 +9,7 @@
 ---
 #### Urgent
 - [x] Installer KiCAD
+- [ ] Hyprland screensnip
 
 ---
 #### Skole
