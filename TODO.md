@@ -14,7 +14,7 @@
 ---
 #### Skole
 - [ ] Få styr på store "O"
-- [x] Lav algoritme øvelser
+- [ ] Lav ROS exercise 1
 
 ---
 #### Gut shit
