@@ -35,3 +35,6 @@ Unsupervised is fx you give the agent a lot of data, and tell it to find pattern
 
 #### Membership function
 ![[Pasted image 20240912140309.png]]
+
+![[Drawing 2024-09-12 14.08.07.excalidraw]]
+
