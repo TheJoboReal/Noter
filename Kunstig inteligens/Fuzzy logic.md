@@ -70,3 +70,24 @@ $$
 \mu \bar{A}=1-\mu_{A}
 $$
 
+##### Examples
+Suppose that $X=\{a,b,c,d,e\}$ and that $\mu_{A}(a)=0.5$, $\mu_{A}(b)=0$, $\mu_{A}(c)=0.2$, $\mu_{A}(d)=0$, $\mu_{A}(e)=1$
+
+a. Compute the cardinality of $A$:
+$$
+0.5+0+0.2+0+1=1.7
+$$
+b. Compute the complement of $A$, namely $\bar{A}$:
+$\bar{A}=\{$
+$\mu_{\bar{A}}(a)=1-0.5=0.5$,
+$\mu_{\bar{A}}(b)=1-0=0$,
+$\mu_{\bar{A}}(c)=1-0.2=0.8$,
+$\mu_{\bar{A}}(d)=1-0$,
+$\mu_{\bar{A}}(e)=1-1=0$,
+$\}$
+
+c. Compute $A\cup \bar{A}$:
+$max(\mu_{A},\mu_{\bar{A}})(a)=0.5$
+$max(\mu_{A},\mu_{\bar{A}})(b)=0$
+$max(\mu_{A},\mu_{\bar{A}})(c)=0.8$
+$max(\mu_{A},\mu_{\bar{A}})(d)=0.8$
