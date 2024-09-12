@@ -15,7 +15,7 @@
 #### Skole
 - [x] Kig på Statistik
 - [ ] Få styr på store "O"
-- [ ] Lav algoritme øvelser
+- [x] Lav algoritme øvelser
 
 ---
 #### Gut shit
