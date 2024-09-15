@@ -10,6 +10,7 @@
 #### Urgent
 - [x] Installer KiCAD
 - [x] Hyprland screensnip
+- [ ] Ring til police og meld at gevær er blevet byttet.
 
 ---
 #### Skole
