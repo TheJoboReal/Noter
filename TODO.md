@@ -8,16 +8,15 @@
 
 ---
 #### Urgent
-- [x] Installer KiCAD
 - [x] Hyprland screensnip
 - [ ] Ring til police og meld at gevær er blevet byttet.
 
 ---
 #### Skole
 - [ ] Få styr på store "O"
-- [ ] Lav ROS exercise 1
+- [ ] Lav git til ROS_data
 
 ---
 #### Gut shit
 - [ ] Lav C++ lib til python
-- [x] Ændre pause-skærm
+- [ ] Få **mgit** til at fungere med scripts
