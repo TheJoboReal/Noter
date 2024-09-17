@@ -9,7 +9,6 @@
 ---
 #### Urgent
 - [x] Hyprland screensnip
-- [ ] Fix matlab
 - [ ] Ring til police og meld at gevær er blevet byttet.
 - [ ] Tjek at hdmi virker og at ros kører med det 
 

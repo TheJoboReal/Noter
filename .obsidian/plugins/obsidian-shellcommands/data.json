@@ -1,5 +1,5 @@
 {
-  "settings_version": "0.22.0",
+  "settings_version": "0.20.0",
   "debug": false,
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
@@ -7,7 +7,6 @@
   "working_directory": "",
   "default_shells": {},
   "environment_variable_path_augmentations": {},
-  "show_installation_warnings": true,
   "error_message_duration": 20,
   "notification_message_duration": 10,
   "execution_notification_mode": "disabled",
@@ -55,9 +54,7 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      },
-      "execution_notification_mode": null,
-      "debounce": null
+      }
     },
     {
       "id": "pt3mgxji9k",
@@ -91,9 +88,7 @@
           "handler": "notification",
           "convert_ansi_code": true
         }
-      },
-      "execution_notification_mode": null,
-      "debounce": null
+      }
     },
     {
       "id": "2ypp2ogrru",
@@ -131,18 +126,12 @@
       },
       "command_palette_availability": "enabled",
       "preactions": [],
-      "variable_default_values": {},
-      "execution_notification_mode": null,
-      "debounce": null
+      "variable_default_values": {}
     }
   ],
   "prompts": [],
   "builtin_variables": {},
   "custom_variables": [],
-  "custom_variables_notify_changes_via": {
-    "obsidian_uri": true,
-    "output_assignment": true
-  },
   "custom_shells": [],
   "output_wrappers": []
 }
