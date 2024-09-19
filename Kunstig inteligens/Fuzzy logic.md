@@ -11,6 +11,7 @@ $$
 ![[Pasted image 20240912125059.png]]
 ![[Pasted image 20240912125207.png]]
 ![[Pasted image 20240912125215.png]]
+![[Pasted image 20240919123334.png]]
 
 ---
 
@@ -98,6 +99,7 @@ Specify linguistic variables, linguistic values, and a fuzzy rule-base for the â
 * Rule-base
 	* Linguistic rules/variables/values, premises and actions
 * Fuzzification, inference, defuzzification
+![[Pasted image 20240919123153.png]]
 
 #### Probability vs Fuzzyness
 **Probability** describes the uncertainty of an
