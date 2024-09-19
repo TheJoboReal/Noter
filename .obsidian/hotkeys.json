@@ -26,5 +26,14 @@
       "key": "O"
     }
   ],
-  "switcher:open": []
+  "switcher:open": [],
+  "handwritten-notes:modal-create-embed": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ]
 }

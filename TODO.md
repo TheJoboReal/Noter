@@ -1,3 +1,4 @@
+
  - [x] Fix CPU monitor
  - [x] Lav git repo til void-packages-backup
  - [x] install latexmk og zathura
@@ -22,3 +23,6 @@
 ---
 #### Gut shit
 - [ ] Lav C++ lib til python
+
+
+![[handwritten-notes/test_2.pdf]]
