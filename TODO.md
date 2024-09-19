@@ -17,8 +17,8 @@
 #### Skole
 - [ ] Få styr på store "O"
 - [ ] Lav git til ROS_data
+- [ ] Update vscode flatpack
 
 ---
 #### Gut shit
 - [ ] Lav C++ lib til python
-- [ ] Få **mgit** til at fungere med scripts
