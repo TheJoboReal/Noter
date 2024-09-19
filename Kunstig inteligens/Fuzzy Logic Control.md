@@ -38,3 +38,44 @@ $$
 * Example
 ![[Pasted image 20240919125219.png]]
 Man tjekker alle fuzzy sets og ser hvilke den tilhører og til hvilken grad.
+
+##### Rule Matching
+Figuring out which rule(s) in our rule-base should be
+activated – and with what certainty.
+Example:
+	If error is zero and change-in-error is possmall Then force is negsmall
+
+![[Pasted image 20240919130722.png]]
+
+
+![[Pasted image 20240919130940.png]]
+Vi aflæser på vores graf for at se hvor at se hvor vi ligger. Og om reglen er sand.
+
+![[Pasted image 20240919131054.png]]
+Vi tager ofte min() af tallene for at vi får et output basseret på det som passer mindst på situationen. Lidt ligesom at tage "worst case".
+
+##### Interence
+
+**Rule 1**
+![[Pasted image 20240919131555.png]]
+error er sandt med en grad af 1 og change in error er sand med en grad af 0.25
+
+![[Pasted image 20240919131715.png]]
+Vi kigger nu på hvor meget vi skal skubbe med vognen. Vi skærer den af ved 0.25 da det er hvor meget den passer på situationen, vi fik 0.25 fra min().
+
+**Rule 2**
+![[Pasted image 20240919131913.png]]
+![[Pasted image 20240919131924.png]]
+Vi gør det samme som i regel 1..
+
+![[Pasted image 20240919131933.png]]Vi har nu de 2 regler som interfere med hinanden.
+
+![[Pasted image 20240919132011.png]]
+Vi bruger så Center of Gravity for at finde frem til hvilket input vognen skal have.
+
+![[Pasted image 20240919132047.png]]
+Vi defuzzer så og får en værdi.
+
+
+##### Summary
+![[Pasted image 20240919132129.png]]
