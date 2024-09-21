@@ -11,7 +11,7 @@
 #### Urgent
 - [x] Hyprland screensnip
 - [ ] Fix matlab
-- [ ] Ring til police og meld at gevær er blevet byttet.
+- [x] Ring til police og meld at gevær er blevet byttet.
 - [ ] Tjek at hdmi virker og at ros kører med det 
 
 ---
@@ -23,6 +23,3 @@
 ---
 #### Gut shit
 - [ ] Lav C++ lib til python
-
-
-![[handwritten-notes/test_2.pdf]]
