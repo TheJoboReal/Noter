@@ -28,3 +28,4 @@ Køen vokser fra venstre mod højre på laveste niveau
 Implementation er et almindeligt array hvor indeks 0 ikke benyttes
 ![[Pasted image 20240923125437.png]]
 
+![[handwritten-notes/Komplet Binær Træ.pdf]]
