@@ -10,6 +10,7 @@
 ---
 #### Urgent
 - [ ] Fix matlab
+- [ ] Install Bambulab
 - [ ] Tjek at hdmi virker og at ros kører med det 
 - [ ] Fix Camilla's PC
 
