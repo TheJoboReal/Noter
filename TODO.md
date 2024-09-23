@@ -18,7 +18,7 @@
 #### Skole
 - [ ] Få styr på store "O"
 - [ ] Lav git til ROS_data
-- [ ] Update vscode flatpack
+- [x] Update vscode flatpack
 
 ---
 #### Gut shit
