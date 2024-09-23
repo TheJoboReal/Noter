@@ -26,3 +26,5 @@ special case: average of independent random variables
 #### General function of random variable
 ![[handwritten-notes/General function of random variable.pdf]]
 
+
+**Covarianse**(Cov(X,Y)) måler grad af og fortegn af lineær afhængighed m.l $X$ og $Y$.
