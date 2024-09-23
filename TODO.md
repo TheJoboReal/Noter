@@ -11,7 +11,7 @@
 ---
 #### Urgent
 - [ ] Fix matlab
-- [ ] Install Bambulab
+- [ ] Install Bambulab (Windows)
 - [ ] Tjek at hdmi virker og at ros kører med det 
 - [ ] Fix Camilla's PC
 
