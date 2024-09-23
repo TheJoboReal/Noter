@@ -33,9 +33,6 @@ Implementation er et almindeligt array hvor indeks 0 ikke benyttes
 * En prioritetskø kaldes sommetider for en binary heap.
 * Dette må ikke forveksles med heapen i C++ runtime environment.
 
-![[handwritten-notes/Komplet Binær Træ.pdf]]
-
-
 ##### Komplette Binære træer heaps
 **Insert 14**
 ![[Pasted image 20240923132119.png]]
