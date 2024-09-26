@@ -1,10 +1,5 @@
-
-
----
 #### Urgent
 - [ ] Fix matlab
-- [ ] Install Bambulab (Windows)
-- [ ] Tjek at hdmi virker og at ros kører med det 
 - [x] Fix Camilla's PC (måske fikset)
 
 ---
@@ -16,3 +11,4 @@
 #### Gut shit
 - [ ] Lav C++ lib til python
 - [ ] Install Steam with nonfree
+- [ ] Add dato til waybar
