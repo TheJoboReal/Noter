@@ -11,7 +11,7 @@ $$Z_c=\frac 1{j\omega C}=\frac{1}{2\pi fc}$$
 Når strømmen er 0, så er kondensatoren opladt.
 
 ***
-Kapacitet på kondensator. Hvor C har enheden Farad hvor man normalt bruger microFarad.
+Kapacitet på kondensator. Hvor C har enheden Farad hvor man normalt bruger microFarad. Farad er ladning per spænding, altså $F=\frac{C}{Q}$
 Hvor *Q* er ladning som er målt i coloumb og *t* er tiden.
 $$C=\frac QV$$ $$Q=C\cdot V$$
 $$Q=I\cdot t$$
