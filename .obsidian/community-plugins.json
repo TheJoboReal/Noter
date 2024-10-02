@@ -15,5 +15,8 @@
   "obsidian-git",
   "copilot",
   "obsidian-tikzjax",
-  "handwritten-notes"
+  "handwritten-notes",
+  "ollama",
+  "ollama-chat",
+  "local-gpt"
 ]

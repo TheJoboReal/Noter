@@ -35,5 +35,14 @@
       ],
       "key": "H"
     }
+  ],
+  "ollama:summarize-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
+    }
   ]
 }
