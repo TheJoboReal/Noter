@@ -6,6 +6,7 @@
 #### Skole
 - [ ] Få styr på store "O"
 - [ ] Lav git til ROS_data
+- [ ] Se video fra statistik
 
 ---
 #### Gut shit

@@ -20,7 +20,7 @@ $$
 U=\frac{1}{2}Q \cdot v=\frac{1}{2}C \cdot v^{2}=\frac{Q^{2}}{2C}
 $$
 ***
-#### Opladning
+#### Opladning eksempel
 ![[OpAfLadning.excalidraw|2000]]
 
 ![[Pasted image 20221106173503.png|400]]
