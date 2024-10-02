@@ -11,5 +11,6 @@
 #### Gut shit
 - [ ] Lav C++ lib til python
 - [ ] Install Steam with nonfree
-- [ ] Add dato til waybar
+- [x] Add dato til waybar
 - [ ] Void på windows
+

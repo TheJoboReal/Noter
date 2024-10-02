@@ -1,5 +1,4 @@
-Man kan ikke ændres spændingen over en kondensator momentant. Fordi det vil kræve uendelig effekt.
-***
+> Man kan ikke ændres spændingen over en kondensator momentant. Fordi det vil kræve uendelig effekt.
 
 Strøm gennem en kondensator ved DC er lig 0.(DC mæssig afbrydelse.) Imepedansen bliver uendelig fordi omega er nul.
 ***
