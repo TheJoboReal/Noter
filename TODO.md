@@ -13,6 +13,6 @@
 #### Gut shit
 - [ ] Lav C++ lib til python
 - [ ] Install Steam with nonfree
-- [x] Add dato til waybar
+- [ ] Kig mere på Ollama
 - [ ] Void på windows
 
