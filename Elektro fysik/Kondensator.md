@@ -21,8 +21,13 @@ $$
 U=\frac{1}{2}Q \cdot v=\frac{1}{2}C \cdot v^{2}=\frac{Q^{2}}{2C}
 $$
 ***
+#### Opladning
+![[OpAfLadning.excalidraw|2000]]
+
+![[Pasted image 20221106173503.png|400]]
 
 ***
+#### Kredsløbstyper
 Hvis de sidder i serie og strømmen vender rigtig, så er de parralelle.
 ![[Pasted image 20221010084434.png]]
 ***
