@@ -7,7 +7,6 @@ There is no guarantee that the sorting algorithm that seems the best from a theo
 4. The numbers are almost in reverse order
 
 #### Inversion
-
 Let’s first take a look at what sorting is really about from a theoretical point of view. Take a look at the following list of numbers:
 $$
 34, 8, 64, 51, 32, 21
