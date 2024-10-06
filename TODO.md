@@ -2,7 +2,7 @@
 - [ ] Få styr på store "O"
 - [ ] Lav git til ROS_data
 - [ ] Se video fra statistik
-- [ ] Skriv noter om Sorting
+- [x] Skriv noter om Sorting
 - [ ] Fix matlab
 
 ---
