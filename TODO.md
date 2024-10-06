@@ -11,4 +11,3 @@
 - [ ] Kig mere på Ollama
 - [ ] Void på windows
 - [ ] Install fallout on 3ds
-- [ ] 
