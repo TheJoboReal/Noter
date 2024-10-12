@@ -18,14 +18,6 @@
       "key": "N"
     }
   ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "O"
-    }
-  ],
   "switcher:open": [],
   "handwritten-notes:modal-create-embed": [
     {
@@ -43,6 +35,14 @@
         "Mod"
       ],
       "key": "E"
+    }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
     }
   ]
 }
