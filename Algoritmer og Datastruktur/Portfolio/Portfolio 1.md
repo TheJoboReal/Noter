@@ -6,15 +6,15 @@ int recursiveFunc(int N){
     if(N < 1){
         return 0;
     }
-    // If N is odd then include N^2 in the sum
-    if(N % 2 != 0){
-        return N * N + recursiveFunc(N - 1);
-    }
     // If N is even then then we just deitterate
     return recursiveFunc(N - 1);
+    // If N is odd then include N^2 in the sum
+    if(N % 2 != 0){
+        return N * N + recursiveFunc(N - 2);
+    }
 }
 ```
-Her kalder vi bare vores funktion minus 1, for at kan iterate ned til 1
+Her kalder vi bare vores funktion af $N-1$, for at kan iterate ned til $1$. Vi siger $N-2$ ved ulige tal for at undgå unødvendige rekursive kald.
 
 #### Opgave 2
 
@@ -35,3 +35,4 @@ bool recursiveAdditive(std::string s){
 }
 ```
 Tanken her er at vi bare "fjerner" første element hver gang vi kalder vores funktion. På den måde bevæger vi os igennem vores string fra bunden af. De $-48$ er for at få det fra ascii til ints.
+
