@@ -52,3 +52,5 @@ int sumDivisibleBy3Recursive(int N){
 }
 ```
 Her sætter tjekker vi om $N$ er divisible med $3$, og hvis det er, så kalder vi funktionen igen og lægger $N$ til. Hvis $N$ ikke er divisible med $3$, så deiterater vi med det resterende fra modulus operationen. På den måde undgår vi unødvendige funktionskald.
+
+#### Opgave 7
