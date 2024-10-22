@@ -75,10 +75,7 @@ struct Node {
     int data;
     Node* left;
     Node* right;
-    Node(int x) {
-       data = x;
-       left = right = nullptr;
-    }
+    Node(int val) : data(val), left(nullptr), right(nullptr) {}
 };
 
 // Function to perform preorder traversal
@@ -132,10 +129,7 @@ struct Node {
     int data;
     Node* left;
     Node* right;
-    Node(int x) {
-       data = x;
-       left = right = nullptr;
-    }
+    Node(int val) : data(val), left(nullptr), right(nullptr) {}
 };
 
 // Function to perform postorder traversal
