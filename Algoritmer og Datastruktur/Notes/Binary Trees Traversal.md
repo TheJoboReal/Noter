@@ -1,9 +1,11 @@
 > See [Binary Tree Traversal](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/#inorder-traversal)
+
 ![[Tree-Traversal-Techniques.webp]]
 
 #### Traversal
 ***Tree Traversal techniques*** include various ways to visit all the nodes of the tree. Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way to traverse them, trees can be traversed in different ways.
 ![[Pasted image 20241022095755.png]]
+There is also Boundary Travers and Diagonal Travers.
 
 ##### In Order Traversal
 In order Traversal. An in order traversal first visits the left child (including its entire subtree), then visits the node, and finally visits the right child (including its entire subtree). The binary search tree makes use of this traversal to print all nodes in ascending order of value.
