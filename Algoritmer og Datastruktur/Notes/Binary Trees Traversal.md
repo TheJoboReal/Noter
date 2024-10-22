@@ -1,6 +1,5 @@
 > See [Binary Tree Traversal](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/#inorder-traversal)
-
-![[Pasted image 20241022095415.png|350]]
+![[Tree-Traversal-Techniques.webp]]
 
 #### Traversal
 ***Tree Traversal techniques*** include various ways to visit all the nodes of the tree. Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way to traverse them, trees can be traversed in different ways.
