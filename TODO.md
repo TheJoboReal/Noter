@@ -9,5 +9,5 @@
 #### Gut shit
 - [ ] Install Steam with nonfree
 - [ ] Kig mere på Ollama
-- [ ] Void på windows
+- [x] Void på windows
 - [ ] Install fallout on 3ds
