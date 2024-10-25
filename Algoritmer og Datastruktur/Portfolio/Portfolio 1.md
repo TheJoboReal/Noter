@@ -17,7 +17,20 @@ int recursiveFunc(int N){
 Her kalder vi bare vores funktion af $N-1$, for at kan iterate ned til $1$. Vi siger $N-2$ ved ulige tal for at undgå unødvendige rekursive kald.
 
 #### Opgave 2
+1. I yderste loop *i*, har starter den ved $0$ og har sit max i $2^k\geq N$. Vi kan så solve for *k*. $k<log_{2}(N)$, det betyder så at kompleksiteten for yderste loop *i* er $O(log_{2}(N))$.
 
+2. I midter loopen *j* starter den også ved $0$ og bliver fordoblet ved hver iteration. Det betyder at tidskompleksiteten for *j* også bliver $O(log_{2}(N))$.
+
+3. I den inderste loop *k*, har vi bare tids-kompleksiteten $N\sqrt{ N }$ da den starter i $0$ og max er $N\sqrt{ N }$.
+Den totale tidskompleksitet finder vi så med $$total=O(log_{2}(N))\cdot O(log_{2}(N))\cdot O(N\sqrt{ N })$$
+$$
+total=O((log_{2}(N))^2)\cdot O(N\sqrt{ N })
+$$
+$$
+total=O(N\sqrt{ N }(log_{2}(N))^2)
+$$
+Den sidste loop *y* har en kompleksitet på $O(N²)$.
+Vi kan så se at funktionen har en kompleksitet på $O(N^2)$ da den stiger hurtigere en $O(N\sqrt{ N }(log_{2}(N))^2)$.
 
 #### Opgave 3
 
