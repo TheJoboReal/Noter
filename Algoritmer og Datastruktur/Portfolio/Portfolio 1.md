@@ -149,3 +149,13 @@ Med det får vi så følgende output:
 9[C], 
 10[F], 
 ```
+
+---
+
+#### Opgave 9
+Vi kan se at i de rekursive kald, kalder vi funktionen to gange, hvilket resultere i en tidskompleksitet på $O(2^N)$.
+
+---
+
+#### Opgave 10
+
