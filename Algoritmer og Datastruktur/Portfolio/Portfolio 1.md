@@ -153,9 +153,23 @@ Med det får vi så følgende output:
 ---
 
 #### Opgave 9
-Vi kan se at i de rekursive kald, kalder vi funktionen to gange, hvilket resultere i en tidskompleksitet på $O(2^N)$.
+Vi kan se at i de rekursive kald, kalder vi funktionen to separate gange, hvilket resultere i en tidskompleksitet på $O(2^N)$.
 
 ---
 
 #### Opgave 10
+```cpp
+int logTo(int N, int a = 1){
+// Funktion der returner totals-logaritmen af N, og det er en forudsætning, at N er et naturligt tal og en potens af 2.
 
+	if(N == std::pow(2, a)){
+		return a;
+	}
+	return logTo(N, a + 1);
+}
+```
+Funktionen starter med at tjekke om $N=2^a$ er sandt, da det betyder at at vi har fundet logaritmen til inputtet. Funktionen kaldes rekursivt og potensen *a* inkrementeres med en ved hver iteration. Når $N=2^a$ er sandt returneres *a*, da det er det korrekte resultat.
+
+---
+
+#### Opgave 11
