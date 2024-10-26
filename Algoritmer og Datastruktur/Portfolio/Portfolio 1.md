@@ -55,22 +55,6 @@ bool recursiveAdditive(std::string s){
 Tanken her er at vi bare "fjerner" første element hver gang vi kalder vores funktion. På den måde bevæger vi os igennem vores string fra bunden af. De $-48$ er for at få det fra ascii til ints.
 
 ---
-#### Opgave 4
-```cpp
-int sumDivisibleBy3Recursive(int N){
-    if(N == 3){
-        return N;
-    }
-
-    int mod = N % 3;
-
-    if(mod == 0){
-        return N + sumDivisibleBy3Recursive(N - 3);
-    }
-    return sumDivisibleBy3Recursive(N - mod);
-}
-```
-Her sætter tjekker vi om $N$ er divisible med $3$, og hvis det er, så kalder vi funktionen igen og lægger $N$ til. Hvis $N$ ikke er divisible med $3$, så deiterater vi med det resterende fra modulus operationen. På den måde undgår vi unødvendige funktionskald.
 
 #### Opgave 5
 1. I første loop *i* starter den i $1$ og har en max på $k\leq \sqrt{ N }$. Loopen inkrementeres med $1$ efter hver iteration hvilket betyder at første loop itererer $\sqrt{ N }$ gange
@@ -91,11 +75,44 @@ Det vil sige at den totale tidskompleksitet for funktionen er $O(N^{3/2}log_{2}(
 ---
 
 #### Opgave 6
+```cpp
+int sumDivisibleBy3Recursive(int N){
+    if(N == 3){
+        return N;
+    }
+
+    int mod = N % 3;
+
+    if(mod == 0){
+        return N + sumDivisibleBy3Recursive(N - 3);
+    }
+    return sumDivisibleBy3Recursive(N - mod);
+}
+```
+Her sætter tjekker vi om $N$ er divisible med $3$, og hvis det er, så kalder vi funktionen igen og lægger $N$ til. Hvis $N$ ikke er divisible med $3$, så deiterater vi med det resterende fra modulus operationen. På den måde undgår vi unødvendige funktionskald.
 
 
 ---
 
 #### Opgave 7
+
+```cpp
+std::vector<int> naturalNumber(int Z) {
+	std::vector<int> out(2, 0);
+	for (int X = 3; pow(X, 3) <= Z; ++X) {
+		for (int Y = 3; pow(X, Y) <= Z; ++Y) {
+			if (pow(X, Y) == Z) {
+				if(out[0] < X || out[1] < Y){
+					out[0] = X;
+					out[1] = Y;
+				}
+			}
+		}
+
+	}
+	return out;
+}
+```
 
 
 ---
