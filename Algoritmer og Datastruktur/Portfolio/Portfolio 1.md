@@ -18,7 +18,7 @@ Her kalder vi bare vores funktion af $N-1$, for at kan iterate ned til $1$. Vi s
 
 ---
 #### Opgave 2
-1. I yderste loop *i*, har starter den ved $0$ og har sit max i $2^k\geq N$. Vi kan så solve for *k*:
+1. I yderste loop *i*,  starter den ved $0$ og har sit max i $2^k\geq N$. Vi kan så solve for *k*:
  $$2^k\geq N\rightarrow k<log_{2}(N)$$
 3. det betyder så at kompleksiteten for yderste loop *i* er $O(log_{2}(N))$.
 
@@ -53,6 +53,11 @@ bool recursiveAdditive(std::string s){
 }
 ```
 Tanken her er at vi bare "fjerner" første element hver gang vi kalder vores funktion. På den måde bevæger vi os igennem vores string fra bunden af. De $-48$ er for at få det fra ascii til ints.
+
+---
+
+#### Opgave 4
+
 
 ---
 
@@ -168,7 +173,7 @@ int logTo(int N, int a = 1){
 	return logTo(N, a + 1);
 }
 ```
-Funktionen starter med at tjekke om $N=2^a$ er sandt, da det betyder at at vi har fundet logaritmen til inputtet. Funktionen kaldes rekursivt og potensen *a* inkrementeres med en ved hver iteration. Når $N=2^a$ er sandt returneres *a*, da det er det korrekte resultat.
+Funktionen starter med at tjekke om $N=2^a$ er sandt, da det betyder at at vi har fundet logaritmen til inputtet. Funktionen kaldes rekursivt og potensen *a* inkrementeres med $1$ ved hver iteration. Når $N=2^a$ er sandt returneres *a*, da det er det korrekte resultat.
 
 ---
 
