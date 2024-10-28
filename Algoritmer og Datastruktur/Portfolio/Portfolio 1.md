@@ -126,33 +126,30 @@ std::vector<int> naturalNumber(int Z) {
 Vi bruger følgende hjemmelavet funktion til at hashe.
 *_table* er en privat variabel som består af et array, og fungerer som hash tabellen. Hashtabellen er lavet som en klasse, hvor der er lavet en masse funktioner til hashe med de forskellige metoder.
 ```cpp
-void hashQuadPlace(char k, int index) {
-	int i = 0;
-	
-	while (_table[(index + i) % _table.size()] != 0) {
-		i++;
-		i += i * i;
-	}
-	
-	_table[(index + i) % _table.size()] = k;
-	
-	std::cout << "Loadfactor now at :" << loadFactor() << "%" << std::endl;
-}
+    void hashQuadPlace(char k, int index) {
+        // Using quadratic probing
+        int i = 0;
+        while (_table[(index + i * i) % _table.size()] != 0) { // Quadratic probing
+            i++;
+        }
+        _table[(index + i * i) % _table.size()] = k; // Push the key to the table
+        std::cout << "Loadfactor now at :" << loadFactor() << "%" << std::endl;
+    }}
 ```
 
 Med det får vi så følgende output:
 ```bash
-0[ ], 
+0[H], 
 1[ ], 
 2[V], 
 3[R], 
-4[H], 
+4[ ], 
 5[ ], 
 6[P], 
 7[Q], 
 8[E], 
 9[C], 
-10[F], 
+10[F],
 ```
 
 ---
