@@ -91,7 +91,9 @@ std::vector<int> findClosestSumToPowerOfTwo(const std::vector<int>& arr) {
     return {num1, num2, num3, closestPowerOfTwo};
 }
 ```
-Vi starter med loope gennem de forskellige kombinationer for at finde en kombination der opfylder vores minimums difference. 
+Vi starter med loope gennem de forskellige kombinationer for at finde en kombination der opfylder vores minimums difference. Vi opdaterer løbende minDifference for at vi kun får de tal som kommer tættest.
+
+Jeg kunne have forsøgt at gøre den rekursiv for at optimere den da vi bruger mange for-loops. Men kunne desværre ikke tænke mig ud af det
 
 ---
 #### Opgave 5
@@ -148,7 +150,8 @@ std::vector<int> naturalNumber(int Z) {
 	return out;
 }
 ```
-
+Vi bruger en form for bruteforce her for at opnå det ønsket resultat. Derfor har vi 2 for-loops som looper igennem alle mulige kombinationer og opdaterer out-vectoren løbende.
+Nå alle muligheder er gennemgået bliver out vectoren retuneret med de maksimale værdier.
 
 ---
 #### Opgave 8
