@@ -27,5 +27,22 @@ Køen vokser fra venstre mod højre på laveste niveau
 ![[Pasted image 20240923125342.png]]
 Implementation er et almindeligt array hvor indeks 0 ikke benyttes
 ![[Pasted image 20240923125437.png]]
+**Heap Priority**
+* Roden indeholder det mindste element.
+* Enhver node er mindre end alle dens efterkommere.
+* En prioritetskø kaldes sommetider for en binary heap.
+* Dette må ikke forveksles med heapen i C++ runtime environment.
 
-![[handwritten-notes/Komplet Binær Træ.pdf]]
+##### Komplette Binære træer heaps
+**Insert 14**
+![[Pasted image 20240923132119.png]]
+![[Pasted image 20240923132130.png]]
+31 bliver flyttet ned så der bliver plads til 21's højre barn
+Da det vi skal indsætte er lavere end 21, så flytter vi 21 en ned så vi kan indsætte 14.
+
+![[Pasted image 20240923132141.png]]
+**DeleteMin**
+![[Pasted image 20240923132518.png]]
+![[Pasted image 20240923132525.png]]
+![[Pasted image 20240923132533.png]]
+

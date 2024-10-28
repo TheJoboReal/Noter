@@ -1,5 +1,4 @@
-Man kan ikke ændres spændingen over en kondensator momentant. Fordi det vil kræve uendelig effekt.
-***
+> Man kan ikke ændres spændingen over en kondensator momentant. Fordi det vil kræve uendelig effekt.
 
 Strøm gennem en kondensator ved DC er lig 0.(DC mæssig afbrydelse.) Imepedansen bliver uendelig fordi omega er nul.
 ***
@@ -9,9 +8,8 @@ $$Z_c=\frac 1{j\omega C}=\frac{1}{2\pi fc}$$
 Ændring i kapacitet giver en stor spænding. fks statisk elektricitet.
 
 Når strømmen er 0, så er kondensatoren opladt.
-
-***
-Kapacitet på kondensator. Hvor C har enheden Farad hvor man normalt bruger microFarad.
+ ***
+Kapacitet på kondensator. Hvor C har enheden Farad hvor man normalt bruger microFarad. Farad er ladning per spænding, altså $F=\frac{C}{Q}$
 Hvor *Q* er ladning som er målt i coloumb og *t* er tiden.
 $$C=\frac QV$$ $$Q=C\cdot V$$
 $$Q=I\cdot t$$
@@ -22,8 +20,13 @@ $$
 U=\frac{1}{2}Q \cdot v=\frac{1}{2}C \cdot v^{2}=\frac{Q^{2}}{2C}
 $$
 ***
+#### Opladning eksempel
+![[OpAfLadning.excalidraw|2000]]
+
+![[Pasted image 20221106173503.png|400]]
 
 ***
+#### Kredsløbstyper
 Hvis de sidder i serie og strømmen vender rigtig, så er de parralelle.
 ![[Pasted image 20221010084434.png]]
 ***
