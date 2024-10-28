@@ -36,9 +36,7 @@ Det sidste loop *y* har en kompleksitet på $O(N²)$.
 Vi kan så konkludere at funktionen har en kompleksitet på $O(N^2)$, da $O(N^2)$ stiger hurtigere en $O(N\sqrt{ N }(log_{2}(N))^2)$.
 
 ---
-
 #### Opgave 3
-
 ```cpp
 bool recursiveAdditive(std::string s){
     if(s.size() < 3){
@@ -55,12 +53,47 @@ bool recursiveAdditive(std::string s){
 Tanken her er at vi bare "fjerner" første element hver gang vi kalder vores funktion. På den måde bevæger vi os igennem vores string fra bunden af. De $-48$ er for at få det fra ascii til ints.
 
 ---
-
 #### Opgave 4
+```cpp
+std::vector<int> findClosestSumToPowerOfTwo(const std::vector<int>& arr) {
+    int n = arr.size();
+    int closestSum = 0;
+    int closestPowerOfTwo = 0;
+    int num1 = 0, num2 = 0, num3 = 0;
+    int minDifference = std::numeric_limits<int>::max();
 
+    for (int i = 0; i < n - 2; ++i) {
+        for (int j = i + 1; j < n - 1; ++j) {
+            for (int k = j + 1; k < n; ++k) {
+                int sum = arr[i] + arr[j] + arr[k];
+
+                int power = 1;
+                int lowerPower = power >> 1; 
+                int difference = std::abs(sum - power);
+                int closestPower = power;
+
+                if (lowerPower > 0 && std::abs(sum - lowerPower) < difference) {
+                    difference = std::abs(sum - lowerPower);
+                    closestPower = lowerPower;
+                }
+
+                if (difference < minDifference) {
+                    minDifference = difference;
+                    closestSum = sum;
+                    closestPowerOfTwo = closestPower;
+                    num1 = arr[i];
+                    num2 = arr[j];
+                    num3 = arr[k];
+                }
+            }
+        }
+    }
+    return {num1, num2, num3, closestPowerOfTwo};
+}
+```
+Vi starter med loope gennem de forskellige kombinationer for at finde en kombination der opfylder vores minimums difference. 
 
 ---
-
 #### Opgave 5
 1. I første loop *i* starter den i $1$ og har en max på $k\leq \sqrt{ N }$. Loopen inkrementeres med $1$ efter hver iteration hvilket betyder at første loop itererer $\sqrt{ N }$ gange
 2. I den indre loop *j* starter den i $1$ og har en max på $j<N$. Det betyder så at den itererer $N$.
@@ -78,7 +111,6 @@ $$
 Det vil sige at den totale tidskompleksitet for funktionen er $O(N^{3/2}log_{2}(N))$.
 
 ---
-
 #### Opgave 6
 ```cpp
 int sumDivisibleBy3Recursive(int N){
@@ -96,9 +128,7 @@ int sumDivisibleBy3Recursive(int N){
 ```
 Her sætter tjekker vi om $N$ er divisible med $3$, og hvis det er, så kalder vi funktionen igen og lægger $N$ til. Hvis $N$ ikke er divisible med $3$, så deiterater vi med det resterende fra modulus operationen. På den måde undgår vi unødvendige funktionskald.
 
-
 ---
-
 #### Opgave 7
 
 ```cpp
@@ -121,7 +151,6 @@ std::vector<int> naturalNumber(int Z) {
 
 
 ---
-
 #### Opgave 8
 Vi bruger følgende hjemmelavet funktion til at hashe.
 *_table* er en privat variabel som består af et array, og fungerer som hash tabellen. Hashtabellen er lavet som en klasse, hvor der er lavet en masse funktioner til hashe med de forskellige metoder.
@@ -153,12 +182,10 @@ Med det får vi så følgende output:
 ```
 
 ---
-
 #### Opgave 9
 Vi kan se at i de rekursive kald, kalder vi funktionen to separate gange, hvilket resultere i en tidskompleksitet på $O(2^N)$.
 
 ---
-
 #### Opgave 10
 ```cpp
 int logTo(int N, int a = 1){
@@ -173,5 +200,21 @@ int logTo(int N, int a = 1){
 Funktionen starter med at tjekke om $N=2^a$ er sandt, da det betyder at at vi har fundet logaritmen til inputtet. Funktionen kaldes rekursivt og potensen *a* inkrementeres med $1$ ved hver iteration. Når $N=2^a$ er sandt returneres *a*, da det er det korrekte resultat.
 
 ---
-
 #### Opgave 11
+```cpp
+int stemmeberegner(std::vector<int> stemmer){
+	std::vector<int> kandidater(stemmer.size(), 0);
+	for(int i=0; i <= stemmer.size(); i++){
+		kandidater[i] += 1;
+	}
+	
+	for(int i=0; i <= kandidater.size(); i++){
+		if(kandidater[i] >= stemmer.size()/2){
+		return i;
+		}
+	}	
+	return -1;
+}
+```
+Vi tager her en vector med stemmer ind og løber igennem stemmerne og inkrementerer den kandidants index.
+Vi tjekker så til sidst om der er nogle kandidater som har fået mere end $50\%$ stemmer og returnerer kandidaten hvis der er en gyldig.
