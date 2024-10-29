@@ -118,6 +118,8 @@ Tit har uniform sampling mange huller rundt omkring hvilket
 
 
 
+
+
 ##### Expansive-Spaces Trees
 buildEST(qstart, n)
 V={qstart}, E=Ø, T={V,E}
