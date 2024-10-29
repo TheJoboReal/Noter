@@ -9,3 +9,27 @@ The algorithm maintains a set of visited vertices and a set of unvisited vertice
 4. Mark the current node 1 as visited.
 5. Go to step 2 if there are any nodes are unvisited.
 
+#### Example
+Dijkstra’s Algorithm will generate the shortest path from Node 0 to all other Nodes in the graph.
+![[Pasted image 20241029195309.png]]
+The algorithm will generate the shortest path from node 0 to all the other nodes in the graph.
+
+****For this graph, we will assume that the weight of the edges represents the distance between two nodes.****
+
+As, we can see we have the shortest path from,  
+Node 0 to Node 1, from  
+Node 0 to Node 2, from  
+Node 0 to Node 3, from  
+Node 0 to Node 4, from  
+Node 0 to Node 6.
+
+Initially we have a set of resources given below :
+
+- The Distance from the source node to itself is 0. In this example the source node is 0.
+- The distance from the source node to all other node is unknown so we mark all of them as infinity.
+
+Example: 0 -> 0, 1-> ∞,2-> ∞,3-> ∞,4-> ∞,5-> ∞,6-> ∞.
+
+- we’ll also have an array of unvisited elements that will keep track of unvisited or unmarked Nodes.
+- Algorithm will complete when all the nodes marked as visited and the distance between them added to the path. ****Unvisited Nodes:- 0 1 2 3 4 5 6.****
+- 
