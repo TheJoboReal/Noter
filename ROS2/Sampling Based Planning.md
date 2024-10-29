@@ -47,7 +47,7 @@ $P(q)=\frac{w(q)}{\sum w(q_{i})}$ where $w(q)$ could be based on one of the crit
 ##### Time Usage
 ![[Pasted image 20241029085305.png]]
 
-##### Using PRM
+##### Using Potential Regions of Motion(PRM)
 * The PRM is used in a specific query to find a solution
 * Input, $q_{init}$ and $q_{goal}$ which are both collision free
 * Properties
@@ -62,6 +62,13 @@ Input(E, V, $q_{init}$ , $q_{goal}$ )
 3. V=V U {$q_{init}$ } U {$q_{goal}$ }
 4. E=E U {($q_{init}$ , $q_{init}'$  )} U {($q_{goal}$ , $q_{goal}$ ’ )}
 5. P = shortestPath($q_{init}$ , $q_{goal}$ )
+
+##### PRM procedure summed
+1. **Initialization**: Choose a set of random potential regions (PROMs) within a bounding box that covers the desired workspace. These PROMs are used as starting points for planning.
+2. **Planning**: For each PROM, compute the nearest neighbor (NN) to another randomly chosen PROM in the current configuration space (C-space). This NN is computed using a distance metric (e.g., Euclidean or Manhattan).
+3. **Addition of new PROMs**: If the NN is not already in the C-space (i.e., it's not a previously planned motion), add this new point to the C-space and update the bounding box.
+4. **Repeat**: Continue steps 2-3 until a goal configuration is reached or a maximum number of iterations is reached.
+
 
 ###### Pros and Cons with PRM
 Pros:
