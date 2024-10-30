@@ -1,4 +1,3 @@
-
 #### Local Planner
 * Local Planner ∆($q_{1}$,$q_{2}$)
 	– Checks for a path between $q_{1}$ and $q_{2}$
