@@ -28,15 +28,6 @@
       "key": "H"
     }
   ],
-  "ollama:summarize-selection": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
   "omnisearch:show-modal": [
     {
       "modifiers": [
@@ -52,6 +43,15 @@
         "Mod"
       ],
       "key": "E"
+    }
+  ],
+  "ollama:summarize-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
     }
   ]
 }

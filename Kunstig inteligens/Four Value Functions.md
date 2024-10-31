@@ -14,8 +14,8 @@
 
 * We usually have to settle for approximations.
 
-* Many RL methods can be understood as approximately solving the Bellman Optimality Equation.
-
+* Many RL methods can be understood as approximately solving the Bellman Optimality Equation.️
+️
 ##### Definition
 ![[Pasted image 20241031124837.png]]
 
