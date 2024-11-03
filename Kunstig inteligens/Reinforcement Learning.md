@@ -12,6 +12,32 @@ This means that $\gamma$ is the discount you get on a reward. So instead of gett
 
 #### Policies
 
+##### Deterministic Policy
+Here we have a deterministic policy where the agent moves in a direction based on its position in the grid:
+```python
+def deterministic_policy(x, y):
+    action_grid = {
+        (0, 0): "right",
+        (1, 0): "right",
+        (2, 0): "right",
+        (3, 0): "down",
+        (3, 1): "down",
+        (3, 2): "down",
+        (3, 3): "down",
+        (2, 3): "left",
+        (1, 3): "left",
+        (0, 3): "left",
+        (0, 2): "up",
+        (0, 1): "up",
+        (1, 1): "right",
+        (2, 1): "right",
+        (2, 2): "down",
+        (1, 2): "down"
+    }
+    return {action_grid[(x, y)]: 1}
+```
+![[Pasted image 20241031152515.png]]
+It can be seen that the direction is chosen based on the $(x,y)$ coordinate and then a chance of $1$ is given to the direction to ensure the agent moves. $\gamma$ is set to $1$ in this example.
 
 #### Value Function
 
