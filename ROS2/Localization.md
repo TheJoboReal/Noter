@@ -99,6 +99,8 @@ We use $\hat{x}$ to denote the estimate of $x$.
 
 ##### Covariance
 ![[Pasted image 20241105094553.png]]
+Covariance is for example in a GPS system, you know that the error is a 5 meter radius around you. This means that the predicted GPS point will be somewhere within the 5 meter radius. So the covariance does not change, but the noise in the matrix changes.
+
 ###### Covariance Matrix
 ![[Pasted image 20241105094620.png]]
 
