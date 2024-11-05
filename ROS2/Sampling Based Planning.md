@@ -68,6 +68,12 @@ Input(E, V, $q_{init}$ , $q_{goal}$ )
 3. **Addition of new PROMs**: If the NN is not already in the C-space (i.e., it's not a previously planned motion), add this new point to the C-space and update the bounding box.
 4. **Repeat**: Continue steps 2-3 until a goal configuration is reached or a maximum number of iterations is reached.
 
+##### RRT and RRT*
+**RRT** will look at its nearest neighbour and at the goal, to then get all the way to the goal. With infinite time, the chance of the algorithm finding a solution will to 100%. The solution might not be the optimal route though.
+RRT* will do the same as RRT, but will also update the current path while running, that means that with infinite time RRT* has a 100% chance to find the optimal solution with the shortest path.
+
+This means that RRT* is very good for finding the shortest path to a goal, but is very complex and runs very slow when many nodes are present, thus making RRT preferred.
+So RRT should be used if the system is complex and has to be fast.
 
 ###### Pros and Cons with PRM
 Pros:
