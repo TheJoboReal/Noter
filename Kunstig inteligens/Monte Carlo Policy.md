@@ -1,4 +1,6 @@
 #### Definition
+> See page 92 in [Introduction to Reinforcement Learning](http://incompleteideas.net/book/the-book-2nd.html)
+
 ![[Pasted image 20241107121955.png]]
 Ved nok erfaring konvergerer Både **Every** og **First** visit
 
@@ -42,3 +44,7 @@ $$
 * Off-policy: learn the value of a target policy from  experience due to a different behavior policy.
 
 ![[Pasted image 20241107125153.png]]
+
+#### Monte Carlo Prediction
+From the book.
+![[Reinforcement_Learning.pdf#page=114]]
