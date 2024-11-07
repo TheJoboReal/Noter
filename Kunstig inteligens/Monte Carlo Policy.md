@@ -8,7 +8,7 @@ Ved nok erfaring konvergerer Både **Every** og **First** visit
 * Estimating state values
 * Estimating action values
 
-#### Pseudo Code for estimating $v_{\pi}$
+#### Pseudo Code for estimating First Visit $v_{\pi}$
 ![[Pasted image 20241107122407.png]]
 
 #### Example
