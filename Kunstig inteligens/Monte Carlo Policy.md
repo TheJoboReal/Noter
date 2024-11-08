@@ -53,3 +53,4 @@ From the book.
 ![[Pasted image 20241108115902.png]]
 
 ![[Pasted image 20241108115948.png]]
+![[Pasted image 20241108125111.png]]
