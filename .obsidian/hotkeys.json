@@ -28,7 +28,15 @@
       "key": "H"
     }
   ],
-  "ollama:summarize-selection": [
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
     {
       "modifiers": [
         "Alt",
@@ -37,12 +45,13 @@
       "key": "E"
     }
   ],
-  "omnisearch:show-modal": [
+  "ollama:summarize-selection": [
     {
       "modifiers": [
+        "Alt",
         "Mod"
       ],
-      "key": "O"
+      "key": "S"
     }
   ]
 }
