@@ -49,6 +49,7 @@ $$
 From the book.
 ![[Reinforcement_Learning.pdf#page=114]]
 
-![[Pasted image 20241108113041.png]]
-![[Pasted image 20241108113344.png]]
-![[Pasted image 20241108115043.png]]
+![[Pasted image 20241108115703.png]]
+![[Pasted image 20241108115902.png]]
+
+![[Pasted image 20241108115948.png]]
