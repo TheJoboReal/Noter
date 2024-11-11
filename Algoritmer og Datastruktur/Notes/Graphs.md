@@ -20,3 +20,8 @@
 ![[Pasted image 20241111142416.png]]
 Pilende betyder ikke at det er den eneste vej til den node.
 Fks kan man se at den første sortering springer fra $V_{3}$ til $V_{7}$. Pilene betyder at det er et requirement at man har været ved den ene. Det betyder at for at komme til $V_{2}$, så skal man komme fra $V_{1}$.
+
+##### Pseudokode - topsort
+![[Pasted image 20241111145125.png]]
+
+![[Pasted image 20241111145238.png]]
