@@ -30,7 +30,21 @@ $\hat{\beta}_{1}$ er hældningen på grafen:
 $$
 \hat{\beta}_{1}=\frac{S_{xy}}{S_{xx}}=\frac{\text{Cov}}{\text{Var}}
 $$
+Hældningen af grafen kan findes med $se(\hat{\beta}_{1})$:
+$$
+\sqrt{ \frac{\hat{\sigma}^2}{S_{xx}} }
+$$
+---
+For at finde t-statistik for en hældning bruger vi:
+$$
+t=\frac{\hat{\beta}_{1}}{se(\hat{\beta}_{1})}\sim T(n-2)
+$$
+
+---
+
+
 #### Example
 ![[Pasted image 20241111111508.png]]
 ![[Pasted image 20241111111519.png]]
 ![[Pasted image 20241111111530.png]]
+
