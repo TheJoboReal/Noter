@@ -1,7 +1,8 @@
 #### Skole
 - [x] Fix matlab
+- [ ] Fix matlab gui
 
 ---
 #### Gut shit
 - [ ] Install fallout on 3ds
-- [ ] Færdiggør ET projekt!
+- [ ] Færdiggør et projekt!
