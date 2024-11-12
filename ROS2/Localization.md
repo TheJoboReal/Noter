@@ -31,7 +31,8 @@ The sensor knows that we are in front of a door and it knows that in the world t
 ![[Pasted image 20241105092722.png]]
 
 #### Kalman Filter
-The Kalman filter is used to predict the localisation of noise and thus dampning it. 
+The Kalman filter is used to predict the localisation of noise and thus dampning it. So it is used for moddeling a system and its many states.
+
 * Assumptions
 	– Single Modal
 	– Noise is Gaussian
@@ -193,3 +194,4 @@ And now with an extra landmark:
 
 
 ![[Pasted image 20241112093320.png]]
+
