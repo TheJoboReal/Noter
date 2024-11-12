@@ -184,3 +184,12 @@ And now with an extra landmark:
 ![[Pasted image 20241112090321.png]]
 
 #### Data Associtation
+* Previously we assumed to have a mapping between observations and landmarks.
+* This problem is called Data Association
+![[Pasted image 20241112093153.png]]
+![[Pasted image 20241112093337.png]]
+![[Pasted image 20241112093345.png]]
+
+
+
+![[Pasted image 20241112093320.png]]
