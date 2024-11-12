@@ -176,5 +176,11 @@ where $a(i)$ is a mapping between observation number $i$ and landmark $i$, with 
 
 ##### Example
 EKF with Range and Bearing, example
+
+Here we see that due to noise the filter differs a lot from the real ground path about halfway there:
 ![[Pasted image 20241112090300.png]]
+
+And now with an extra landmark:
 ![[Pasted image 20241112090321.png]]
+
+#### Data Associtation
