@@ -31,6 +31,7 @@ The sensor knows that we are in front of a door and it knows that in the world t
 ![[Pasted image 20241105092722.png]]
 
 #### Kalman Filter
+The Kalman filter is used to predict the localisation of noise and thus dampning it. 
 * Assumptions
 	– Single Modal
 	– Noise is Gaussian
@@ -120,6 +121,23 @@ Where $W(k+1)$ is the covariance of the sensor noise
 
 ![[Pasted image 20241105095120.png]]
 
+#### Extended Kalman Filter
+* The ordinary [[Localization#Kalman Filter|Kalman Filter]] requires that the system and observation models are linear.
+* In the Extended Kalman Filter, EKF, the system is given by
+$$
+x(x+1)=
+f(x(k),u(k),k)+v(k)
+$$
+$$
+y(k)=h(x(k),k)+w(k)
+$$
+Where $f$ and $h$ are continuously differentiable.
+
+* To run the predict and update step of the Kalman filter the Extended Kalman Filter makes use of the partial derivatives of $f$ and $h$
+![[Pasted image 20241112084450.png]]
+* Where ever we cannot directly use $f$ and $h$, we use above linearisations instead
+
+
 #### Localization using Kalman Filter
 • Assuming control input is given as accelerations and we only wish to know the 2D position, what will then be a reasonable state and control input?
 $$
@@ -132,3 +150,31 @@ $$
 ![[Pasted image 20241105095454.png]]
 ![[Pasted image 20241105095515.png]]
 
+#### Localization using Range and Bearing
+We can identify landmarks such as QR-codes and stuff
+![[Pasted image 20241112085404.png]]
+
+##### The Robot
+We will assume a robot with input
+![[Pasted image 20241112085604.png]]
+where $a(k)$ is the linear velocity and $\omega(k)$ is the angular velocity.
+![[Pasted image 20241112085616.png]]
+
+##### System Process Model
+![[Pasted image 20241112085638.png]]
+
+##### Observation/Sensor Model
+![[Pasted image 20241112085703.png]]
+where $a(i)$ is a mapping between observation number $i$ and landmark $i$, with $p(k)$ observations available at time $k$.
+![[Pasted image 20241112085946.png]]
+
+##### Using the EKF
+* To use the EKF we need to compute the partial derivatives of $f(x(k),u(k)$ and $h(x(k),k)$
+![[Pasted image 20241112090143.png]]
+![[Pasted image 20241112090159.png]]
+![[Pasted image 20241112090211.png]]
+
+##### Example
+EKF with Range and Bearing, example
+![[Pasted image 20241112090300.png]]
+![[Pasted image 20241112090321.png]]
