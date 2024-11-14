@@ -15,5 +15,6 @@
   "newFileLocation": "current",
   "readableLineLength": true,
   "showLineNumber": true,
-  "trashOption": "none"
+  "trashOption": "none",
+  "strictLineBreaks": true
 }
