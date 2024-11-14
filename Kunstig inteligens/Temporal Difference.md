@@ -48,3 +48,27 @@ Here we are only looking one step forward.
 #### Temporal Difference Prediction
 ![[Pasted image 20241114130120.png]]
 Instead of looking at what happens in the episode, we look at happens later.
+
+##### Example: Driving Home
+![[Pasted image 20241114131249.png]]
+So through this episode we are constantly updating our predicted arrival
+
+We can see that in Monte Carlo we constantly update the total time in each state. 
+
+In Temporal method, we only look one step ahead. This is the same as in the Grid exercise, we only look at the next state and see what the value would be there. This would mean that the TD method could be seen as greedy, as it only looks at the next state and not the whole episode.
+
+#### Example MC vs TD
+![[Pasted image 20241114132148.png]]
+>So MC is good at observed/past data And TD is good at future data
+
+#### Sarsa 
+##### On-Policy Control
+![[Pasted image 20241114132545.png]]
+Where $Q$ is our estimates.
+
+![[Pasted image 20241114132558.png]]
+
+##### Off-Policy Control
+**Q-learning**
+![[Pasted image 20241114133224.png]]
+We update the estimate based on what the best thing is to do in a state.
