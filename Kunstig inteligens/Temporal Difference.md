@@ -72,3 +72,5 @@ Where $Q$ is our estimates.
 **Q-learning**
 ![[Pasted image 20241114133224.png]]
 We update the estimate based on what the best thing is to do in a state.
+
+![[Reinforcement_Learning.pdf#page=153]]

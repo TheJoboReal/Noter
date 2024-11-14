@@ -12,5 +12,6 @@
   "livePreview": true,
   "vimMode": true,
   "legacyEditor": false,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "readableLineLength": false
 }
