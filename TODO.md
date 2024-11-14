@@ -6,3 +6,4 @@
 #### Gut shit
 - [ ] Install fallout on 3ds
 - [ ] Færdiggør et projekt!
+- [ ] Rebind print screen på keyboard

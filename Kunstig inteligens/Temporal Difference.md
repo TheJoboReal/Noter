@@ -68,6 +68,7 @@ In Temporal method, we only look one step ahead. This is the same as in the Grid
 Where $Q$ is our estimates.
 
 ![[Pasted image 20241114132558.png]]
+![[Reinforcement_Learning.pdf#page=151|]]
 
 ##### Off-Policy Control
 **Q-learning**
