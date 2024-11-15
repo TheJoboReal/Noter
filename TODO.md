@@ -1,9 +1,10 @@
 #### Skole
 - [x] Fix matlab
 - [ ] Fix matlab gui
+- [ ] Lav Algo portfolio
 
 ---
 #### Gut shit
 - [ ] Install fallout on 3ds
 - [ ] Færdiggør et projekt!
-- [ ] Rebind print screen på keyboard
+- [x] Rebind print screen på keyboard
