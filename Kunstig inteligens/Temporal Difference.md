@@ -26,6 +26,7 @@ It is common to use the **weighted** importance since the difference between the
 ##### Simple Monte Carlo
 Each node is a state where a new action can be taken.
 So when looking at the value of a state, we trace a path down a see what would happen.
+We can see that monte Carlo runs until it reaches a terminal, and then updates the values.
 ![[Pasted image 20241114125438.png]]
 
 ##### Dynamic Programing
@@ -34,7 +35,7 @@ So we are building estimates dynamically, summing all estimates.
 
 ##### Simplest TD Method
 ![[Pasted image 20241114125456.png]]
-Here we are only looking one step forward.
+Here we are only looking one step forward. And we update the values as we goa along instead of waiting till we reach a terminal.
 
 #### Bootstrap and Sample
 * **Bootstrapping**: update involves an estimate
