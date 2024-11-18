@@ -11,6 +11,10 @@
 #### Adjacency matrix
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B28xAWEerK8?si=MLk20Ep05kulrm5r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+>Big-O for størrelseskompleksitet på en adjacency-matrix er $O(V^2)$ da det er en matrice med størrelsen $\text{rows} \cdot \text{collums}$.
+>Big-O kompleksiteten på at tjekke en edge er $O(1)$ da vi bare direkte returnere sandt eller falsk på den edge.
+
+
 
 #### Topologisk sortering
 * En ordning af noder i en directed, acyklisk graf, således at hvis der er en sti fra 𝑣𝑖 til 𝑣𝑗, så skal $v_{j}$ komme efter $v_{i}$ i sorteringen.
