@@ -1,5 +1,5 @@
 #### Definition
-![[Pasted image 20241111141953.png]]
+>  <iframe width="560" height="315" src="https://www.youtube.com/embed/-VgHk7UMPP4?si=FPi5_lBQ5us1ILpd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 * Adjacency matrix
 	– God til dense (tætte) grafer
@@ -9,6 +9,7 @@
 	– Pladskompleksitet O(|E|+|V|)
 
 #### Adjacency matrix
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B28xAWEerK8?si=MLk20Ep05kulrm5r" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
 #### Topologisk sortering
