@@ -4,7 +4,9 @@
 
 #### Traversal
 ***Tree Traversal techniques*** include various ways to visit all the nodes of the tree. Unlike linear data structures (Array, Linked List, Queues, Stacks, etc) which have only one logical way to traverse them, trees can be traversed in different ways.
+
 ![[Pasted image 20241022095755.png]]
+
 There is also Boundary Travers and Diagonal Travers.
 
 ##### In Order Traversal
