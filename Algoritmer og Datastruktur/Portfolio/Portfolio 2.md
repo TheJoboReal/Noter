@@ -114,3 +114,53 @@ int main(){
 }
 ```
 
+
+#### Opg 3
+
+```cpp
+#include <iostream>
+#include <queue>
+#include <cmath>
+#include <string>
+
+struct Node{
+    int _data;
+    Node* left;
+    Node* right;
+    Node(int val) : _data(val), left(nullptr), right(nullptr){}
+};
+
+void TraverselLevelOrder(Node* root) {
+    if (!root) return;      // Check if root is empty
+    std::queue<Node*> q;    // Initialize a queue to store the nodes
+    q.push(root);           // Push the root node into the queue
+    while (!q.empty()) {    // While the queue is not empty
+        Node* curr = q.front(); // Get the front node in the queue
+        q.pop();            // Pop the front node
+        std::cout << curr->_data << " ";    // Print the node value
+        if (curr->left) q.push(curr->left);     // Push the left child into the queue
+        if (curr->right) q.push(curr->right);   // Push the right child into the queue
+    }
+}
+
+int main(){
+    Node* root = new Node(11);
+    root->left = new Node(2);
+    root->left->left = new Node(1);
+    root->left->right = new Node(9);
+    root->left->left = new Node(1);
+    root->right = new Node(13);
+    root->right->right = new Node(57);
+    root->right->right->left = new Node(25);
+    root->right->right->left->left = new Node(17);
+    root->right->right->right = new Node(90);
+    // printFormattedTree(root);
+
+    TraverselLevelOrder(root);
+}
+```
+
+```bash
+11->2->13->1->9->57->25->90->17
+```
+
