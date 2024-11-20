@@ -164,3 +164,130 @@ int main(){
 11->2->13->1->9->57->25->90->17
 ```
 
+#### Opg 4
+Til begge Traversal metoder anvendes nedenstående funktioner.
+##### Post Order
+```cpp
+#include <iostream>
+#include <queue>
+#include <cmath>
+#include <string>
+
+struct Node{
+    int _data;
+    Node* left;
+    Node* right;
+    Node(int val) : _data(val), left(nullptr), right(nullptr){}
+};
+
+void TraverselPostOrder(Node* root){
+    // Check if node is a leaf node
+    if(root == nullptr){
+        return;
+    }
+
+    // Go through left sub
+    TraverselPostOrder(root -> left);
+
+    // Go through right sub
+    TraverselPostOrder(root -> right);
+
+    //Print _data in node
+    std::cout << root->_data << " ";
+}
+
+int main(){
+    Node* root = new Node(25);
+    root->left = new Node(20);
+    root->left->left = new Node(10);
+    root->left->right = new Node(22);
+    root->left->left->left = new Node(5);
+    root->left->left->left->left = new Node(1);
+    root->left->left->left->right = new Node(8);
+    root->left->left->right = new Node(12);
+    root->left->left->right->right = new Node(15);
+
+    root->right = new Node(36);
+    root->right->left = new Node(30);
+    root->right->left->left = new Node(28);
+    root->right->right = new Node(40);
+    root->right->right->left = new Node(38);
+    root->right->right->right = new Node(48);
+    root->right->right->right->right = new Node(45);
+    root->right->right->right->right = new Node(50);
+
+    TraverselPostOrder(root);
+    // printFormattedTree(root);
+}
+```
+
+```bash
+1 8 5 15 12 10 22 20 28 30 38 50 48 40 36 25
+```
+
+
+##### Pro Order
+
+```cpp
+#include <iostream>
+#include <queue>
+#include <cmath>
+#include <string>
+
+struct Node{
+    int _data;
+    Node* left;
+    Node* right;
+    Node(int val) : _data(val), left(nullptr), right(nullptr){}
+};
+
+void TraverselPreOrder(Node* root){
+    // Check if node is a leaf node
+    if(root == nullptr){
+        return;
+    }
+
+    //Print _data in node
+    std::cout << root -> _data << " ";
+
+    // Go through left sub
+    TraverselPreOrder(root -> left);
+
+    // Go through right sub
+    TraverselPreOrder(root -> right);
+}
+
+int main(){
+    Node* root = new Node(25);
+    root->left = new Node(20);
+    root->left->left = new Node(10);
+    root->left->right = new Node(22);
+    root->left->left->left = new Node(5);
+    root->left->left->left->left = new Node(1);
+    root->left->left->left->right = new Node(8);
+    root->left->left->right = new Node(12);
+    root->left->left->right->right = new Node(15);
+
+    root->right = new Node(36);
+    root->right->left = new Node(30);
+    root->right->left->left = new Node(28);
+    root->right->right = new Node(40);
+    root->right->right->left = new Node(38);
+    root->right->right->right = new Node(48);
+    root->right->right->right->right = new Node(45);
+    root->right->right->right->right = new Node(50);
+
+	TraverselPreOrder(root);
+    // printFormattedTree(root);
+}
+```
+
+```bash
+25 20 10 5 1 8 12 15 22 36 30 28 40 38 48 50 
+```
+
+
+#### Opg 5
+
+
+#### Opg 6
