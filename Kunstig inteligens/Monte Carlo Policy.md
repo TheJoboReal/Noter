@@ -32,6 +32,7 @@ Ved nok erfaring konvergerer Både **Every** og **First** visit
 * We want to learn are the optimal action values q*
 * **Exploring starts (ES):** Every state-action pair has a non-zero probability of being the starting pair
 ![[Pasted image 20241107124159.png]]
+
 Where $\pi(s) \in A(s)$ is an arbitrarily policy
 Where $Q(s,a)$ is how good it is to go in different directions.
 
