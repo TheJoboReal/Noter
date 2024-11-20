@@ -1,13 +1,11 @@
 #### Skole
 - [ ] Få styr på store "O"
 - [ ] Lav git til ROS_data
-- [ ] Se video fra statistik
-- [x] Skriv noter om Sorting
 - [ ] Fix matlab
 
 ---
 #### Gut shit
-- [ ] Install Steam with nonfree
 - [ ] Kig mere på Ollama
-- [ ] Void på windows
 - [ ] Install fallout on 3ds
+- [ ] Kør wsl på windows hvor den bruger det dual booted linux system
+- [ ] Overvej ubuntu med et tile manager

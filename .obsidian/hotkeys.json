@@ -18,14 +18,6 @@
       "key": "N"
     }
   ],
-  "omnisearch:show-modal": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "O"
-    }
-  ],
   "switcher:open": [],
   "handwritten-notes:modal-create-embed": [
     {
@@ -36,13 +28,30 @@
       "key": "H"
     }
   ],
-  "ollama:summarize-selection": [
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
     {
       "modifiers": [
         "Alt",
         "Mod"
       ],
       "key": "E"
+    }
+  ],
+  "ollama:summarize-selection": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
     }
   ]
 }
