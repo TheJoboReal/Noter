@@ -8,3 +8,4 @@
 - [ ] Install fallout on 3ds
 - [ ] Færdiggør et projekt!
 - [x] Rebind print screen på keyboard
+- [ ] Sæt Ollama op til at lave images til Latex

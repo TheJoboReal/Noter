@@ -129,3 +129,10 @@ Where $Q$ is our estimates.
 We update the estimate based on what the best thing is to do in a state.
 
 ![[Reinforcement_Learning.pdf#page=153]]
+
+#### Sarsa vs Q-Learning
+
+Q-Learning looks at the best possible action in each state and picks the one that gives the best reward.
+That means if the cake is right next to it, it will go to the right, into the cake.
+
+Sarsa also looks at the best possible action, but also explores to see if an even better path can be found. With an epsilon greedy policy, we have a chance to take a random action instead of going with the current best possible action.
