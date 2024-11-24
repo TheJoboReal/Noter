@@ -1,5 +1,7 @@
 
 #### Opg 1
+Først defineres en rekursiv funktion til at slette komma og punktum. Denne funktion bruger vi så på det input man giver hoved-funktionen da vi bruger stringstream som kræver at der ikke er komma eller punktum. Stringstream laver så en liste med alle de ord den finder, hvor vi efterfølgende løber gennem den liste og løbende opdater outputet med det frekvente ord. 
+Den nested for-loop som finder det mest frekvente ord har en Big-O notation på $O(N^2)$ da det er en nested loop, så hvis hele funktionen skulle effektiviseres til en $O(N)$ skal disse for loops evt laves til en rekursiv mini funktion.
 
 ```cpp
 #include <iostream>
@@ -60,7 +62,11 @@ int main(){
 }
 ```
 
+
+---
 #### Opg 2
+
+I denne rekursive funktion starter vi med at få root node, og derefter iterate gennem alle nodes. Vi kigger i hver iteration om både venstre og højre child er en nullptr, hvis ikke, så incrementer vi total antal branches. Til sidst returner vi branches og plus en ny iteration af først venstre og så højre child. Da hele funktionen er rekursiv, betyder det at Big-O bliver $O(N)$.
 
 ```cpp
 #include <iostream>
@@ -115,8 +121,11 @@ int main(){
 ```
 
 
+---
 #### Opg 3
 
+I denne opgave bruges følgende hjemmelavet funktion. 
+Funktionen er selv skrevet, mens kommentar er lavet med hjælp fra ChatGPT.
 ```cpp
 #include <iostream>
 #include <queue>
@@ -164,6 +173,7 @@ int main(){
 11->2->13->1->9->57->25->90->17
 ```
 
+---
 #### Opg 4
 Til begge Traversal metoder anvendes nedenstående funktioner.
 ##### Post Order
