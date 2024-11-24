@@ -1,6 +1,6 @@
 #### Skole
 - [x] Fix matlab
-- [ ] Fix matlab gui
+- [x] Fix matlab gui
 - [ ] Lav Algo portfolio
 
 ---
