@@ -230,11 +230,10 @@ int main(){
     // printFormattedTree(root);
 }
 ```
-
+Post order bliver da:
 ```bash
 1 8 5 15 12 10 22 20 28 30 38 50 48 40 36 25
 ```
-
 
 ##### Pro Order
 
@@ -291,13 +290,14 @@ int main(){
     // printFormattedTree(root);
 }
 ```
-
+Pro order bliver da:
 ```bash
 25 20 10 5 1 8 12 15 22 36 30 28 40 38 48 50 
 ```
 
-
+---
 #### Opg 5
 
 
+---
 #### Opg 6
