@@ -317,15 +317,11 @@ Pro order bliver da:
 ---
 #### Opg 5
 
-![[Pasted image 20241125152418.png]]
+
+![[Pasted image 20241125213916.png]]
 
 
 ---
 #### Opg 6
 
-0
-5
-
-
-
-G = 6
+![[Pasted image 20241125213940.png]]
