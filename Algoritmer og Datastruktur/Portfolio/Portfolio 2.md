@@ -126,6 +126,7 @@ int main(){
 
 I denne opgave bruges følgende hjemmelavet funktion. 
 Funktionen er selv skrevet, mens kommentar er lavet med hjælp fra ChatGPT.
+Træet kunne godt være 
 ```cpp
 #include <iostream>
 #include <queue>
@@ -298,6 +299,15 @@ Pro order bliver da:
 ---
 #### Opg 5
 
+![[Pasted image 20241125152418.png]]
+
 
 ---
 #### Opg 6
+
+0
+5
+
+
+
+G = 6
