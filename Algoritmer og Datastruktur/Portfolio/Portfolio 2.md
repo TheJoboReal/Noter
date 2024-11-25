@@ -153,6 +153,25 @@ void TraverselLevelOrder(Node* root) {
     }
 }
 
+int internalPathLength(Node* root, int depth = 0){
+    if(root == nullptr){
+        return 0;
+    }
+
+    // Check if node has any children
+    int pathLength = 0;
+    if(root -> left != nullptr || root -> right != nullptr){
+        pathLength = depth;
+    }
+
+    // Recursively run through the nodes
+    int left = internalPathLength(root -> left, depth + 1);
+    int right = internalPathLength(root -> right, depth + 1);
+
+    // Return total internal path length
+    return left + right + pathLength;
+}
+
 int main(){
     Node* root = new Node(11);
     root->left = new Node(2);
@@ -164,8 +183,9 @@ int main(){
     root->right->right->left = new Node(25);
     root->right->right->left->left = new Node(17);
     root->right->right->right = new Node(90);
-    // printFormattedTree(root);
 
+    // printFormattedTree(root);
+	std::cout << internalPathLength(root) << std::endl;
     TraverselLevelOrder(root);
 }
 ```
