@@ -11,5 +11,10 @@
   },
   "livePreview": true,
   "vimMode": true,
-  "legacyEditor": false
+  "legacyEditor": false,
+  "newFileLocation": "current",
+  "readableLineLength": false,
+  "showLineNumber": true,
+  "trashOption": "none",
+  "strictLineBreaks": true
 }

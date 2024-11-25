@@ -1,11 +1,11 @@
 #### Skole
-- [ ] Få styr på store "O"
-- [ ] Lav git til ROS_data
-- [ ] Fix matlab
+- [x] Fix matlab
+- [x] Fix matlab gui
+- [ ] Lav Algo portfolio
 
 ---
 #### Gut shit
-- [ ] Kig mere på Ollama
 - [ ] Install fallout on 3ds
-- [ ] Kør wsl på windows hvor den bruger det dual booted linux system
-- [ ] Overvej ubuntu med et tile manager
+- [ ] Færdiggør et projekt!
+- [x] Rebind print screen på keyboard
+- [ ] Sæt Ollama op til at lave images til Latex
