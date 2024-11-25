@@ -298,6 +298,8 @@ Pro order bliver da:
 ---
 #### Opg 5
 
+![[Pasted image 20241125152418.png]]
+
 
 ---
 #### Opg 6

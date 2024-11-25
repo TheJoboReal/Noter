@@ -5,6 +5,10 @@ The minimum spanning tree has all the properties of a spanning tree with an adde
 
 ![[Untitled-Diagram66-3.jpg|500]]
 
+#### Example
+
+
+---
 #### Properties of a Spanning Tree:
 
 The spanning tree holds the **below-mentioned principles**:
