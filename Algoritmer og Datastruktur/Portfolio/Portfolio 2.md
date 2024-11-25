@@ -194,6 +194,7 @@ int main(){
 ---
 #### Opg 4
 Til begge Traversal metoder anvendes nedenstående funktioner.
+Der bruges også metoden isAVLtree for at se om træet er et AVL træ, og ud fra outputtet kan vi se at det ikke er et AVL træ.
 ##### Post Order
 ```cpp
 #include <iostream>
@@ -245,7 +246,7 @@ int main(){
     root->right->right->right->right = new Node(50);
 
     TraverselPostOrder(root);
-    // printFormattedTree(root);
+	std::cout << isAVLtree(root) << std::endl;
 }
 ```
 Post order bliver da:
