@@ -126,7 +126,7 @@ int main(){
 
 I denne opgave bruges følgende hjemmelavet funktion. 
 Funktionen er selv skrevet, mens kommentar er lavet med hjælp fra ChatGPT.
-Træet kunne godt være 
+Vi kan se at træet har en internal path length på 7.
 ```cpp
 #include <iostream>
 #include <queue>
