@@ -81,18 +81,6 @@ struct Node{
     Node(int val) : _data(val), left(nullptr), right(nullptr){}
 };
 
-void perfectTree(int height, Node* root, int index = 1) {
-    if (height == 0) {
-        return;
-    }
-
-    root->left = new Node(index + 1);
-    root->right = new Node(index + 2);
-
-    perfectTree(height - 1, root->left, index + 2);
-    perfectTree(height - 1, root->right, index + 2 + std::pow(2, height - 1));
-}
-
  int getBranches(Node* root){
     int branches = 0;
     // Check if node is a leaf node
@@ -114,8 +102,17 @@ void perfectTree(int height, Node* root, int index = 1) {
  }
 
 int main(){
-    Node* root = new Node(1);
-    perfectTree(3, root);
+	Node* root = new Node(11);
+    root->left = new Node(2);
+    root->left->left = new Node(1);
+    root->left->right = new Node(9);
+    root->left->left = new Node(1);
+    root->right = new Node(13);
+    root->right->right = new Node(57);
+    root->right->right->left = new Node(25);
+    root->right->right->left->left = new Node(17);
+    root->right->right->right = new Node(90);
+
     std::cout << "Branches: " << getBranches(root) << std::endl;
 }
 ```
