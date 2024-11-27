@@ -17,6 +17,8 @@ $$
 Use importance sampling to estimate the target policy from the behavior policy.
 ![[Pasted image 20241114124646.png]]
 
+
+
 Where $A_{k}$ is the chance to do an action in state $S_{k}$.
 Where $\pi(A_{k}|S_{k})$ is the chance that out target policy will do the action and $b(A_{k|S_{k}})$ is the chance that our behavioural policy will do the task.
 
