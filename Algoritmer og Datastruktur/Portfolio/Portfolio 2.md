@@ -318,12 +318,12 @@ Pro order bliver da:
 
 ---
 #### Opg 5
-
+Vi starter med at skrive noder op som er forbundet med en vægt på 1, og så fortsætter vi indtil at vi kan forbinde hele træet. På den måde kan vi hurtigt lave et minimum spanning tree.
 
 ![[Pasted image 20241125213916.png]]
-
 
 ---
 #### Opg 6
 
+Vi udfylder tabellen som vi går igennem grafen.
 ![[Pasted image 20241125213940.png]]
