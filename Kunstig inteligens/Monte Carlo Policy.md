@@ -4,6 +4,8 @@
 **Short Summary**
 Monte Carlo virker kort sagt ved at gå gennem en hel episode, og definerer dernæst values til de forskellige states. På den måde kan man få et en mere effektiv path, men det kræver længere tid da episoden skal køres til hele vejen til completion.
 
+Monte Carlo methods perform an update for each state based on the entire sequence of observed rewards from that state until the end of the episode
+
 ![[Pasted image 20241107121955.png]]
 Ved nok erfaring konvergerer Både **Every** og **First** visit
 
