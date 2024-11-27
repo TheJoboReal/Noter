@@ -68,6 +68,8 @@ int main(){
 
 I denne rekursive funktion starter vi med at få root node, og derefter iterate gennem alle nodes. Vi kigger i hver iteration om både venstre og højre child er en nullptr, hvis ikke, så incrementer vi total antal branches. Til sidst returner vi branches og plus en ny iteration af først venstre og så højre child. Da hele funktionen er rekursiv, betyder det at Big-O bliver $O(N)$.
 
+Træet i figuren er ikke et AVL træ
+
 ```cpp
 #include <iostream>
 #include <queue>
@@ -194,7 +196,7 @@ int main(){
 ---
 #### Opg 4
 Til begge Traversal metoder anvendes nedenstående funktioner.
-Der bruges også metoden isAVLtree for at se om træet er et AVL træ, og ud fra outputtet kan vi se at det ikke er et AVL træ.
+Der bruges også metoden isAVLtree for at se om træet er et AVL træ, og ud fra outputtet kan vi se at det er et AVL træ.
 ##### Post Order
 ```cpp
 #include <iostream>
