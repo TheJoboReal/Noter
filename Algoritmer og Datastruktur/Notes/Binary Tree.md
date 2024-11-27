@@ -1,5 +1,3 @@
-
-
 #### Perfect Binary Tree
 > See [Perfect Binary Tree](https://www.geeksforgeeks.org/perfect-binary-tree/)
 
@@ -23,7 +21,50 @@ In other words, it can be said that each level of the tree is completely filled 
 ![[img2.png]]
 
 A tree with only the root node is also a perfect binary tree:
+
 ![[img1.png]]
 
 The following tree is not a perfect binary tree because the last level of the tree is not completely filled:
+
 ![[img3.png]]
+
+
+#### AVL Trees
+> See https://www.geeksforgeeks.org/what-is-avl-tree-avl-tree-meaning/?ref=gcse_outind
+
+![[avl.png]]
+
+>An AVL is a self-balancing Binary Search Tree (BST) where the difference between the heights of left and right subtrees of any node cannot be more than one.
+
+##### KEY POINTS
+
+- It is height balanced tree
+- It is a [[Binary Tree]] tree
+- It is a binary tree in which the height difference between the left subtree and right subtree is almost one
+- Height is the maximum depth from root to leaf
+
+##### Characteristics of AVL Tree:
+
+- It follows the general properties of a Binary Search Tree.
+- Each subtree of the tree is balanced, i.e., the difference between the height of the left and right subtrees is at most 1.
+- The tree balances itself when a new node is inserted. Therefore, the insertion operation is time-consuming
+
+##### Application of AVL Tree:
+
+- Most in-memory sets and dictionaries are stored using AVL trees.
+- Database applications, where insertions and deletions are less common but frequent data lookups are necessary, also frequently employ AVL trees.
+- In addition to database applications, it is employed in other applications that call for better searching.
+- Most STL implementations of the ordered associative containers (sets, multisets, maps and multimaps) use red-black trees instead of AVL trees.
+
+##### Advantages of AVL Tree:
+
+- AVL trees can self-balance.
+- It also provides faster search operations.
+- AVL trees also have balancing capabilities with a different type of rotation
+- Better searching time complexity than other trees, such as the binary Tree.
+- Height must not be greater than log(N), where N is the total number of nodes in the Tree.
+
+##### Disadvantages of AVL Tree:
+
+- AVL trees are difficult to implement
+- AVL trees have high constant factors for some operations.

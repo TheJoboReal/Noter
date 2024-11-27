@@ -1,6 +1,9 @@
 #### Definition
 > See page 92 in [Introduction to Reinforcement Learning](http://incompleteideas.net/book/the-book-2nd.html)
 
+**Short Summary**
+Monte Carlo virker kort sagt ved at gå gennem en hel episode, og definerer dernæst values til de forskellige states. På den måde kan man få et en mere effektiv path, men det kræver længere tid da episoden skal køres til hele vejen til completion.
+
 ![[Pasted image 20241107121955.png]]
 Ved nok erfaring konvergerer Både **Every** og **First** visit
 
@@ -29,6 +32,7 @@ Ved nok erfaring konvergerer Både **Every** og **First** visit
 * We want to learn are the optimal action values q*
 * **Exploring starts (ES):** Every state-action pair has a non-zero probability of being the starting pair
 ![[Pasted image 20241107124159.png]]
+
 Where $\pi(s) \in A(s)$ is an arbitrarily policy
 Where $Q(s,a)$ is how good it is to go in different directions.
 
