@@ -1,4 +1,3 @@
-
 #### Opg 1
 Først defineres en rekursiv funktion til at slette komma og punktum. Denne funktion bruger vi så på det input man giver hoved-funktionen da vi bruger stringstream som kræver at der ikke er komma eller punktum. Stringstream laver så en liste med alle de ord den finder, hvor vi efterfølgende løber gennem den liste og løbende opdater outputet med det frekvente ord. 
 Den nested for-loop som finder det mest frekvente ord har en Big-O notation på $O(N^2)$ da det er en nested loop, så hvis hele funktionen skulle effektiviseres til en $O(N)$ skal disse for loops evt laves til en rekursiv mini funktion.
