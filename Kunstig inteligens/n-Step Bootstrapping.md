@@ -25,3 +25,9 @@ $$
 G_{t:t+1} \dot{=} R_{t+1}+\gamma V_{t}(S_{t+1})
 $$
 where $V_{t}:S \rightarrow R$ here is the estimate at time $t$ of $v_{\pi}$.
+page
+
+#### Pseudo Code
+
+![[Pasted image 20241130133356.png]]
+
