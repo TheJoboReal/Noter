@@ -27,7 +27,9 @@ $$
 where $V_{t}:S \rightarrow R$ here is the estimate at time $t$ of $v_{\pi}$.
 page
 
-#### Pseudo Code
+#### n-step TD Pseudo Code
 
 ![[Pasted image 20241130133356.png]]
+
+#### n-step Sarsa
 
