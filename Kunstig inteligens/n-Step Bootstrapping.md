@@ -33,6 +33,7 @@ page
 
 #### n-step Sarsa
 The main idea is to simply switch states for actions (state–action pairs) and then use an $\epsilon$-greedy policy.
+The backup diagrams for n-step Sarsa like those of n-step TD, are strings of alternating states and actions, except that the Sarsa ones all start and end with an action rather a state.
 
 ![[Pasted image 20241130140417.png]]
 
