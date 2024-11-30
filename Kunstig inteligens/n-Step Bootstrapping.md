@@ -1,5 +1,5 @@
 #### Definition
-The *n-step* [[Temporal Difference|TD]] methods generalize both the demands both [[Monte Carlo Policy|MC]] and [[Temporal Difference#Simplest TD Method|TD single step]] so that one can shift from one to the other smoothly as needed to meet the demands of a particular task. 
+The [[Reinforcement_Learning.pdf#page=163|n-step]] [[Temporal Difference|TD]] methods generalize both the demands both [[Monte Carlo Policy|MC]] and [[Temporal Difference#Simplest TD Method|TD single step]] so that one can shift from one to the other smoothly as needed to meet the demands of a particular task. 
 *n-step* methods span a spectrum with MC methods at one end and one-step TD methods at the other.
 a benefit of n-step methods is that they free you from the tyranny of the time step. With one-step TD methods the same time step determines how often the action can be changed and the time interval over which [[Temporal Difference#Bootstrap and Sample|bootstrapping]] is done. 
 *n-step* allows bootstrapping to occur over multiple steps , freeing us from the *tyranny* of the single time step.
