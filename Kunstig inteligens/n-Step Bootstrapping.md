@@ -10,6 +10,7 @@ The idea of n-step methods is usually used as an introduction to the algorithmic
 
 
 ![[Pasted image 20241127185926.png|400]]
+
 The backup diagrams of n-step methods. These methods form a spectrum ranging from one-step TD methods to Monte Carlo methods.
 The methods that use n-step updates are still TD methods because they still change an earlier estimate based on how it differs from a later estimate. Now the later estimate is not one step later, but n steps later. Methods in which the temporal difference extends over n steps are called n-step TD methods.
 

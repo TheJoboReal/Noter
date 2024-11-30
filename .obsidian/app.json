@@ -13,7 +13,7 @@
   "vimMode": true,
   "legacyEditor": false,
   "newFileLocation": "current",
-  "readableLineLength": true,
+  "readableLineLength": false,
   "showLineNumber": true,
   "trashOption": "none",
   "strictLineBreaks": true
