@@ -32,4 +32,7 @@ page
 ![[Pasted image 20241130133356.png]]
 
 #### n-step Sarsa
+The main idea is to simply switch states for actions (state–action pairs) and then use an $\epsilon$-greedy policy.
+
+![[Pasted image 20241130140417.png]]
 
