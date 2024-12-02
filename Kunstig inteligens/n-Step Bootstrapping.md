@@ -39,3 +39,16 @@ The backup diagrams for n-step Sarsa like those of n-step TD, are strings of alt
 ##### n-step Sarsa estimating Q
 
 ![[Pasted image 20241202011954.png]]
+
+#### Summary
+* n-step bootstrapping methods: generalize Temporal-Difference and Monte Carlo learning methods, sliding from one to the other as n increases
+	* $n=1$ is TD as in Chapter 6
+	* $n=\infty$ is MC as in Chapter 5
+	* an intermediate n is often much better than either extreme
+	* applicable to both continuing and episodic problems
+* There is some cost in computation
+	* need to remember the last n states
+	* learning is delayed by n steps
+	* per-step computation is small and uniform, like TD
+* Everything generalizes nicely: Sarsa, Expected Sarsa, Tree Backup
+* The very general $n\text{-step}$ $Q(\sigma)$ algorithm includes everything!
