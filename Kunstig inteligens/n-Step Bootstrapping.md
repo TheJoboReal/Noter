@@ -8,7 +8,6 @@ The idea of n-step methods is usually used as an introduction to the algorithmic
 
 #### TD Prediction
 
-
 ![[Pasted image 20241127185926.png|400]]
 
 The backup diagrams of n-step methods. These methods form a spectrum ranging from one-step TD methods to Monte Carlo methods.
@@ -33,7 +32,10 @@ page
 
 #### n-step Sarsa
 The main idea is to simply switch states for actions (state–action pairs) and then use an $\epsilon$-greedy policy.
-The backup diagrams for n-step Sarsa like those of n-step TD, are strings of alternating states and actions, except that the Sarsa ones all start and end with an action rather a state.
+The backup diagrams for n-step Sarsa like those of n-step TD, are strings of alternating states and actions, except that the Sarsa-ones all start and end with an action rather a state.
 
 ![[Pasted image 20241130140417.png]]
 
+##### n-step Sarsa estimating Q
+
+![[Pasted image 20241202011954.png]]
