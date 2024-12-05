@@ -1,9 +1,3 @@
----
-cssclasses:
-  - dashboard
-  - dashboard-ReadLineLength
----
-
 # Vault Info
 - **Recent file updates**
  - **Useful links**
@@ -17,5 +11,3 @@ cssclasses:
 	FROM "Calender"
 	WHERE !completed
 ```
-
-Last modified: `$=dv.current().file.mtime`
