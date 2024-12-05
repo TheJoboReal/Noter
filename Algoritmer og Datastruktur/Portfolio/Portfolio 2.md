@@ -351,3 +351,5 @@ Vi starter med at skrive noder op som er forbundet med en vægt på 1, og så fo
 
 Vi udfylder tabellen som vi går igennem grafen.
 ![[Pasted image 20241125213940.png]]
+
+![[Expected SARSA]]
