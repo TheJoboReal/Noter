@@ -62,5 +62,13 @@
       ],
       "key": "V"
     }
+  ],
+  "insert-current-date": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
   ]
 }
