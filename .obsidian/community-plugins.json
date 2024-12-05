@@ -19,5 +19,7 @@
   "ollama",
   "ollama-chat",
   "local-gpt",
-  "dataview"
+  "dataview",
+  "better-export-pdf",
+  "obsidian-advanced-slides"
 ]
