@@ -4,6 +4,7 @@
 - [ ] Lav Algo portfolio
 
 ---
+
 #### Gut shit
 - [ ] Install fallout on 3ds
 - [ ] Færdiggør et projekt!
