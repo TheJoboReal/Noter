@@ -18,5 +18,6 @@
   "handwritten-notes",
   "ollama",
   "ollama-chat",
-  "local-gpt"
+  "local-gpt",
+  "dataview"
 ]
