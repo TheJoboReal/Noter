@@ -2,6 +2,7 @@
 #### Q-learning
 Q-learning is a model-free reinforcement learning algorithm that helps an agent learn the optimal action-selection policy by iteratively updating Q-values, which represent the expected rewards of actions in specific states. Q-learning falls under the category of [[Temporal Difference]] learning techniques.
 
+##### Q-Value
 The $Q(s,a)$ represents the action value of taking a specific action $a$ in a specific state $s$. $Q(s,a)$ is a table with the same size as our 2D world.
 Example if we are in state $(0,0)$ and take action "down", we will have $Q((0,0),\text{"down"})$ which will give us an action value.
 
@@ -47,7 +48,7 @@ Where we have the value of the best action in each state, and below we have the 
 
 ---
 
-#### Pros and Cons
+#### Pros and Cons of Q-learning
 **Pros**
 - Long-term outcomes, which are exceedingly challenging to accomplish, are best achieved with this strategy.
 - This learning paradigm closely resembles how people learn. Consequently, it is almost ideal.
@@ -91,11 +92,23 @@ maximization bias.
 
 ---
 #### Sarsa and Q-learning difference
+
+> See [link](https://www.geeksforgeeks.org/differences-between-q-learning-and-sarsa/?ref=gcse_outind)
+##### Key differences
+* **Q-learning** As an [[On-Policy vs off-policy#Off-Policy|Off-policy]] method, Q-learning updates its Q-values using the maximum possible future reward, regardless of the action taken. This can lead to more aggressive exploration of the environment.
+
+* **[[SARSA#SARSA|SARSA]]** As an [[On-Policy vs off-policy#On-Policy|On-policy]] method, SARSA updates its Q-values based on the actions actually taken by the policy. This typically results in a more cautious approach, balancing exploration and exploitation more conservatively.
+
+##### Update rules
+- **Q-learning**: Uses the max operator to update Q-values, focusing on the best possible action.
+* **SARSA**: Uses the action taken by the current policy, making the learning process more dependent on the policy's behavior.
+
+##### On-policy vs Off-policy
+- **Q-learning**: Off-policy, meaning it learns the value of the optimal policy independently of the agent's actions.
+- **SARSA**: On-policy, meaning it learns the value of the policy being followed by the agent.
+
+![[Pasted image 20241205152906.png]]
+
 For $\epsilon=0.1$, Q-learning (off policy) learns the optimal path, while Sarsa (on policy) learns a safer strategy.
 
 ![[Pasted image 20241202010237.png]]
-
-![[Pasted image 20241202010950.png]]
-
-
----
