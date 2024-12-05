@@ -48,6 +48,7 @@ Here we are only looking one step forward. And we update the values as we goa al
 	* Monte Carlo samples
 	* Dynamic Programming sweeps
 	* Temporal Difference samples
+Bootstrapping works best if it is over a length of time in which a significant and recognizable state change has occurred
 
 #### Temporal Difference Prediction
 ![[Pasted image 20241114130120.png]]

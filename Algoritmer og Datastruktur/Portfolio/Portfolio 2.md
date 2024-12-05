@@ -1,4 +1,3 @@
-
 #### Opg 1
 Først defineres en rekursiv funktion til at slette komma og punktum. Denne funktion bruger vi så på det input man giver hoved-funktionen da vi bruger stringstream som kræver at der ikke er komma eller punktum. Stringstream laver så en liste med alle de ord den finder, hvor vi efterfølgende løber gennem den liste og løbende opdater outputet med det frekvente ord. 
 Den nested for-loop som finder det mest frekvente ord har en Big-O notation på $O(N^2)$ da det er en nested loop, så hvis hele funktionen skulle effektiviseres til en $O(N)$ skal disse for loops evt laves til en rekursiv mini funktion.
@@ -68,6 +67,8 @@ int main(){
 
 I denne rekursive funktion starter vi med at få root node, og derefter iterate gennem alle nodes. Vi kigger i hver iteration om både venstre og højre child er en nullptr, hvis ikke, så incrementer vi total antal branches. Til sidst returner vi branches og plus en ny iteration af først venstre og så højre child. Da hele funktionen er rekursiv, betyder det at Big-O bliver $O(N)$.
 
+Træet i figuren er et AVL træ.
+
 ```cpp
 #include <iostream>
 #include <queue>
@@ -101,6 +102,31 @@ struct Node{
     return branches;
  }
 
+// Find height of a tree, defined by the root node
+int treeHeight(Node* root) {
+    if (root == NULL) {
+        return 0;
+    }
+
+    // Find the height of left, right subtrees
+    int left_height = treeHeight(root->left);
+    int right_height = treeHeight(root->right);
+        
+    // Find max(subtree_height) + 1 to get the height of the tree
+    return std::max(left_height, right_height) + 1;
+}
+
+bool isAVLtree(Node* root){
+    int leftHeight = treeHeight(root -> left);
+    int rightHeight = treeHeight(root -> right);
+
+    if(leftHeight - rightHeight > 1){
+        return false;
+    }
+
+    return true;
+}
+
 int main(){
 	Node* root = new Node(11);
     root->left = new Node(2);
@@ -113,6 +139,7 @@ int main(){
     root->right->right->left->left = new Node(17);
     root->right->right->right = new Node(90);
 
+    std::cout << "Is AVL tree: " << isAVLtree(root) << std::endl;
     std::cout << "Branches: " << getBranches(root) << std::endl;
 }
 ```
@@ -122,7 +149,7 @@ int main(){
 #### Opg 3
 
 I denne opgave bruges følgende hjemmelavet funktion. 
-Funktionen er selv skrevet, mens kommentar er lavet med hjælp fra ChatGPT.
+Funktionen er selv skrevet.
 Vi kan se at træet har en internal path length på 7.
 ```cpp
 #include <iostream>
@@ -194,8 +221,8 @@ int main(){
 ---
 #### Opg 4
 Til begge Traversal metoder anvendes nedenstående funktioner.
-Der bruges også metoden isAVLtree for at se om træet er et AVL træ, og ud fra outputtet kan vi se at det ikke er et AVL træ.
-##### Post Order
+Der bruges også metoden isAVLtree for at se om træet er et AVL træ, og ud fra outputtet kan vi se at det er et AVL træ.
+
 ```cpp
 #include <iostream>
 #include <queue>
@@ -225,6 +252,48 @@ void TraverselPostOrder(Node* root){
     std::cout << root->_data << " ";
 }
 
+void TraverselInOrder(Node* root){
+    // Check if node is a leaf node
+    if(root == nullptr){
+        return;
+    }
+
+    // Go through left sub
+    TraverselInOrder(root -> left);
+
+    //Print _data in node
+    std::cout << root->_data << " ";
+
+
+    //Go through right sub
+    TraverselInOrder(root -> right);
+}
+
+// Find height of a tree, defined by the root node
+int treeHeight(Node* root) {
+    if (root == NULL) {
+        return 0;
+    }
+
+    // Find the height of left, right subtrees
+    int left_height = treeHeight(root->left);
+    int right_height = treeHeight(root->right);
+        
+    // Find max(subtree_height) + 1 to get the height of the tree
+    return std::max(left_height, right_height) + 1;
+}
+
+bool isAVLtree(Node* root){
+    int leftHeight = treeHeight(root -> left);
+    int rightHeight = treeHeight(root -> right);
+
+    if(leftHeight - rightHeight > 1){
+        return false;
+    }
+
+    return true;
+}
+
 int main(){
     Node* root = new Node(25);
     root->left = new Node(20);
@@ -245,8 +314,19 @@ int main(){
     root->right->right->right->right = new Node(45);
     root->right->right->right->right = new Node(50);
 
+    std::cout << std::endl;
+    std::cout << "Post Order Traversal" << std::endl;
     TraverselPostOrder(root);
-	std::cout << isAVLtree(root) << std::endl;
+    std::cout << std::endl;
+    std::cout << std::endl;
+
+    std::cout << "In Order Traversal" << std::endl;
+    TraverselInOrder(root);
+    std::cout << std::endl;
+    std::cout << std::endl;
+
+    std::cout << "Is AVL tree: " << isAVLtree(root) << std::endl;
+    std::cout << std::endl;
 }
 ```
 Post order bliver da:
@@ -254,74 +334,22 @@ Post order bliver da:
 1 8 5 15 12 10 22 20 28 30 38 50 48 40 36 25
 ```
 
-##### Pro Order
-
-```cpp
-#include <iostream>
-#include <queue>
-#include <cmath>
-#include <string>
-
-struct Node{
-    int _data;
-    Node* left;
-    Node* right;
-    Node(int val) : _data(val), left(nullptr), right(nullptr){}
-};
-
-void TraverselPreOrder(Node* root){
-    // Check if node is a leaf node
-    if(root == nullptr){
-        return;
-    }
-
-    //Print _data in node
-    std::cout << root -> _data << " ";
-
-    // Go through left sub
-    TraverselPreOrder(root -> left);
-
-    // Go through right sub
-    TraverselPreOrder(root -> right);
-}
-
-int main(){
-    Node* root = new Node(25);
-    root->left = new Node(20);
-    root->left->left = new Node(10);
-    root->left->right = new Node(22);
-    root->left->left->left = new Node(5);
-    root->left->left->left->left = new Node(1);
-    root->left->left->left->right = new Node(8);
-    root->left->left->right = new Node(12);
-    root->left->left->right->right = new Node(15);
-
-    root->right = new Node(36);
-    root->right->left = new Node(30);
-    root->right->left->left = new Node(28);
-    root->right->right = new Node(40);
-    root->right->right->left = new Node(38);
-    root->right->right->right = new Node(48);
-    root->right->right->right->right = new Node(45);
-    root->right->right->right->right = new Node(50);
-
-	TraverselPreOrder(root);
-    // printFormattedTree(root);
-}
-```
-Pro order bliver da:
+Pre order bliver da:
 ```bash
 25 20 10 5 1 8 12 15 22 36 30 28 40 38 48 50 
 ```
 
+
 ---
 #### Opg 5
-
+Vi starter med at skrive noder op som er forbundet med en vægt på 1, og så fortsætter vi indtil at vi kan forbinde hele træet. På den måde kan vi hurtigt lave et minimum spanning tree.
 
 ![[Pasted image 20241125213916.png]]
-
 
 ---
 #### Opg 6
 
+Vi udfylder tabellen som vi går igennem grafen.
 ![[Pasted image 20241125213940.png]]
+
+![[Expected SARSA]]
