@@ -6,11 +6,6 @@ The $Q(s,a)$ represents the action value of taking a specific action $a$ in a sp
 Example if we are in state $(0,0)$ and take action "down", we will have $Q((0,0),\text{"down"})$ which will give us an action value.
 
 ##### Q-learning Code Example
-
-Q-Learning (off policy):
-$$
-Q(S_{t},A_{t}) \leftarrow Q(S_{t},A_{t})+\alpha [R_{t+1}+\gamma \max_{a} Q(S_{t+1},a)-Q(S_{t},A_{t})]
-$$
 ```python
 def Q_learning(world, episodes=100, gamma=0.9, alpha=0.3):
     Q = np.full((world.width, world.height, len(ACTIONS)), 0.0) # Initialize the Q table with zeros
@@ -50,8 +45,36 @@ This will give us:
 
 Where we have the value of the best action in each state, and below we have the best action in each state.
 
-
 ---
+
+#### Pros and Cons
+**Pros**
+- Long-term outcomes, which are exceedingly challenging to accomplish, are best achieved with this strategy.
+- This learning paradigm closely resembles how people learn. Consequently, it is almost ideal.
+- The model has the ability to fix mistakes made during training.
+- Once a model has fixed a mistake, there is virtually little probability that it will happen again.
+- It can produce the ideal model to address a certain issue.
+
+ **Disadvantages of Q-Learning**
+- Drawback of using actual samples. Think about the situation of robot learning, for instance. The hardware for robots is typically quite expensive, subject to deterioration, and in need of meticulous upkeep. The expense of fixing a robot system is high.
+- Instead of abandoning reinforcement learning altogether, we can combine it with other techniques to alleviate many of its difficulties. [Deep learning](https://www.geeksforgeeks.org/introduction-deep-learning/) and reinforcement learning are one common combo.
+
+#### Temporal Difference or TD-Update
+The Temporal Difference or TD-Update rule can be represented as follows:  
+$$
+Q(S_{t},A_{t}) \leftarrow Q(S_{t},A_{t})+\alpha [R_{t+1}+\gamma \max_{a} Q(S_{t+1},a)-Q(S_{t},A_{t})]
+$$
+
+This update rule to estimate the value of Q is applied at every time step of the agent’s interaction with the environment. The terms used are explained below:
+
+- S: Current State of the agent.
+- A: Current Action Picked according to some policy.
+- S’: Next State where the agent ends up.
+- A’: Next best action to be picked using current Q-value estimation, i.e. pick the action with the maximum Q-value in the next state.
+- R: Current Reward observed from the environment in Response of current action.
+- $\gamma$(>0 and <=1) : Discounting Factor for Future Rewards. Future rewards are less valuable than current rewards so they must be discounted. Since Q-value is an estimation of expected rewards from a state, discounting rule applies here as well.
+- $\alpha$: Step length taken to update the estimation of $Q(S,A)$.
+
 #### Double Q-Learning
 Issue: the same value – the maximum of the action-value estimate – is used to select the action and as an estimate of the true value of the action.
 Solution: use one estimate to determine action and another to estimate value to avoid
