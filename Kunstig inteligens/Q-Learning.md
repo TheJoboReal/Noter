@@ -59,6 +59,7 @@ Where we have the value of the best action in each state, and below we have the 
  **Disadvantages of Q-Learning**
 - Drawback of using actual samples. Think about the situation of robot learning, for instance. The hardware for robots is typically quite expensive, subject to deterioration, and in need of meticulous upkeep. The expense of fixing a robot system is high.
 - Instead of abandoning reinforcement learning altogether, we can combine it with other techniques to alleviate many of its difficulties. [Deep learning](https://www.geeksforgeeks.org/introduction-deep-learning/) and reinforcement learning are one common combo.
+- Tends to overestimate action values in stochastic or noisy environments.
 
 #### Temporal Difference or TD-Update
 The Temporal Difference or TD-Update rule can be represented as follows:  
@@ -77,13 +78,49 @@ This update rule to estimate the value of Q is applied at every time step of the
 - $\alpha$: Step length taken to update the estimation of $Q(S,A)$.
 
 #### Double Q-Learning
-Issue: the same value – the maximum of the action-value estimate – is used to select the action and as an estimate of the true value of the action.
-Solution: use one estimate to determine action and another to estimate value to avoid
+Double Q-learning is a variant of Q-learning designed to reduce overestimation bias by decoupling the action selection and action evaluation steps.
+
+**Issue:** the same value – the maximum of the action-value estimate – is used to select the action and as an estimate of the true value of the action.
+
+**Solution:** use one estimate to determine action and another to estimate value to avoid
 maximization bias.
 
 ![[Pasted image 20241202005258.png]]
 
+##### Code Example
+```python
+def Q_double_learning(world, episodes=100, gamma=0.9, alpha=0.3):
 
+  for i in range(episodes):
+      current_state = (0, 0)  # Reset the state at the beginning of each episode
+
+      # We now loop through each step in the episode
+      while not world.is_terminal(*current_state):
+
+          # Choose A from S using the policy epsilon-greedy in Q1 + Q2
+          current_action = e_greedy_dql_policy(Q1[current_state] + Q2[current_state])
+
+          # Take action A
+          next_state = world.get_next_state(current_state, ACTIONS[current_action])
+
+          # observe R, S'
+          reward = world.get_reward(*next_state)
+          
+          # With 0.5 probability
+          if(random.random() < 0.5):
+            # Update Q1(S, A)
+            Q1[current_state[0], current_state[1], current_action] = Q1[current_state[0], current_state[1], current_action] + alpha * (reward + gamma * Q2[next_state[0], next_state[1], np.argmax(Q1[next_state[0], next_state[1], :])] - Q1[current_state[0], current_state[1], current_action])
+          else:
+            # Update Q2(S, A)
+            Q2[current_state[0], current_state[1], current_action] = Q2[current_state[0], current_state[1], current_action] + alpha * (reward + gamma * np.max(Q2[next_state[0], next_state[1], :]) - Q2[current_state[0], current_state[1], current_action])
+
+          # S <- S'
+          current_state = next_state
+
+  return Q1, Q2
+```
+
+We can now either take the average of $Q_{1}$ and $Q_{2}$ to get the optimal approach.
 
 ##### Pros and cons
 * Same computational complexity as normal Q-learning, but twice the memory.
