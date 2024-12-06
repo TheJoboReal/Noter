@@ -9,7 +9,7 @@
 ## Task
 ```dataview
 	TASK
-	FROM "Calendar"
+	FROM "Calendar" or "Todo"
 	WHERE !completed
 ```
 ---

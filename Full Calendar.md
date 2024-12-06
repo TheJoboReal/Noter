@@ -1,18 +1,31 @@
 
 ```dataviewjs
-// Set a minimum height for the calendar
+// Set the minimum height for the calendar container
 this.container.style.minHeight = "1000px";
 
-// Import the Full Calendar rendering function from the plugin
+// Import the Full Calendar rendering function
 const { renderCalendar } = app.plugins.plugins["obsidian-full-calendar"];
 
-// Render the calendar, relying on the plugin to automatically pull in the configured calendar sources
+// Render the calendar
 let calendar = renderCalendar(this.container, [], {
-    initialView: "timeGridWeek", // Set the initial view to weekly
+    initialView: "timeGridWeek", // Show the weekly view
     headerToolbar: {
-        start: "prev,next today", // Show navigation buttons
-        center: "title", // Center the title
-        end: "timeGridWeek,dayGridMonth" // Allow toggling between week and month views
+        start: "prev,next today", // Navigation buttons
+        center: "title", // Centered title
+        end: "timeGridWeek,dayGridMonth" // View options
+    },
+    events: (info, successCallback, failureCallback) => {
+        // Fetch events dynamically from Full Calendar plugin's configured sources
+        const eventSources = app.plugins.plugins["obsidian-full-calendar"].getEventsInRange(
+            info.startStr,
+            info.endStr
+        );
+
+        if (eventSources) {
+            successCallback(eventSources);
+        } else {
+            failureCallback("No events found.");
+        }
     }
 });
 
