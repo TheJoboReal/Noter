@@ -1,7 +1,4 @@
-# Vault Info
-- **Recent file updates**
- - **Useful links**
- 
+## Vault Info
  - **Vault Data**
 	- Total file Count: `$=dv.pages().length`
 	
@@ -13,4 +10,5 @@
 	WHERE !completed
 ```
 ---
+
 ![[Full Calendar]]
