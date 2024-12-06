@@ -80,14 +80,14 @@ This update rule to estimate the value of Q is applied at every time step of the
 #### Double Q-Learning
 Double Q-learning is a variant of Q-learning designed to reduce overestimation bias by decoupling the action selection and action evaluation steps.
 
-**Issue:** the same value – the maximum of the action-value estimate – is used to select the action and as an estimate of the true value of the action.
+Double Q-learning maintains two separate Q-functions, $Q_{A}$ and $Q_{B}$​, and alternates between using them for action selection and evaluation.
 
-**Solution:** use one estimate to determine action and another to estimate value to avoid
-maximization bias.
-
-![[Pasted image 20241202005258.png]]
-
+Where:
+* $Q_{A}$​ selects the best action (arg max).
+- $Q_{B}$​ Evaluates the Q-value of the action selected by $Q_{A}$​, and vice versa.
+By separating selection and evaluation, Double Q-learning reduces the overestimation bias seen in Q-learning.
 ##### Code Example
+![[Pasted image 20241202005258.png]]
 ```python
 def Q_double_learning(world, episodes=100, gamma=0.9, alpha=0.3):
 
@@ -126,6 +126,15 @@ We can now either take the average of $Q_{1}$ and $Q_{2}$ to get the optimal app
 * Same computational complexity as normal Q-learning, but twice the memory.
 * Behavioral policy can use both estimates (average or sum of Q-values).
 * Same principle can be applied to Sarsa and Expected Sarsa.
+
+| **Feature**                           | **Q-learning**                                              | **Double Q-learning**                                           |
+| ------------------------------------- | ----------------------------------------------------------- | --------------------------------------------------------------- |
+| **Action Selection**                  | Uses the same Q-function for both selection and evaluation. | Separates selection and evaluation using two Q-functions.       |
+| **Overestimation Bias**               | More prone to overestimation.                               | Less prone to overestimation.                                   |
+| **Complexity**                        | Simpler (single Q-function).                                | More complex (requires maintaining two Q-functions).            |
+| **Performance in Noisy Environments** | Suboptimal due to bias.                                     | More stable and reliable.                                       |
+| **Optimal Policy Derivation**         | Directly from Q-table.                                      | Combine \( $Q_{1}$ \) and \( $Q_{2}$ \) (e.g., average or sum). |
+|                                       |                                                             |                                                                 |
 
 ---
 #### Sarsa and Q-learning difference
