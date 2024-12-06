@@ -1,5 +1,1 @@
----
-date: ""
-completed: false
----
 - [ ] 
