@@ -12,5 +12,5 @@
 	FROM "Calendar"
 	WHERE !completed
 ```
-
 ---
+![[Full Calendar]]
