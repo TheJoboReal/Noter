@@ -4,11 +4,13 @@
  
  - **Vault Data**
 	- Total file Count: `$=dv.pages().length`
-	- Ascom articles: `$=dv.pages('"Ascom"').length`
-# Task
+	
+---
+## Task
 ```dataview
 	TASK
-	FROM "Calender"
+	FROM "Calendar"
 	WHERE !completed
 ```
 
+---
