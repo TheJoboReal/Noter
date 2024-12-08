@@ -19,11 +19,6 @@
   "ollama",
   "ollama-chat",
   "local-gpt",
-  "dataview",
-  "better-export-pdf",
-  "obsidian-advanced-slides",
-  "obsidian-toggl-integration",
-  "periodic-notes",
   "obsidian-full-calendar",
-  "quickadd"
+  "dataview"
 ]
