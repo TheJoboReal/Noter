@@ -28,3 +28,6 @@ As you know that in a max heap, the maximum element is the root node. And it wil
 
 ##### 3) Peek in a Priority Queue
 This operation helps to return the maximum element from Max Heap or the minimum element from Min Heap without deleting the node from the priority queue.
+
+#### Difference between Priority Queue and Normal Queue?
+There is no priority attached to elements in a queue, the rule of first-in-first-out(FIFO) is implemented whereas, in a priority queue, the elements have a priority. The elements with higher priority are served first.
