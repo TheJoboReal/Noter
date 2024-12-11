@@ -1,48 +1,6 @@
-#### Binary trees
-![[Pasted image 20240923123901.png]]
-* tree – binære og andre; rekursiv datastruktur(Alle bogstaverne på træet over)
-* node – element med data
-* edge – forbindelse mellem noder
-* root – indgangspunktet til træet. Det eneste sted man kan tilgå et træ
-* child – nul, et, to eller flere (0..m)
-* parent – roden er forældreløs
-* leaves – noder uden børn
-* depth – afstand fra node til root
-* height – længste distance fra node til leaf (blad)
-* sibling, grandparent, grandchild – sædvanlige familierelationer
-##### Komplet Binært Træ
-![[Pasted image 20240923124720.png]]
+> See [link](https://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
 
-##### Perfekt Binært Træ
-![[Pasted image 20240923124743.png]]
-Hvor $h$ er højde på træet(I dette tilfælde er højden 3)
-Et perfekt binært træ er også et [[Priorityqueing#Komplet Binært Træ|komplet træ]].
+#### Definition
+A ***priority queue*** is a type of queue that arranges elements based on their priority values. Elements with higher priority values are typically retrieved or removed before elements with lower priority values. Each element has a priority value associated with it. When we add an item, it is inserted in a position based on its priority value.
 
-##### Balanceret Binært Træ
-![[Pasted image 20240923124759.png]]
-De vigtige ved binære træer er at vi skal kan finde ned til et blad hurtigst muligt. Derfor må et subtræ ikke være større end 1.
-
-#### Prioritetskø – komplet binært træ
-Køen vokser fra venstre mod højre på laveste niveau
-![[Pasted image 20240923125342.png]]
-Implementation er et almindeligt array hvor indeks 0 ikke benyttes
-![[Pasted image 20240923125437.png]]
-**Heap Priority**
-* Roden indeholder det mindste element.
-* Enhver node er mindre end alle dens efterkommere.
-* En prioritetskø kaldes sommetider for en binary heap.
-* Dette må ikke forveksles med heapen i C++ runtime environment.
-
-##### Komplette Binære træer heaps
-**Insert 14**
-![[Pasted image 20240923132119.png]]
-![[Pasted image 20240923132130.png]]
-31 bliver flyttet ned så der bliver plads til 21's højre barn
-Da det vi skal indsætte er lavere end 21, så flytter vi 21 en ned så vi kan indsætte 14.
-
-![[Pasted image 20240923132141.png]]
-**DeleteMin**
-![[Pasted image 20240923132518.png]]
-![[Pasted image 20240923132525.png]]
-![[Pasted image 20240923132533.png]]
-
+There are several ways to implement a priority queue, including using an array, linked list, heap, or binary search tree, [[Binary Tree]] being the most common method to implement. The reason for using Binary Heap is simple, in binary heaps, we have easy access to the min (in min heap) or max (in max heap) and binary heap being a complete binary tree are easily implemented using arrays. Since we use arrays, we have cache friendliness advantage also.
