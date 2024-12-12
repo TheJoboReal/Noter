@@ -2,11 +2,17 @@
 #### Q-learning
 Q-learning is a model-free reinforcement learning algorithm that helps an agent learn the optimal action-selection policy by iteratively updating Q-values, which represent the expected rewards of actions in specific states. Q-learning falls under the category of [[Temporal Difference]] learning techniques.
 
+![[Pasted image 20241212124229.png]]
+
 ##### Q-Value
 The $Q(s,a)$ represents the action value of taking a specific action $a$ in a specific state $s$. $Q(s,a)$ is a table with the same size as our 2D world.
 Example if we are in state $(0,0)$ and take action "down", we will have $Q((0,0),\text{"down"})$ which will give us an action value.
 
 ##### Q-learning Code Example
+Made using the following pseudo code:
+
+![[Pasted image 20241212124148.png|700]]
+
 ```python
 def Q_learning(world, episodes=100, gamma=0.9, alpha=0.3):
     Q = np.full((world.width, world.height, len(ACTIONS)), 0.0) # Initialize the Q table with zeros
@@ -45,6 +51,16 @@ This will give us:
 ![[Pasted image 20241205145125.png]]
 
 Where we have the value of the best action in each state, and below we have the best action in each state.
+
+---
+
+##### Overestimation Bias
+The update rule for Q-learning involves selecting the action $a'$ that maximizes the Q-value at the next state:
+
+![[Pasted image 20241212124229.png]]
+
+- Here, $\text{max}_{a'}Q(s',a')$ is the highest estimated Q-value for the next state $s'$.
+- If the Q-values are inaccurate (e.g., due to noise or limited training), the maximum operation tends to overestimate the true maximum value because it selects the largest estimate, not the true largest value.
 
 ---
 
