@@ -106,34 +106,36 @@ By separating selection and evaluation, Double Q-learning reduces the overestima
 ![[Pasted image 20241202005258.png]]
 ```python
 def Q_double_learning(world, episodes=100, gamma=0.9, alpha=0.3):
+    Q1 = np.full((world.width, world.height, len(ACTIONS)), 0.0) # Initialize the Q table with zeros
+    Q2 = np.full((world.width, world.height, len(ACTIONS)), 0.0) # Initialize the Q table with zeros
 
-  for i in range(episodes):
-      current_state = (0, 0)  # Reset the state at the beginning of each episode
+    for i in range(episodes):
+        current_state = (0, 0)  # Reset the state at the beginning of each episode
 
-      # We now loop through each step in the episode
-      while not world.is_terminal(*current_state):
+        # We now loop through each step in the episode
+        while not world.is_terminal(*current_state):
 
-          # Choose A from S using the policy epsilon-greedy in Q1 + Q2
-          current_action = e_greedy_dql_policy(Q1[current_state] + Q2[current_state])
+            # Choose A from S using policy derived from Q (e.g., epsilon-greedy)
+            current_action = epsilon_greedy_policy(Q1, current_state[0], current_state[1])
 
-          # Take action A
-          next_state = world.get_next_state(current_state, ACTIONS[current_action])
+            # Take action A
+            next_state = world.get_next_state(current_state, ACTIONS[current_action])
 
-          # observe R, S'
-          reward = world.get_reward(*next_state)
-          
-          # With 0.5 probability
-          if(random.random() < 0.5):
-            # Update Q1(S, A)
-            Q1[current_state[0], current_state[1], current_action] = Q1[current_state[0], current_state[1], current_action] + alpha * (reward + gamma * Q2[next_state[0], next_state[1], np.argmax(Q1[next_state[0], next_state[1], :])] - Q1[current_state[0], current_state[1], current_action])
-          else:
-            # Update Q2(S, A)
-            Q2[current_state[0], current_state[1], current_action] = Q2[current_state[0], current_state[1], current_action] + alpha * (reward + gamma * np.max(Q2[next_state[0], next_state[1], :]) - Q2[current_state[0], current_state[1], current_action])
+            # observe R, S'
+            reward = world.get_reward(*next_state)
 
-          # S <- S'
-          current_state = next_state
+            if(random.random() < 0.5):
+              # Update Q1(S, A)
+              Q1[current_state[0], current_state[1], current_action] = Q1[current_state[0], current_state[1], current_action] + alpha * (reward + gamma * np.max(Q1[next_state[0], next_state[1], :]) - Q1[current_state[0], current_state[1], current_action])
 
-  return Q1, Q2
+            else:
+              # Update Q2(S, A)
+              Q2[current_state[0], current_state[1], current_action] = Q2[current_state[0], current_state[1], current_action] + alpha * (reward + gamma * np.max(Q2[next_state[0], next_state[1], :]) - Q2[current_state[0], current_state[1], current_action])
+
+            # S <- S'
+            current_state = next_state
+
+    return Q1, Q2
 ```
 
 We can now either take the average of $Q_{1}$ and $Q_{2}$ to get the optimal approach.
