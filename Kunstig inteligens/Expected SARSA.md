@@ -13,3 +13,5 @@ $$
 Q(s_{t},a_{t})= Q(s_{t}, a_{t}) + \alpha(r_{t+1}+\gamma \cdot Q(s_{t+1},a_{t+1})-Q(s_{t},a_{t}))
 $$
 Here, the update equation for SARSA depends on the current state, current action, reward obtained, next state and next action. This observation lead to the naming of the learning technique as SARSA stands for **State Action Reward State Action** which symbolizes the tuple (s, a, r, s’, a’).
+
+![[Pasted image 20241212212053.png]]
