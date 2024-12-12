@@ -161,7 +161,7 @@ We can now either take the average of $Q_{1}$ and $Q_{2}$ to get the optimal app
 ##### Key differences
 * **Q-learning** As an [[On-Policy vs off-policy#Off-Policy|Off-policy]] method, Q-learning updates its Q-values using the maximum possible future reward, regardless of the action taken. This can lead to more aggressive exploration of the environment.
 
-* **[[SARSA#SARSA|SARSA]]** As an [[On-Policy vs off-policy#On-Policy|On-policy]] method, SARSA updates its Q-values based on the actions actually taken by the policy. This typically results in a more cautious approach, balancing exploration and exploitation more conservatively.
+* **[[SARSA & Expected SARSA#SARSA|SARSA]]** As an [[On-Policy vs off-policy#On-Policy|On-policy]] method, SARSA updates its Q-values based on the actions actually taken by the policy. This typically results in a more cautious approach, balancing exploration and exploitation more conservatively.
 
 ##### Update rules
 - **Q-learning**: Uses the max operator to update Q-values, focusing on the best possible action.
