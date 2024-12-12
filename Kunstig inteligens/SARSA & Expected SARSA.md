@@ -58,3 +58,4 @@ def sarsa(world, episodes=100, gamma=0.9, alpha=0.3, epsilon=0.5):
 > See [link](https://www.geeksforgeeks.org/expected-sarsa-in-reinforcement-learning/?ref=gcse_outind)
 
 In Expected SARSA, the agent estimates the Q-value (expected reward) of each action in a given state, and uses these estimates to choose which action to take in the next state. The Q-value is defined as the expected cumulative reward that the agent will receive by taking a specific action in a specific state, and then following its policy from that state onwards.
+So we find the state where the sum of action values are the highest.
