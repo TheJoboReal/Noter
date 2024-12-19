@@ -20,5 +20,7 @@
   "ollama-chat",
   "local-gpt",
   "obsidian-full-calendar",
-  "dataview"
+  "dataview",
+  "templater-obsidian",
+  "buttons"
 ]
