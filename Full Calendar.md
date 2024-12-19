@@ -1,7 +1,7 @@
 
 ```dataviewjs
 // Set the minimum height for the calendar container
-this.container.style.minHeight = "1000px";
+this.container.style.minHeight = "100rem";
 
 // Import the Full Calendar rendering function
 const { renderCalendar } = app.plugins.plugins["obsidian-full-calendar"];
