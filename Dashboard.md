@@ -4,8 +4,9 @@
 	
 ---
 ## Task
-
-```dataviewjs
-dv.pages().file
-	.where(t => t.completed == true)
+```dataview
+	TASK
+	FROM "Calendar"
+	WHERE !completed
+	SORT text asc
 ```
