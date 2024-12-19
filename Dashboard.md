@@ -9,6 +9,3 @@
 dv.pages().file
 	.where(t => t.completed == true)
 ```
-
-
-
