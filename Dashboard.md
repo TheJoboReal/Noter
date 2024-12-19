@@ -4,10 +4,10 @@
 	
 ---
 ## Task
-```dataview
-	TASK
-	FROM "Calendar" or "Todo"
-	WHERE !completed
+```dataviewjs
+dv.taskList(dv.pages().file.tasks 
+	.where(t => !t.completed)
+	.where(t => t.text.includes("<%tp.file.title%>")))
 ```
 
 
