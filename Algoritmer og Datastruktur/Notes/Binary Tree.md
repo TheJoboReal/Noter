@@ -50,7 +50,25 @@ The following tree is not a perfect binary tree because the last level of the tr
 - The tree balances itself when a new node is inserted. Therefore, the insertion operation is time-consuming
 
 ##### Application of AVL Tree:
+// int getBranches(Node* root){
+//     int branches = 0;
+//     // Check if node is a leaf node
+//     if(root == nullptr){
+//         return 0;
+//     }
 
+//     if(root->left != nullptr || root->right != nullptr){        // Check if node has at least one child
+//         branches++;
+//     }
+
+//     // Go through left sub
+//     branches += getBranches(root -> left);
+
+//     // Go through right sub
+//     branches += getBranches(root -> right);
+
+//     return branches;
+// }
 - Most in-memory sets and dictionaries are stored using AVL trees.
 - Database applications, where insertions and deletions are less common but frequent data lookups are necessary, also frequently employ AVL trees.
 - In addition to database applications, it is employed in other applications that call for better searching.

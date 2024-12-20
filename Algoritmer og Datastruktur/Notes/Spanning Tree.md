@@ -6,7 +6,7 @@ The minimum spanning tree has all the properties of a spanning tree with an adde
 ![[Untitled-Diagram66-3.jpg|500]]
 
 #### Example
-
+![[Spanning tree.pdf]]
 
 ---
 #### Properties of a Spanning Tree:
