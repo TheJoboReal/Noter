@@ -18,5 +18,9 @@
   "handwritten-notes",
   "ollama",
   "ollama-chat",
-  "local-gpt"
+  "local-gpt",
+  "obsidian-full-calendar",
+  "dataview",
+  "templater-obsidian",
+  "buttons"
 ]
