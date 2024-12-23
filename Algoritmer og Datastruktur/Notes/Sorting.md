@@ -25,3 +25,23 @@ About the number of inversions in a list (of numbers) the following can be prove
 Assuming that half of them are inversions, we end up with $\frac{N(N-1)}{4}$. A list of 6 elements will on the average contain 7.5 inversions. With 9 inversions our list is relatively unsorted.
 
 #### Bucket Sort
+> See [[bucket sort.pdf|Bucket Sort]]
+
+##### Code Example
+```cpp
+void minSortering(int* arr){
+    // Using bucket sort
+    int bucket[100] = {0};  
+    for(int i = 0; i < 100; i++){
+        bucket[arr[i]]++;       // Increment the value in the bucket array
+    }
+    
+    // Print the sorted array
+    for(int i = 0; i < 100; i++){
+        if(bucket[i] > 0){
+            std::cout << i << std::endl;
+        }
+    }
+}
+```
+
