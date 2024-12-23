@@ -1,9 +1,12 @@
 #### Definition
+> C++ has a built in sorting function [[cpp_sorting.pdf|sort]]
+
 There is no guarantee that the sorting algorithm that seems the best from a theoretical point of view, also turns out to be so in a practical context. You may choose to use different sorting algorithms depending on the following characteristics: 
 1. The numbers are almost sorted 
 2. Big lumps of the numbers are sorted 
 3. The numbers are completely random 
 4. The numbers are almost in reverse order
+
 
 #### Inversion
 Let’s first take a look at what sorting is really about from a theoretical point of view. Take a look at the following list of numbers:
