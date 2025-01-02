@@ -1,5 +1,6 @@
 #### Opg 1
 ![[Pasted image 20241220100815.png]]
+
 Vi finder [[Big O notation]].
 I første for loop har vi $O(N)$.
 I næste for loop har vi $O(log_{2}(N)$.
