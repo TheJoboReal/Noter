@@ -69,3 +69,8 @@ int main()
     return 0;
 }
 ```
+
+
+#### Binary Tree Priority Queue
+> See [link](https://www.geeksforgeeks.org/priority-queue-using-binary-heap/)
+

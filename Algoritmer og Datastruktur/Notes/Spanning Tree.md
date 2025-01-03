@@ -50,7 +50,7 @@ To efficiently select the minimum weight edge for each iteration, this algorithm
 
 This algorithm can be used in various scenarios such as image segmentation based on color, texture, or other features. For Routing, as in finding the shortest path between two points for a delivery truck to follow.
 
-> Follow the article on [****“Prim’s Minimum Spanning Tree Algorithm”****](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/) for a better understanding and implementation of this algorithm.
+> Follow the article on [[Prim’s spanning tree.pdf|Prim]] for a better understanding and implementation of this algorithm.
 
 ##### Boruvka’s Minimum Spanning Tree Algorithm:
 
