@@ -4,6 +4,7 @@
 ---
 #### Effect of input gain scaling
 ![[Pasted image 20240926104834.png]]
+
 Vi stiller på gain for at sprede membership function ud over universe discourse.
 
 ---

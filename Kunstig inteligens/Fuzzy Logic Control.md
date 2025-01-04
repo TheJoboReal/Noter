@@ -4,12 +4,15 @@
 ![[Pasted image 20240919123551.png]]
 
 ![[Pasted image 20240919123616.png]]
+
 Fejl fra hvor den skal være. Altså hvor den er nu.
 
 ![[Pasted image 20240919123658.png]]
+
 Force som er hvor meget vi skubber vognen.
 
 [[Fuzzy logic#**2. Linguistic Values**|Linguistic Values]]
+
 ![[Pasted image 20240919123719.png]]
 
 #### Example Statements
