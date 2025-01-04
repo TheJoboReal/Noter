@@ -14,6 +14,7 @@ Vi stiller på gain for at sprede membership function ud over universe discourse
 ---
 #### Output membership function tuning
 ![[Pasted image 20240926104922.png]]
+
 Vi kan så tune hvor center skal være
 
 ---
