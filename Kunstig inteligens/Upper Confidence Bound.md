@@ -5,7 +5,15 @@ Upper-Confidence Bound action selection uses uncertainty in the action-value est
 
 ![[Pasted image 20250105151247.png]]
 
-$Qt(a)$ here represents the current estimate for action _a_ at time _t_. We select the action that has the highest estimated action-value plus the upper-confidence bound exploration term.
+Where:
+* $A_{t}$ is the action at the selected time.
+* $Q_{t(a)}$ is the current estimate for action $a$ at time $t$.
+* $c$ is a hyperparameter that controls the balance between exploration and exploitation. Larger $c$ encourages more exploration.
+* $\sqrt{ \frac{ln(t)}{N_{t}(a)} }$ represents the **exploration bonus** for action $a$.
+* $ln(t)$ The natural logarithm of the current time step $t$. As $t$ increases, this term grows, encouraging the algorithm to continue exploring less-selected actions over time.
+* $N_{t}(a)$ he number of times action $a$ has been chosen up to time $t$. The square root ensures that the exploration bonus decreases as $N_{t}(a)$ increases, focusing on actions that have been chosen fewer times.
+
+We select the action that has the highest estimated action-value plus the upper-confidence bound exploration term.
 
 ![[Pasted image 20250105151538.png]]
 
