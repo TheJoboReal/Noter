@@ -17,3 +17,11 @@ The **Upper Confidence Bound** follows the principle of optimism in the face of 
 
 For example, let’s say we have these four actions with associated uncertainties in the picture below, our agent has no idea which is the best action. So according to the UCB algorithm, it will optimistically pick the action that has the highest upper bound i.e. _A_. By doing this either it will have the highest value and get the highest reward, or by taking that we will get to learn about an action we know least about.
 
+![[Pasted image 20250105152548.png]]
+
+Let’s assume that after selecting the action _A_ we end up in a state depicted in the picture below. This time UCB will select the action _B_ since $Q(B)$ has the highest upper-confidence bound because it’s action-value estimate is the highest, even though the confidence interval is small.  
+
+![[Pasted image 20250105152603.png]]
+
+Initially, UCB explores more to systematically reduce uncertainty but its exploration reduces over time. Thus we can say that UCB obtains greater reward on average than other algorithms such as Epsilon-greedy, Optimistic Initial Values, etc.
+
