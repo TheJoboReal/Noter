@@ -33,10 +33,12 @@ We can see that monte Carlo runs until it reaches a terminal, and then updates t
 
 ##### Dynamic Programing
 ![[Pasted image 20241114125450.png]]
+
 So we are building estimates dynamically, summing all estimates.
 
 ##### Simplest TD Method
 ![[Pasted image 20241114125456.png]]
+
 Here we are only looking one step forward. And we update the values as we goa along instead of waiting till we reach a terminal.
 
 #### Bootstrap and Sample
