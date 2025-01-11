@@ -121,6 +121,7 @@ display(pd.DataFrame(np.array(ACTIONS)[np.argmax(Q, axis=2)].T))
 #### Sarsa 
 ##### On-Policy Control
 ![[Pasted image 20241114132545.png]]
+
 Where $Q$ is our estimates.
 
 ![[Pasted image 20241114132558.png]]
