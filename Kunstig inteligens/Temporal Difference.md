@@ -66,7 +66,7 @@ In Temporal method, we only look one step ahead. This is the same as in the Grid
 
 ---
 #### Q-Learning
-> See https://www.geeksforgeeks.org/q-learning-in-python/
+> See [Link](https://www.geeksforgeeks.org/q-learning-in-python/)
 
 Q-learning is a popular model-free reinforcement learning algorithm used in machine learning and artificial intelligence applications. It falls under the category of temporal difference learning techniques, in which an agent picks up new information by observing results, interacting with the environment, and getting feedback in the form of rewards.
 
