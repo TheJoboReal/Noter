@@ -33,12 +33,10 @@ We can see that monte Carlo runs until it reaches a terminal, and then updates t
 
 ##### Dynamic Programing
 ![[Pasted image 20241114125450.png]]
-
 So we are building estimates dynamically, summing all estimates.
 
 ##### Simplest TD Method
 ![[Pasted image 20241114125456.png]]
-
 Here we are only looking one step forward. And we update the values as we goa along instead of waiting till we reach a terminal.
 
 #### Bootstrap and Sample
@@ -66,7 +64,7 @@ In Temporal method, we only look one step ahead. This is the same as in the Grid
 
 ---
 #### Q-Learning
-> See [Link](https://www.geeksforgeeks.org/q-learning-in-python/)
+> See https://www.geeksforgeeks.org/q-learning-in-python/
 
 Q-learning is a popular model-free reinforcement learning algorithm used in machine learning and artificial intelligence applications. It falls under the category of temporal difference learning techniques, in which an agent picks up new information by observing results, interacting with the environment, and getting feedback in the form of rewards.
 
@@ -121,7 +119,6 @@ display(pd.DataFrame(np.array(ACTIONS)[np.argmax(Q, axis=2)].T))
 #### Sarsa 
 ##### On-Policy Control
 ![[Pasted image 20241114132545.png]]
-
 Where $Q$ is our estimates.
 
 ![[Pasted image 20241114132558.png]]

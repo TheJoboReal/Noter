@@ -1,3 +1,6 @@
+#### Finite Markov decision processes
+
+
 #### Discounted return
 If you have a $\gamma=1$ then 
 ![[Pasted image 20241031135436.png]]

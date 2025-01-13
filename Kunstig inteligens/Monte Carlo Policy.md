@@ -28,7 +28,6 @@ Ved nok erfaring konvergerer Både **Every** og **First** visit
 * thus, there is an explore/exploit dilemma
 * Does not bootstrap from successor states’ values (unlike in dynamic programming). Meaning we instead base next state on the sum of a whole episode, instead of just prior states.
 * Time required to estimate one state does not depend on the total number of states
-
 ![[Pasted image 20241107123924.png]]
 
 #### Estimation of Action Values
