@@ -8,6 +8,7 @@
 * Check the line for collision
 	– Follow the geometry:
 		a Baginski, The Z3 Method for Fast Path Planning in Dynamic Environments
+		
 ![[Pasted image 20241029083944.png]]
 
 ##### Construction Step
