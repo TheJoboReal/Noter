@@ -12,8 +12,6 @@
   "obsidian-latex",
   "colored-text",
   "omnisearch",
-  "obsidian-git",
-  "copilot",
   "obsidian-tikzjax",
   "handwritten-notes",
   "ollama",
@@ -22,5 +20,6 @@
   "obsidian-full-calendar",
   "dataview",
   "templater-obsidian",
-  "buttons"
+  "buttons",
+  "obsidian-git"
 ]
