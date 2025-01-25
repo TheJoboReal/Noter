@@ -58,7 +58,7 @@ where
 $$
 F(x,y,z)=f_{1}(x,y,z)i+f_{2}(x,y,z)j+f_{3}(x,y,z)k
 $$
->see [[1 Formelsamlinger/Formelsamling Calculus#Determinant|determinant]]
+>see [[Formelsamling Calculus#Determinant|determinant]]
 
 ###### Stokes's Theorem
 Let S be a piecewise smooth, oriented surface in 3-space, having unit normal field $\hat{N}$ and boundary C consisting of one or more piecewise smooth, closed curves with orientation inherited from S.
