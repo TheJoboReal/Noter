@@ -20,5 +20,8 @@
   "dataview",
   "templater-obsidian",
   "buttons",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-tasks-plugin",
+  "obsidian-kanban",
+  "homepage"
 ]
