@@ -23,5 +23,7 @@
   "obsidian-git",
   "obsidian-tasks-plugin",
   "obsidian-kanban",
-  "homepage"
+  "homepage",
+  "url-into-selection",
+  "file-tree-alternative"
 ]
