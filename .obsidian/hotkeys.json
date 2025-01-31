@@ -87,5 +87,14 @@
       ],
       "key": "V"
     }
+  ],
+  "templater-obsidian:Templates/Note Template.md": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
   ]
 }

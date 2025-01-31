@@ -1,23 +1,24 @@
 ---
-title: "{{title}}"  # Course Title
-type: "Course"
-folder: "Courses"
+created: ["{{date}} {{time}}"]
+aliases: ["Course Code:"]
+tags:
+- Course/
+---
+# [[<% tp.file.title %>]]
+---
+created: ["{{date}} {{time}}"]
+aliases: ["Course Code:"]
+tags:
+- Course/
 ---
 
-# {{title}}
+## Notes
 
-## 📖 Lectures
+## Assignments
 
-```dataviewjs
-const courseTitle = dv.current().file.name;
+## Lectures
 
-// Query all lectures linked to this course
-const lectures = dv.pages('"Lectures"')
-    .where(l => l.course && l.course.includes(courseTitle))
-    .sort(l => l.date, 'asc');
+## Resources
 
-if (lectures.length) {
-    dv.table(["Lecture", "Date"], lectures.map(l => [dv.fileLink(l.file.name), l.date]));
-} else {
-    dv.paragraph("No lectures yet.");
-}
+## Important Dates
+
