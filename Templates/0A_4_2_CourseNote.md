@@ -16,13 +16,11 @@ date: {{tp_date}}
 - List exercises here.
 
 <%*
-const defaultFolder = tp.file.title; // Default to course title
-const folderName = await tp.system.prompt("Enter folder name for this course:", defaultFolder);
-
-const notesFolder = `Notes/${folderName}`;
-await tp.file.create_folder(notesFolder);
-
-// Move the course note to "Courses/"
-const courseFilePath = `Courses/${tp.file.title}.md`;
-await tp.file.move(courseFilePath);
+tp.system.prompt("Enter folder name for this course:", tp.file.title).then(folderName => {
+    const notesFolder = `Notes/${folderName}`;
+    return tp.file.create_folder(notesFolder).then(() => {
+        const courseFilePath = `Courses/${tp.file.title}.md`;
+        return tp.file.move(courseFilePath);
+    });
+});
 %>
