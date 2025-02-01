@@ -2,26 +2,13 @@
 tags:
   - course
   - uni
-semester: <% await tp.system.suggester(["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"], ["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"]) %>
-dato: <%tp.date.now('YYYY-MM-DD')%>
+semester: semester 2
+dato: 2025-02-01
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
 ---
 ### Lecture Notes
-```dataviewjs
-let courseName = dv.current().file.name; // Get current note title
-let folderPath = `Uni/Notes/${courseName}/Lecture Notes`; // Folder path (make sure it ends with '/')
-
-dv.table(["File Name", "Last Modified"], 
-    dv.pages(`"${folderPath}"`) // Properly wrap the folder path in quotes
-      .sort(p => p.file.mtime, 'desc') // Sort by last modified time
-      .map(p => [p.file.link, p.file.mtime])
-);
-```
-
----
-## Assignments
 ```dataviewjs
 let courseName = dv.current().file.name; // Get current note title
 let lecturePath = `Uni/Notes/${courseName}/Lecture Notes`; // Folder for lectures
@@ -47,5 +34,18 @@ dv.table(["Lecture Name", "Last Modified", "Exercise"],
         lecture.file.mtime, // Last modified date
         getExerciseFile(lecture) // Find matching exercise
     ])
+);
+```
+
+---
+## Assignments
+```dataviewjs
+let courseName = dv.current().file.name; // Get current note title
+let folderPath = `Uni/Notes/${courseName}/Assignments`; // Folder path (make sure it ends with '/')
+
+dv.table(["File Name", "Last Modified"], 
+    dv.pages(`"${folderPath}"`) // Properly wrap the folder path in quotes
+      .sort(p => p.file.mtime, 'desc') // Sort by last modified time
+      .map(p => [p.file.link, p.file.mtime])
 );
 ```

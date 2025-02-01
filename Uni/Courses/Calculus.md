@@ -2,8 +2,8 @@
 tags:
   - course
   - uni
-semester: <% await tp.system.suggester(["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"], ["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"]) %>
-dato: <%tp.date.now('YYYY-MM-DD')%>
+semester: semester 1
+dato: 2025-02-01
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
@@ -26,26 +26,28 @@ dv.table(["File Name", "Last Modified"],
 let courseName = dv.current().file.name; // Get current note title
 let lecturePath = `Uni/Notes/${courseName}/Lecture Notes`; // Folder for lectures
 let exercisePath = `Uni/Notes/${courseName}/Exercises`; // Folder for exercises
+let assignmentPath = `Uni/Notes/${courseName}/Assignments`; // Folder for assignments
 
 // Get all lecture notes
 let lectures = dv.pages(`"${lecturePath}"`)
     .sort(p => p.file.mtime, 'desc'); // Sort by last modified
 
-// Function to find corresponding exercise file
-function getExerciseFile(lecture) {
-    let exercise = dv.pages(`"${exercisePath}"`)
-        .where(e => e.file.name == lecture.file.name) // Find exercise with same name
+// Function to find a matching file in a given folder
+function getMatchingFile(lecture, searchPath) {
+    let match = dv.pages(`"${searchPath}"`)
+        .where(e => e.file.name == lecture.file.name) // Find file with same name
         .first(); // Get first match
 
-    return exercise ? exercise.file.link : "❌ No exercise"; // Return link or placeholder
+    return match ? match.file.link : "❌ Not found"; // Return link or placeholder
 }
 
-// Generate table with extra column for exercises
-dv.table(["Lecture Name", "Last Modified", "Exercise"], 
+// Generate table with extra columns for Exercises and Assignments
+dv.table(["Lecture Name", "Last Modified", "Exercise", "Assignment"], 
     lectures.map(lecture => [
         lecture.file.link, // Lecture name
         lecture.file.mtime, // Last modified date
-        getExerciseFile(lecture) // Find matching exercise
+        getMatchingFile(lecture, exercisePath), // Find matching exercise
+        getMatchingFile(lecture, assignmentPath) // Find matching assignment
     ])
 );
 ```
