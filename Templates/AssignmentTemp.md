@@ -16,11 +16,6 @@ course: <%*
 %>
 due date: <% await tp.system.prompt("Enter Due Date (DD-MM-YYYY):") %>
 date: <% tp.date.now('YYYY-MM-DD') %>
-completed: <%*
-    let options = ["✅ Completed", "❌ Not Completed"];
-    let selected = await tp.system.suggester(options, options);
-    tR += selected;
-%>
 
 ---
 --- 
