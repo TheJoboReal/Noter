@@ -3,6 +3,7 @@ tags:
   - uni
 Semester Start: 01-08-2024
 Semester End: 31-01-2025
+semester: Semester 5
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
@@ -32,4 +33,21 @@ if (!currentSemester) {
         );
     }
 }
+```
+---
+
+## Assignments
+```dataviewjs
+let assignmentFolder = "Uni/Assignments"; // Path to assignments folder
+
+let assignments = dv.pages(`"${assignmentFolder}"`) // Get all assignment notes
+    .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
+
+dv.table(["Assignment", "Due Date", "Completed"], 
+    assignments.map(p => [
+        p.file.link, // Assignment name as a clickable link
+        p.date ? dv.date(p.date) : "❓ No Date", // Show due date (if available)
+        p.completed ? p.completed : "❌ Not Completed" // Show completed status (default if missing)
+    ])
+);
 ```
