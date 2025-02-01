@@ -2,8 +2,9 @@
 tags:
   - course
   - uni
-semester: <% await tp.system.suggester(["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"], [" ", "semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"]) %>
-dato: <%tp.date.now('YYYY-MM-DD')%>
+author: Olliver Stensbøl
+semester: semester 3
+dato: 2025-02-01
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
