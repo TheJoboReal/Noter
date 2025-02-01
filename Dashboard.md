@@ -16,15 +16,13 @@ let currentDate = moment().format("DD-MM-YYYY");
 dv.taskList(dv.pages().file.tasks
   .where(t => t.text.includes(currentDate)));
 ```
----
-
 ## Semesters
 ```dataviewjs
 let folderPath = `Uni/Semesters`; // Folder path 
 
 dv.table(["File Name", "Last Modified"], 
     dv.pages(`"${folderPath}"`) // Properly wrap the folder path in quotes
-      .sort(p => p.file.mtime, 'desc') // Sort by last modified time
+      .sort(p => p.file.name, 'asc') // Sort by last modified time
       .map(p => [p.file.link, p.file.mtime])
 );
 ```
