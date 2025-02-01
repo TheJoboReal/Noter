@@ -7,6 +7,17 @@ Total file Count: `$=dv.pages().length`
 	SORT text asc
 ```
 ---
+## Semesters
+```dataviewjs
+let folderPath = `Uni/Semesters`; // Folder path 
+
+dv.table(["File Name", "Last Modified"], 
+    dv.pages(`"${folderPath}"`) // Properly wrap the folder path in quotes
+      .sort(p => p.file.name, 'asc') // Sort by last modified time
+      .map(p => [p.file.link, p.file.mtime])
+);
+```
+---
 ## Unfinished Assignments
 ```dataviewjs
 let folderPath = "Uni/Assignments"; // Define the folder to search
@@ -32,16 +43,5 @@ dv.table(["Assignment", "Due Date", "Last Modified", "Mark as Completed"],
             }
         })
     ])
-);
-```
-
-## Semesters
-```dataviewjs
-let folderPath = `Uni/Semesters`; // Folder path 
-
-dv.table(["File Name", "Last Modified"], 
-    dv.pages(`"${folderPath}"`) // Properly wrap the folder path in quotes
-      .sort(p => p.file.name, 'asc') // Sort by last modified time
-      .map(p => [p.file.link, p.file.mtime])
 );
 ```
