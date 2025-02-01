@@ -1,6 +1,6 @@
 ---
 tags:
-  - course
+  - assignment
   - uni
 course: <% tp.file.folder(true).split("/").slice(-2, -1)[0] %>
 due date: <% await tp.system.prompt("Enter Due Date (YYYY-MM-DD):") %>
