@@ -72,7 +72,7 @@
               "type": "markdown",
               "state": {
                 "file": "Uni/Assignments/testAssignmentKunstig.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -279,10 +279,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "18ec51e38c9787d1",
+  "active": "cdaf2628043e6e63",
   "lastOpenFiles": [
-    "Uni/Semesters/Semester 5.md",
     "Uni/Courses/Kunstig Inteligens.md",
+    "Uni/Semesters/Semester 5.md",
     "Uni/Assignments/testAssignmentKunstig.md",
     "Dashboard.md",
     "Templates/SemesterTemp.md",
