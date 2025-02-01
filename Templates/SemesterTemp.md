@@ -7,7 +7,26 @@ semester: <% await tp.system.suggester(["semester 1", "semester 2", "semester 3"
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
 ---
-### Lecture Notes
+```meta-bind-button
+label: Create Course
+icon: ""
+style: default
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: ""
+hidden: false
+actions:
+  - type: templaterCreateNote
+    templateFile: Templates/CourseTemp.md
+    folderPath: Uni/Courses
+    fileName: "{{value}}"
+    openNote: true
+    openIfAlreadyExists: true
+
+```
+### Courses
 ```dataviewjs
 // Get the semester of the current note
 let currentSemester = dv.current().semester; 

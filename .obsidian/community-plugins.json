@@ -28,5 +28,9 @@
   "file-tree-alternative",
   "metaedit",
   "auto-note-mover",
-  "quickadd"
+  "quickadd",
+  "obsidian-plugin-toc",
+  "google-calendar",
+  "cycle-through-panes",
+  "obsidian-meta-bind-plugin"
 ]

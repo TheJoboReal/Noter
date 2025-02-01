@@ -36,23 +36,25 @@ dv.table(["File Name", "Last Modified"],
 ```
 
 ---
-```dataviewjs
-const courseName = dv.current().file.name; // Get current course name
-const assignmentFolder = `Uni/Notes/${courseName}/Assignments/`; // Target folder
-const templatePath = "Templates/AssignmentTemp"; // Path to your assignment template
 
-// Button to create a new assignment
-dv.paragraph(dv.el("button", "➕ Create Assignment", { 
-    onclick: async () => {
-        let assignmentName = await tp.system.prompt("Enter Assignment Name:");
-        if (!assignmentName) return; // Exit if no name is provided
+```meta-bind-button
+label: Create Assignment
+icon: ""
+style: default
+class: ""
+cssStyle: ""
+backgroundImage: ""
+tooltip: ""
+id: ""
+hidden: false
+actions:
+  - type: templaterCreateNote
+    templateFile: Templates/AssignmentTemp.md
+    folderPath: /
+    fileName: ""
+    openNote: true
+    openIfAlreadyExists: true
 
-        let newFilePath = `${assignmentFolder}${assignmentName}.md`; // File path
-        await tp.file.create_new(templatePath, newFilePath); // Create file from template
-
-        new Notice(`✅ Assignment '${assignmentName}' created!`);
-    }
-}));
 ```
 ## Assignments
 ```dataviewjs
@@ -65,3 +67,4 @@ dv.table(["File Name", "Last Modified"],
       .map(p => [p.file.link, p.file.mtime])
 );
 ```
+
