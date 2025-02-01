@@ -16,7 +16,7 @@ course: <%*
 %>
 due date: <% await tp.system.prompt("Enter Due Date (DD-MM-YYYY):") %>
 date: <% tp.date.now('YYYY-MM-DD') %>
-
+completed: false
 ---
 --- 
 #### Assignment Description
