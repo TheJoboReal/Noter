@@ -52,21 +52,20 @@
             }
           },
           {
-            "id": "18ec51e38c9787d1",
+            "id": "dd53cff16503b96b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Courses/Kunstig Inteligens.md",
-                "mode": "preview",
+                "file": "Uni/Assignments/TestAssignment.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kunstig Inteligens"
+              "title": "TestAssignment"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -265,8 +264,10 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "feefc2e8c0f8e7de",
+  "active": "aa13769cda0d43ef",
   "lastOpenFiles": [
+    "Uni/Assignments/TestAssignment.md",
+    "Templates/AssignmentTemp.md",
     "Templates/CourseTemp.md",
     "Templates/SemesterTemp.md",
     "Uni/Courses/Kunstig Inteligens.md",
@@ -274,7 +275,6 @@
     "Uni/Semesters/Semester 5.md",
     "Dashboard.md",
     "Uni/Assignments/Semester 5.md",
-    "Templates/AssignmentTemp.md",
     "Templates/LectureTemp.md",
     "Templates/ExerciseTemp.md",
     "Uni/Courses/Algoritmer og Datastruktur.md",
@@ -294,7 +294,6 @@
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Temporal Difference.md",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/t-norms and s-norms.md",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Sugeno or Takagi-Sugeno or Functional Fuzzy Systems.md",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes/Reinforcement Learning.md",
     "Uni/Notes/NewNotes",
     "Uni/Notes/Calculus/Lecture Notes",
     "Uni/Notes/Kinematik/Lecture Notes",
