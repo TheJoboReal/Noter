@@ -1,7 +1,6 @@
 ---
 tags:
   - uni
-semester: semester 5
 Semester Start: 01-08-2024
 Semester End: 31-01-2025
 ---

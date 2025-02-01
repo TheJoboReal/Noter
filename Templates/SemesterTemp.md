@@ -1,7 +1,6 @@
 ---
 tags:
   - uni
-semester: <% await tp.system.suggester(["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"], ["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"]) %>
 Semester Start: <%* tR += await tp.system.prompt("Enter the Semester Start date (DD-MM-YYYY):"); %>
 Semester End: <%* tR += await tp.system.prompt("Enter the Semester End date (DD-MM-YYYY):"); %>
 ---

@@ -2,10 +2,10 @@
 tags:
   - uni
   - course
+semester: Semester 5
 course: Kunstig Inteligens
 Exam form: Oral
 Exam Date: 14-01-2025
-semester: semester 5
 dato: 01-02-2025
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`

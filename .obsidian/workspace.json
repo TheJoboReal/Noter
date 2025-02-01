@@ -29,16 +29,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Courses/Kunstig Inteligens.md",
-                "mode": "preview",
+                "file": "Templates/CourseTemp.md",
+                "mode": "source",
                 "source": true
+              },
+              "icon": "lucide-file",
+              "title": "CourseTemp"
+            }
+          },
+          {
+            "id": "feefc2e8c0f8e7de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Courses/Kunstig Inteligens.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
               "title": "Kunstig Inteligens"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,25 +251,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3b1e3f9bfa1b668c",
+  "active": "feefc2e8c0f8e7de",
   "lastOpenFiles": [
-    "Kunstig Test Assign.md",
     "Uni/Courses/Kunstig Inteligens.md",
-    "Dashboard.md",
-    "Uni/Assignments/KunstigTestAssign.md",
-    "Templates/AssignmentTemp.md",
     "Templates/CourseTemp.md",
-    "Montecarlo Test.md",
-    "Templates/ExerciseTemp.md",
+    "Templates/AssignmentTemp.md",
+    "Templates/SemesterTemp.md",
     "Templates/LectureTemp.md",
+    "Templates/ExerciseTemp.md",
+    "Uni/Courses/Algoritmer og Datastruktur.md",
+    "Uni/Semesters/Semester 5.md",
+    "Dashboard.md",
+    "Kunstig Test Assign.md",
+    "Uni/Assignments/KunstigTestAssign.md",
+    "Montecarlo Test.md",
     "Uni/Notes/NewNotes/TestKunstg.md",
     "Templates/Todo.md",
     "Templates/Note Template.md",
     "Uni/Exercises",
     "Uni/Assignments",
     "Uni/Notes/NewNotes/TestKunstig.md",
-    "Templates/SemesterTemp.md",
-    "Uni/Semesters/Semester 5.md",
     "Todo/TODO.md",
     "Todo/ 2024-12-06.md",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Terminology.md",
@@ -266,7 +281,6 @@
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Reinforcement Learning.md",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Q-Learning.md",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/On-Policy vs off-policy.md",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes/n-Step Bootstrapping.md",
     "Uni/Notes/NewNotes",
     "Uni/Notes/Calculus/Lecture Notes",
     "Uni/Notes/Kinematik/Lecture Notes",

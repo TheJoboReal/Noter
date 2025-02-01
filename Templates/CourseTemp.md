@@ -2,8 +2,19 @@
 tags:
   - uni
   - course
-course: <%tp.file.title%>
-semester: <% await tp.system.suggester(["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"], ["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"]) %>
+semester: <%*
+    // Get all course files inside "Uni/Courses"
+    let courseFiles = app.vault.getMarkdownFiles()
+        .filter(file => file.path.startsWith("Uni/Semesters/"));
+
+    // Extract course names from file titles
+    let courseNames = courseFiles.map(file => file.basename);
+
+    // Prompt user to select a course
+    let selectedCourse = await tp.system.suggester(courseNames, courseNames);
+    tR += selectedCourse; // Return selected course
+%>
+course: <% tp.file.title %>
 Exam form: <% await tp.system.suggester(["Oral", "Portfolio", "Written", "Attendance"], ["Oral", "Portfolio", "Written", "Attendance"]) %>
 Exam Date: <%* tR += await tp.system.prompt("Enter the Exam Date (DD-MM-YYYY):"); %>
 dato: <%tp.date.now('DD-MM-YYYY')%>
