@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 > See [link](https://www.geeksforgeeks.org/on-policy-vs-off-policy-methods-reinforcement-learning/?ref=header_outind)
 
 In the realm of Reinforcement Learning (RL), the delicate balance between exploration and exploitation is a fundamental challenge that agents face in their quest for optimal decision-making.

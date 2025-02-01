@@ -1,6 +1,6 @@
 ---
 tags:
-  - assignment
+  - exercise
   - uni
 course: <%*
     // Get all course files inside "Uni/Courses"
@@ -14,13 +14,11 @@ course: <%*
     let selectedCourse = await tp.system.suggester(courseNames, courseNames);
     tR += selectedCourse; // Return selected course
 %>
-due date: <% await tp.system.prompt("Enter Due Date (DD-MM-YYYY):") %>
 date: <% tp.date.now('YYYY-MM-DD') %>
-completed: 
-
 ---
 --- 
-#### Assignment Description
+#### Exercise Description
+
 
 
 #### Assignment Answer

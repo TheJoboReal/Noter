@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 #### Definition
 > See page 92 in [Introduction to Reinforcement Learning](http://incompleteideas.net/book/the-book-2nd.html)
 

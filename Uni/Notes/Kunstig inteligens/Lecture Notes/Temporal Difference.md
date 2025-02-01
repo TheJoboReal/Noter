@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 #### Off Policy Learning
 * Off-policy method: learn the value of a target policy from experience due to a different behavior policy.
 * **Target** policy: the policy that we want to learn.

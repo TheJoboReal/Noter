@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 #### Fuzzy and Crisp sets
 Indicator function for a crisp set A:
 $$

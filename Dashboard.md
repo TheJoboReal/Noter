@@ -18,25 +18,6 @@ dv.taskList(dv.pages().file.tasks
 ```
 
 ## Semesters
-```meta-bind-button
-label: Create Semester
-icon: ""
-style: default
-class: ""
-cssStyle: ""
-backgroundImage: ""
-tooltip: ""
-id: ""
-hidden: false
-actions:
-  - type: templaterCreateNote
-    templateFile: Templates/SemesterTemp.md
-    folderPath: Uni/Semesters
-    fileName: "{{value}}"
-    openNote: true
-    openIfAlreadyExists: true
-
-```
 ```dataviewjs
 let folderPath = `Uni/Semesters`; // Folder path 
 

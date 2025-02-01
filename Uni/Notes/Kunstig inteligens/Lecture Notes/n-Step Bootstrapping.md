@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 #### Definition
 The [[Reinforcement_Learning.pdf#page=163|n-step]] [[Temporal Difference|TD]] methods generalize both the demands both [[Monte Carlo Policy|MC]] and [[Temporal Difference#Simplest TD Method|TD single step]] so that one can shift from one to the other smoothly as needed to meet the demands of a particular task. 
 *n-step* methods span a spectrum with MC methods at one end and one-step TD methods at the other.

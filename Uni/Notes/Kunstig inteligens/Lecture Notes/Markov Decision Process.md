@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 > See [link](https://www.geeksforgeeks.org/markov-decision-process/?ref=header_outind)
 
 #### **Markov Decision Process (MDP)***

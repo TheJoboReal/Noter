@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 #### Classifying learning problems
 * Supervised learning - Given a set of input/output pairs, learn to predict the output if faced with a new input.
 

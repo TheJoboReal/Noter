@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 #### Definition
 * Also known as the TSK fuzzy model (proposed by Takagi, Sugeno, and Kang)
 * A typical fuzzy rule in a Sugeno fuzzy model:

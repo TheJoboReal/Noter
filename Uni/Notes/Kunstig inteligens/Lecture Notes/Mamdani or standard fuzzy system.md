@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig Inteligens
+date: 2025-02-01
+---
+--- 
 #### Definition
 If $ũ_{1}$ is $Ã^j_{1}$ then $ỹ_{1}$ is $B^r_{1}$ 
 If $ũ_{1}$ is $Ã^j_{1}$ then $ỹ_{1}$ is $B^r_{1}$ and $ũ_{2}$ is $Ã^k_{2}$ then $ỹ_{1}$ is $B^r_{1}$ 

@@ -2,11 +2,11 @@
 tags:
   - uni
   - course
-course: <%tp.file.title%>
-semester: <% await tp.system.suggester(["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"], ["semester 1", "semester 2", "semester 3", "semester 4", "semester 5", "semester 6"]) %>
-Exam form: <% await tp.system.suggester(["Oral", "Portfolio", "Written", "Attendance"], ["Oral", "Portfolio", "Written", "Attendance"]) %>
-Exam Date: <%* tR += await tp.system.prompt("Enter the Exam Date (DD-MM-YYYY):"); %>
-dato: <%tp.date.now('DD-MM-YYYY')%>
+course: Kunstig Inteligens
+Exam form: Oral
+Exam Date: 14-01-2025
+semester: semester 5
+dato: 01-02-2025
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 

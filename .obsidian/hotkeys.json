@@ -36,15 +36,6 @@
       "key": "O"
     }
   ],
-  "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-new-tab": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod"
-      ],
-      "key": "E"
-    }
-  ],
   "ollama:summarize-selection": [
     {
       "modifiers": [
@@ -113,6 +104,33 @@
         "Mod"
       ],
       "key": "S"
+    }
+  ],
+  "quickadd:choice:fef93a4c-9f56-44c6-bf4c-21860669fd6e": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "N"
+    }
+  ],
+  "quickadd:choice:24e10b77-2dc7-4218-a953-f1b268901f79": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "A"
+    }
+  ],
+  "quickadd:choice:c5427873-49e5-4a87-8546-4171efcfd8ea": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "E"
     }
   ]
 }
