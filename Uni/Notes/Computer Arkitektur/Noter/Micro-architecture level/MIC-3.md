@@ -4,7 +4,7 @@ The data path is divided into 3 parts
 * Three latches (registers) are inserted in the middle of each bus.
 * The latches are updated on each cycle.
 * The clock speed is now three times faster, and delay per part is shorter
-* Each part can work on different parts of the [[Notes/Computer Arkitektur/Noter/Micro-architecture level/IJVM instruction set]] at the same time.
+* Each part can work on different parts of the [[Uni/Notes/Computer Arkitektur/Noter/Micro-architecture level/IJVM instruction set]] at the same time.
 ![[Pasted image 20231201084717.png]]
 
 #### Example - SWAP

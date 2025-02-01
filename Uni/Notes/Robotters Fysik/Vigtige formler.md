@@ -20,7 +20,7 @@
 
 #Arbejde
 ![[Pasted image 20220922205757.png]]
-[[Notes/Robotters Fysik/Effekt og arbejde]]
+[[Uni/Notes/Robotters Fysik/Effekt og arbejde]]
 
 ***
 

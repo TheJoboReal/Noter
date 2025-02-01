@@ -46,7 +46,7 @@ $$\frac{dv}{dt}=a$$
 
 ![[Pasted image 20221103103455.png]]
 
-##### [[Notes/Fysik/Stift legemes Rotation]]
+##### [[Uni/Notes/Fysik/Stift legemes Rotation]]
 
 ***
 Rotationsvinkel. I radianer.
@@ -141,7 +141,7 @@ $$
 ***
 
 
-##### [[Notes/Fysik/Inertimoment og flytningsmoment]]
+##### [[Uni/Notes/Fysik/Inertimoment og flytningsmoment]]
 
 ***
 $$\text{Masseinertimoment. Hvor enheden er } kg\cdot m^2$$
@@ -154,7 +154,7 @@ $$
 
 
 ***
-[[Notes/Fysik/Flytningsmoment]]/Steiners formel/Flytningsformlen. Hvor *M* er legemets totale masse og *d* er afstanden mellem de to rotationsakser, *O* og *P*
+[[Uni/Notes/Fysik/Flytningsmoment]]/Steiners formel/Flytningsformlen. Hvor *M* er legemets totale masse og *d* er afstanden mellem de to rotationsakser, *O* og *P*
 ![[Pasted image 20221102211744.png|200]]
 
 $$
@@ -192,7 +192,7 @@ v=\omega\cdot r
 $$
 
 ***
-[[Notes/Fysik/Kraftmoment.]]
+[[Uni/Notes/Fysik/Kraftmoment.]]
 ![[Pasted image 20221103095711.png|250]]
 $$
 \vec\tau=\vec r\times\vec F=r\cdot F
@@ -341,7 +341,7 @@ $$\frac {v_{1f}-v_{com}}{v_{com}-v_{1i}}=\frac{v_{2f}-v_{com}}{v_{com}-v_{2i}}=e
 $$v_{efter}-v_{faelles}=e(v_{faelles}-v_{foer})$$
 Energitabet i stødet
 $$\Delta E_{kin}=(e^2-1)E_{kin,i}<0$$
-Hvor *e* er [[Notes/Fysik/Tabeller/restitutionskoefficient]]
+Hvor *e* er [[Uni/Notes/Fysik/Tabeller/restitutionskoefficient]]
 
 Hvor *e=1*: fuldkommen elastisk stød og *e=0*: fuldkommen uelastisk stød.
 
@@ -375,7 +375,7 @@ Man skal kende samt én af x- eller y-komposan-terne af (svarende til en af stø
 ###### Massemidtpunkt (punktmasse)
 $$x_{CM}=\frac {m_1x_1+m_2x_2....m_Nx_N}{M}$$ $$y_{CM}=\frac {m_1y_1+m_2y_2....m_Ny_N}{M}$$ $$z_{CM}=\frac {m_1z_1+m_2z_2....m_Nz_N}{M}$$
 $$\vec r_{CM}=\vec R=(x_{CM}i +y_{CM}\cdot\hat j+z_{CM}\cdot\hat k)$$
-Hvor rho=[[Notes/Fysik/Tabeller/Densitet]]
+Hvor rho=[[Uni/Notes/Fysik/Tabeller/Densitet]]
 Kan også skrives som kontinuer massefordeling.
 
 ![[Pasted image 20221006120704.png]]
@@ -528,7 +528,7 @@ Q=\omega_0\cdot \tau
 $$
 ***
 
-##### [[Notes/Fysik/Tvungne Svingninger]]
+##### [[Uni/Notes/Fysik/Tvungne Svingninger]]
 
 ***
 
@@ -564,9 +564,9 @@ $$
 
 ### Penduler
 <<<<<<< HEAD:Fomelsamlinger og cheatsheets/Formelsamling Fysik.md
-##### [[Notes/Robotters Fysik/Matematisk Pendul]]
+##### [[Uni/Notes/Robotters Fysik/Matematisk Pendul]]
 =======
-##### [[Notes/Fysik/Matematisk Pendul]]
+##### [[Uni/Notes/Fysik/Matematisk Pendul]]
 >>>>>>> origin/main:1 Formelsamlinger/Formelsamling Fysik.md
 
 >Forskellen på et matematisk pendul og fysisk pendul er at et matematisk pendul har en meget reduceret masse lige for enden af pendulet. Og det gælder kun ved små vinkler under 30 grader.
@@ -630,9 +630,9 @@ $$U(\theta)=mgh=mgl$$
 ***
 
 <<<<<<< HEAD:Fomelsamlinger og cheatsheets/Formelsamling Fysik.md
-##### [[Notes/Robotters Fysik/Fysisk pendul]]
+##### [[Uni/Notes/Robotters Fysik/Fysisk pendul]]
 =======
-##### [[Notes/Fysik/Fysisk pendul]]
+##### [[Uni/Notes/Fysik/Fysisk pendul]]
 >>>>>>> origin/main:1 Formelsamlinger/Formelsamling Fysik.md
 
 ***
@@ -652,7 +652,7 @@ $$\tau=rF_\bot=rF_t\cdot sin\theta=rMg\cdot sin\theta$$
 $$\tau=r\cdot F=m\cdot r^2\cdot \alpha=-I\alpha$$
 ***
 
-##### [[Notes/Fysik/Pendul i store vinkler]]
+##### [[Uni/Notes/Fysik/Pendul i store vinkler]]
 
 ***
 >Svingningstiden vil blive øget i små procent.
@@ -663,7 +663,7 @@ $$T=\frac {T_0} \pi\cdot\int_0^{\theta_0}\frac{d\theta}{\sqrt{sin^2(\frac{\theta
 $$\frac T {T_0}\cong[1+\frac14sin^2(\frac{\theta_0}{2})]$$
 $$\frac T{T_0}\cong \frac1{\sqrt{cos(\frac{\theta_0}2)}}$$
 
-### [[Notes/Fysik/Rulning]]
+### [[Uni/Notes/Fysik/Rulning]]
 ![[Pasted image 20221110102759.png|250]]
 Hjulets hastighed. Hvor R=hjulets radius
 $$\omega=\frac vR$$

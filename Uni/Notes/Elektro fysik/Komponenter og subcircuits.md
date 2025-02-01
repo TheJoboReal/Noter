@@ -7,7 +7,7 @@
 [[Operationsforstærker]]
 ***
 <<<<<<<< HEAD:Elektro fysik/Komponenter og subcircuits.md
-[[Notes/Elektro fysik/Kondensator]]
+[[Uni/Notes/Elektro fysik/Kondensator]]
 ========
 [[Elektronik/Emner/Kondensator]]
 >>>>>>>> origin/main:Elektronik/Emner/Komponenter og subcircuits.md

@@ -20,7 +20,7 @@
 
 #Arbejde
 ![[Pasted image 20220922205757.png]]
-[[Notes/Fysik/Effekt og arbejde]]
+[[Uni/Notes/Fysik/Effekt og arbejde]]
 
 ***
 

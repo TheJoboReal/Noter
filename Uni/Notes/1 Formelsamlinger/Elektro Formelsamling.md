@@ -146,7 +146,7 @@ $$
 ***
 
 <<<<<<< HEAD:Fomelsamlinger og cheatsheets/Elektro Formelsamling.md
-### [[Notes/Elektro fysik/Halvledere]]
+### [[Uni/Notes/Elektro fysik/Halvledere]]
 =======
 ### [[Elektronik/Emner/Halvledere]]
 >>>>>>> origin/main:1 Formelsamlinger/Elektro Formelsamling.md

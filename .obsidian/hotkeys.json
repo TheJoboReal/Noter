@@ -96,5 +96,23 @@
       ],
       "key": "N"
     }
+  ],
+  "quickadd:choice:3443e0c4-b65e-43c9-bc89-38075b50c09d": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "C"
+    }
+  ],
+  "quickadd:choice:2171c873-4b3a-4c0a-b934-c6cac25a55d5": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "S"
+    }
   ]
 }
