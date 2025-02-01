@@ -1,0 +1,279 @@
+{
+  "main": {
+    "id": "dde43471bec2c0c3",
+    "type": "split",
+    "children": [
+      {
+        "id": "25128ac7b22fec7c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aa13769cda0d43ef",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dashboard.md",
+                "mode": "preview",
+                "source": false
+              },
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "3b1e3f9bfa1b668c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Courses/Kunstig Inteligens.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Kunstig Inteligens"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bd96f2246541cb09",
+    "type": "split",
+    "children": [
+      {
+        "id": "0e08995c3fc9babe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55c71e5ed1b0c19b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "59806980232f6dbc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:tp.file.title",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "00b0e1751a7e9a37",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "5c490620e03e84ff",
+            "type": "leaf",
+            "state": {
+              "type": "file-tree-view",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "File Tree"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ebb52902d9fab057",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f89db28efb13860",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eecd7d167600a354",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3b5b4384f2e09123",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "48fbe83bdf1822dd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2ffd683c83cded8f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d42a013bd34b6c8c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "0bf3a3829165382f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "dc25cf0fd527cc97",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "mathpad:Open Mathpad": false,
+      "obsidian-matrix:Obsidian Matrix": false,
+      "obsidian-shellcommands:Shell commands: Custom variables": false,
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "3b1e3f9bfa1b668c",
+  "lastOpenFiles": [
+    "Kunstig Test Assign.md",
+    "Uni/Courses/Kunstig Inteligens.md",
+    "Dashboard.md",
+    "Uni/Assignments/KunstigTestAssign.md",
+    "Templates/AssignmentTemp.md",
+    "Templates/CourseTemp.md",
+    "Montecarlo Test.md",
+    "Templates/ExerciseTemp.md",
+    "Templates/LectureTemp.md",
+    "Uni/Notes/NewNotes/TestKunstg.md",
+    "Templates/Todo.md",
+    "Templates/Note Template.md",
+    "Uni/Exercises",
+    "Uni/Assignments",
+    "Uni/Notes/NewNotes/TestKunstig.md",
+    "Templates/SemesterTemp.md",
+    "Uni/Semesters/Semester 5.md",
+    "Todo/TODO.md",
+    "Todo/ 2024-12-06.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/Terminology.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/Tuning fuzzy controllers.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/Temporal Difference.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/t-norms and s-norms.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/Sugeno or Takagi-Sugeno or Functional Fuzzy Systems.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/Reinforcement Learning.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/Q-Learning.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/On-Policy vs off-policy.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/n-Step Bootstrapping.md",
+    "Uni/Notes/NewNotes",
+    "Uni/Notes/Calculus/Lecture Notes",
+    "Uni/Notes/Kinematik/Lecture Notes",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes",
+    "Uni/Courses",
+    "Uni/Notes",
+    "Uni/Semesters",
+    "Uni"
+  ]
+}
