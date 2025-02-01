@@ -7,14 +7,32 @@ Total file Count: `$=dv.pages().length`
 	SORT text asc
 ```
 ---
-## Tasks Today
+## Unfinished Assignments
 ```dataviewjs
-// Get the current date in DD-MM-YYYY format
-let currentDate = moment().format("DD-MM-YYYY");
+let folderPath = "Uni/Assignments"; // Define the folder to search
 
-// Filter tasks from all pages where the task text contains the current date
-dv.taskList(dv.pages().file.tasks
-  .where(t => t.text.includes(currentDate)));
+// Find all assignments that are NOT completed
+let assignments = dv.pages(`"${folderPath}"`)
+    .where(p => !p.completed || p.completed === false) // Find missing or false "completed"
+    .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
+
+// Display results in a table
+dv.table(["Assignment", "Due Date", "Last Modified", "Mark as Completed"], 
+    assignments.map(p => [
+        p.file.link, 
+        p.due_date ?? "No Due Date", 
+        p.file.mtime, 
+        dv.el("input", "", { 
+            type: "checkbox", checked: p.completed, 
+            onclick: async () => {
+                await app.vault.modify(p.file, p.file.content.replace(
+                    `completed: ${p.completed}`, `completed: true`
+                ));
+                new Notice(`✅ Marked '${p.file.name}' as Completed!`);
+            }
+        })
+    ])
+);
 ```
 
 ## Semesters

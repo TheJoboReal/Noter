@@ -65,7 +65,8 @@
               "title": "TestAssignment"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -264,8 +265,9 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "aa13769cda0d43ef",
+  "active": "dd53cff16503b96b",
   "lastOpenFiles": [
+    "Dashboard.md",
     "Uni/Assignments/TestAssignment.md",
     "Templates/AssignmentTemp.md",
     "Templates/CourseTemp.md",
@@ -273,7 +275,6 @@
     "Uni/Courses/Kunstig Inteligens.md",
     "Uni/Assignments/testAssignmentKunstig.md",
     "Uni/Semesters/Semester 5.md",
-    "Dashboard.md",
     "Uni/Assignments/Semester 5.md",
     "Templates/LectureTemp.md",
     "Templates/ExerciseTemp.md",
