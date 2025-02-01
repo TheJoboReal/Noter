@@ -2,7 +2,6 @@
 tags:
   - course
   - uni
-
 dato: <%tp.date.now('YYYY-MM-DD')%>
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`

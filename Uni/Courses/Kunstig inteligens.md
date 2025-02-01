@@ -2,10 +2,10 @@
 tags:
   - course
   - uni
-semester: 
-dato: 2025-02-01
+
+dato: <%tp.date.now('YYYY-MM-DD')%>
 ---
-[[Kunstig inteligens]]Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
+Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
 ---
 ### Lecture Notes
@@ -32,3 +32,4 @@ dv.table(["File Name", "Last Modified"],
       .map(p => [p.file.link, p.file.mtime])
 );
 ```
+
