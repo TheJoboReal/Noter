@@ -1,7 +1,7 @@
 ---
 tags:
   - uni
-semester: Semester 5
+semester: semester 2
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
