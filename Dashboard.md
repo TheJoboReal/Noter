@@ -20,7 +20,7 @@ dv.taskList(dv.pages().file.tasks
 
 ## Semesters
 ```dataviewjs
-let folderPath = `Courses`; // Folder path (make sure it ends with '/')
+let folderPath = `Uni/Semesters`; // Folder path 
 
 dv.table(["File Name", "Last Modified"], 
     dv.pages(`"${folderPath}"`) // Properly wrap the folder path in quotes

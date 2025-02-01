@@ -36,7 +36,7 @@ dv.table(["File Name", "Last Modified"],
 <%* const courseName = tp.file.title; // Get the course name from the title 
 // Define the base folder path 
 
-const baseFolder = `Uni/Courses/${courseName}`; // Create folders inside `Uni/Courses/` (Lectures and Exercises folders) 
+const baseFolder = `Uni/Notes/${courseName}`; // Create folders inside `Uni/Notes/` (Lectures and Exercises folders) 
 await tp.file.create_folder(baseFolder); // Create main course folder 
 await tp.file.create_folder(`${baseFolder}/Lecture Notes`); // Create Lectures subfolder 
 await tp.file.create_folder(`${baseFolder}/Assignments`); // Create Exercises subfolder 
