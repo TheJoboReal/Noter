@@ -2,7 +2,7 @@
 tags:
   - lecture-note
   - uni
-course: Shared Memory
+course: Individuel Studieaktivitet
 ---
 #SharedMemory
 

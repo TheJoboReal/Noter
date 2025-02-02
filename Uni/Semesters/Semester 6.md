@@ -1,9 +1,9 @@
 ---
 tags:
   - uni
-Semester Start: 01-08-2024
-Semester End: 31-01-2025
-semester: Semester 5
+Semester Start: 01-02-2025
+Semester End: 31-05-2025
+semester: Semester 6
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
@@ -73,7 +73,7 @@ if (!currentSemester) {
                 assignments.map(p => [
                     p.file.link, // Display file link
                     p.due_date ?? "No Due Date", // Display due date if available
-                    courseNotes[p.course] ?? "Course Not Found", // Link to the course note
+                    courseNotes[p.course] ?? "❌ Course Not Found", // Link to the course note
                     (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed" // Display completion status
                 ])
             );
