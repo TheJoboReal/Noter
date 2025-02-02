@@ -10,6 +10,8 @@ dato: 02-02-2025
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
+Book: https://www.numerical.recipes/book.html
+
 ---
 ### Lecture Notes
 ```dataviewjs

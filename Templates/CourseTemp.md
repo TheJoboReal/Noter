@@ -21,6 +21,8 @@ dato: <%tp.date.now('DD-MM-YYYY')%>
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
+Book: 
+
 ---
 ### Lecture Notes
 ```dataviewjs
