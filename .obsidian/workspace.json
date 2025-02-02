@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Semesters/Semester 5.md",
+                "file": "Templates/CourseTemp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Semester 5"
+              "title": "CourseTemp"
             }
           },
           {
@@ -149,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Uni/Semesters/Semester 5.md",
+                "file": "Templates/CourseTemp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Semester 5"
+              "title": "Backlinks for CourseTemp"
             }
           },
           {
@@ -267,16 +267,19 @@
   },
   "active": "185405f4aeb41843",
   "lastOpenFiles": [
+    "Templates/LectureSlideTemp.md",
+    "Uni/Slides",
+    "Templates/LectureTemp.md",
+    "Uni/Courses/Algoritmer og Datastruktur.md",
+    "Uni/Semesters/Semester 5.md",
     "Uni/Assignments/TestAssign.md",
     "Templates/SemesterTemp.md",
-    "Uni/Semesters/Semester 5.md",
     "Dashboard.md",
     "Uni/Courses/Kunstig Inteligens.md",
     "Templates/AssignmentTemp.md",
     "Uni/Assignments/Kunstig test.md",
     "Todo/TODO.md",
     "Templates/Todo.md",
-    "Uni/Courses/Algoritmer og Datastruktur.md",
     "Todo/TODO1.md",
     "Uni/Assignments/assigntest.md",
     "Uni/Assignments/Portfolio 1.md",
@@ -292,16 +295,12 @@
     "Uni/Notes/NewNotes/Algo Test.md",
     "Uni/Assignments/heap exercise.pdf",
     "Uni/Assignments/hashing_oevelser.pdf",
-    "Uni/Notes/Algoritmer og Datastruktur/Assignments/Stack Queue and balPar.md",
-    "Uni/Assignments/Algo asgin.md",
-    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Spanning Tree.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/bucket sort.pdf",
     "Uni/Exercises",
     "Uni/Assignments",
     "Uni/Notes/NewNotes",
     "Uni/Notes/Calculus/Lecture Notes",
     "Uni/Notes/Kinematik/Lecture Notes",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes",
-    "Uni/Courses"
+    "Uni/Notes/Kunstig inteligens/Lecture Notes"
   ]
 }
