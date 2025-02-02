@@ -38,25 +38,46 @@ if (!currentSemester) {
 
 ## Assignments
 ```dataviewjs
-let folderPath = "Uni/Assignments"; // Define the folder to search
-let currentCourse = dv.current().course; // Get the course property of the current note
+// Get the current file's semester
+let currentSemester = dv.current().semester; // Assuming the current note has a 'semester' property
 
-if (!currentCourse) {
-    dv.paragraph("⚠️ No 'course' property found in this note.");
+// If the current semester property is missing, show a warning
+if (!currentSemester) {
+    dv.paragraph("⚠️ Missing 'semester' property in the current note.");
 } else {
-    // Find all assignments in the folder that match the same course
-    let assignments = dv.pages(`"${folderPath}"`)
-        .where(p => p.course === currentCourse) // Filter by course
-        .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
+    // Get all courses in the "Uni/Courses" folder that match the current semester
+    let courses = dv.pages('"Uni/Courses"')
+        .where(p => p.semester === currentSemester);
 
-    // Display results in a table
-    dv.table(["Assignment", "Due Date", "Last Modified", "Completed"], 
-        assignments.map(p => [
-            p.file.link, 
-            p.due_date ?? "No Due Date", 
-            p.file.mtime, 
-            p.completed === true ? "✅ Completed" : "❌ Not Completed"
-        ])
-    );
+    // If no courses are found, show a message
+    if (courses.length === 0) {
+        dv.paragraph("No courses found for this semester.");
+    } else {
+        // Map course names to their file links for reference
+        let courseNotes = {};
+        courses.forEach(course => {
+            courseNotes[course.file.name] = course.file.link;
+        });
+
+        // Get all assignments in the "Uni/Assignments" folder that match these courses
+        let assignments = dv.pages('"Uni/Assignments"')
+            .where(p => courses.some(course => course.course === p.course)) // Match by course property
+            .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
+
+        // If no assignments are found, show a message
+        if (assignments.length === 0) {
+            dv.paragraph("No assignments found for this semester.");
+        } else {
+            // Display results in a table
+            dv.table(["Assignment", "Due Date", "Course", "Completed"], 
+                assignments.map(p => [
+                    p.file.link, // Display file link
+                    p.due_date ?? "No Due Date", // Display due date if available
+                    courseNotes[p.course] ?? "❌ Course Not Found", // Link to the course note
+                    (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed" // Display completion status
+                ])
+            );
+        }
+    }
 }
 ```

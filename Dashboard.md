@@ -21,6 +21,17 @@ dv.table(["File Name", "Last Modified"],
 ## Unfinished Assignments
 ```dataviewjs
 let folderPath = "Uni/Assignments"; // Define the folder to search
+let coursesFolder = "Uni/Courses"; // Define the folder where course notes are stored
+
+// Get all course notes and map their file names to their links
+let courseNotes = {};
+let coursePages = dv.pages(`"${coursesFolder}"`);
+
+if (coursePages) {
+    coursePages.forEach(course => {
+        courseNotes[course.file.name] = course.file.link;
+    });
+}
 
 // Find all assignments in the folder that are incomplete (completed === false or missing)
 let incompleteAssignments = dv.pages(`"${folderPath}"`)
@@ -28,12 +39,11 @@ let incompleteAssignments = dv.pages(`"${folderPath}"`)
     .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 
 // Display results in a table
-dv.table(["Assignment", "Due Date", "Last Modified", "Completed"], 
+dv.table(["Assignment", "Due Date", "Course"], 
     incompleteAssignments.map(p => [
-        p.file.link, 
-        p.due_date ?? "No Due Date", 
-        p.file.mtime, 
-        (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed"
+        p.file.link, // Assignment file link
+        p.due_date ?? "No Due Date", // Due date or default text
+        courseNotes[p.course] ?? "❌ Course Not Found" // Link to the course note or error message
     ])
 );
 ```
