@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Dashboard.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
@@ -29,30 +29,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/AssignmentTemp.md",
+                "file": "Templates/SemesterTemp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AssignmentTemp"
+              "title": "SemesterTemp"
             }
           },
           {
-            "id": "e197dd053e6a372b",
+            "id": "40cb73d2ad3bf671",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Semesters/Semester 5.md",
+                "file": "Uni/Courses/Algoritmer og Datastruktur.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Semester 5"
+              "title": "Algoritmer og Datastruktur"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -251,17 +250,21 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "d17c58b500bab94d",
+  "active": "aa13769cda0d43ef",
   "lastOpenFiles": [
-    "Uni/Assignments/Portfolio 2.md",
     "Uni/Courses/Algoritmer og Datastruktur.md",
+    "Dashboard.md",
     "Uni/Semesters/Semester 5.md",
     "Templates/SemesterTemp.md",
-    "Dashboard.md",
+    "Templates/AssignmentTemp.md",
+    "Uni/Assignments/AssignTest.md",
+    "Uni/Assignments/AssignTemp.md",
+    "Uni/Assignments/Assigntest.md",
+    "Uni/Assignments/testAssignment.md",
+    "Uni/Assignments/Portfolio 2.md",
     "Templates/CourseTemp.md",
     "Uni/Notes/NewNotes/Algo Test.md",
     "Uni/Courses/Kunstig Inteligens.md",
-    "Templates/AssignmentTemp.md",
     "Uni/Assignments/Portfolio 1.md",
     "Uni/Assignments/heap exercise.pdf",
     "Uni/Assignments/hashing_oevelser.pdf",
@@ -278,9 +281,6 @@
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/bucket sort.pdf",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Binary Trees Traversal.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Binary Tree.md",
-    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Big O notation.md",
-    "Todo/TODO.md",
-    "Uni/Assignments/TestAssignment.md",
     "Uni/Exercises",
     "Uni/Assignments",
     "Uni/Notes/NewNotes",

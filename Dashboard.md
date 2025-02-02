@@ -22,26 +22,18 @@ dv.table(["File Name", "Last Modified"],
 ```dataviewjs
 let folderPath = "Uni/Assignments"; // Define the folder to search
 
-// Find all assignments that are NOT completed
-let assignments = dv.pages(`"${folderPath}"`)
-    .where(p => !p.completed || p.completed === false) // Find missing or false "completed"
+// Find all assignments in the folder that are incomplete (completed === false or missing)
+let incompleteAssignments = dv.pages(`"${folderPath}"`)
+    .where(p => p.completed !== true && p.completed !== "true") // Filter by incomplete status
     .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 
 // Display results in a table
-dv.table(["Assignment", "Due Date", "Last Modified", "Mark as Completed"], 
-    assignments.map(p => [
+dv.table(["Assignment", "Due Date", "Last Modified", "Completed"], 
+    incompleteAssignments.map(p => [
         p.file.link, 
         p.due_date ?? "No Due Date", 
         p.file.mtime, 
-        dv.el("input", "", { 
-            type: "checkbox", checked: p.completed, 
-            onclick: async () => {
-                await app.vault.modify(p.file, p.file.content.replace(
-                    `completed: ${p.completed}`, `completed: true`
-                ));
-                new Notice(`✅ Marked '${p.file.name}' as Completed!`);
-            }
-        })
+        (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed"
     ])
 );
 ```
