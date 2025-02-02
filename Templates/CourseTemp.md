@@ -46,28 +46,26 @@ if (!currentCourse) {
 ## Assignments
 ```dataviewjs
 let folderPath = "Uni/Assignments"; // Define the folder to search
+let currentCourse = dv.current().course; // Get the course property of the current note
 
-// Find all assignments that are NOT completed
-let assignments = dv.pages(`"${folderPath}"`)
-    .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
+if (!currentCourse) {
+    dv.paragraph("⚠️ No 'course' property found in this note.");
+} else {
+    // Find all assignments in the folder that match the same course
+    let assignments = dv.pages(`"${folderPath}"`)
+        .where(p => p.course === currentCourse) // Filter by course
+        .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 
-// Display results in a table
-dv.table(["Assignment", "Due Date", "Last Modified", "Mark as Completed"], 
-    assignments.map(p => [
-        p.file.link, 
-        p.due_date ?? "No Due Date", 
-        p.file.mtime, 
-        dv.el("input", "", { 
-            type: "checkbox", checked: p.completed, 
-            onclick: async () => {
-                await app.vault.modify(p.file, p.file.content.replace(
-                    `completed: ${p.completed}`, `completed: true`
-                ));
-                new Notice(`✅ Marked '${p.file.name}' as Completed!`);
-            }
-        })
-    ])
-);
+    // Display results in a table
+    dv.table(["Assignment", "Due Date", "Last Modified", "Completed"], 
+        assignments.map(p => [
+            p.file.link, 
+            p.due_date ?? "No Due Date", 
+            p.file.mtime, 
+            (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed"
+        ])
+    );
+}
 ```
 
 ---

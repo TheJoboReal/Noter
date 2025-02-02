@@ -38,16 +38,25 @@ if (!currentSemester) {
 
 ## Assignments
 ```dataviewjs
-let assignmentFolder = "Uni/Assignments"; // Path to assignments folder
+let folderPath = "Uni/Assignments"; // Define the folder to search
+let currentSem = dv.current().semester; // Get the course property of the current note
 
-let assignments = dv.pages(`"${assignmentFolder}"`) // Get all assignment notes
-    .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
+if (!currentSem) {
+    dv.paragraph("⚠️ No 'course' property found in this note.");
+} else {
+    // Find all assignments in the folder that match the same course
+    let assignments = dv.pages(`"${folderPath}"`)
+        .where(p => p.course === currentSem) // Filter by course
+        .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 
-dv.table(["Assignment", "Due Date", "Completed"], 
-    assignments.map(p => [
-        p.file.link, // Assignment name as a clickable link
-        p.date ? dv.date(p.date) : "❓ No Date", // Show due date (if available)
-        p.completed ? p.completed : "❌ Not Completed" // Show completed status (default if missing)
-    ])
-);
+    // Display results in a table
+    dv.table(["Assignment", "Due Date", "Last Modified", "Completed"], 
+        assignments.map(p => [
+            p.file.link, 
+            p.due_date ?? "No Due Date", 
+            p.file.mtime, 
+            (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed"
+        ])
+    );
+}
 ```

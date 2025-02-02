@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Dashboard.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "pinned": true,
@@ -24,49 +24,35 @@
             }
           },
           {
-            "id": "9204f1b58a8bda02",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Courses/Kunstig Inteligens.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Kunstig Inteligens"
-            }
-          },
-          {
             "id": "d17c58b500bab94d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Courses/Algoritmer og Datastruktur.md",
+                "file": "Templates/AssignmentTemp.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algoritmer og Datastruktur"
+              "title": "AssignmentTemp"
             }
           },
           {
-            "id": "a6d5ea2416ac858f",
+            "id": "e197dd053e6a372b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/CourseTemp.md",
+                "file": "Uni/Semesters/Semester 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CourseTemp"
+              "title": "Semester 5"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -267,12 +253,15 @@
   },
   "active": "d17c58b500bab94d",
   "lastOpenFiles": [
-    "Uni/Courses/Kunstig Inteligens.md",
+    "Uni/Assignments/Portfolio 2.md",
+    "Uni/Courses/Algoritmer og Datastruktur.md",
+    "Uni/Semesters/Semester 5.md",
+    "Templates/SemesterTemp.md",
     "Dashboard.md",
     "Templates/CourseTemp.md",
-    "Uni/Courses/Algoritmer og Datastruktur.md",
+    "Uni/Notes/NewNotes/Algo Test.md",
+    "Uni/Courses/Kunstig Inteligens.md",
     "Templates/AssignmentTemp.md",
-    "Uni/Assignments/Portfolio 2.md",
     "Uni/Assignments/Portfolio 1.md",
     "Uni/Assignments/heap exercise.pdf",
     "Uni/Assignments/hashing_oevelser.pdf",
@@ -290,11 +279,8 @@
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Binary Trees Traversal.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Binary Tree.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Big O notation.md",
-    "Uni/Notes/NewNotes/Algo Test.md",
-    "Uni/Semesters/Semester 5.md",
     "Todo/TODO.md",
     "Uni/Assignments/TestAssignment.md",
-    "Templates/SemesterTemp.md",
     "Uni/Exercises",
     "Uni/Assignments",
     "Uni/Notes/NewNotes",
