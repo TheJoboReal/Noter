@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 ![[Pasted image 20230216143315.png]]
 ![[Pasted image 20230216143518.png]]
 ![[Pasted image 20230216143942.png]]

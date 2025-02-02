@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "aee6b34064d71e19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Courses/Digital Programmerbar elektronik.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Digital Programmerbar elektronik"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 330.5
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -106,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Uni/Courses/Digital Programmerbar elektronik.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Dashboard"
+              "title": "Backlinks for Digital Programmerbar elektronik"
             }
           },
           {
@@ -222,13 +237,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3ec883ff53876bc1",
+  "active": "aee6b34064d71e19",
   "lastOpenFiles": [
-    "Uni/Courses/Algoritmer og  Datastruktur.md",
+    "Uni/Notes/Digital Programmerbar elektronik/Noter/Comparators.md",
+    "Uni/Notes/Digital Programmerbar elektronik/Noter/Adders.md",
+    "Uni/Courses/Digital Programmerbar elektronik.md",
     "Uni/Courses/Kunstig Inteligens.md",
+    "Uni/Courses/Data Kommunikation.md",
+    "Dashboard.md",
+    "Uni/Courses/Datateknik.md",
+    "Uni/Courses/Computer Vision.md",
+    "Uni/Courses/Computer Arkitektur.md",
+    "Uni/Courses/C++.md",
+    "Uni/Courses/Calculus.md",
+    "Uni/Semesters/Semester 1.md",
+    "Uni/Semesters/Semester 4.md",
+    "Uni/Semesters/Semester 3.md",
+    "Uni/Semesters/Semester 2.md",
+    "Uni/Notes/Data Kommunikation/Noter/Data Links Layers/Data Link Control DLC/Data Link Control DLC.md",
+    "Uni/Courses/Algoritmer og  Datastruktur.md",
     "Templates/CourseTemp.md",
     "Uni/Semesters/Semester 5.md",
-    "Dashboard.md",
     "Uni/Slides/lecture 12.md",
     "Templates/LectureSlideTemp.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Hashing.md",
@@ -236,22 +265,8 @@
     "Uni/Assignments/TestAssign.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Binary Tree.md",
     "Uni/Notes/NewNotes/TestLecture.md",
-    "Templates/AssignmentTemp.md",
-    "Uni/Assignments/Kunstig Inteligens.md",
     "Uni/Courses",
     "Uni/Slides",
-    "Uni/Courses/Algoritmer og Datastruktur.md",
-    "Templates/SemesterTemp.md",
-    "Uni/Assignments/Kunstig test.md",
-    "Todo/TODO.md",
-    "Templates/Todo.md",
-    "Todo/TODO1.md",
-    "Uni/Assignments/assigntest.md",
-    "Uni/Assignments/Portfolio 1.md",
-    "Uni/Assignments/Assigntest.md",
-    "Uni/Assignments/AssignTest.md",
-    "Uni/Assignments/AssigTest.md",
-    "Uni/Courses/testcourse.md",
     "Uni/Assignments/heap exercise.pdf",
     "Uni/Assignments/hashing_oevelser.pdf",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/bucket sort.pdf",

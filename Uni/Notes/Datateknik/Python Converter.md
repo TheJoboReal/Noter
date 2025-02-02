@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 start python i konsollen med commandoen "python3".
 
 ***

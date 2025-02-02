@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### CIDR (Classless Inter-Domain Routing) notation
 * IPv6 uses hierarchical addressing.
 * Therefore, one can use [[IPV4 Addressing#CIDR Example|CIDR]] notation. That is, IPv6 address consists of a prefix and a suffix.

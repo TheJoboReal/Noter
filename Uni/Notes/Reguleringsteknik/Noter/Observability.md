@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 > Observability is a dual of [[Condition for Controllability|Controllability]]
 
 #### Definition

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: C++
+---
 
 Dynamisk array.
 Et array som øges dynamisk i størrelse.

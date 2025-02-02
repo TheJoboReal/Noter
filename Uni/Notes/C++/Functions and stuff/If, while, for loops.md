@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: C++
+---
 #### If
 ![[Pasted image 20230208084903.png]]
 

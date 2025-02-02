@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### Pure ALOHA
 ![[Pasted image 20231003122353.png]]
 

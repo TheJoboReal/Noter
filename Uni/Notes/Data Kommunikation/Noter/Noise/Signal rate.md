@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Signal rate is measured in *Hz*
 
 $$

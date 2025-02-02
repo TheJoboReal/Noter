@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 Expression for overshoot
 $$
 M_{p}=e^{-\pi \zeta/\sqrt{ 1-\zeta^2 }}

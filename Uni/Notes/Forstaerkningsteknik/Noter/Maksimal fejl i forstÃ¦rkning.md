@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Forstaerkningsteknik
+---
 Formlen for at finde den maksimale fejl i en forstærker:
 $$
 K_{f}=1-\frac{1}{1+\frac{1}{\beta}\cdot A_{ol}}

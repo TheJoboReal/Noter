@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 >See [[MIC-1]]
 
 Micro‐program ‐ address specification 

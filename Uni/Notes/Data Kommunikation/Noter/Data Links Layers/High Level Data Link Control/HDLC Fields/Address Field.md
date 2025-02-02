@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[Pasted image 20230926131058.png]]
 Address field:
 This field contains the address of the secondary station that is to receive

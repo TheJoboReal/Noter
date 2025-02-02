@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 For every switch flipped, the delay will be half as fast as previus.
 
 ```C

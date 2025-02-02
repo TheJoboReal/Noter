@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Robotics
+---
 #### Motivation and Definition
 * Planners generally assume to have perfect knowledge of the robot state and the  environment.
 * However, knowledge derived from sensors is imperfect and subject to noise.

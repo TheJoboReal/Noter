@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 The need for even faster data speeds led to the design of the Gigabit Ethernet protocol. IEEE has given it the name standard 802.3z.
 The following Gigabit Ethernet targets can be summarized:
 1. Upgrade the speed to 1 Gbps.

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 According to this method, a station must make a reservation before data can be transmitted. The time is divided into intervals. In each interval, a reservation frame is sent before data frames are sent.
 
 • If there are N stations in the system, then there are also N mini-slots in the reservation frame.

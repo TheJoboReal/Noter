@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Calculus
+---
 >Se opgaver [Ulige funktioner](onenote:https://d.docs.live.net/c230e022fc67d306/Dokumenter/kasper%20blochs%20notesbog/SDU%20Matematik.one#Ulige%20funktioner&section-id={8D1F9E34-34B2-45DD-9856-1DF77BD04E40}&page-id={9607B69D-869A-4DC3-8763-5764BC7077A5}&end)  ([Web view](https://onedrive.live.com/view.aspx?resid=C230E022FC67D306%21118&id=documents&wd=target%28SDU%20Matematik.one%7C8D1F9E34-34B2-45DD-9856-1DF77BD04E40%2FUlige%20funktioner%7C9607B69D-869A-4DC3-8763-5764BC7077A5%2F%29))
 
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 There are many tools that can be used for troubleshooting on the Internet. We can follow the route for packets, we can examine many different host and router types and so on.
 But here we will look in particular at two tools:
 * Ping

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Problem Formulation
 We consider a linear control system of the form:
 $$

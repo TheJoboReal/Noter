@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Calculus
+---
 
 >Se video: https://www.youtube.com/watch?v=Ex_g2w4E5lQ&t=138s&ab_channel=Zinteger
 

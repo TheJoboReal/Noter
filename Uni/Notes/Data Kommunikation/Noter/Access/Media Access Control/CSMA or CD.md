@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Carrier Sense Multiple Access with Collision Detection (CSMA/CD)
 
 

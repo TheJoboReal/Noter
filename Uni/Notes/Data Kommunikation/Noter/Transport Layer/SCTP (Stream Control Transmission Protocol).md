@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Stream Control Transmission Protocol (SCTP) is a transport layer protocol used for reliable and message-oriented communication. It was designed to address some of the limitations of Transmission Control Protocol ([[TCP (Transmission Control Protocol)|TCP]]) and User Datagram Protocol ([[UDP (User Datagram Protocol)|UDP]]).
 
 Key features of SCTP include:

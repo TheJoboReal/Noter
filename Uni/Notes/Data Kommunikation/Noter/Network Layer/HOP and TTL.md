@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### What is a hop
 In networking, a hop occurs when a packet is passed from one network segment (typically router) to
 the next.

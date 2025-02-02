@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Statistik
+---
 * α → A,C  2-sided/1-sided  (MATLAB: norminv)
 * p-value: definition, 2-sided/1-sided  (MATLAB: normcdf)
 * Test for μ in normal distribution with unknown variance (MATLAB: ttest)

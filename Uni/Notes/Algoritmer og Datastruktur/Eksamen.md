@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+---
 ### Opg1
 Vi har her en simpel rekursiv funktion som bare starter ved 0 og så indekserer igennem vores string. Når et match findes inkrementeres vores returværdi.
 ```cpp

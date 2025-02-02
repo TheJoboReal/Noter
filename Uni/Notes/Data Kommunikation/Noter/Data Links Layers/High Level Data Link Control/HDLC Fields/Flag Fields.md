@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[Pasted image 20230926131031.png]]
 
 Flag field:

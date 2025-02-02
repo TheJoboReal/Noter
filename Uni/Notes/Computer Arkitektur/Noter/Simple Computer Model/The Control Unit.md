@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 ![[Pasted image 20231025130430.png]]
 From the control unit, there are connections that control the
 various registers of the [[CPU|CPU]].

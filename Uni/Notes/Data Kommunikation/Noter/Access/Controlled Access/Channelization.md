@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Channel partition is a multi-access method where the available
 bandwidth of a link is shared in:
 * Frequency

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Signalbehandling
+---
 ![[Lektion1Opgaver.pdf]]
 1.1Butterworth
 Vi finder stopbåndsfrekvensen ved at nomere: $\frac{\omega_{a}}{\omega_{s}}=\frac{6000}{1200}=5$.

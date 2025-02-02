@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Signals
 * Can be used inside or outside processes.
 * They take the value depend on if the signal is used in combinational or sequential code

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Definition
 * A comparator compares two or more inputs using one, or a number of different comparisons.
 * When the given relationship(s) is true, an output signal is given (logic 0 or logic1).

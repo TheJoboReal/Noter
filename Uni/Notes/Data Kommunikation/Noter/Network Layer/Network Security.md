@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Security is an important issue in connection with data traffic on the network layer.
 Security was not originally a topic of concern, as initially only a few universities and a few users used the Internet for research purposes. Others did not have access to the Internet at that time.
 The network layer was created at that time without any kind of security facilities.

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Elektro fysik
+---
 $$U=R\cdot I$$
 Strøm: $I$ er hvor meget energi vi kan levere per sekund $I=\frac{Coulomb}{Sekund}$.
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Polling works with topologies, in which one station is designated as the primary station and other devices are secondary stations. All data exchange must take place through the primary station.
 
 • The primary station controls the link.

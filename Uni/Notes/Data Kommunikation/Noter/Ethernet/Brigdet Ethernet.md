@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Splitting the collision domain means greater mean bandwidth
 
 ![[Pasted image 20231003135626.png]]

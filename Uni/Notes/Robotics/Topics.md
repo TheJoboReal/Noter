@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Robotics
+---
 #### Definition
 Topics are a communication channel used by nodes to exchange messages asynchronously. Topics allow nodes to publish data that other nodes can subscribe to, enabling a decoupled and flexible way of data sharing.
 

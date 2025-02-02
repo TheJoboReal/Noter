@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Signalbehandling
+---
 ![[Pasted image 20230914084914.png]]
 
 ***

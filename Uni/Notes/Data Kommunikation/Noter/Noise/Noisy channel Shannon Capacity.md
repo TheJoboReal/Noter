@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[Pasted image 20230912121947.png]]
 >SNR is found with the formula [[SNR signal to noice ratio]]
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 The transition from IPv4 to IPv6 should preferably take place smoothly. 
 Therefore, the IETF (Internet Engineering Task Force) recommends 3 strategies that can support this transition:
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Bachelor
+---
 > See  [Link1][https://www.geeksforgeeks.org/consensus-algorithms-in-distributed-system/?ref=gcse_outind] and [Link2][https://www.geeksforgeeks.org/consensus-problem-of-distributed-systems/?ref=gcse_outind|Link2] or [Video][https://www.youtube.com/watch?v=ZyqAbQkpeUo]
 
 #### Definition

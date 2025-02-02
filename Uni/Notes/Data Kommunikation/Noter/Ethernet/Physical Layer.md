@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Standard Ethernet defines a number of physical layer implementations. But only four of them became popular during the 1980s.
 ![[Pasted image 20231003135022.png]]
 ![[Pasted image 20231003135539.png]]

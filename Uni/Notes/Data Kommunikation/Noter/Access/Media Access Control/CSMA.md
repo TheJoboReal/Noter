@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Media Access Control: Carrier Sense Multiple Access (CSMA)
 
 The risk of collision can be reduced if the station examines the medium before attempting to use it.

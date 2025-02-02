@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 ![[Pasted image 20231102233305.png]]
 >Where /WR is **WriteRead** and /RD is read.
 >Whether the memory is read from or written to is decided by the /RD and /WR pins, respectively.  

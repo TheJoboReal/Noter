@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Statistik
+---
 #### Stokastisk eksperiment
 Et stokastisk eksperiment er det vi på engelsk kalder "Random". Det er eksempelvis at kaste en terning. Så altså et eksperiment hvor vi ikke kan forudsige udfaldet.
 

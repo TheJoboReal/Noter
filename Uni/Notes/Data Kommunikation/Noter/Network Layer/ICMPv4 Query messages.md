@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 In addition to error reporting, ICMP can diagnose some network issues. This is achieved via inquiry messages. There are 4 different sets of queries.
 ![[Pasted image 20231024135335.png]]
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 ![[Pasted image 20230922093538.png|400]]
 >Five Philosophers, five bowls of rice but only 5 chopsticks in total. Represents shared resources.
 

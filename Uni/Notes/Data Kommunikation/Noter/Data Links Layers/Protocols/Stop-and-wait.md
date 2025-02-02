@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 In the Stop-and-wait protocol, only one frame is sent at a time, then an acknowledge frame ([[Flow and error control#ACK|ACK]]) is awaited before the next frame is sent.
 A CRC is used for each data frame and ACK frame to detect errors.
 A time at sender side is used for [[Flow and error control#ARQ|ARQ]].

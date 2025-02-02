@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Definition
 For a time continuous system:
 $$

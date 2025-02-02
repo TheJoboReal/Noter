@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Rules
 ![[Pasted image 20240301093746.png]]
 ![[Pasted image 20240301093754.png]]

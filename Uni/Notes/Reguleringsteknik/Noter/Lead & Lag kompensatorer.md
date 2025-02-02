@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 $$
 D(s)=K \frac{s+z}{s+p}
 $$

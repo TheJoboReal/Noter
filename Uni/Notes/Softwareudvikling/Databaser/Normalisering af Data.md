@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Softwareudvikling
+---
 
 ![[Pasted image 20230220125023.png]]
 ![[Pasted image 20230220125032.png]]

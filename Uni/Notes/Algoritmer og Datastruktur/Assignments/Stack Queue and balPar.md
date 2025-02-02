@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+---
 #### Stack in c++
 ```cpp
 class Stack{

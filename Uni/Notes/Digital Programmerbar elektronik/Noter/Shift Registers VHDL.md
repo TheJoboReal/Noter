@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Definition
 * Shift registers are registers with added features that enable them to shift their contents in either directions. * A typical parallel shift register that has added controls to achieve these features; signals shift_left and shift_ right.
 * These signals control whether the register is to shift its contents to left or right.

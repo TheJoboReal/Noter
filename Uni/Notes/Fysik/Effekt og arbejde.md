@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Fysik
+---
 Enheden for effekt er Watt: 1 W = 1 J/s
 
 Engelskenhedfor effekterhestekraft: 1 hk= 746 W

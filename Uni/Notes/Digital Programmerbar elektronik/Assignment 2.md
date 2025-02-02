@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 
 #### Key detection and MUX
 In order to read the keypad, a counter loops through the rows and waits for a keypress. When a keypress is detected the MUX translates that to a high-bit output, which then runs back into the counter that is active-low and stops it. We then see what row the counter was on to determine the key that was pressed. The pressed key is output as a 4 bit vector. The counter continues to loop through the rows while the enable signal from the MUX is low.

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 Round-Robin (RR):
 ![[Pasted image 20230915092742.png]]
 Switches tasks every time a "time slice" has passed. If the time slice towards infinity, this becomes FCFS.

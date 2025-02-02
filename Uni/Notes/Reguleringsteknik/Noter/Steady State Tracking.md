@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### System Type
 ![[Pasted image 20240216092548.png]]
 Venstre side er integreret stepvis, altså et step bliver til en ret linje og en linje bliver til et polynomium.

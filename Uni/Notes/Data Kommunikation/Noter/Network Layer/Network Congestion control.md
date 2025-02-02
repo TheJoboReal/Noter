@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 **Congestion control** is a topic that the network layer needs to address.
 
 Network congestion occurs when there is too much data traffic (too many datagrams) in an area of the Internet.

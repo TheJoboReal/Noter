@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### ACK
 Flow control coordinates the amount of data that can be sent before an acknowledgment is to be received.
 This is one of the most important tasks for the Data Link layer.

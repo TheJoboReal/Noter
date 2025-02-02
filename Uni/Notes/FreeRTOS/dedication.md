@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: FreeRTOS
+---
 <div align="center">
 </br>
 </br>

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Definition
 * It can be implemented by a shift register as wide as the product and an accumulator for the partial and final product.
 ![[Pasted image 20240403130614.png]]

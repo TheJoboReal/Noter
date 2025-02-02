@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Definition
 Anti-windup er at man skal stoppe med at integrere når begrænsninger er opnået.
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 PPP Link Control Protocol
 Link Control Protocol (LCP) is responsible for:
 • Establishment of links.

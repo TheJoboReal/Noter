@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Signalbehandling
+---
 **Eksempel**
 $$
 y(n)=-\frac{1}{4}y(n-1)-\frac{1}{8}y(n-2)=-x(n-1)+5x(n-2)

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 When nodes are connected in a common link, also called a multipoint
 or broadcast link, then we need to have a protocol that can handle and coordinate access to the link.
 The problem is handled by the protocols similar to the rules of speaking in an assembly:

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Definition
 Most control systems are sample data systems, i.e., they consist of both discrete and continuous signals.
 ![[Pasted image 20240405090819.png]]

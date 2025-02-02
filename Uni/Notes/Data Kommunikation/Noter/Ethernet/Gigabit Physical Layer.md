@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Two stations can be connected in
 Point-To-Point.
 Three or more stations are connected in star, with a switch or

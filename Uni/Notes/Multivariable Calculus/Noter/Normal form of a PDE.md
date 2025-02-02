@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Multivariable Calculus
+---
 # Normal form of a PDE
 See [video](https://www.youtube.com/watch?v=x2zrBDBk2ps).
 

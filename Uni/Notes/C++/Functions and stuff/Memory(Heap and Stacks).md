@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: C++
+---
 #Stacks
 Stacks er når vi laver ints inde i funktioner og holder fast i hvor programmet er kommet til når det kører.
 Stack ints bliver slettet fra hukkommelsen så snart man er out of scope, altså kommet ud af den funktion som den eksisterede i.

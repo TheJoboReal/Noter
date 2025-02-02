@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Definition
 * A parallel register is simply a bank of D-type flip- flops, its implementation has the same structure as for one flip-flop but with extended inputs and outputs.
 * A typical example for a parallel 8 bits register is modeled, based on the flip-flop model shown previously but with inputs and outputs are extended as buses.

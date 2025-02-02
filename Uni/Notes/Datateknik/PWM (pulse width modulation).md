@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 #### Definition
 PWM signals are basically used to mimic analog signals using digital systems. By adjusting the duty cycle, you can effectively control the average voltage or current delivered to a load. This allows for control of a motor or LED for example
 ***

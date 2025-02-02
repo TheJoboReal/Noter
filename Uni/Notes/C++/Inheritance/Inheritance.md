@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: C++
+---
 Først definere vi en klasse.
 ![[Pasted image 20230329085427.png]]
 

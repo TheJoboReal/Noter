@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 It is the task of the Network layer to find the best route through the physical networks.
 
 * Routing is applying strategies and running some routing protocols to create the decision-making tables (forwarding or routing tables) for each router.

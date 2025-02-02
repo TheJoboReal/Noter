@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 When a process is spending more time paging than executing is said to be thrashing. This can occur if, for example, the OS uses a global allocation scheme and tries to increase CPU utilization by increasing the degree of multiprogramming (more processes), which in turn leads to more page faults (new processes need memory), leading to lower CPU utilization – and the cycle repeats.
 
 When a process spends almost all its time on page replacement. This high paging activity is called thrashing.

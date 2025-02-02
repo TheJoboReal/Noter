@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 In the Data Link layer, we pack the bit stream into what we call Frames, so
 that the individual frames can be distinguished from each other.
 The division of frames can take place in:

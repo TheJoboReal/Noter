@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Definition
 * Discrete quantities of digital information, data are often represented in a coded form; binary being the most popular.
 *  Encoders are used to encode data into a coded form and decoders are used to convert it back into its original uncoded form.

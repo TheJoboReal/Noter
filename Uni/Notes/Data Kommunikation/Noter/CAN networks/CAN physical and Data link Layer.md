@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### Physical Layer
 **The Physical layer**, this layer takes care of:
 * Mechanical and electrical aspects (e.g., voltage levels)

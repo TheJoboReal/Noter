@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Shared Memory
+---
 #SharedMemory
 
 > https://stackoverflow.com/questions/49103709/how-to-use-shared-memory-in-python-and-c-c

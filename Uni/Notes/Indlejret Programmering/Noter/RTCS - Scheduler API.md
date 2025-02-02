@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Indlejret Programmering
+---
 > See also [[RTCS (Run to Complete Scheduling)|RTCS]]
 
 ***

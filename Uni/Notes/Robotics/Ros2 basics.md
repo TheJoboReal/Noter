@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Robotics
+---
 To run a ros2 package executeable:
 ```bash
 ros2 run <package_name> <executable_name>

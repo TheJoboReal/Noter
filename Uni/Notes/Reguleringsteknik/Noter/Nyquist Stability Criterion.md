@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Definition
 Nyquist Plot viser det samme som et bode plot, men på et Nyquist plot er det meget nemmere at vurdere om systemet er stabilt.
 

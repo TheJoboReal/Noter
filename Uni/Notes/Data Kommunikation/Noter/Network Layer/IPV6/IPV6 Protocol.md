@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Many more addresses: As we have seen, there are far more addresses in IPv6 (2^128) than in IPv4 (2^32): 2^96, or 79,228,162,514,264,337,593,543,950,336 or 7.9x10^27 times.
 
 * Better header format: IPv6 uses a new header format, where options are separated from the base header and inserted between the base header and the data section when needed. This simplifies and speeds up the routing process as most of the options do not need to be checked by the routers.

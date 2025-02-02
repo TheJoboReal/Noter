@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 High-Level Data Link Control (HDLC) is a bit-oriented protocol. It can
 communicate via both Point-to-Point and Multi-point links. It
 implements the Stop-and-Wait protocol and contains ARQ.

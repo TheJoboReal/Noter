@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 
 By decodingMicro Instruction Register(MIR), we can see what a micro
 instruction does, but this interpretation is not easy for programmers.

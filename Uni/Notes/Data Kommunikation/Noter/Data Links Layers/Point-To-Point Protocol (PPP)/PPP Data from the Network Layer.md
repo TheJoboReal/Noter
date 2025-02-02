@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 PPP: Data from the Network layer
 When the setup of the connection to the Network layer is completed by one of the selected NCP protocols, then data packets can be exchanged from the network layer.
 Here again, there are different protocol field values for different network layers.

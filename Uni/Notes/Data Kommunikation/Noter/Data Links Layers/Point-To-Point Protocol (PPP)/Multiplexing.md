@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Multiplexing is when a protocol is able to use various different protocols– an example of this is the [[Point-ToPoint-Protocol-(PPP)|PPP Protocol]] , which supports a host of network-layer protocols.
 
 ![[Pasted image 20230926133943.png]]

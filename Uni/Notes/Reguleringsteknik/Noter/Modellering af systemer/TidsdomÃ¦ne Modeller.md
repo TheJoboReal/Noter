@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 ![[Pasted image 20240202091806.png]]
 output-ligning vil være det samme, men systemerne er forskellige.
 

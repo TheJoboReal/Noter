@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 ![[Pasted image 20231013085107.png]]
 The virtual memory viewed by the programmer is contiguous, separate and larger than the physical memory.
 ***

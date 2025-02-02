@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[Pasted image 20230912121232.png]]
 >Where Bandwith is the amount of signals you can send per second, ie Hz.
 ***

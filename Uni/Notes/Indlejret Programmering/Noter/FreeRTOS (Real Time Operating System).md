@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Indlejret Programmering
+---
 #### Definition
 * Real-time operating system
 * Don’t confuse with RTCS – run to complete scheduling

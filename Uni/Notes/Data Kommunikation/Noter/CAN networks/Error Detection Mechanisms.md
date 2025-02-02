@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 * **Cyclic redundant check (CRC)**: Each message features a 15-bit Cyclic Redundancy Checksum, and any node that detects a different CRC in the message than what it has calculated itself will signal an CRC Error.
 * **Frame check**: fixed fields (delimiters and EOF) are examined for their expected values.
 * **[[Flow and error control#ACK|ACK]] check**: the sender examines whether the ACK flag is dominant, if not, then an error has occurred.

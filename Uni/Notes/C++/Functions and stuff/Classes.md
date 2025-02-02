@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: C++
+---
 ![[Pasted image 20230215082808.png]]
 
 ![[Pasted image 20230215083422.png]]

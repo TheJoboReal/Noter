@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 ![[Pasted image 20240216084847.png]]
 
 Udtryk for system når der er en forstyrrelse:

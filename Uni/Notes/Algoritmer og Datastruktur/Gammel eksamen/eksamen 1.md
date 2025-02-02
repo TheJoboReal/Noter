@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+---
 #### Opg 1
 ![[Pasted image 20241220100815.png]]
 

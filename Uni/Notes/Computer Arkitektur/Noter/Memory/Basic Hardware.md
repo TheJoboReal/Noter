@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 We must protect the operating system from access by user processes, as well as protect user processes from one another. This protection must be
 provided by the hardware.
 Each process has a separate memory space. Separate per-process memory

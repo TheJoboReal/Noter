@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Half Adder
 * Half adder (HA): it adds two single binary digits A and B.
 * It has two outputs, sum (S) and carry (C).

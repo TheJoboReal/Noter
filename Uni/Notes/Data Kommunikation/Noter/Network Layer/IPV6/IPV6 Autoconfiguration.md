@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 We have seen how we can use DHCP to configure a host in IPv4. we can still do that in IPv6. 
 BUT a host can also configure itself in IPv6, which is called Autoconfiguration
 

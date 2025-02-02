@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 In a Connectionless service, packets are sent without the need of establishing a logical connection at the beginning and closing it in the end.
 * Packets are not numbered,
 * or can be lost,

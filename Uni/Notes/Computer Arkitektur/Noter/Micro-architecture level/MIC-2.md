@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 #### Data Path
 Faster than [[MIC-1]]
 More complicated than Mic-1

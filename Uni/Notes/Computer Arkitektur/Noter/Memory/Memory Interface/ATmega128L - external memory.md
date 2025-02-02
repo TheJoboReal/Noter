@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 8-bit microcontroller (ATmega103 compatible = configuration B)
 ![[Pasted image 20231102234212.png]]
 

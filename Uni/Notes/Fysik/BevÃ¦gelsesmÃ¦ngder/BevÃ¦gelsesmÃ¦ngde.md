@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Fysik
+---
 Den samlede bevægelsesmægde i et isoleret system vil være bevaret, medmindre der kommer eksterne krafter. Så kun isoleret 
 $$\frac{}$$
 ### Stød og kraftimpuls

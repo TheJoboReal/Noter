@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Elektro fysik
+---
 >Se onenote: [Switches](onenote:https://d.docs.live.net/c230e022fc67d306/Dokumenter/kasper%20blochs%20notesbog/SDU%20Elektronik.one#Switches&section-id={59B354F1-AD2D-4315-8B7F-B888C2B94A3F}&page-id={4490ADFB-F2EF-4DEC-A3BB-328A5DC52447}&end)   ([Web view](https://onedrive.live.com/view.aspx?resid=C230E022FC67D306%21118&id=documents&wd=target%28SDU%20Elektronik.one%7C59B354F1-AD2D-4315-8B7F-B888C2B94A3F%2FSwitches%7C4490ADFB-F2EF-4DEC-A3BB-328A5DC52447%2F%29))
 
 ***

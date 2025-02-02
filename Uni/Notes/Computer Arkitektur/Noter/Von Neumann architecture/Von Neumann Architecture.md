@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 The Von Neumann architecture is composed of three independent components (or subsystems): a Central Processing Unit (CPU), Memory and an Input / Output device (I / O interface).
 ![[Pasted image 20231025123431.png]]
 1. The CPU is the “brain” of the computer system and contains three main components: Control unit, one or more Arithmetic Logic Units (ALUs) and a varying number of Registers.

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Robotics
+---
 #### Definition
 **Odometry** refers to the process of estimating a robot's position and orientation (often referred to as its **pose**) over time based on data from its movement. It’s a crucial concept in mobile robotics, enabling the robot to keep track of where it is relative to a starting point as it moves around. Works like INS or IMU
 

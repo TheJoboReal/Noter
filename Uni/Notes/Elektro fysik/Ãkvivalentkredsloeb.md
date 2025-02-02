@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Elektro fysik
+---
 
 Kredsløb med samme terminalegenskaber som det oprindelige kredsløb
 

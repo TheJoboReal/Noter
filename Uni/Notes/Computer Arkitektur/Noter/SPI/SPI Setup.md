@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 Let's assume that FOSC = 8 MHz
 We wish:
 * A SPI bus speed of 1 MHz

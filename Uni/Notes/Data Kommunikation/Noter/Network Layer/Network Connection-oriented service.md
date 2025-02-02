@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 If this method is used, then there is a relationship between all packets belonging to the same message. Before all packets in a message can be sent, a virtual connection should be set up to define the path for the datagrams. After connection setup, the datagrams can all follow the same path. A flow label, a virtual circuit identifier, is used to define the path.
 ![[Pasted image 20231011214257.png]]
 

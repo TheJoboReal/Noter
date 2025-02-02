@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Forstaerkningsteknik
+---
 #### Definition
 Common mode rejection (CMR) is a critical concept in electronics, particularly in differential signal processing and instrumentation. It refers to the ability of a system, typically a differential amplifier or a sensor, to reject or cancel out noise and interference that is common to both input lines. Here's a detailed explanation of how it works and its significance:
 

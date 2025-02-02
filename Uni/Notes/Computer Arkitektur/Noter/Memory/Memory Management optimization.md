@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 #### Dynamic Loading
 Unlike before, where the entire program and all data of a process, should be in the physical memory when it was to be executed.
 To obtain better memory-space utilization, we can use dynamic loading. a

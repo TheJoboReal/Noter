@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 Generally, atomic can be understood as "one at a time", meaning that atomic access only allows for a
 single process to perform an operation on a shared variable – namely an atomic operation. An atomic
 variable is then a variable for which the order of concurrent access is well defined.

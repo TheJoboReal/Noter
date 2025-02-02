@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Fysik
+---
 
 
 ![[Pasted image 20221027091608.png]]

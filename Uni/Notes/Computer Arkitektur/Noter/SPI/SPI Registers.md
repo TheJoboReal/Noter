@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 ![[Pasted image 20231205135934.png]]
 #### SPSR
 ![[Pasted image 20231205134821.png]]

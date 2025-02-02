@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: 1 Formelsamlinger
+---
 ### Generelt Kredsløb.
 ***
 Hvordan foregår strøm- og spændingsændringer i det naturlige respens for RC-RL-kredsløb? Når de nu ikke kan være momentane.

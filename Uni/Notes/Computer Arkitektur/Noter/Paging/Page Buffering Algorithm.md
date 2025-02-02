@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 **Systems commonly have a pool of “free frames”**
 * When a page fault occurs, a victim frame is chosen as before. However, the desired page is read into a free frame from the pool before the victim is written out.
 * The system may periodically review processes and reclaim pages to the pool.

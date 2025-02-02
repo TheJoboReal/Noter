@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### Piggybacking
 All the protocols we have viewed here are unidirectional protocols.
 But in the real world, bidirectional communication is usually used.

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Robotics
+---
 #### Definition
 **Services** provide a synchronous communication mechanism between nodes, allowing one node to send a request and receive a response from another node. This is different from topics, which are used for continuous, asynchronous data streaming. Services are useful when you need to perform a specific action or request a particular piece of information at a given moment.
 

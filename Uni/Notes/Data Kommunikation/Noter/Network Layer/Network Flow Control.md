@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 **Flow control** is used to control the amount of data that a sender can send without overloading the receiver.
 To make flow control work, the receiver must send some feedback back to the sender.
 

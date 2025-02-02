@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Random Access means:
 • that no nodes are more important than others,
 • that no nodes are assigned control over others,

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 A sequence of packets, that are sent from a specific sender to a specific receiver and that needs a special handling by the routers along the way, are called a "flow" of packets.
 Seen from a router, "a flow" is a sequence of packets that have the same characteristics as e.g.
 * They travel the same path on the Internet.

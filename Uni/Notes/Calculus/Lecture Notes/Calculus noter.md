@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Calculus
+---
 Hans youtube kanal:
 https://www.youtube.com/playlist?list=PLMOi9jYaJQUzkAGmJ8YY2gqcZ97lPdqyB
 

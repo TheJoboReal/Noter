@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 Thrashing has a high page-fault rate. For a process, if the page-fault rate is too high, it needs more frames. Conversely, a low page-fault rate indicates that the process may have too many frames. A lower and upper bound can be defined for the page-fault rate, used to administer frame allocation.
 ![[Pasted image 20231013094919.png]]
 * If the page-fault rate falls below a lower bound: the OS reclaim frames from the process to the free frame list.

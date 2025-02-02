@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Indlejret Programmering
+---
 #### Definition
 ● Non-preemptive scheduling
 ● Each task runs until it is finished

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Statistik
+---
 ANOVA (Analysis of Variance) is a statistical method used to test if there are significant differences between the means of three or more groups. It helps determine whether any of the differences observed are statistically significant or if they might have occurred by chance.
 
 **Uses of ANOVA:**

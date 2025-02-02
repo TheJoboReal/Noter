@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 As we have seen before, IP protocol delivers an unreliable and connectionless datagram.
 
 The IP protocol has no error-reporting or any error-correcting mechanism.

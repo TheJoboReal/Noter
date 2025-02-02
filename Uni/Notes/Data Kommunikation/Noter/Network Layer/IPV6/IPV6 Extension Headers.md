@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[Pasted image 20231031125942.png]]
 
 * **Hop-by-hop option:** This extension header is used when a sender needs to provide information to all the routers visited by its datagram. 

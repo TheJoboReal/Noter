@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Whenever an entity produces items and another entity consumes them, there should be a balance between production and consumption rates.
 
 If the items are produced faster than they can be consumed, the consumer can be overwhelmed and may need to discard some items.

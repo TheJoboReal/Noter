@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 
 Det her program tager pin C som input og bruger det til at styre styrken af LEDerne.
 

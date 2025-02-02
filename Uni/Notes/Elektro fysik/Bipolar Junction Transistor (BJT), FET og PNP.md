@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Elektro fysik
+---
 > Common Emitter Amplifier
 >Man ender uanset type transistor altid med en n-kanal eller p-kanal.
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Signalbehandling
+---
 #### Hamming
 ![[Pasted image 20231005091438.png]]
 Formlen for Hamming koefficienterne er så 

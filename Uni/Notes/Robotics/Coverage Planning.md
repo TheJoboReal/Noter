@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Robotics
+---
 #### Weighted Shortest Path
 ![[Pasted image 20241001092430.png]]
 ![[Pasted image 20241001092443.png]]

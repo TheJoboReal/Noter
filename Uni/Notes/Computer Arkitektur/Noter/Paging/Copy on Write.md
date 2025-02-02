@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 When using fork(), copy-on-write allows the parent and child processes to initially share the same pages; the shared pages are marked as copy-on-write pages, meaning that if either process writes to a shared page, a copy of the shared page is created only then. This eliminates unnecessary copying.
 ***
 ![[Pasted image 20231013090631.png]]

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 ![[Pasted image 20231201084220.png]]
 This unit automatically fetches instructions (opcodes) and indexes (operands)
 * Instructions in MBR1 (8-bit)

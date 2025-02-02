@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 
 ![[Pasted image 20240419084629.png]]
 Her er det gule system en kopi af det originale sorte system.

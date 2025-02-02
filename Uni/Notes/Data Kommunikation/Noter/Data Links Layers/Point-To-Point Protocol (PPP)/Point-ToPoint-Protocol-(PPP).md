@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 PPP offers various services:
 1. PPP defines the format of the frames exchanged between devices.
 2. PPP defines how two entities can negotiate the establishment of a link and the exchange data.

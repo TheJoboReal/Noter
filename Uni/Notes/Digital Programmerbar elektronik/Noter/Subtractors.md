@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Definition
 Subtraction by addition:
 * Subtraction can be done by adding 2’s complement

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: FreeRTOS
+---
 ###  List of Abbreviations
 
 | Abbreviation | Meaning                             |

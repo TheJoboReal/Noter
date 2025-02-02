@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 
 ### Defintion
 Serial Peripheral Interface Bus, SPI-bus eller blot SPI er en synkron seriel dataforbindelse standard, navngivet af Motorola, som benytter fuld dupleks.

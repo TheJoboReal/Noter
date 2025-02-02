@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Statistik
+---
 #### Definition
 $S_{xx}$ er samplevarians for alle x-værdier.
 Formel for $S_{xx}$, $S_{yy}$ og $S_{xy}$:

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Datasheet
 ![[Pasted image 20240410124752.png]]
 ![[Pasted image 20240410124806.png]]

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Routers en route from Alice to Bob are not allowed to
 extract the encapsulated data packets unless they
 have to be [[Memory Management optimization#Fragmentation|fragmentation]].

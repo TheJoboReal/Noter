@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 Mic-1 is a processor architecture whose
 data path contains 32-bit registers, buses,
 [[ALU (Arithmetic Logic Unit)|ALU]] and shifter.

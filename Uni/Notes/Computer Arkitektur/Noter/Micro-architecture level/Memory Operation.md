@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 On the Mic-1, we have two ways to access memory.
 * Via MAR (Memory Address Reg.) / MDR (Memory Data Reg.) 32-bit reg. which accesses the memory in word sizes (32-bit) 1 Giga addresses of 32-bit data (= 4GB)
 ![[Pasted image 20231110215550.png]]

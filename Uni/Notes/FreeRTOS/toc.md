@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: FreeRTOS
+---
 # Table of Contents
 
 ## [1 Preface](ch01.md#1-preface)

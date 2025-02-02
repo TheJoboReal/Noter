@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Addresses that use the prefix (0000::/8) are reserved, but part of this block is used to define some special addresses.
 ![[Pasted image 20231031123602.png]]
 **Unspecified:** is a block with only one address (all bits are 0). This address is used during booting when a host does not yet know its own address.

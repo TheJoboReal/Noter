@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 A deadlock situation can arise if the following four conditions hold
 simultaneously in a system:
 

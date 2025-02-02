@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 For a deadlock to occur, the [[Deadlock Situations|four conditions]] must be met.
 If we can ensure that at least one of these conditions cannot hold, we can prevent the occurrence of a deadlock.
 We elaborate on this approach by examining each of the four

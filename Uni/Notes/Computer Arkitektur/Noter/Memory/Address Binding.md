@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 To run, the program must be brought into memory and placed within the context of a process.
 Most systems allow a user process to reside in any part of the physical memory.
 The binding of processes’ instructions and data to memory addresses can be done at any step along the way:

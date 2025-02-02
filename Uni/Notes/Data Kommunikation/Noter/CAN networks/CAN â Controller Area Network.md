@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### Intro
 * In 1982, the development of the CAN bus started at Bosch GmbH®
 * they wanted a serial bus, which was suitable for use in vehicles

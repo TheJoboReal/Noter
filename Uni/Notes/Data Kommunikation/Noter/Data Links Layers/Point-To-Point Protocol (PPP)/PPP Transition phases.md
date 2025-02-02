@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[Pasted image 20230926133727.png]]
 #### Dead
 In this phase, the link is not used (i.e., there is no active carrier at the

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 1. TCP (Transmission Control Protocol):
     
     - TCP is a connection-oriented and reliable protocol.

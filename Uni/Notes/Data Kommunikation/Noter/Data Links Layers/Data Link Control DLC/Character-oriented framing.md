@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[Pasted image 20230926122718.png]]
 Here the information is carried by 8 bits as a unit (one byte e.g., ASCII).
 A special character (which does not appear in the data stream) is used as the flag

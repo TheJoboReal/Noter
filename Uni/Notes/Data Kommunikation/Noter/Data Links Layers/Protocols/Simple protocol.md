@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 It is assumed that the receiver can immediately handle any frame it receives.
 In other words, the receiver can never be overwhelmed with incoming frames.
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Indlejret Programmering
+---
 ##### Specifiers
 ![[Pasted image 20240408132815.png]]
 

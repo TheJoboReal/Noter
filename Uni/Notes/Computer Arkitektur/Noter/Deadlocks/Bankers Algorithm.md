@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 ▪ A new thread that enters the system must state its maximum needs
 for the different types of resources. These needs must not exceed
 the total number of different types of resources.

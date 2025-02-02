@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Multivariable Calculus
+---
 #### Definition
 ![[Pasted image 20230907094228.png]]
 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Elektro fysik
+---
 $$v_1(t)=V_1\cdot cos(wt+\Theta) \wedge
 V_1=V_1\cdot e^{ej\Theta} \wedge
 V_1=V_1\cdot e^{ej(wt+\Theta)}$$

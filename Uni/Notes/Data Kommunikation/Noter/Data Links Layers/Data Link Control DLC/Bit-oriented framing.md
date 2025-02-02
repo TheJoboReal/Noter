@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 In this type of framing, the data section consists of a sequence of bits.
 These are then interpreted by the upper layers as: text, graphics, audio
 and video, respectively.

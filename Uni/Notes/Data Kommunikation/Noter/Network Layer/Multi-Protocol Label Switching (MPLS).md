@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 During the 1980s, several manufacturers developed routers that implement switch technology. Later, IETF (Internet Engineering Task Force) approved a standard, called Multi-Protocol Label Switching ( MPLS).
 
 These routers can then replace conventional routers.

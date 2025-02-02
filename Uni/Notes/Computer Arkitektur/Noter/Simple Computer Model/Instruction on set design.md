@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 The construction of an instruction set is one of the most important
 aspects of processor design.
 ![[Pasted image 20231025132134.png]]

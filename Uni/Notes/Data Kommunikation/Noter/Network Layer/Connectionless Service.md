@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 To make things simpler in the early days of the Internet, the network layer was designed to provide a connectionless service.
 
 ![[Pasted image 20231011213943.png]]

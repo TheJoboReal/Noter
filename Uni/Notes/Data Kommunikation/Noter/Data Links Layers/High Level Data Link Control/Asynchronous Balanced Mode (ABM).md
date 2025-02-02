@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 In Asynchronous Balanced Mode (ABM) the station configuration is
 balanced.
 That is, we have a point-to-point connection with two equal stations,

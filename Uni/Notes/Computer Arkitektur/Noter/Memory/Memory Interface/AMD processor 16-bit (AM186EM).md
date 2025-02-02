@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 Note:
 • Chip-Select Units
 • Address buses A19 - A0

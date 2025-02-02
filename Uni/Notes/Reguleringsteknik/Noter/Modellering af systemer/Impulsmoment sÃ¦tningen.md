@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 $$
 J\dot{\dot{\theta}}=\tau_{net}
 $$

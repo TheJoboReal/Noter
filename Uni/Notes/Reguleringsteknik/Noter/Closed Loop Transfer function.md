@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 Closed Loop Transfer function, eller Lukket løkke overføringsfunktion:
 $$
 \frac{y(s)}{r(s)}=\frac{G(s)K(s)}{1+G(s)K(s)}

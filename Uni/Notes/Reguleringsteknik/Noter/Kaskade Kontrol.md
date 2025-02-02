@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Definition
 Hvis man fks har to målinger. Altså hvis man har mere end en regulator.
 ![[Pasted image 20240216100158.png]]

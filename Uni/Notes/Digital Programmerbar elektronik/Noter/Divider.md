@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 #### Definition
 A clock divider is a digital circuit that takes an input clock signal and produces an output clock signal at a lower frequency.
 

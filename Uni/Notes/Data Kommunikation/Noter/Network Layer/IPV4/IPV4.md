@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 The network layer in version 4 can be thought of as one main protocol and three auxiliary ones.
 ![[Pasted image 20231024130251.png]]
 **IPv4** is responsible for packetizing, forwarding, and delivery of a packet at the network layer.

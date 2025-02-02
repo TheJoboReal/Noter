@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 The Go‐Back‐N protocol simplifies the process on the receiver side.
 Here you only need to keep track of one variable, and you do not need any buffers to keep track of out-of-order packets, they are simply discarded.
 

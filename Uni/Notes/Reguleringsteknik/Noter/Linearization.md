@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 ![[Pasted image 20240216092442.png]]
 
 #### Model

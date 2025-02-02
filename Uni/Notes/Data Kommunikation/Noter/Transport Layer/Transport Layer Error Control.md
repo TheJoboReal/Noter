@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Since the network layer is unreliable (IP protocol), we need to make the transport layer reliable if an application requires reliability.
 This reliability can be e.g., achieved by adding an error control service to the transport layer.
 Error control at transport layer's level is responsible for:

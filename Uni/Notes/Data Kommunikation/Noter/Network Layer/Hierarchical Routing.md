@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 To solve the problem of gigantic forwarding tables, we can create a kind of hierarchy in the forwarding tables.
 So how does this reduce the size of the routing tables?
 * The rest of the Internet does not need to know about this division that the ISP has made inside a network.

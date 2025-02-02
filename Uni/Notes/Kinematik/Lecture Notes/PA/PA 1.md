@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kinematik
+---
 Opg 1
 ![[PA 1 opg1]]
 ***

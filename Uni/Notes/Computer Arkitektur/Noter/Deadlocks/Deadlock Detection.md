@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 Here we allow the system to enter a deadlock.
 On a periodic basis, the system checks for the existence of cycles
 ![[Pasted image 20230929094548.png]]

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Elektro fysik
+---
 #Inverterende forstærker
 ![[Pasted image 20221005122820.png]]
 

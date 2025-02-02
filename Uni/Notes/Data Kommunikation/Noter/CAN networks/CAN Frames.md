@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### Data Frame
 ##### CAN 2.0 A
 This type is used to send information over the network.

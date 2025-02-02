@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Matlab & Mathematica
+---
 
 Her tages først søjle og 7. søjle, og 1. række droppes
 

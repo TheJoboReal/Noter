@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Robotics
+---
 #### Definition
 Node is a fundamental building block of a robotic system. It represents an individual process that performs computation. Nodes can publish and subscribe to topics, offer services, or perform actions. By dividing a system into multiple nodes, each handling specific tasks, ROS 2 allows for modularity, enabling developers to build complex robotic applications that are easier to manage, debug, and scale. Nodes in ROS 2 can run independently, communicate with each other, and are designed to be distributed across different machines or devices in a network.
 

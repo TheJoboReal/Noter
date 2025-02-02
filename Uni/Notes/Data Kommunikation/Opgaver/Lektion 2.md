@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[questions-kom-02.pdf]]
 1.1 Amplitude measures the signal streangth ie, Voltage. Frequency measures the cycles per second or bandwith. The phase is the time shift in the signal.
 

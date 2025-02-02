@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Elektro fysik
+---
 Impedans vil altid have enheden Ohm.
 Eksempel på impedans udregning: [Impedans eks](onenote:https://d.docs.live.net/c230e022fc67d306/Dokumenter/kasper%20blochs%20notesbog/SDU%20Elektrofysik.one#Impedans%20eks&section-id={6F06490E-8AAD-44DF-9CFA-C910C266F74F}&page-id={29E9B064-E275-4D50-A053-1B512272E8EE}&end)  ([Web view](https://onedrive.live.com/view.aspx?resid=C230E022FC67D306%21118&id=documents&wd=target%28SDU%20Elektrofysik.one%7C6F06490E-8AAD-44DF-9CFA-C910C266F74F%2FImpedans%20eks%7C29E9B064-E275-4D50-A053-1B512272E8EE%2F%29))
 og

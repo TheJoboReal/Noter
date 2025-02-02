@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Softwareudvikling
+---
 
 ``` SQL
 select plads.navn, plads.afstand_fra_hjem_km from plads

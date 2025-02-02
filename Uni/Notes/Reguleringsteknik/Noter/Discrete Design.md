@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Definition
 The discrete design method relies on a discretized plant model. The discrete transfer function of a system $G(s)$ and preceding zero-order hold is
 $$

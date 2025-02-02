@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 The virtual address space of a process refers to the logical (or virtual) view of how a process is stored in memory; virtual address spaces that include holes are known as sparse address spaces. The memory management unit (MMU) maps logical pages to physical page frames in memory.
 ***
 The virtual address space of a process refers to the logical (or virtual) view of how a process is stored in memory, i.e., a process begins at

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 1. UDP (User Datagram Protocol):
     
     * UDP is a connectionless and lightweight protocol.

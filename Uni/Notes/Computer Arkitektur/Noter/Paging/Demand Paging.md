@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 With demand-paged virtual memory, pages are loaded only when they are demanded during program execution.
 Demand paging requires hardware support for: (a) page table, and (b) secondary memory. Furthermore, a crucial requirement for demand paging is the ability to restart any instruction after a page fault.
 ![[Pasted image 20231013085757.png]]

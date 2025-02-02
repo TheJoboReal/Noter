@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 One of the limitations of 10Base5 og 10Base2 is that communication takes place in half-duplex (10Base-T is always full-duplex).
 
 ![[Pasted image 20231003140000.png]]

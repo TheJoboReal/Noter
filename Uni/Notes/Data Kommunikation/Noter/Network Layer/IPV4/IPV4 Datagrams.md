@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Although IP security is not part of this course, we will still briefly look at some security issues in the IP protocol and the corresponding solutions that exist.
 There are three issues that particularly applicable to IP protocol:
 * Packet sniffing

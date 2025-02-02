@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 >Its used to see if the header is corrupted
 
 IPv4 checksum is performed as follows:

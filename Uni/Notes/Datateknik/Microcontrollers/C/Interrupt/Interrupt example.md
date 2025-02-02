@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 
 ```asmatmel
 .org 0x02 ; Set the interrupt vector to address 0x02 

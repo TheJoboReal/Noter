@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 *A datagram can travel through many different networks.*
 
 Every router it encounters:

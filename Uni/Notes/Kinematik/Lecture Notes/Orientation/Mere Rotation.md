@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kinematik
+---
 
 Hvis en egenværdien på en collum er 1, så betyder det at der ikke er rotation omkring den akse. Altså hvis rotationsmatricen er lig med identitetsmatricen.
 

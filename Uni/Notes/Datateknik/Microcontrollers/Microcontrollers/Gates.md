@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 #### NOT Gate
 ![[Pasted image 20230209135122.png]]
 

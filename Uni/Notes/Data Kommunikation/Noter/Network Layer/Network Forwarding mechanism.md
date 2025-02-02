@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 • Only the destination address is used for routing.
 • The source address is used to send error message back to the sender if the packet is discarded. 
 

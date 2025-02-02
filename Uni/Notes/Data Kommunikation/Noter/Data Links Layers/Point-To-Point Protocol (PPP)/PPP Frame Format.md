@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 ![[Pasted image 20230926133203.png]]
 #### Flag:
 A PPP Frame starts and ends with a byte flag, which has the bit pattern of

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 **Multiplexing**
 On the sender side, there can be many processes that need to send packets. However, only one transport layer protocol is available. This is called a many‐to‐one relationship and requires multiplexing.
 

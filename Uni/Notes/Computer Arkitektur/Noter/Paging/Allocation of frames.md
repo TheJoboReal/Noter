@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 Besides the [[Page Replacing|page replacing]], the other important issue in the
 implementation of demand paging is frame allocation, i.e., How do
 we allocate a fixed amount of free memory (frames) among the

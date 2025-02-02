@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Digital Programmerbar elektronik
+---
 
 
 The clock timer has two inputs, a clock and a reset signal. In the code 3 signals are created to be used as temporary variables(count, seconds and minuts). A process is created with clock and reset as inputs. The count signal is incremented at every rising edge of the clock, and when the counter equals the clock speed, we then know that a second has passed, and we can thus increment the seconds signal. When the seconds equal 60 a minut has passed, and we can then increment the minuts signal. At the end the seconds and minuts signals are then used for the outputs.

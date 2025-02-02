@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 >See [[Memory Interface 8-bit]]
 
 ![[Pasted image 20231102233339.png]]

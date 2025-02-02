@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 A symbolic microprogramming language
 When designing the language, one possible approach is simply to list all the signals that should be activated in each clock cycle (micro instruction):
 >Example: Suppose that in one cycle we want to increment the value of SP. We also want to initiate a read operation, and we want the next instruction to be the one residing at location 122 in the control store. 

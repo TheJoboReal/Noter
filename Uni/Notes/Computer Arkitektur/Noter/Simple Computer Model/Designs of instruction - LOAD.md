@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 #### Horizontal LOAD design
 ![[Pasted image 20231025131413.png]]
 **Advantage:** Great flexibility, shorter execution time and more accurate.

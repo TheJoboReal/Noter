@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 The main reason for migration from IPv4 to IPv6 is the address depletion of IPv4.
 IPv6 example:
 ![[Pasted image 20231031122240.png]]

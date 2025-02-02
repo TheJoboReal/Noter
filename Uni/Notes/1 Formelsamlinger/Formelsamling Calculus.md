@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: 1 Formelsamlinger
+---
 ### Generelt Algebra
 #### Regler
 ##### Trigonometri

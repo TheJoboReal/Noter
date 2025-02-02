@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Droner
+---
  1.  Battery
 	 - [ ] Check battery charge
 	 - [ ] Check battery condition

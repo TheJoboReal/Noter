@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 We need to have an addressing system so that we can distinguish different processes on a host. The address in this transport layer is called a port number. 
 
 This address has 16 bits, giving 65,536 different addresses (0 - 65,535) 

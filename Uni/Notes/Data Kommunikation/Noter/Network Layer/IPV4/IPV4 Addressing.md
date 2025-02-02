@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 An IP-address (ver. 4), IPv4, used today is a 32-bit address.
 This address defines a unique connection of a device (for example, router or computer) to the Internet.
 

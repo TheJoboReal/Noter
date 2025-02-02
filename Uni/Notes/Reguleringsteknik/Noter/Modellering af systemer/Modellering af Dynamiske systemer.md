@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 To reason about the behavior of a system, we setup models that describe the input-output behavior of the system.
 ![[Pasted image 20240202082932.png]]
 The models are given by

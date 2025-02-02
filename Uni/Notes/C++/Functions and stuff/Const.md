@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: C++
+---
 ![[Pasted image 20230301083126.png]]
 Man kan lave en reference til et objekt og gøre det konstant så det ikke kan ændres.
 

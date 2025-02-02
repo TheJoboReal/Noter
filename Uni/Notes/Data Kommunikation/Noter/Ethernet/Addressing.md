@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Standard Ethernet: Addressing
 
 Each station on an Ethernet network (such as a PC, workstation, or

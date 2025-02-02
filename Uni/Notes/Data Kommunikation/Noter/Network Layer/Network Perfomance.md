@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Upper layer protocols that use service from the network layer expect to get an ideal service. But the network layer is not perfect.
 We can measure the performance of the network layer in terms of:
 * Delay

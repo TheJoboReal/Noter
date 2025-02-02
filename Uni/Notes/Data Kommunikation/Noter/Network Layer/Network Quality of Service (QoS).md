@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 As real-time audio and video streaming services became popular on the Internet, QoS is a concept that has become increasingly important.
 
 The Internet has thrived by providing better quality of service to support these applications.

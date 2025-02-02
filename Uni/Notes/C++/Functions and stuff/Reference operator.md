@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: C++
+---
 
 ***
 `&` tegnet viser addressen og `*` tegnet viser værdien som variablen peger på.

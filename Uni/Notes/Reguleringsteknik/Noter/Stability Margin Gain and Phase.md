@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Definition
 Gain margin er hvilken factor en gain kan blive øget med inden systemet bliver ustabil.
 

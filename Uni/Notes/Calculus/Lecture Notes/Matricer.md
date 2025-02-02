@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Calculus
+---
 >Se video: https://www.youtube.com/watch?v=yRwQ7A6jVLk&ab_channel=TheOrganicChemistryTutor
 
 

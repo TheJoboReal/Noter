@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 [[ICMPv4|ICMP]] has been modified in version 6 as well. This new version, Internet Control Message Protocol version 6 (ICMPv6), follows the same strategy and purposes of version 4. 
 
 The ARP , ICMP and IGMP protocols in version 4 have been merged into ICMPv6

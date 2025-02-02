@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 ![[Pasted image 20230223134454.png]]
 ![[Pasted image 20230223134325.png]]
 Microprocessor er mere kost-effektiv og mere kraftig. Den har heller ikke inbygget RAM/Memory.

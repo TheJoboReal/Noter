@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Matlab & Mathematica
+---
 
 #ArcTan #ArcCos #ArcSin
 ![[Pasted image 20221003214249.png]]

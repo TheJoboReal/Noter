@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Robotics
+---
 #### Get dependencies
 ```bash
 rosdep install -i --from-path src --rosdistro humble -y

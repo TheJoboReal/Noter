@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kinematik
+---
 ![[Pasted image 20230622111438.png]]
 
 ***

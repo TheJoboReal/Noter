@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 A state is safe if the system can allocate resources to each thread (up to its maximum) in some order and still avoid a deadlock.
 
 A system is in a safe state only if there exists a safe sequence. A sequence of threads <T1, T2, …, Tn> is a safe sequence for the current allocation state if, for each Ti, the resource requests that Ti can still make can be satisfied by the currently available resources plus the resources held by all Tj, with j < i.

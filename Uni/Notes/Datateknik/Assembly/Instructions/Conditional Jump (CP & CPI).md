@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 #### CP
 ![[Pasted image 20230309122402.png]]
 ![[Pasted image 20230310173210.png]]

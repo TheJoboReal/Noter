@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 ![[Pasted image 20240202083321.png]]
 ![[Pasted image 20240202083349.png]]
 Summen af de to indgangssignaler er lig.

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 
 #### Octal og Hexadecimal
 ![[Pasted image 20230209124122.png]]

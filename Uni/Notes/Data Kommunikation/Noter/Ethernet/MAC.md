@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 * Ethernet has no mechanisms to acknowledge received frames.
 * Therefore, it is considered an unreliable medium.
 * If a receipt is to be received for received frames, it must be implemented in higher layers.

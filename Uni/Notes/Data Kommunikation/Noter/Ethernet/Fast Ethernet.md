@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Fast Ethernet was designed to compete with other high-speed LAN protocols.
 IEEE created Fast Ethernet as standard 802.3u.
 Fast Ethernet is backward compatible with Standard Ethernet, but the speed is 10 times higher with a data rate of 100 Mbps.

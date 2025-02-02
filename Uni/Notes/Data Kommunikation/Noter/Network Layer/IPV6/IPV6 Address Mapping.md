@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 IPv6 allows a relationship between the IP address and the link-layer address.
 
 Two common link layer addressing methods can be considered for this purpose:

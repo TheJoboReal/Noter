@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Here, a simple error control mechanism is added to the protocol, which makes it possible to find and correct errors. In order to find and correct errors in the sent packets, we need to add redundant bits to our packets. (Checksum or [[Stop-and-wait|CRC]]) 
 
 When a package is received, it is examined for errors 

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 #### The principle of locality
 * Approx. 90% of the running time is spent within approx. 10% of the codes.
 

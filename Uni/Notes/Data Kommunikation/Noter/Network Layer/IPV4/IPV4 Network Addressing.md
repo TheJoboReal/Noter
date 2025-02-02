@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 
 The first address in the network (block) is called network address, which is particularly important because it is used in routing a packet to its destination network.
 Let us assume that the Internet consists of *m* networks and a router with *m* interfaces (ports).

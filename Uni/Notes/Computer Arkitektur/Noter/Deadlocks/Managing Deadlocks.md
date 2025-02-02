@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 * Ignore the problem and pretend that it never occurred…
 e.g.: Unix, Linux, Windows and more… It is then up to kernel and
 application developers to write programs that handle deadlocks

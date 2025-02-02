@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 An example: Bounded buffer
 Consumer: a process consumes information
 

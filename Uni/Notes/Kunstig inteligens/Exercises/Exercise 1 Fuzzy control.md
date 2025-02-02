@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kunstig inteligens
+---
 ![[exercise1.pdf]]
 1. what is a rational agent?
 		Systems that act rationally. A rationel agent is one that takes the optimal actions based on its knowledge to achieve its goal

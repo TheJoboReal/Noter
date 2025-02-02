@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Process-to-process communication requires two identifiers:
 * IP address
 * Port number

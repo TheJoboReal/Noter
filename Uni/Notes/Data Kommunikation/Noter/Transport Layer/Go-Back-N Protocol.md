@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 The problem with the previous protocol is that we only send one packet when we have received a receipt ([[Flow and error control#ACK|ACK]]) that shows the previous packet has been received correctly.
 Therefore, we are now expanding this protocol so that we can send more than one packets while the sender is waiting for acknowledgement.In other words, multiple packets must be in transition to keep the channel busy.
 ![[Pasted image 20231107123435.png]]

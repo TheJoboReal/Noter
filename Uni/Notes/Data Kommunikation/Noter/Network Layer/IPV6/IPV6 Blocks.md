@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 IPv6 uses two large blocks for private addressing and one large block for multicasting.
 ![[Pasted image 20231031124011.png]]
 

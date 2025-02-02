@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 * An important issue in a packet-switched network, such as Internet, is Congestion.
 * This occurs when the number of packets (the load) sent to the network is greater than the capacity of the network.
 * Congestion control refers to a mechanism/technique that controls congestion and keeps the load below capacity.

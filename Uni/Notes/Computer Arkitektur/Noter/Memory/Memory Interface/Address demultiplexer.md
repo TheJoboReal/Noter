@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 #### 74xx137 3 to 8 decoder
 This decoder is used when you have several memory chipsets that are used to form an address block
 * The Y-outputs are fed to the CS on the circuits.

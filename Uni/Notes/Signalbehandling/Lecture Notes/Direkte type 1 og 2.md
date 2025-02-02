@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Signalbehandling
+---
 #### Direkte Type 1
 ![[Pasted image 20231026220015.png]]
 ![[Pasted image 20231026221453.png]]

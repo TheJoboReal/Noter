@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 Originally, The Ethernet LAN was developed in the 1970s by Robert Metcalfe and David Boggs. Since then, it has gone through four generations as the demands for higher data rate have been increasing, we will look at 3 of them:
 ![[Pasted image 20231003133649.png]]
 

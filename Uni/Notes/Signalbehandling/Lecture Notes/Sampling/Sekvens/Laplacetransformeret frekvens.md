@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Signalbehandling
+---
 ![[Pasted image 20230921125416.png]]
 >Se [[Formelsamling Calculus#Laplace Transformation]] og [[Impulssampling]]
 

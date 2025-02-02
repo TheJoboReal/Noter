@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Reguleringsteknik
+---
 #### Definition
 > Med Kalman kan man estimere sit system og gøre variancen mindre. 
 

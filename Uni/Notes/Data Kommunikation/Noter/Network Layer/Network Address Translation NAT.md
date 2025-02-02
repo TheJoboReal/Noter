@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 * One problem of the distribution of addresses through ISPs is that the ISP may not be able to grant the increasing demand when a business grows and needs more addresses because the addresses before and after the range may have been already allocated to other networks.
 * However, only few addresses are needed for universal communication while many private block addresses can be used for internal communication.
 * A technology that can provide the mapping between the private and universal addresses is Network Address Translation (NAT).

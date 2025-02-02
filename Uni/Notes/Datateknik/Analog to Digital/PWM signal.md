@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Datateknik
+---
 > For definition, see [[PWM example|PWM]]
 #### Building a PWM signal
 ![[Pasted image 20240320124631.png]]

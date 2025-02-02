@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Droner
+---
 • What are your expectations for this project?
 	To get into Computer vision and embedded(Connecting the different components)
 	

@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 PPP Network Control Protocols
 PPP supports many of the network layer protocols, for example:
 • Internet

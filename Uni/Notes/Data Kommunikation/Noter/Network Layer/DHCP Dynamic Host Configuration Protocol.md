@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 - [ ] We have seen how ISPs can receive a large block of addresses from ICANN (Internet Corporation for Assigned Names and Numbers).
 We have seen how smaller organizations can receive smaller blocks of addresses from ISPs.
 After a block of addresses are assigned to an organization, the network administration can manually assign addresses to the individual hosts or routers.

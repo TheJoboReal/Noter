@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Softwareudvikling
+---
 ```mermaid
 class BankAccount
     BankAccount : +String owner

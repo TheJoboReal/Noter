@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kinematik
+---
 
 Transponering af frame i 2 akser.
 $$

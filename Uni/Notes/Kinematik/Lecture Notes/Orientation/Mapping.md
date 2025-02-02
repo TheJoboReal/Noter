@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Kinematik
+---
 
 ### Translationel Mapping
 ![[Pasted image 20230314083123.png]]

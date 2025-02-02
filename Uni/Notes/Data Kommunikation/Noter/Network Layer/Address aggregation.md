@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 * When we use classless addressing, it is likely that the routing tables will be larger in size.
 * This is because the whole idea of classless addressing is to divide the entire address space into smaller address blocks that are easier to handle.
 * As the tables get larger, so does the search time in them.

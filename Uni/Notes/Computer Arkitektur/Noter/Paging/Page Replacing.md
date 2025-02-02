@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Computer Arkitektur
+---
 ![[Pasted image 20231013091006.png]]
 ![[Pasted image 20231013091028.png]]
 

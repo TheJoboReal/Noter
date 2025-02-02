@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Signalbehandling
+---
 See [[IIR Filters]] af Cornelia.
 
 Et IIR-filter designes ved at følge proceduren

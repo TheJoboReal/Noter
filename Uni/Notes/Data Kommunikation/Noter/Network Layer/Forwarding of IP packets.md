@@ -1,3 +1,9 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Data Kommunikation
+---
 #### Forwarding of IP packets (based on destination address)
 ![[Pasted image 20231024122804.png]]
 * Destination address and the mask (/n) are used.
