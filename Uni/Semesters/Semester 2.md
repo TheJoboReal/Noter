@@ -1,6 +1,7 @@
 ---
 tags:
   - uni
+  - semester
 Semester Start: 01-02-2023
 Semester End: 31-05-2023
 semester: Semester 2

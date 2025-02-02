@@ -1,6 +1,7 @@
 ---
 tags:
   - uni
+  - semester
 Semester Start: 01-02-2025
 Semester End: 31-05-2025
 semester: Semester 6

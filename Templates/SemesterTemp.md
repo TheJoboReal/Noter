@@ -1,6 +1,7 @@
 ---
 tags:
   - uni
+  - semester
 Semester Start: <%* tR += await tp.system.prompt("Enter the Semester Start date (DD-MM-YYYY):"); %>
 Semester End: <%* tR += await tp.system.prompt("Enter the Semester End date (DD-MM-YYYY):"); %>
 semester: <% tp.file.title %>
