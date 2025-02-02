@@ -132,5 +132,14 @@
       ],
       "key": "E"
     }
+  ],
+  "quickadd:choice:39c4a2ed-6a10-4319-aa82-9b18b2be9781": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }
