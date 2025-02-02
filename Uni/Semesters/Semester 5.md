@@ -5,7 +5,7 @@ Semester Start: 01-08-2024
 Semester End: 31-01-2025
 semester: Semester 5
 ---
-Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
+[[Algoritmer og  Datastruktur]]Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
 ---
 ### Courses

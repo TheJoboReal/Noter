@@ -4,6 +4,7 @@ tags:
   - uni
 course: Algoritmer og Datastruktur
 date: 2025-02-02
+lecture: lecture 12
 ---
 --- 
 #### Definition

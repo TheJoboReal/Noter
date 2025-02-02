@@ -179,6 +179,36 @@
       "openFileInMode": "default",
       "fileExistsMode": "Append to the top of the file",
       "setFileExistsBehavior": true
+    },
+    {
+      "id": "e6002638-a336-4a0b-9982-1a4b34ff652c",
+      "name": "Ny LectureSlide",
+      "type": "Template",
+      "command": true,
+      "templatePath": "Templates/LectureSlideTemp.md",
+      "fileNameFormat": {
+        "enabled": true,
+        "format": "{{value}}"
+      },
+      "folder": {
+        "enabled": true,
+        "folders": [
+          "Uni/Slides"
+        ],
+        "chooseWhenCreatingNote": false,
+        "createInSameFolderAsActiveFile": false,
+        "chooseFromSubfolders": false
+      },
+      "appendLink": false,
+      "openFileInNewTab": {
+        "enabled": false,
+        "direction": "vertical",
+        "focus": true
+      },
+      "openFile": true,
+      "openFileInMode": "default",
+      "fileExistsMode": "Increment the file name",
+      "setFileExistsBehavior": true
     }
   ],
   "macros": [

@@ -14,6 +14,7 @@ course: <%*
     let selectedCourse = await tp.system.suggester(courseNames, courseNames);
     tR += selectedCourse; // Return selected course
 %>
+lecture: <% await tp.system.prompt("Enter lecture") %> 
 date: <% tp.date.now('YYYY-MM-DD') %>
 ---
 --- 

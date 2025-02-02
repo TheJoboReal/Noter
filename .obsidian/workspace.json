@@ -4,19 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "25128ac7b22fec7c",
+        "id": "52084cf619adfba2",
         "type": "tabs",
         "children": [
           {
-            "id": "aa13769cda0d43ef",
+            "id": "3ec883ff53876bc1",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Dashboard.md",
-                "mode": "source",
-                "source": true
+                "mode": "preview",
+                "source": false
               },
               "pinned": true,
               "icon": "lucide-file",
@@ -24,45 +24,17 @@
             }
           },
           {
-            "id": "185405f4aeb41843",
+            "id": "4f640aaf60ef381e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Templates/CourseTemp.md",
-                "mode": "source",
+                "file": "Uni/Courses/Algoritmer og  Datastruktur.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CourseTemp"
-            }
-          },
-          {
-            "id": "892139e788b78741",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Assignments/TestAssign.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TestAssign"
-            }
-          },
-          {
-            "id": "450c5fa56a92623e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/SemesterTemp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "SemesterTemp"
+              "title": "Algoritmer og  Datastruktur"
             }
           }
         ],
@@ -149,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/CourseTemp.md",
+                "file": "Uni/Courses/Algoritmer og  Datastruktur.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +131,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CourseTemp"
+              "title": "Backlinks for Algoritmer og  Datastruktur"
             }
           },
           {
@@ -265,18 +237,26 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "185405f4aeb41843",
+  "active": "4f640aaf60ef381e",
   "lastOpenFiles": [
-    "Templates/LectureSlideTemp.md",
-    "Uni/Slides",
-    "Templates/LectureTemp.md",
-    "Uni/Courses/Algoritmer og Datastruktur.md",
-    "Uni/Semesters/Semester 5.md",
-    "Uni/Assignments/TestAssign.md",
-    "Templates/SemesterTemp.md",
-    "Dashboard.md",
     "Uni/Courses/Kunstig Inteligens.md",
+    "Templates/CourseTemp.md",
+    "Uni/Semesters/Semester 5.md",
+    "Dashboard.md",
+    "Uni/Slides/lecture 12.md",
+    "Uni/Courses/Algoritmer og  Datastruktur.md",
+    "Templates/LectureSlideTemp.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Hashing.md",
+    "Templates/LectureTemp.md",
+    "Uni/Assignments/TestAssign.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Binary Tree.md",
+    "Uni/Notes/NewNotes/TestLecture.md",
     "Templates/AssignmentTemp.md",
+    "Uni/Assignments/Kunstig Inteligens.md",
+    "Uni/Courses",
+    "Uni/Slides",
+    "Uni/Courses/Algoritmer og Datastruktur.md",
+    "Templates/SemesterTemp.md",
     "Uni/Assignments/Kunstig test.md",
     "Todo/TODO.md",
     "Templates/Todo.md",
@@ -284,15 +264,9 @@
     "Uni/Assignments/assigntest.md",
     "Uni/Assignments/Portfolio 1.md",
     "Uni/Assignments/Assigntest.md",
-    "Templates/CourseTemp.md",
     "Uni/Assignments/AssignTest.md",
     "Uni/Assignments/AssigTest.md",
     "Uni/Courses/testcourse.md",
-    "Uni/Assignments/Assigntemp.md",
-    "Uni/Assignments/AssignTemp.md",
-    "Uni/Assignments/testAssignment.md",
-    "Uni/Assignments/Portfolio 2.md",
-    "Uni/Notes/NewNotes/Algo Test.md",
     "Uni/Assignments/heap exercise.pdf",
     "Uni/Assignments/hashing_oevelser.pdf",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/bucket sort.pdf",
@@ -300,7 +274,6 @@
     "Uni/Assignments",
     "Uni/Notes/NewNotes",
     "Uni/Notes/Calculus/Lecture Notes",
-    "Uni/Notes/Kinematik/Lecture Notes",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes"
+    "Uni/Notes/Kinematik/Lecture Notes"
   ]
 }
