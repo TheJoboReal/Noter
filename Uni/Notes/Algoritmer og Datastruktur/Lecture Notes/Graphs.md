@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+date: 2025-02-02
+---
+--- 
 #### Definition
 >  <iframe width="560" height="315" src="https://www.youtube.com/embed/-VgHk7UMPP4?si=FPi5_lBQ5us1ILpd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+date: 2025-02-02
+---
+--- 
 #### Definition
 Kan hente og gemme objekter i konstant tid *-O(1)-*.
 Det kræver at hvert objekt har en entydig nøgle: ellers er genfinding umulig.

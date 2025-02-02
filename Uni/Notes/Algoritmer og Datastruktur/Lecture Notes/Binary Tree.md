@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+date: 2025-02-02
+---
+--- 
 #### Perfect Binary Tree
 > See [Perfect Binary Tree](https://www.geeksforgeeks.org/perfect-binary-tree/)
 

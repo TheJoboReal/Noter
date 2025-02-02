@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Dashboard.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "pinned": true,
@@ -29,16 +29,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Semesters/Semester 5.md",
+                "file": "Uni/Courses/Kunstig Inteligens.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Semester 5"
+              "title": "Kunstig Inteligens"
+            }
+          },
+          {
+            "id": "d17c58b500bab94d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Courses/Algoritmer og Datastruktur.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Algoritmer og Datastruktur"
+            }
+          },
+          {
+            "id": "a6d5ea2416ac858f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Templates/CourseTemp.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CourseTemp"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -237,43 +265,42 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "9204f1b58a8bda02",
+  "active": "d17c58b500bab94d",
   "lastOpenFiles": [
-    "Dashboard.md",
-    "Uni/Semesters/Semester 5.md",
     "Uni/Courses/Kunstig Inteligens.md",
+    "Dashboard.md",
+    "Templates/CourseTemp.md",
+    "Uni/Courses/Algoritmer og Datastruktur.md",
+    "Templates/AssignmentTemp.md",
+    "Uni/Assignments/Portfolio 2.md",
+    "Uni/Assignments/Portfolio 1.md",
+    "Uni/Assignments/heap exercise.pdf",
+    "Uni/Assignments/hashing_oevelser.pdf",
+    "Uni/Notes/Algoritmer og Datastruktur/Assignments/Stack Queue and balPar.md",
+    "Uni/Assignments/Algo asgin.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Spanning Tree.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Sorting.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Priorityqueing.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Linked Lists.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Induktionsbeviser.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Hashing.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Graphs.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Dijkstra Method.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/bucket sort.pdf",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Binary Trees Traversal.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Binary Tree.md",
+    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Big O notation.md",
+    "Uni/Notes/NewNotes/Algo Test.md",
+    "Uni/Semesters/Semester 5.md",
     "Todo/TODO.md",
     "Uni/Assignments/TestAssignment.md",
-    "Templates/AssignmentTemp.md",
-    "Templates/CourseTemp.md",
     "Templates/SemesterTemp.md",
-    "Uni/Assignments/testAssignmentKunstig.md",
-    "Uni/Assignments/Semester 5.md",
-    "Templates/LectureTemp.md",
-    "Templates/ExerciseTemp.md",
-    "Uni/Courses/Algoritmer og Datastruktur.md",
-    "Kunstig Test Assign.md",
-    "Uni/Assignments/KunstigTestAssign.md",
-    "Montecarlo Test.md",
-    "Uni/Notes/NewNotes/TestKunstg.md",
-    "Templates/Todo.md",
-    "Templates/Note Template.md",
     "Uni/Exercises",
     "Uni/Assignments",
-    "Uni/Notes/NewNotes/TestKunstig.md",
-    "Todo/ 2024-12-06.md",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes/Terminology.md",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes/Tuning fuzzy controllers.md",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes/Temporal Difference.md",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes/t-norms and s-norms.md",
-    "Uni/Notes/Kunstig inteligens/Lecture Notes/Sugeno or Takagi-Sugeno or Functional Fuzzy Systems.md",
     "Uni/Notes/NewNotes",
     "Uni/Notes/Calculus/Lecture Notes",
     "Uni/Notes/Kinematik/Lecture Notes",
     "Uni/Notes/Kunstig inteligens/Lecture Notes",
-    "Uni/Courses",
-    "Uni/Notes",
-    "Uni/Semesters",
-    "Uni"
+    "Uni/Courses"
   ]
 }

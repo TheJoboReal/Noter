@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+date: 2025-02-02
+---
+--- 
 > See [Binary Tree Traversal](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/#inorder-traversal)
 
 ![[Tree-Traversal-Techniques.webp]]

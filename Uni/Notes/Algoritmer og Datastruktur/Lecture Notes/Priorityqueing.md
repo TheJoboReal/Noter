@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+date: 2025-02-02
+---
+--- 
 > See [link](https://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
 
 #### Definition

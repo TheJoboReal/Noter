@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+date: 2025-02-02
+---
+--- 
 #### Definition
 A **spanning tree** is defined as a tree-like subgraph of a connected, undirected graph that includes all the vertices of the [[Graphs|graphs]]. Or, to say in Layman’s words, it is a subset of the edges of the graph that forms a tree (**acyclic**) where every node of the graph is a part of the tree.
 

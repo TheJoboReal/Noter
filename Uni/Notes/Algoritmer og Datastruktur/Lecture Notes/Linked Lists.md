@@ -1,3 +1,11 @@
+---
+tags:
+  - lecture-note
+  - uni
+course: Algoritmer og Datastruktur
+date: 2025-02-02
+---
+--- 
 #### Definition
 **Singly Linked List**
 ![[Pasted image 20241118132608.png]]
