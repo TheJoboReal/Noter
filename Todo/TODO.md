@@ -1,4 +1,4 @@
-- [ ] ⏫ Færdiggør Assignment template
+- [x] ⏫ Færdiggør Assignment template
 - [ ] ⏫ Få sat gamle noter ind i nyt system
 - [x] Fix matlab
 - [x] Fix matlab gui
