@@ -22,8 +22,37 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "b31ab690f49379d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Notes/NewNotes/Game plan for ISA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Game plan for ISA"
+            }
+          },
+          {
+            "id": "7d61645608ed5a25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Notes/Shared Memory/Shared Memory.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Shared Memory"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -55,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:tp.file.title",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -222,14 +251,22 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3ec883ff53876bc1",
+  "active": "55c71e5ed1b0c19b",
   "lastOpenFiles": [
-    "Templates/LectureTemp.md",
+    "External/Jacob's Notes",
+    "External/Kasper's Formelsamling",
+    "External/Balder",
+    "External",
+    "Uni/Notes/Shared Memory/Shared Memory.md",
+    "Uni/Notes/NewNotes/Game plan for ISA.md",
+    "Templates/NoteTemp.md",
+    "Uni/Courses/Individuel Studieaktivitet.md",
+    "Uni/Semesters/Semester 6.md",
+    "Dashboard.md",
+    "Uni/Notes/NewNotes",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Monte Carlo Policy.md",
     "Uni/Courses/Kunstig Inteligens.md",
     "Uni/Semesters/Semester 5.md",
-    "Dashboard.md",
-    "Uni/Semesters/Semester 6.md",
     "Courses",
     "Uni/Courses/Nummeriske Metoder.md",
     "Uni/Slides/lecture 1.md",
@@ -240,10 +277,6 @@
     "Uni/Slides/lection1_intro.pdf",
     "Misc og Links/lection1_intro.pdf",
     "Templates/CourseTemp.md",
-    "Misc og Links/Lecture1_HintStartFile.cpp",
-    "Misc og Links/utilities.h",
-    "Misc og Links/Lecture1_Task.pdf",
-    "Misc og Links",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Markov Decision Process.md",
     "Uni/Notes/NewNotes/test.md",
     "Uni/Notes/NewNotes/testnote.md",
@@ -252,13 +285,9 @@
     "Uni/Semesters/Semester 2.md",
     "Uni/Semesters/Semester 1.md",
     "Templates/SemesterTemp.md",
-    "Uni/Notes/Shared Memory/Good sources.md",
-    "Uni/Courses/Individuel Studieaktivitet.md",
     "Uni/Courses/Videnskabsteori.md",
     "Uni/Courses/Bachelor.md",
     "Uni/Courses/Algoritmer og  Datastruktur.md",
-    "Uni/Courses/Statistik.md",
-    "Uni/Notes/Robotters Fysik/BevÃ¦gelsesmÃ¦ngder/BevÃ¦gelsesmÃ¦ngde.md",
-    "Uni/Notes/Robotters Fysik/BevÃ¦gelsesmÃ¦ngder/BevÃ¦gelsesmÃ¦ngde for et partikel.md"
+    "Uni/Courses/Statistik.md"
   ]
 }

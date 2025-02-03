@@ -62,10 +62,10 @@
     },
     {
       "id": "fef93a4c-9f56-44c6-bf4c-21860669fd6e",
-      "name": "Ny Lecture",
+      "name": "Ny Note",
       "type": "Template",
       "command": true,
-      "templatePath": "Templates/LectureTemp.md",
+      "templatePath": "Templates/NoteTemp.md",
       "fileNameFormat": {
         "enabled": true,
         "format": "{{value}}"

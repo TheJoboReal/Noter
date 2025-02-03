@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 dir=$(dirname $0)
 dir_name="notes"
 
@@ -57,11 +56,12 @@ clone_external_vault ()
     git clone --depth 1 "$url" "$path"
 }
 
+info "We got here"
 # Clone external's notes if the `--external` flag is provided
 [[ "$1" = "--external" ]] && {
 
     # List of external vaults
-    clone_external_vault "Balder"         "https://github.com/BalderHolst/uni-notes"
+    clone_external_vault "Balder"         	  "https://github.com/BalderHolst/uni-notes"
     clone_external_vault "Kasper's Formelsamling" "https://github.com/TheJoboReal/Formelsamling"
     clone_external_vault "Jacob's Notes"          "https://github.com/Jack-The-Dane/UNI_Notes"
 
