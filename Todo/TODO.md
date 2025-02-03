@@ -1,3 +1,4 @@
+- [ ] 🔼  Få lavet dele til gevær
 - [x] ⏫ Færdiggør Assignment template
 - [x] ⏫ Få sat gamle noter ind i nyt system
 - [x] Fix matlab

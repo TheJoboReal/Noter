@@ -90,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -226,15 +227,16 @@
   },
   "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
+    "Todo/TODO.md",
+    "Dashboard.md",
+    "Uni/Assignments/TestAssign.md",
     "Templates/SemesterTemp.md",
     "Uni/Semesters/Semester 6.md",
-    "Dashboard.md",
     "README.md",
     "Uni/Slides/lecture 12.md",
     "Uni/Courses/Algoritmer og  Datastruktur.md",
     "Uni/Notes/NewNotes/Runa Overblik.md",
     "Uni/Semesters/Semester 5.md",
-    "Uni/Assignments/TestAssign.md",
     "Uni/Courses/Videnskabsteori.md",
     "Uni/Courses/Bachelor.md",
     "Uni/Courses/Numeriske Metoder.md",
@@ -244,7 +246,6 @@
     "Templates/LectureSlideTemp.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Hashing.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Induktionsbeviser.md",
-    "Todo/TODO.md",
     "Uni/Slides/Intro til Numeriske Metoder.md",
     "Uni/Courses/Individuel Studieaktivitet.md",
     "Uni/Slides/lecture 1.md",
