@@ -5,6 +5,28 @@ tags:
 course: Kunstig Inteligens
 date: 2025-02-01
 ---
+**Table of Content**
+```dataviewjs
+let file = dv.current().file.path; // Get current note path
+let content = await app.vault.read(app.vault.getAbstractFileByPath(file)); // Read file content
+
+// Regular expression to find headers (e.g., # Header, ## Subheader)
+let headers = content.match(/^#+\s.+/gm);
+
+if (!headers || headers.length === 0) {
+    dv.paragraph("⚠️ No headers found in this note.");
+} else {
+    // Convert headers into a table of contents
+    dv.list(headers.map(header => {
+        let level = header.match(/^#+/)[0].length; // Count '#' to determine header level
+        let title = header.replace(/^#+\s*/, ""); // Remove '#' symbols
+        let anchor = title.toLowerCase().replace(/\s+/g, "-"); // Create Obsidian-style link anchor
+
+        return `[[${file}#${title}|${"‣ ".repeat(level - 1)}${title}]]`; // Indentation based on header level
+    }));
+}
+```
+
 --- 
 #### Definition
 > See page 92 in [Introduction to Reinforcement Learning](http://incompleteideas.net/book/the-book-2nd.html)

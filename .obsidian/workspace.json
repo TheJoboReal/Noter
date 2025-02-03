@@ -22,23 +22,8 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "c3c4148285b2be03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Courses/Nummeriske Metoder.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nummeriske Metoder"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -237,12 +222,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "c3c4148285b2be03",
+  "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
-    "Uni/Semesters/Semester 6.md",
+    "Templates/LectureTemp.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/Monte Carlo Policy.md",
+    "Uni/Courses/Kunstig Inteligens.md",
+    "Uni/Semesters/Semester 5.md",
     "Dashboard.md",
-    "Uni/Slides/lecture 1.md",
+    "Uni/Semesters/Semester 6.md",
+    "Courses",
     "Uni/Courses/Nummeriske Metoder.md",
+    "Uni/Slides/lecture 1.md",
     "Uni/Exercises/Lecture1_Task.md",
     "Uni/Exercises/Lecture1_Task.pdf",
     "Uni/Exercises/utilities.h",
@@ -256,10 +246,7 @@
     "Misc og Links",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Markov Decision Process.md",
     "Uni/Notes/NewNotes/test.md",
-    "Uni/Courses/Kunstig Inteligens.md",
-    "Uni/Semesters/Semester 5.md",
     "Uni/Notes/NewNotes/testnote.md",
-    "Templates/LectureTemp.md",
     "Uni/Semesters/Semester 4.md",
     "Uni/Semesters/Semester 3.md",
     "Uni/Semesters/Semester 2.md",
@@ -272,7 +259,6 @@
     "Uni/Courses/Algoritmer og  Datastruktur.md",
     "Uni/Courses/Statistik.md",
     "Uni/Notes/Robotters Fysik/BevÃ¦gelsesmÃ¦ngder/BevÃ¦gelsesmÃ¦ngde.md",
-    "Uni/Notes/Robotters Fysik/BevÃ¦gelsesmÃ¦ngder/BevÃ¦gelsesmÃ¦ngde for et partikel.md",
-    "Uni/Notes/Robotters Fysik/PDF powerpoints/Lektion 1-Intro.pdf"
+    "Uni/Notes/Robotters Fysik/BevÃ¦gelsesmÃ¦ngder/BevÃ¦gelsesmÃ¦ngde for et partikel.md"
   ]
 }

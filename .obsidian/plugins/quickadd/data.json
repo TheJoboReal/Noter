@@ -211,50 +211,7 @@
       "setFileExistsBehavior": true
     }
   ],
-  "macros": [
-    {
-      "name": "Ny Note",
-      "id": "4e7f3095-05d4-455a-a81c-73a97b63c505",
-      "commands": [
-        {
-          "name": "Ny Course",
-          "type": "NestedChoice",
-          "id": "1e357f53-0281-4287-9601-eb395a5fea4b",
-          "choice": {
-            "id": "67909dd7-5bd2-4049-b0c6-64c8ab9df225",
-            "name": "Ny Course",
-            "type": "Template",
-            "command": false,
-            "templatePath": "Templates/BitTemp.md",
-            "fileNameFormat": {
-              "enabled": true,
-              "format": "{{value}}"
-            },
-            "folder": {
-              "enabled": true,
-              "folders": [
-                "Courses"
-              ],
-              "chooseWhenCreatingNote": false,
-              "createInSameFolderAsActiveFile": false,
-              "chooseFromSubfolders": false
-            },
-            "appendLink": true,
-            "openFileInNewTab": {
-              "enabled": false,
-              "direction": "vertical",
-              "focus": true
-            },
-            "openFile": true,
-            "openFileInMode": "default",
-            "fileExistsMode": "Increment the file name",
-            "setFileExistsBehavior": true
-          }
-        }
-      ],
-      "runOnStartup": true
-    }
-  ],
+  "macros": [],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "Templates",
