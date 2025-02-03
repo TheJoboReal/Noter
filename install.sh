@@ -1,17 +1,33 @@
 #!/usr/bin/env bash
+
 dir=$(dirname $0)
 dir_name="notes"
 
 done_something=0
+private=0
 
 info () {
     echo -e "\u001b[36;1m""$@""\u001b[0m"
 }
 
+[[ "$*" = *--private* ]] && {
+    info "Private Mode: Using ssh for cloning vault."
+    private=1
+}
+
+clone_private ()
+{
+    if [[ $private = 1 ]]; then
+        git clone --depth 1 git@github.com:BalderHolst/$1 "$2"
+    else
+        git clone --depth 1 https://github.com/BalderHolst/$1 "$2"
+    fi
+}
+
 # if script is run by itself
 [[ ! -d "$dir/.git" ]] && {
     info "Cloning notes..."
-    git clone https://github.com/TheJoboReal/Noter"$dir_name"
+    clone_private "uni-notes" "$dir_name"
     dir="$dir/$dir_name"
     done_something=1
 }
@@ -19,7 +35,7 @@ info () {
 # if the repo exist
 [[ -d "$dir/.git" ]] && [[ ! -d "$dir/.obsidian" ]] && {
     info "Adding settings..."
-    git clone https://github.com/TheJoboReal/Noter "$dir/.obsidian"
+    clone_private "uni-notes-settings" "$dir/.obsidian"
     done_something=1
 }
 
@@ -56,14 +72,22 @@ clone_external_vault ()
     git clone --depth 1 "$url" "$path"
 }
 
-info "We got here"
+# If in private mode set remote origins to use ssh
+if [[ $private = 1 ]]; then
+    git remote set-url origin git@github.com:BalderHolst/uni-notes \
+        && info "Set notes repo to use ssh."
+    git -C ".obsidian" remote set-url origin git@github.com:BalderHolst/uni-notes-settings \
+        && info "Set settings repo to use ssh."
+    done_something=1
+fi
+
 # Clone external's notes if the `--external` flag is provided
-[[ "$1" = "--external" ]] && {
+[[ "$*" = *--external* ]] && {
 
     # List of external vaults
-    clone_external_vault "Balder"         	  "https://github.com/BalderHolst/uni-notes"
-    clone_external_vault "Kasper's Formelsamling" "https://github.com/TheJoboReal/Formelsamling"
-    clone_external_vault "Jacob's Notes"          "https://github.com/Jack-The-Dane/UNI_Notes"
+    clone_external_vault "Balder's Notes"         "https://github.com/BalderHolst/uni-notes.git"
+    clone_external_vault "Kasper's Formelsamling" "https://github.com/TheJoboReal/Formelsamling.git"
+    clone_external_vault "Jacob's Notes"          "https://github.com/Jack-The-Dane/UNI_Notes.git"
 
     done_something=1
 }
