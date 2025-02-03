@@ -83,12 +83,13 @@ if (!currentCourse) {
         .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 
     // Display results in a table
-    dv.table(["Assignment", "Due Date", "Last Modified", "Completed"], 
+    dv.table(["Assignment", "Due Date", "Last Modified", "Completed", "Progress"], 
         assignments.map(p => [
-            p.file.link, 
-            p.due_date ?? "No Due Date", 
-            p.file.mtime, 
-            (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed"
+            p.file.link, // Assignment file link
+            p.due_date ?? "No Due Date", // Due date or default text
+            p.file.mtime, // Last modified date
+            (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed", // Completion status
+            p.progress ?? "No Progress Info" // Display progress or fallback text
         ])
     );
 }

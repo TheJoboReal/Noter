@@ -14,9 +14,10 @@ course: <%*
     let selectedCourse = await tp.system.suggester(courseNames, courseNames);
     tR += selectedCourse; // Return selected course
 %>
-lecture: <%tp.file.title%>
+lecture: <%*
+let lectureName = await tp.system.prompt("Enter Lecture Name");
+tR += lectureName;
+%>
 date: <% tp.date.now('YYYY-MM-DD') %>
 ---
---- 
 #### Slides
-

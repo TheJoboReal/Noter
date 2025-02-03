@@ -166,5 +166,7 @@
       ],
       "key": "ArrowRight"
     }
-  ]
+  ],
+  "templater-obsidian:create-new-note-from-template": [],
+  "file-explorer:new-file": []
 }

@@ -70,12 +70,13 @@ if (!currentSemester) {
             dv.paragraph("No assignments found for this semester.");
         } else {
             // Display results in a table
-            dv.table(["Assignment", "Due Date", "Course", "Completed"], 
+            dv.table(["Assignment", "Due Date", "Course", "Completed", "Progress"], 
                 assignments.map(p => [
                     p.file.link, // Display file link
                     p.due_date ?? "No Due Date", // Display due date if available
                     courseNotes[p.course] ?? "❌ Course Not Found", // Link to the course note
-                    (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed" // Display completion status
+                    (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed", // Display completion status
+                    p.progress ?? "No Progress Info" // Display progress or fallback text
                 ])
             );
         }

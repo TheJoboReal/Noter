@@ -1,6 +1,6 @@
 ---
 tags:
-  - lecture-note
+  - lecture-slide
   - uni
 course: <%*
     // Get all course files inside "Uni/Courses"
@@ -14,30 +14,32 @@ course: <%*
     let selectedCourse = await tp.system.suggester(courseNames, courseNames);
     tR += selectedCourse; // Return selected course
 %>
-lecture: <% await tp.system.prompt("Enter lecture") %> 
+lecture: <%*
+    // Ensure a course is selected before proceeding
+    if (!selectedCourse) {
+        tR += "No Course Selected"; 
+    } else {
+        // Get all files in "Uni/Slides" with matching course
+        let lectureFiles = app.vault.getMarkdownFiles()
+            .filter(file => file.path.startsWith("Uni/Slides/"));
+
+        // Extract lecture names based on the 'lecture' property inside the files
+        let lectureMetadata = await Promise.all(lectureFiles.map(async (file) => {
+            let metadata = await app.metadataCache.getFileCache(file);
+            if (metadata?.frontmatter?.course === selectedCourse && metadata?.frontmatter?.lecture) {
+                return metadata.frontmatter.lecture;
+            }
+            return null;
+        }));
+
+        // Filter out null values and remove duplicates
+        let lectureNames = [...new Set(lectureMetadata.filter(name => name))];
+
+        // Prompt user to select a lecture
+        let selectedLecture = await tp.system.suggester(lectureNames, lectureNames);
+        tR += selectedLecture; // Return selected lecture
+    }
+%>
 date: <% tp.date.now('YYYY-MM-DD') %>
 ---
-
-**Table of Content**
-```dataviewjs
-let file = dv.current().file.path; // Get current note path
-let content = await app.vault.read(app.vault.getAbstractFileByPath(file)); // Read file content
-
-// Regular expression to find headers (e.g., # Header, ## Subheader)
-let headers = content.match(/^#+\s.+/gm);
-
-if (!headers || headers.length === 0) {
-    dv.paragraph("⚠️ No headers found in this note.");
-} else {
-    // Convert headers into a table of contents
-    dv.list(headers.map(header => {
-        let level = header.match(/^#+/)[0].length; // Count '#' to determine header level
-        let title = header.replace(/^#+\s*/, ""); // Remove '#' symbols
-        let anchor = title.toLowerCase().replace(/\s+/g, "-"); // Create Obsidian-style link anchor
-
-        return `[[${file}#${title}|${"‣ ".repeat(level - 1)}${title}]]`; // Indentation based on header level
-    }));
-}
-```
---- 
-#### Definition
+#### Slides

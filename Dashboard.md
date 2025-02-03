@@ -39,11 +39,12 @@ let incompleteAssignments = dv.pages(`"${folderPath}"`)
     .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 
 // Display results in a table
-dv.table(["Assignment", "Due Date", "Course"], 
+dv.table(["Assignment", "Due Date", "Course", "Progress"], 
     incompleteAssignments.map(p => [
         p.file.link, // Assignment file link
         p.due_date ?? "No Due Date", // Due date or default text
-        courseNotes[p.course] ?? "❌ Course Not Found" // Link to the course note or error message
+        courseNotes[p.course] ?? "❌ Course Not Found", // Link to the course note or error message
+        p.progress ?? "No Progress Info" // Display progress or fallback text
     ])
 );
 ```

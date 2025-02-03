@@ -57,14 +57,22 @@ if (!currentCourse) {
 } else {
     let folderPath = "Uni/Slides"; // Base folder path
 
-    // Find notes in Uni/Notes where course property matches current file
-    let notes = dv.pages(`"${folderPath}"`)
+    // Find slides in Uni/Slides where course property matches the current file
+    let slides = dv.pages(`"${folderPath}"`)
         .where(p => p.course && p.course == currentCourse) // Match course property
         .sort(p => p.file.mtime, 'desc'); // Sort by last modified time
 
-    dv.table(["File Name", "Last Modified"], 
-        notes.map(p => [p.file.link, p.file.mtime])
-    );
+    if (slides.length === 0) {
+        dv.paragraph("⚠️ No slides found for this course.");
+    } else {
+        dv.table(["File Name", "Lecture", "Last Modified"], 
+            slides.map(p => [
+                p.file.link, // File link
+                p.lecture ?? "No Lecture Info", // Display lecture property or fallback text
+                p.file.mtime // Last modified time
+            ])
+        );
+    }
 }
 ```
 
@@ -83,12 +91,13 @@ if (!currentCourse) {
         .sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 
     // Display results in a table
-    dv.table(["Assignment", "Due Date", "Last Modified", "Completed"], 
+    dv.table(["Assignment", "Due Date", "Last Modified", "Completed", "Progress"], 
         assignments.map(p => [
-            p.file.link, 
-            p.due_date ?? "No Due Date", 
-            p.file.mtime, 
-            (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed"
+            p.file.link, // Assignment file link
+            p.due_date ?? "No Due Date", // Due date or default text
+            p.file.mtime, // Last modified date
+            (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed", // Completion status
+            p.progress ?? "No Progress Info" // Display progress or fallback text
         ])
     );
 }
