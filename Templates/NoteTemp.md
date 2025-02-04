@@ -42,6 +42,6 @@ lecture: <%*
 %>
 date: <% tp.date.now('YYYY-MM-DD') %>
 ---
-[[<% dv.current().course %>]]
+
 
 #### Definition
