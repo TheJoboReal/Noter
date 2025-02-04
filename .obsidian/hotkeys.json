@@ -168,5 +168,14 @@
     }
   ],
   "templater-obsidian:create-new-note-from-template": [],
-  "file-explorer:new-file": []
+  "file-explorer:new-file": [],
+  "obsidian-shellcommands:shell-command-12ryxmyzew": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "M"
+    }
+  ]
 }

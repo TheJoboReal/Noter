@@ -201,8 +201,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284.5,
-    "collapsed": true
+    "width": 284.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,6 +227,11 @@
   },
   "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
+    "Uni/Slides/uge1pres.pdf",
+    "Uni/Courses/Numeriske Metoder.md",
+    "Uni/Semesters/Semester 6.md",
+    "Dashboard.md",
+    "Uni/Courses/Individuel Studieaktivitet.md",
     "External/Balder's Notes/Images/uart.png",
     "External/Balder's Notes/Images/types-of-kinematic-axis.png",
     "External/Balder's Notes/Images/twos compliment.png",
@@ -238,7 +242,6 @@
     "External/Balder's Notes/Images/impule-sampling.png",
     "External/Balder's Notes/Images/impule-sampling-signal-repeat.png",
     "External/Balder's Notes/Images/gated-d-latch.png",
-    "External/Balder's Notes/Images/gated-d-latch-io.png",
     "External/Balder's Notes/Images",
     "External/Balder's Notes/HOME.md",
     "External/Balder's Notes/Generalized Coordinates.md",
@@ -250,10 +253,8 @@
     "External/Balder's Notes",
     "External",
     "Todo/TODO.md",
-    "Dashboard.md",
     "Uni/Assignments/TestAssign.md",
     "Templates/SemesterTemp.md",
-    "Uni/Semesters/Semester 6.md",
     "README.md",
     "Uni/Slides/lecture 12.md",
     "Uni/Courses/Algoritmer og  Datastruktur.md",
@@ -261,18 +262,15 @@
     "Uni/Semesters/Semester 5.md",
     "Uni/Courses/Videnskabsteori.md",
     "Uni/Courses/Bachelor.md",
-    "Uni/Courses/Numeriske Metoder.md",
     "Templates/CourseTemp.md",
     "Templates/AssignmentTemp.md",
     "Templates/NoteTemp.md",
     "Templates/LectureSlideTemp.md",
     "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Hashing.md",
-    "Uni/Notes/Algoritmer og Datastruktur/Lecture Notes/Induktionsbeviser.md",
     "Uni/Slides/O. Stæhr-Nielsens keramikrelief Videnskabernes Træ.pdf",
     "External/Balder's Notes/preamble.sty",
     "External/Balder's Notes/install.sh",
     "External/Balder's Notes/Templates",
-    "External/Balder's Notes/Notes",
-    "External/Balder's Notes/Lessons/Semester 3/multivariable-math/Exercises/gamle_eksamensaet/reeksamen-2021-loesning.xopp"
+    "External/Balder's Notes/Notes"
   ]
 }
