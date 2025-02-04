@@ -42,4 +42,6 @@ lecture: <%*
 %>
 date: <% tp.date.now('YYYY-MM-DD') %>
 ---
-#### Slides
+[[<% dv.current().course %>]]
+
+#### Definition
