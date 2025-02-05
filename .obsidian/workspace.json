@@ -24,20 +24,6 @@
             }
           },
           {
-            "id": "8e7b8e5ee37eeb4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Exercises/LU Decomposition og Gaussian.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LU Decomposition og Gaussian"
-            }
-          },
-          {
             "id": "095265cd3be3198e",
             "type": "leaf",
             "state": {
@@ -50,9 +36,37 @@
               "icon": "lucide-file",
               "title": "LU Decompostion"
             }
+          },
+          {
+            "id": "14d7f95cea28a88c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Slides/Numerical Book.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Numerical Book"
+            }
+          },
+          {
+            "id": "ee8ba6b77337ec45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Exercises/LU Decomposition og Gaussian.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "LU Decomposition og Gaussian"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +133,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -182,13 +197,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Notes/NewNotes/Nummerical Recipes.md",
+                "file": "Uni/Exercises/LU Decomposition og Gaussian.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Nummerical Recipes"
+              "title": "Outline of LU Decomposition og Gaussian"
             }
           },
           {
@@ -255,24 +270,27 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "8e7b8e5ee37eeb4d",
+  "active": "ee8ba6b77337ec45",
   "lastOpenFiles": [
+    "Uni/Courses/Numeriske Metoder.md",
+    "Uni/Semesters/Semester 6.md",
+    "Dashboard.md",
+    "Uni/Courses/C++.md",
+    "Uni/Notes/C++/Modbus/Intro.md",
     "Uni/Notes/NewNotes/LU Decompostion.md",
+    "Uni/Slides/Numerical Book.md",
+    "Uni/Notes/C++/Inheritance/Inheritance.md",
     "Uni/Exercises/LU Decomposition og Gaussian.md",
     "Templates/ExerciseTemp.md",
-    "Dashboard.md",
     "Misc og Links/Pasted image 20250205102150.png",
     "Uni/Slides/Intro til Numeriske Metoder.md",
     "Uni/Notes/Calculus/Lecture Notes/Matricer.md",
     "Misc og Links/Pasted image 20250205101037.png",
-    "Uni/Courses/Numeriske Metoder.md",
-    "Uni/Semesters/Semester 6.md",
     "Uni/Slides/Lecture1_Task.pdf",
     "Uni/Notes/NewNotes/Nummerical Recipes.md",
     "External/Balder's Notes/Notes/Determinanen for Matricer.md",
     "Todo/TODO.md",
     "External/Balder's Notes/LU Decomposition.md",
-    "Uni/Slides/Numerical Book.md",
     "Uni/Slides/Numerical Recipes in C++.pdf",
     "Templates/NoteTemp.md",
     "Uni/Notes/NewNotes/Numerical Recipes.md",
@@ -284,9 +302,6 @@
     "Uni/Notes/NewNotes/Test.md",
     "Templates/Todo.md",
     "Uni/Notes/NewNotes/Masser af Yap.md",
-    "Uni/Courses/Videnskabsteori.md",
-    "Uni/Notes/NewNotes/Yap.md",
-    "Templates/AssignmentTemp.md",
     "Uni/Slides/uge1pres.pdf",
     "External/Balder's Notes/Images/uart.png",
     "External/Balder's Notes/Images/types-of-kinematic-axis.png",
