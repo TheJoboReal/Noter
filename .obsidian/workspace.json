@@ -38,7 +38,7 @@
             }
           },
           {
-            "id": "4f8039d0cdcd8310",
+            "id": "6979abe381a83524",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -119,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -256,13 +255,15 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "4f8039d0cdcd8310",
+  "active": "6979abe381a83524",
   "lastOpenFiles": [
     "Uni/Courses/Numeriske Metoder.md",
-    "Uni/Notes/NewNotes/Nummerical Recipes.md",
-    "Uni/Slides/Intro til Numeriske Metoder.md",
-    "Uni/Semesters/Semester 6.md",
     "Dashboard.md",
+    "Uni/Notes/NewNotes/Nummerical Recipes.md",
+    "Uni/Slides/Numerical Book.md",
+    "Uni/Slides/Numerical Recipes in C++.pdf",
+    "Uni/Semesters/Semester 6.md",
+    "Uni/Slides/Intro til Numeriske Metoder.md",
     "Templates/NoteTemp.md",
     "Uni/Notes/NewNotes/Numerical Recipes.md",
     "Templates/CourseTemp.md",
@@ -283,7 +284,6 @@
     "External/Balder's Notes/Notes/Potential Energy.md",
     "External/Balder's Notes/Notes/Kinetic Energy.md",
     "External/Balder's Notes/Notes/Generalized Coordinates.md",
-    "External/Balder's Notes/Notes/Euler-Lagrange Modelling.md",
     "Uni/Slides/uge1pres.pdf",
     "External/Balder's Notes/Images/uart.png",
     "External/Balder's Notes/Images/types-of-kinematic-axis.png",
@@ -302,7 +302,6 @@
     "Uni/Slides/O. Stæhr-Nielsens keramikrelief Videnskabernes Træ.pdf",
     "External/Balder's Notes/preamble.sty",
     "External/Balder's Notes/install.sh",
-    "External/Balder's Notes/Templates",
-    "External/Balder's Notes/Notes"
+    "External/Balder's Notes/Templates"
   ]
 }
