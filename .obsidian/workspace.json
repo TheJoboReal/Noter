@@ -29,12 +29,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Courses/Numeriske Metoder.md",
+                "file": "Uni/Slides/Intro til Numeriske Metoder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Numeriske Metoder"
+              "title": "Intro til Numeriske Metoder"
             }
           },
           {
@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -255,11 +255,12 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "6979abe381a83524",
+  "active": "77418f60f7603421",
   "lastOpenFiles": [
     "Uni/Courses/Numeriske Metoder.md",
-    "Dashboard.md",
     "Uni/Notes/NewNotes/Nummerical Recipes.md",
+    "Dashboard.md",
+    "Todo/TODO.md",
     "Uni/Slides/Numerical Book.md",
     "Uni/Slides/Numerical Recipes in C++.pdf",
     "Uni/Semesters/Semester 6.md",
@@ -283,7 +284,6 @@
     "External/Balder's Notes/Notes/Underactuated Robots.md",
     "External/Balder's Notes/Notes/Potential Energy.md",
     "External/Balder's Notes/Notes/Kinetic Energy.md",
-    "External/Balder's Notes/Notes/Generalized Coordinates.md",
     "Uni/Slides/uge1pres.pdf",
     "External/Balder's Notes/Images/uart.png",
     "External/Balder's Notes/Images/types-of-kinematic-axis.png",
