@@ -12,3 +12,5 @@ date: 2025-02-05
 
 
 #### Exercise Answer
+
+3. Vi bruger [[LU Decompostion]] til at compute *A* matricen.
