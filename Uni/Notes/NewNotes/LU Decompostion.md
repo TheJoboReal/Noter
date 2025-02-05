@@ -14,3 +14,4 @@ date: 2025-02-05
 
 * U(Upper) Matricen er resultatet efter gaussian.
 * L(Lower) matrices er de steps man har taget, fks træk række 2 fra 2 gange.
+
