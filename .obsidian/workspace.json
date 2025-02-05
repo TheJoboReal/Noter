@@ -22,51 +22,8 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "095265cd3be3198e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Notes/NewNotes/LU Decompostion.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LU Decompostion"
-            }
-          },
-          {
-            "id": "14d7f95cea28a88c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Slides/Numerical Book.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Numerical Book"
-            }
-          },
-          {
-            "id": "ee8ba6b77337ec45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Uni/Exercises/LU Decomposition og Gaussian.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "LU Decomposition og Gaussian"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +90,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -269,17 +227,20 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "ee8ba6b77337ec45",
+  "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
+    "Uni/Notes/NewNotes/LU Decompostion.md",
+    "Uni/Exercises/LU Decomposition og Gaussian.md",
+    "Uni/Slides/Numerical Book.md",
+    "External/Balder's Notes/Notes/LU Decomposition.md",
+    "External/Balder's Notes/Lessons/Semester 6/week1/week1.pdf",
+    "External/Balder's Notes/Lessons/Semester 6/week1",
+    "Dashboard.md",
     "Uni/Courses/Numeriske Metoder.md",
     "Uni/Semesters/Semester 6.md",
-    "Dashboard.md",
     "Uni/Courses/C++.md",
     "Uni/Notes/C++/Modbus/Intro.md",
-    "Uni/Notes/NewNotes/LU Decompostion.md",
-    "Uni/Slides/Numerical Book.md",
     "Uni/Notes/C++/Inheritance/Inheritance.md",
-    "Uni/Exercises/LU Decomposition og Gaussian.md",
     "Templates/ExerciseTemp.md",
     "Misc og Links/Pasted image 20250205102150.png",
     "Uni/Slides/Intro til Numeriske Metoder.md",
@@ -300,7 +261,6 @@
     "Uni/Notes/NewNotes/Numerical Recipe.md",
     "Uni/Notes/NewNotes/Test.md",
     "Templates/Todo.md",
-    "Uni/Notes/NewNotes/Masser af Yap.md",
     "Uni/Slides/uge1pres.pdf",
     "External/Balder's Notes/Images/uart.png",
     "External/Balder's Notes/Images/types-of-kinematic-axis.png",
@@ -314,8 +274,6 @@
     "External/Balder's Notes/Excalidraw",
     "External/Balder's Notes",
     "External",
-    "Uni/Slides/O. Stæhr-Nielsens keramikrelief Videnskabernes Træ.pdf",
-    "External/Balder's Notes/preamble.sty",
-    "External/Balder's Notes/install.sh"
+    "Uni/Slides/O. Stæhr-Nielsens keramikrelief Videnskabernes Træ.pdf"
   ]
 }
