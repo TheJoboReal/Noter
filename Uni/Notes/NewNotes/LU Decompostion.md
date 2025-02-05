@@ -8,7 +8,7 @@ date: 2025-02-05
 ---
 
 #### Definition
-Når man laver LU-decomposition 
+> Se [Link](https://www.geeksforgeeks.org/l-u-decomposition-system-linear-equations/?ref=gcse_outind)
 
-U Matricen er resultatet efter gaussian.
-L matrices er de steps man har taget, fks træk række 2 fra 2 gange.
+U(Upper) Matricen er resultatet efter gaussian.
+L(Lower) matrices er de steps man har taget, fks træk række 2 fra 2 gange.
