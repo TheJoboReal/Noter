@@ -37,8 +37,7 @@
               "title": "Game plan for ISA"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,8 +100,7 @@
               "title": "File Tree"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -243,13 +241,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b26cfd93983e6c66",
+  "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
-    "Uni/Semesters/Semester 6.md",
-    "Dashboard.md",
     "Uni/Notes/NewNotes/Game plan for ISA.md",
+    "Templates/NoteTemp.md",
+    "Dashboard.md",
     "conflict-files-obsidian-git.md",
     "Uni/Courses/Individuel Studieaktivitet.md",
+    "Uni/Semesters/Semester 6.md",
     "Uni/Notes/NewNotes/jhj.md",
     "Uni/Courses/Algoritmer og  Datastruktur.md",
     "Uni/Semesters/Semester 5.md",
@@ -274,7 +273,6 @@
     "External/Balder's Notes/Notes/Determinanen for Matricer.md",
     "External/Balder's Notes/LU Decomposition.md",
     "Uni/Slides/Numerical Recipes in C++.pdf",
-    "Templates/NoteTemp.md",
     "Uni/Notes/NewNotes/Numerical Recipes.md",
     "Templates/CourseTemp.md",
     "Uni/Slides/uge1pres.pdf",
