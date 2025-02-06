@@ -101,11 +101,13 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -243,11 +245,11 @@
   },
   "active": "b26cfd93983e6c66",
   "lastOpenFiles": [
+    "Uni/Semesters/Semester 6.md",
     "Dashboard.md",
     "Uni/Notes/NewNotes/Game plan for ISA.md",
     "conflict-files-obsidian-git.md",
     "Uni/Courses/Individuel Studieaktivitet.md",
-    "Uni/Semesters/Semester 6.md",
     "Uni/Notes/NewNotes/jhj.md",
     "Uni/Courses/Algoritmer og  Datastruktur.md",
     "Uni/Semesters/Semester 5.md",
