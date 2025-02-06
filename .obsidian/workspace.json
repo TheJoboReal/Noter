@@ -22,8 +22,23 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
+          },
+          {
+            "id": "b26cfd93983e6c66",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Notes/NewNotes/Game plan for ISA.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Game plan for ISA"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,12 +101,12 @@
               "title": "File Tree"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -227,10 +242,16 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3ec883ff53876bc1",
+  "active": "b26cfd93983e6c66",
   "lastOpenFiles": [
-    "Todo/TODO.md",
+    "Uni/Courses/Individuel Studieaktivitet.md",
+    "Uni/Semesters/Semester 6.md",
     "Dashboard.md",
+    "Uni/Notes/NewNotes/jhj.md",
+    "Uni/Courses/Algoritmer og  Datastruktur.md",
+    "Uni/Semesters/Semester 5.md",
+    "Uni/Notes/NewNotes/Game plan for ISA.md",
+    "Todo/TODO.md",
     "Uni/Notes/NewNotes/LU Decompostion.md",
     "Uni/Exercises/LU Decomposition og Gaussian.md",
     "Uni/Slides/Numerical Book.md",
@@ -238,7 +259,6 @@
     "External/Balder's Notes/Lessons/Semester 6/week1/week1.pdf",
     "External/Balder's Notes/Lessons/Semester 6/week1",
     "Uni/Courses/Numeriske Metoder.md",
-    "Uni/Semesters/Semester 6.md",
     "Uni/Courses/C++.md",
     "Uni/Notes/C++/Modbus/Intro.md",
     "Uni/Notes/C++/Inheritance/Inheritance.md",
@@ -256,11 +276,6 @@
     "Uni/Notes/NewNotes/Numerical Recipes.md",
     "Templates/CourseTemp.md",
     "Templates/SemesterTemp.md",
-    "Uni/Notes/NewNotes/Unknown Course.md",
-    "Uni/Notes/NewNotes/Undefined.md",
-    "Uni/Notes/NewNotes/Numerical Recipe.md",
-    "Uni/Notes/NewNotes/Test.md",
-    "Templates/Todo.md",
     "Uni/Slides/uge1pres.pdf",
     "External/Balder's Notes/Images/uart.png",
     "External/Balder's Notes/Images/types-of-kinematic-axis.png",
