@@ -86,12 +86,12 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -229,13 +229,14 @@
   },
   "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
+    "Todo/TODO.md",
+    "Dashboard.md",
     "Uni/Notes/NewNotes/LU Decompostion.md",
     "Uni/Exercises/LU Decomposition og Gaussian.md",
     "Uni/Slides/Numerical Book.md",
     "External/Balder's Notes/Notes/LU Decomposition.md",
     "External/Balder's Notes/Lessons/Semester 6/week1/week1.pdf",
     "External/Balder's Notes/Lessons/Semester 6/week1",
-    "Dashboard.md",
     "Uni/Courses/Numeriske Metoder.md",
     "Uni/Semesters/Semester 6.md",
     "Uni/Courses/C++.md",
@@ -249,7 +250,6 @@
     "Uni/Slides/Lecture1_Task.pdf",
     "Uni/Notes/NewNotes/Nummerical Recipes.md",
     "External/Balder's Notes/Notes/Determinanen for Matricer.md",
-    "Todo/TODO.md",
     "External/Balder's Notes/LU Decomposition.md",
     "Uni/Slides/Numerical Recipes in C++.pdf",
     "Templates/NoteTemp.md",
