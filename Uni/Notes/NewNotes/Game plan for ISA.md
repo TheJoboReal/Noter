@@ -37,3 +37,6 @@ if (!headers || headers.length === 0) {
 4. Lav GUI i python til display sensor data og lav knapper til at sende commands til robotten.
 
 jmp@mmmi.sdu.dk
+
+- [ ] Kig på interrupts så det ikke bliver en process der låser en thread.
+- [ ] Kig evt på python Viper bibliotek som kan lave python kode til C kode.

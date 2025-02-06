@@ -105,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -169,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Uni/Exercises/LU Decomposition og Gaussian.md",
+                "file": "Uni/Notes/NewNotes/Game plan for ISA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of LU Decomposition og Gaussian"
+              "title": "Outline of Game plan for ISA"
             }
           },
           {
