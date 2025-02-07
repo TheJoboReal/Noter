@@ -22,23 +22,8 @@
               "icon": "lucide-file",
               "title": "Dashboard"
             }
-          },
-          {
-            "id": "18eead5e147b4a5a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/NoteTemp.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "NoteTemp"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +86,8 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -241,19 +227,25 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "18eead5e147b4a5a",
+  "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
-    "Uni/Notes/NewNotes/Numerical Recipes.md",
+    "Uni/Courses/Numeriske Metoder.md",
+    "Dashboard.md",
+    "External/Balder's Notes/Notes/LU Decomposition.md",
+    "External/Balder's Notes/Notes",
+    "External/Balder's Notes/Lessons/Semester 6/week1/week1.pdf",
+    "External/Balder's Notes/Lessons/Semester 6/week1",
+    "External/Balder's Notes/Lessons/Semester 6",
+    "External/Balder's Notes/Lessons",
+    "Uni/Slides/Intro til Numeriske Metoder.md",
+    "Uni/Semesters/Semester 6.md",
     "Templates/NoteTemp.md",
+    "Uni/Notes/NewNotes/Numerical Recipes.md",
     "Uni/Notes/NewNotes/Unknown Course.md",
     "Uni/Notes/NewNotes/Undefined.md",
     "Uni/Notes/NewNotes/Numerical Recipe.md",
     "Uni/Notes/NewNotes/Test.md",
-    "Uni/Courses/Numeriske Metoder.md",
-    "Dashboard.md",
-    "Uni/Semesters/Semester 6.md",
     "Templates/Todo.md",
-    "Uni/Slides/Intro til Numeriske Metoder.md",
     "Uni/Notes/NewNotes/Masser af Yap.md",
     "Uni/Courses/Videnskabsteori.md",
     "Uni/Notes/NewNotes/Yap.md",
@@ -280,14 +272,8 @@
     "External/Balder's Notes/Images/impule-sampling-signal-repeat.png",
     "External/Balder's Notes/Images/gated-d-latch.png",
     "External/Balder's Notes/Images",
-    "External/Balder's Notes/HOME.md",
     "External/Balder's Notes/Excalidraw",
     "External/Balder's Notes",
-    "External",
-    "Uni/Slides/O. Stæhr-Nielsens keramikrelief Videnskabernes Træ.pdf",
-    "External/Balder's Notes/preamble.sty",
-    "External/Balder's Notes/install.sh",
-    "External/Balder's Notes/Templates",
-    "External/Balder's Notes/Notes"
+    "External"
   ]
 }
