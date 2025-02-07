@@ -16,3 +16,7 @@ date: 2025-02-03
 
 - [ ] Kig på interrupts så det ikke bliver en process der låser en thread.
 - [ ] Kig evt på python Viper bibliotek som kan lave python kode til C kode.
+
+#### Progress
+ZeroMQ virker nu og tillader trådløs kommunikation over Wifi mellem C og python. 
+Næste step er at lave switch statements der eksekverer kode basseret på de kommandoer der bliver sendt fra klienten.
