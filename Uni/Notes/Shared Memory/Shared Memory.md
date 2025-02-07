@@ -15,4 +15,5 @@ course: Individuel Studieaktivitet
 Another strategy is to put the two tasks in separate processes and exchange messages between the two with [ZeroMQ](https://zeromq.org/) 
 1. Write a small shim in C that reads data from the hardware and sends whatever it finds as a message.
 2. Write a Python interface between the new and existing infrastructure.
-
+	ZeroMQ uses [[TCP (Transmission Control Protocol)|TCP]] and does not natively support [[UART Protocol|UART]]
+	
