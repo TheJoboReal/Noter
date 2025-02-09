@@ -18,9 +18,9 @@ Another strategy is to put the two tasks in separate processes and exchange mess
 	ZeroMQ uses [[TCP (Transmission Control Protocol)|TCP]] and does not natively support [[UART Protocol|UART]]
 
 
-12-
-18-
-10-
-16-
-16-
-12-
+13
+14
+12
+9
+18
+10
