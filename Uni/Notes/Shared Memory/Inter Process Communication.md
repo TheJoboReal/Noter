@@ -17,3 +17,4 @@ Another strategy is to put the two tasks in separate processes and exchange mess
 2. Write a Python interface between the new and existing infrastructure.
 	ZeroMQ uses [[TCP (Transmission Control Protocol)|TCP]] and does not natively support [[UART Protocol|UART]]
 
+3 
