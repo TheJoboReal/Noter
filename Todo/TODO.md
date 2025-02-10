@@ -1,3 +1,4 @@
+- [ ] 🔺 Flyt matlab over på ny laptop
 - [ ] 🔼  Få lavet dele til gevær
 - [x] ⏫ Færdiggør Assignment template
 - [x] ⏫ Få sat gamle noter ind i nyt system
@@ -7,4 +8,4 @@
 - [x] Install fallout on 3ds
 - [x] Færdiggør et projekt! ✅ 2025-02-02
 - [x] Rebind print screen på keyboard
-- [ ] 🔽 Sæt Ollama op til at lave images til Latex
+- [ ] ⏫  Sæt Ollama op til at lave images til Latex
