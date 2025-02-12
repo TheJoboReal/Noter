@@ -24,31 +24,31 @@
             }
           },
           {
-            "id": "a596778b588839b2",
+            "id": "729428370f48be3b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Notes/Kunstig inteligens/Lecture Notes/Markov Decision Process.md",
+                "file": "Uni/Notes/NewNotes/Rapport Kilder.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Markov Decision Process"
+              "title": "Rapport Kilder"
             }
           },
           {
-            "id": "39273c9a11069a39",
+            "id": "82b9e3b5d47cbc9d",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://www.geeksforgeeks.org/markov-decision-process/?ref=header_outind",
-                "title": "Markov Decision Process - GeeksforGeeks",
-                "mode": "webview"
+                "file": "Uni/Notes/NewNotes/Game Plan.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "globe-2",
-              "title": "Markov Decision Process - GeeksforGeeks"
+              "icon": "lucide-file",
+              "title": "Game Plan"
             }
           }
         ],
@@ -119,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 266.5,
+    "collapsed": true
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -255,14 +256,14 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "a596778b588839b2",
+  "active": "729428370f48be3b",
   "lastOpenFiles": [
-    "Uni/Notes/Kunstig inteligens/Lecture Notes/Markov Decision Process.md",
-    "Uni/Courses/Bachelor.md",
     "Uni/Notes/NewNotes/Rapport Kilder.md",
+    "Uni/Courses/Bachelor.md",
     "Uni/Notes/NewNotes/Game Plan.md",
-    "Uni/Semesters/Semester 6.md",
     "Dashboard.md",
+    "Uni/Semesters/Semester 6.md",
+    "Uni/Notes/Kunstig inteligens/Lecture Notes/Markov Decision Process.md",
     "Uni/Notes/NewNotes/Game plan for ISA.md",
     "conflict-files-obsidian-git.md",
     "Uni/Slides/uge2pres.pdf",

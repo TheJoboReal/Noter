@@ -17,3 +17,5 @@ date: 2025-02-10
  - [ ] Definere hvor ofte et punkt skal afsøges før det kan betraktes som  **Afsøgt** 
  - [ ] Optional. Hvordan kan det implementeres på en rigtig drone
 
+- If **too many drones** enter a high-reward zone, their **individual gains decrease**.
+- Encourages **spread-out exploration** while still seeking good rewards.
