@@ -37,8 +37,7 @@
               "title": "Game plan for ISA"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -243,11 +241,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "b26cfd93983e6c66",
+  "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
+    "Uni/Notes/NewNotes/Game plan for ISA.md",
     "Uni/Semesters/Semester 6.md",
     "Dashboard.md",
-    "Uni/Notes/NewNotes/Game plan for ISA.md",
     "conflict-files-obsidian-git.md",
     "Uni/Courses/Individuel Studieaktivitet.md",
     "Uni/Notes/NewNotes/jhj.md",
