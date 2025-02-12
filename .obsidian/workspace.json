@@ -24,20 +24,35 @@
             }
           },
           {
-            "id": "b26cfd93983e6c66",
+            "id": "a596778b588839b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Uni/Notes/NewNotes/Game plan for ISA.md",
+                "file": "Uni/Courses/Bachelor.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Game plan for ISA"
+              "title": "Bachelor"
+            }
+          },
+          {
+            "id": "98e6ea5f5cbb08e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Uni/Notes/NewNotes/Rapport Kilder.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Rapport Kilder"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -100,8 +115,7 @@
               "title": "File Tree"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -241,12 +255,36 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "3ec883ff53876bc1",
+  "active": "98e6ea5f5cbb08e5",
   "lastOpenFiles": [
-    "Uni/Notes/NewNotes/Game plan for ISA.md",
+    "Uni/Courses/Bachelor.md",
+    "Uni/Notes/NewNotes/Rapport Kilder.md",
+    "Uni/Notes/NewNotes/Game Plan.md",
     "Uni/Semesters/Semester 6.md",
     "Dashboard.md",
+    "Uni/Notes/NewNotes/Game plan for ISA.md",
     "conflict-files-obsidian-git.md",
+    "Uni/Slides/uge2pres.pdf",
+    "Uni/Slides/Lecture2_Task.pdf",
+    "Uni/Slides/Lecture Linear Least Squares problems.md",
+    "Uni/Notes/NewNotes/Least Limear squares problems.md",
+    "Uni/Exercises/Cholesky exercise.md",
+    "Misc og Links/Pasted image 20250212095628.png",
+    "Misc og Links/Pasted image 20250212094931.png",
+    "Misc og Links/Pasted image 20250212094836.png",
+    "Misc og Links/Pasted image 20250212094514.png",
+    "Misc og Links/Pasted image 20250212094010.png",
+    "Misc og Links/Pasted image 20250212093941.png",
+    "Misc og Links/Pasted image 20250212092518.png",
+    "Misc og Links/Pasted image 20250212090414.png",
+    "Misc og Links/Pasted image 20250212090026.png",
+    "Misc og Links/Pasted image 20250212085638.png",
+    "External/Balder's Notes/Notes/Simulation of Robot Dynamics.md",
+    "External/Balder's Notes/Lessons/Semester 6/numerical-methods/week2.pdf",
+    "External/Balder's Notes/Lessons/Semester 6/numerical-methods/week1.pdf",
+    "External/Balder's Notes/Lessons/Semester 6/numerical-methods",
+    "External/Balder's Notes/Least Squared Problem.md",
+    "External/Balder's Notes/Cholesky Decomposition.md",
     "Uni/Courses/Individuel Studieaktivitet.md",
     "Uni/Notes/NewNotes/jhj.md",
     "Uni/Courses/Algoritmer og  Datastruktur.md",
@@ -262,32 +300,8 @@
     "Uni/Courses/C++.md",
     "Uni/Notes/C++/Modbus/Intro.md",
     "Uni/Notes/C++/Inheritance/Inheritance.md",
-    "Templates/ExerciseTemp.md",
-    "Misc og Links/Pasted image 20250205102150.png",
-    "Uni/Slides/Intro til Numeriske Metoder.md",
-    "Uni/Notes/Calculus/Lecture Notes/Matricer.md",
-    "Misc og Links/Pasted image 20250205101037.png",
     "Uni/Slides/Lecture1_Task.pdf",
-    "Uni/Notes/NewNotes/Nummerical Recipes.md",
-    "External/Balder's Notes/Notes/Determinanen for Matricer.md",
-    "External/Balder's Notes/LU Decomposition.md",
     "Uni/Slides/Numerical Recipes in C++.pdf",
-    "Templates/NoteTemp.md",
-    "Uni/Notes/NewNotes/Numerical Recipes.md",
-    "Templates/CourseTemp.md",
-    "Uni/Slides/uge1pres.pdf",
-    "External/Balder's Notes/Images/uart.png",
-    "External/Balder's Notes/Images/types-of-kinematic-axis.png",
-    "External/Balder's Notes/Images/twos compliment.png",
-    "External/Balder's Notes/Images/tangent plane.png",
-    "External/Balder's Notes/Images/resistor.png",
-    "External/Balder's Notes/Images/manipulability-ellipsoid.png",
-    "External/Balder's Notes/Images/kinds of microcontrolers.png",
-    "External/Balder's Notes/Images/impule-sampling.png",
-    "External/Balder's Notes/Images",
-    "External/Balder's Notes/Excalidraw",
-    "External/Balder's Notes",
-    "External",
-    "Uni/Slides/O. Stæhr-Nielsens keramikrelief Videnskabernes Træ.pdf"
+    "Uni/Slides/uge1pres.pdf"
   ]
 }

@@ -16,3 +16,4 @@ date: 2025-02-10
  - [ ] Hvordan træner man en agent så den husker og bliver bedre. (Lige nu køre vi den på en verden og opdaterer en Q-tabel)
  - [ ] Definere hvor ofte et punkt skal afsøges før det kan betraktes som  **Afsøgt** 
  - [ ] Optional. Hvordan kan det implementeres på en rigtig drone
+
