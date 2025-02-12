@@ -50,7 +50,6 @@ b_{i}=\frac{y_{i}}{\sigma_{i}}
 $$
 
 
-
 #### Selecting a basis function
 The first thing we do with the data is plotting it. We then see if we can fit a line to the data, fx a linear function or a Fourrier function.
 Normally we will always have more datapoints(rows) that basis functions(collums), making not the matrix not square.
