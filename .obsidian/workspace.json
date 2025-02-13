@@ -38,6 +38,20 @@
             }
           },
           {
+            "id": "30e1271ebbb5bc0a",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://proceedings.neurips.cc/paper_files/paper/2019/file/54e36c5ff5f6a1802925ca009f3ebb68-Paper.pdf",
+                "title": "Real-Time Reinforcement Learning",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Real-Time Reinforcement Learning"
+            }
+          },
+          {
             "id": "82b9e3b5d47cbc9d",
             "type": "leaf",
             "state": {
@@ -51,8 +65,7 @@
               "title": "Game Plan"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,12 +128,12 @@
               "title": "File Tree"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 266.5,
-    "collapsed": true
+    "width": 266.5
   },
   "right": {
     "id": "ebb52902d9fab057",
@@ -256,11 +269,11 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "729428370f48be3b",
+  "active": "3ec883ff53876bc1",
   "lastOpenFiles": [
     "Uni/Notes/NewNotes/Rapport Kilder.md",
-    "Uni/Courses/Bachelor.md",
     "Uni/Notes/NewNotes/Game Plan.md",
+    "Uni/Courses/Bachelor.md",
     "Dashboard.md",
     "Uni/Semesters/Semester 6.md",
     "Uni/Notes/Kunstig inteligens/Lecture Notes/Markov Decision Process.md",
