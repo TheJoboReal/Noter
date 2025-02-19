@@ -43,6 +43,4 @@ lecture: <%*
 date: <% tp.date.now('YYYY-MM-DD') %>
 ---
 
-Course: [[<% await tp.user.waitForProperty("course") %>]]
-
 #### Definition
