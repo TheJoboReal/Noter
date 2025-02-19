@@ -2,7 +2,7 @@
   "rememberMatrixType": true,
   "rememberMatrixDimensions": true,
   "inline": false,
-  "lastUsedMatrix": "Plain (matrix)",
+  "lastUsedMatrix": "Square brackets (bmatrix)",
   "prevX": 4,
-  "prevY": 10
+  "prevY": 8
 }
