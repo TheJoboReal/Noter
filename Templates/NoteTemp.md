@@ -43,4 +43,6 @@ lecture: <%*
 date: <% tp.date.now('YYYY-MM-DD') %>
 ---
 
+Course [[<% await tp.file.course %>]]
+
 #### Definition
