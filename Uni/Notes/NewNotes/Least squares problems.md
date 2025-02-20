@@ -7,7 +7,63 @@ lecture: Lecture 2
 date: 2025-02-12
 ---
 > See [[Lecture Linear Least Squares problems|Lecture 2]]
-#### Definition
+
+#### Normal Equation
+> [!The Equation] 
+> $A^TA \theta=A^Ty$
+
+A dataset consist of:
+- A predictor variable $x$ and a response variable $y$.
+- A quadratic model of the form, example:
+$$
+y=a_{0}+a_{1}x+a_{2}x^2
+$$
+that can be written on matrix form as:
+$$
+y=A \theta+\epsilon
+$$
+where $A$ is the design matrix (each row contains 1, $x_{i}$​, and $x^2_{i}$​ for a given data point). $\theta$ is the parameter vector $[a_{0},a_{1},a_{2}]^\text{T}$ and $\epsilon$ is the error term.
+
+Given multiple data points, the system becomes:
+$$
+\begin{bmatrix}
+1 & x_1 & x_1^2 \\
+1 & x_2 & x_2^2 \\
+... & ... & ... \\
+1 & x_n & x_n^2
+\end{bmatrix}
+
+\begin{bmatrix}
+a_{0}  \\
+a_{1} \\
+a_{2}
+\end{bmatrix}
+=
+\begin{bmatrix}
+y_{1} \\
+y_{2} \\
+\dots \\
+y_{n}
+\end{bmatrix}
++
+\begin{bmatrix}
+\epsilon_{1} \\
+\epsilon_{2} \\
+\dots \\
+\epsilon_{n}
+\end{bmatrix}
+$$
+our goal is to find $\theta$ to minimize the squared goal.
+
+##### Derivin the normal equation
+The error function to minimize is the sum of squared errors:
+$$
+J(\theta)=||A\theta-y||^2=(A\theta-y)^T(A\theta-y)
+$$
+to find the optimal $\theta$
+
+---
+#### Tavle noter
 $X_{k}$: is a basis function.
 $a_{i}$: are the coefficients we want to fit.
 Points have different uncertainties.
