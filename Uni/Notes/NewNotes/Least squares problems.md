@@ -79,6 +79,6 @@ A symmertric $N\times N$ matrix **B** is called *positive definite* if $v \cdot 
 
 ![[Pasted image 20250212094836.png]]
 ![[Pasted image 20250212094931.png]]
-$A$ matrix must always be [[Least Linear squares problems#Positive definite matrices|positive definite]] to avoid $L_{ii}$ become complex og even 0 resulting in the $L_{ij}$ becoming scuffed.
+$A$ matrix must always be [[Least squares problems#Positive definite matrices|positive definite]] to avoid $L_{ii}$ become complex og even 0 resulting in the $L_{ij}$ becoming scuffed.
 
 Cholesky Decomposition $L$ matrix does not have ones in the diagonal like [[LU Decompostion]].
