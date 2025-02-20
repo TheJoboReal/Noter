@@ -60,7 +60,17 @@ The error function to minimize is the sum of squared errors:
 $$
 J(\theta)=||A\theta-y||^2=(A\theta-y)^T(A\theta-y)
 $$
-to find the optimal $\theta$
+to find the optimal $\theta$, take the derivative with respect to $\theta$:
+$$
+\frac{\partial J(\theta)}{\partial \theta}=2A^T(A\theta-y)
+$$
+Setting the derivative to zero (for minimization):
+$$
+A^TA\theta=A^Ty
+$$
+This is the normal equation. It provides a direct way to solve for $\theta$.
+
+This can then be solved by [[LU Decompostion]] or [[Cholesky Decomposition]] or QR Decomposition.
 
 ---
 #### Tavle noter
@@ -127,7 +137,7 @@ A symmertric $N\times N$ matrix **B** is called *positive definite* if $v \cdot 
 ![[Pasted image 20250212094514.png]]
 
 #### Cholesky Decomposition
->[!tip]- Cholesky decomposition vs. LU decomposition
+>[!tip]- Cholesky decomposition vs LU decomposition
 >* Cholesky decomposition can only be used for symmetric and positive definite matrices. .
 >* Compared to LU decomposition, Cholesky decomposition is approximately twice as fast and requires only half the storage.
 >* Pivoting is unnecessary and should NEVER be carried out.
