@@ -1,5 +1,8 @@
-- [ ] 🔺 Flyt matlab over på ny laptop
-- [ ] 🔼  Få lavet dele til gevær
+- [ ] ⏫  Find tp-link til mormor
+- [ ] 🔺  Reset bærbar til Camilla
+- [ ] ⏫  Lav Numerisk Exercise færdig
+- [ ] ⏫  Få matlab til at køre på razer
+- [ ] 🔽   Få lavet dele til gevær
 - [x] ⏫ Færdiggør Assignment template
 - [x] ⏫ Få sat gamle noter ind i nyt system
 - [x] Fix matlab
@@ -8,4 +11,3 @@
 - [x] Install fallout on 3ds
 - [x] Færdiggør et projekt! ✅ 2025-02-02
 - [x] Rebind print screen på keyboard
-- [ ] ⏫  Sæt Ollama op til at lave images til Latex
