@@ -15,6 +15,7 @@ course: <%*
     tR += selectedCourse; // Return selected course
 %>
 date: <% tp.date.now('YYYY-MM-DD') %>
+completed: false
 ---
 --- 
 #### Exercise Description

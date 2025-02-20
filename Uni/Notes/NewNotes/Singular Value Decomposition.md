@@ -48,3 +48,10 @@ AA^\text{T}=U \Sigma^2U^\text {T}
 $$
 - Så $U$ er givet af [[Eigendecomposition]] af $AA^\text{T}$
 - $U$ er en ortogonal matrix, fordi $AA^\text{T}$ er symmetrisk.
+
+---
+#### Use
+SVD is used to find the direction of maximum stretch.
+This can be used to find the direction that a dataset is mainly distributed. This is also called Principal Component Analasis.
+
+![[Pasted image 20250220145004.png]]
