@@ -1,7 +1,7 @@
 ---
 tags:
   - assignment
-  - uni
+  - algorithms
 course: Numeriske Metoder
 due_date: 03-03-2025
 date: 2025-02-20
