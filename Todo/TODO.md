@@ -1,3 +1,4 @@
+- [ ] Fix numpad i linux
 - [ ] ⏫  Find tp-link til mormor
 - [ ] 🔺  Reset bærbar til Camilla
 - [ ] ⏫  Lav Numerisk Exercise færdig
