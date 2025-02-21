@@ -14,4 +14,4 @@ Næste step er at lave switch statements der eksekverer kode basseret på de kom
 
 Multitasking kan implementeres med [FreeRTOS](https://blog.smittytone.net/2022/02/24/how-to-use-freertos-with-the-raspberry-pi-pico/).
 
-Der findes ikke nogle C-biblioteker til Pi Pico..
+Her er et C [FreeRTOS](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico) bibliotek.
