@@ -74,8 +74,8 @@ if (!currentSemester) {
                 assignments.map(p => [
                     p.file.link, // Display file link
                     p.due_date ?? "No Due Date", // Display due date if available
-                    courseNotes[p.course] ?? "❌ Course Not Found", // Link to the course note
-                    (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed", // Display completion status
+                    courseNotes[p.course] ?? " Course Not Found", // Link to the course note
+                    (p.completed === true || p.completed === "true") ? "✅ Completed" : "❌ Not Completed.", // Display completion status
                     p.progress ?? "No Progress Info" // Display progress or fallback text
                 ])
             );
