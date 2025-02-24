@@ -1,3 +1,4 @@
+- [ ] ⏫  Lav emner for Maagaard
 - [ ] Fix numpad i linux
 - [ ] ⏫  Find tp-link til mormor
 - [ ] 🔺  Reset bærbar til Camilla
