@@ -1,5 +1,5 @@
 - [ ] ⏫  Lav emner for Maagaard
-- [ ] Fix numpad i linux
+- [x] Fix numpad i linux
 - [ ] ⏫  Find tp-link til mormor
 - [x] 🔺  Reset bærbar til Camilla
 - [ ] ⏫  Lav Numerisk Exercise færdig
