@@ -1,7 +1,7 @@
 - [ ] ⏫  Lav emner for Maagaard
 - [ ] Fix numpad i linux
 - [ ] ⏫  Find tp-link til mormor
-- [ ] 🔺  Reset bærbar til Camilla
+- [x] 🔺  Reset bærbar til Camilla
 - [ ] ⏫  Lav Numerisk Exercise færdig
 - [ ] ⏫  Få matlab til at køre på razer
 - [ ] 🔽   Få lavet dele til gevær
