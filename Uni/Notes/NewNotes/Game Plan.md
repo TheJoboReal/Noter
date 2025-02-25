@@ -7,9 +7,10 @@ lecture: null
 date: 2025-02-10
 ---
 
-#### Pseudo Step Plan
- - [ ] Lav grid world path til at plotte.
- - [ ] Vi skal lave en funktion som tager deres heat-map in og laver en gridworld hvor hver grid-reward er den gennemsnitlige heat-værdi.
- - [ ] Definere hvor ofte et punkt skal afsøges før det kan betraktes som  **Afsøgt** 
- - [ ] Optional. Hvordan kan det implementeres på en rigtig drone
+
+Skriv om process og lidt hvad vi har gjort for at have noget godet til test afsnit.
+
+Shared Q-table is for the drones to learn off each other. So if the soft policy dont take other drones into account, then we need a shared Q-table. Vi behøver evt ikke at opdatere Q-tables ved hvert skridt, men kan evt gøres ved hvert n-step.
+
+Vi skal overveje at lave et neuralt netværk når vi begynder at bygge store worlds. Neurale netværk kan "nemt" byttes ud med de gamle Q-tables. Det vil gøre at det ikke bliver så udregningstungt.
 
