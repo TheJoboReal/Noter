@@ -31,7 +31,7 @@ A **Policy** is a solution to the Markov Decision Process. A policy is a mapping
 #### Grid World
 Let us take the example of a grid world: 
 
-![[Pasted image 20250106092653.png|500]]
+![[Pasted image 20250226140458.png]]
 
 An agent lives in the grid. The above example is a 3*4 grid. The grid has a START state(grid no 1,1). The purpose of the agent is to wander around the grid to finally reach the Blue Diamond (grid no 4,3). Under all circumstances, the agent should avoid the Fire grid (orange color, grid no 4,2). Also, the grid no 2,2 is a blocked grid, it acts as a wall hence the agent cannot enter it. 
 
