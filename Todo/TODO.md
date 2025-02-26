@@ -2,7 +2,7 @@
 - [x] Fix numpad i linux
 - [ ] ⏫  Find tp-link til mormor
 - [x] 🔺  Reset bærbar til Camilla
-- [ ] ⏫  Lav Numerisk Exercise færdig
+- [x] ⏫  Lav Numerisk Exercise færdig
 - [ ] ⏫  Få matlab til at køre på razer
 - [ ] 🔽   Få lavet dele til gevær
 - [x] ⏫ Færdiggør Assignment template
