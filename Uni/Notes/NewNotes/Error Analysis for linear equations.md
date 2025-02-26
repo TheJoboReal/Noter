@@ -19,6 +19,7 @@ If $m=n$ the residual error should be very close to zero unless the matrix is ne
 
 #### Error on Solution
 ![[Pasted image 20250226094055.png]]
+
 Consider the design matrix and right hand side:
 $$
 A_{ij}:=\frac{A_{ij}}{\sigma_{i}} \quad i=1\dots m, \quad j=1\dots n
