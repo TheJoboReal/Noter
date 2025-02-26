@@ -27,7 +27,7 @@ $$
 $$
 b_{i}:=\frac{b_{i}}{\sigma_{i}} \quad i=\dots m
 $$
-where $\sigma_{i}$ is the inaccuracy on $b_{i}$.
+where $\sigma_{i}$ is the inaccuracy on $b_{i}$. And $n$ is number of collums and $m$ is number of rows.
 
 The error estimate $\delta_{x}$ is then purely given by the [[Uni/Notes/NewNotes/Singular Value Decomposition|SVD]] matrices using
 $$
