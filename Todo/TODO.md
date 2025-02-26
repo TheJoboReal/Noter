@@ -1,3 +1,4 @@
+- [ ] 🔼 Hvad er en Null vektor
 - [ ] ⏫  Lav emner for Maagaard
 - [x] Fix numpad i linux
 - [ ] ⏫  Find tp-link til mormor
