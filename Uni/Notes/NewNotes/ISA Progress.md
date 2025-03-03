@@ -9,8 +9,7 @@ date: 2025-02-26
 
 #### Progress
 
-- [ ] Implement FreeRTOS på pico pi
+- [x] Implement FreeRTOS på pico pi ✅ 2025-03-03
 	- [ ] Lav command buffer
 	- [ ] Lav standard API function task
 - [ ] Opnå forbindelse med mQTT
-- [ ] 
