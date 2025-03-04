@@ -1,7 +1,7 @@
-- [ ] 🔼 Hvad er en Null vektor
+- [ ] 🔼 Skriv note om Null vektor
 - [ ] ⏫  Lav emner for Maagaard
 - [x] Fix numpad i linux
-- [ ] ⏫  Find tp-link til mormor
+- [x] ⏫  Find tp-link til mormor
 - [x] 🔺  Reset bærbar til Camilla
 - [x] ⏫  Lav Numerisk Exercise færdig
 - [ ] ⏫  Få matlab til at køre på razer
