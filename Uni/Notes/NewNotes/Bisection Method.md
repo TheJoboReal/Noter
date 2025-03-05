@@ -6,8 +6,8 @@ course: Numeriske Metoder
 lecture: Lecture 5
 date: 2025-03-05
 ---
->[!Link]
->https://www.geeksforgeeks.org/program-for-bisection-method/?ref=gcse_outind
+See [Bisect Method](https://www.geeksforgeeks.org/program-for-bisection-method/?ref=gcse_outind) for further details.
+See [Newton Raphson Method](https://www.geeksforgeeks.org/newton-raphson-method/?ref=gcse_outind) for faster convergence method.
 #### Definition
 The bisection method is a technique for finding solutions to equations with a single unknown variable. Among various numerical methods, it stands out for its simplicity and effectiveness, particularly when dealing with ***transcendental equations*** (those that cannot be solved using algebraic methods alone). The method is also called the interval halving method, the binary search method or the dichotomy method.
 
