@@ -1,3 +1,4 @@
+- [ ] Lav custom keybind i vsCode til at køre make kommandoer.
 - [ ] 🔼 Skriv note om Null vektor
 - [ ] ⏫  Lav emner for Maagaard
 - [x] Fix numpad i linux
