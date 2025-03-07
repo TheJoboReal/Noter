@@ -7,7 +7,7 @@ Total file Count: `$=dv.pages().length`
 	SORT text asc
 ```
 ---
-> [!column] #### Name: `=this.Name`
+> [!column] #### Links
 >> [!note] Semesters
 >>```dataviewjs
 >>let folderPath = `Uni/Semesters`; // Folder path 
