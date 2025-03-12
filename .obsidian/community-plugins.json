@@ -30,5 +30,6 @@
   "obsidian-plugin-toc",
   "cycle-through-panes",
   "obsidian-meta-bind-plugin",
-  "ink"
+  "ink",
+  "pseudocode-in-obs"
 ]
