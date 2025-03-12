@@ -31,3 +31,10 @@ Else
 ```
 
 FPM is usually faster than [[Bisection Method]] but can in cases be slower.
+
+
+> [!column] #### Links
+>> [!note] Semesters
+>
+>> [!info] Unfinished Assignments
+>> 
