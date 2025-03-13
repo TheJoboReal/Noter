@@ -4,7 +4,7 @@ tags:
   - uni
 course: Numeriske Metoder
 date: 2025-03-05
-completed: false
+completed: true
 ---
 --- 
 #### Exercise Description
