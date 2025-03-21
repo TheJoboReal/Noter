@@ -1,5 +1,5 @@
 - [ ] Lav custom keybind i vsCode til at køre make kommandoer.
-- [ ] 🔼 Skriv note om Null vektor
+- [x] 🔼 Skriv note om Null vektor
 - [ ] ⏫  Lav emner for Maagaard
 - [x] Fix numpad i linux
 - [x] ⏫  Find tp-link til mormor
