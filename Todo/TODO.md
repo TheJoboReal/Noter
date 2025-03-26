@@ -1,3 +1,4 @@
+- [ ] Find vsCode VIM lua
 - [ ] Lav custom keybind i vsCode til at køre make kommandoer.
 - [x] 🔼 Skriv note om Null vektor
 - [ ] ⏫  Lav emner for Maagaard
