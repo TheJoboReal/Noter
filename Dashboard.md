@@ -1,13 +1,13 @@
 Total file Count: `$=dv.pages().length`
-## Task
 ```dataview
 	TASK
 	FROM "Calendar" or "Todo"
 	WHERE !completed
 	SORT text asc
 ```
----
-[[Linux Querks]]
+> [!Linux]
+> [[Linux Querks]]
+
 > [!column] #### Links
 >> [!note] Semesters
 >>```dataviewjs
