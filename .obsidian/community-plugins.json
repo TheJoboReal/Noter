@@ -32,5 +32,6 @@
   "obsidian-meta-bind-plugin",
   "ink",
   "pseudocode-in-obs",
-  "obsidian-reminder-plugin"
+  "obsidian-reminder-plugin",
+  "force-read-mode"
 ]

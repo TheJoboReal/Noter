@@ -7,6 +7,7 @@ Total file Count: `$=dv.pages().length`
 	SORT text asc
 ```
 ---
+[[Linux Querks]]
 > [!column] #### Links
 >> [!note] Semesters
 >>```dataviewjs
