@@ -8,6 +8,8 @@ date: 2025-03-26
 ---
 > See [Link](https://askubuntu.com/questions/366813/disable-second-non-existent-screen-from-command-line)
 #### Definition
+> [!Tip] hdmi might not be functional when gpu is turned off
+
 When no other physical display can be seen due to a virtual monitor.
 Run this command to fix it:
 ```bash
