@@ -14,3 +14,5 @@ date: 2025-02-26
 	- [ ] Lav standard API function task
 
 Der er nu seriel forbindelse mellem pico og pc.
+
+:TODO enten fjern printf statements eller brug to seriel kanaler to debug og dataoverførsel.
