@@ -15,4 +15,4 @@ date: 2025-02-26
 
 Der er nu seriel forbindelse mellem pico og pc.
 
-:TODO enten fjern printf statements eller brug to seriel kanaler to debug og dataoverførsel.
+:TODO enten fjern printf statements eller brug to serielle kanaler to debug og dataoverførsel.
