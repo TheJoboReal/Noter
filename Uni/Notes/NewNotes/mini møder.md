@@ -23,6 +23,8 @@ Det er forkert at plotte grafer på vores trænings data da vi ikke vil have at 
 
 Tjek om vi ændre agent location for tidligt eller sent, og om env.set_reward() bliver kørt for sent og dermed gør at agenten tror at det er godt at gå tilbage fordi den ikke er sat til 0 endnu.
 
+Print world map og se om rewards bliver "afkølet"
+
 Evt lav vektor mod unexplored states. Endnu en 3x3 matrix som sætter en state til 1 hvis den kan gå over i en state *a* og fra state *a* gå over i en state som ikke er visited. Det vil hjælpe hvis den fks sidder fast inde i en stor klumme af visited states.
 
 Skriv om hvorfor vi ikke bruger x, y i vores observations, mm.
