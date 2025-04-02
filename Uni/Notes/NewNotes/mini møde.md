@@ -14,3 +14,9 @@ Kun brug visited near som obs, ikke direkte i reward.
 Lavere beta måske? (check ligning igennem).
 Ik sæt visited til -5, sæt den til 0 istedet.
 Kun giv reward for info gain, tilføj visited senere.
+
+
+Køre evt 100 train og så 10 valuation.
+Greedy ved de 10
+
+Evt lav vektor mod unexplored states.
