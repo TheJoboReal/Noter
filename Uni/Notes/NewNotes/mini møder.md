@@ -30,3 +30,8 @@ Evt lav vektor mod unexplored states. Endnu en 3x3 matrix som sætter en state t
 Skriv om hvorfor vi ikke bruger x, y i vores observations, mm.
 
 ---
+## 08-04-2025
+* lav test med gammel state space, for at se om det var det der fiksede det.
+* Evt der er en agent taet paa og eller nearest agent retning og afstand.
+
+* Start med meget dense heatmap og plus det med 
