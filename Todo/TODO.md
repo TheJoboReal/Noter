@@ -1,7 +1,6 @@
 - [ ] Find vsCode VIM lua
 - [ ] Lav custom keybind i vsCode til at køre make kommandoer.
 - [x] 🔼 Skriv note om Null vektor
-- [ ] ⏫  Lav emner for Maagaard
 - [x] Fix numpad i linux
 - [x] ⏫  Find tp-link til mormor
 - [x] 🔺  Reset bærbar til Camilla
