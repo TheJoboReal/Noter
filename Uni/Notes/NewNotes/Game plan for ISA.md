@@ -15,3 +15,5 @@ Næste step er at lave switch statements der eksekverer kode basseret på de kom
 Multitasking kan implementeres med [FreeRTOS](https://blog.smittytone.net/2022/02/24/how-to-use-freertos-with-the-raspberry-pi-pico/).
 
 Her er et C [FreeRTOS](https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico) bibliotek.
+
+Implement et globalt timeout flag som bliver polled istedet for et globalt stop flag.
