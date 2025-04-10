@@ -32,6 +32,12 @@ Skriv om hvorfor vi ikke bruger x, y i vores observations, mm.
 ---
 ## 08-04-2025
 * lav test med gammel state space, for at se om det var det der fiksede det.
-* Evt der er en agent taet paa og eller nearest agent retning og afstand.
+* Evt der er en agent tæt på og eller nearest agent retning og afstand.
 
 * Start med meget dense heatmap og plus det med.
+
+## 10-04-2025
+* Lav test med baseline nu.
+* Brug vektor der peger mod prioritet istedet for brushfire. Eller ihvertfald start med vektor.
+* Skriv gerne om at en mega Q-table var wack.
+* Skriv noget rapport om vores baseline og send til dem.
