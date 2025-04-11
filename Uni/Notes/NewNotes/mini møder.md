@@ -41,3 +41,8 @@ Skriv om hvorfor vi ikke bruger x, y i vores observations, mm.
 * Brug vektor der peger mod prioritet istedet for brushfire. Eller ihvertfald start med vektor.
 * Skriv gerne om at en mega Q-table var wack.
 * Skriv noget rapport om vores baseline og send til dem.
+
+## 11-04-2025
+* Brug numpy til at skrive q-table til en fil.
+* Lav heatmap overlay så vi får en form for brushfire
+* 
