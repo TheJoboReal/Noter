@@ -37,7 +37,7 @@ Skriv om hvorfor vi ikke bruger x, y i vores observations, mm.
 * Start med meget dense heatmap og plus det med.
 
 ## 10-04-2025
-* Lav test med baseline nu.
+* Lav test med baseline nu. Test på flere environments.
 * Brug vektor der peger mod prioritet istedet for brushfire. Eller ihvertfald start med vektor.
 * Skriv gerne om at en mega Q-table var wack.
 * Skriv noget rapport om vores baseline og send til dem.
