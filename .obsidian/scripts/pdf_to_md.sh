@@ -27,13 +27,14 @@ else
   cp "$LATEST_FILE" "$TEMP_FOLDER/page-1.png"
 fi
 
-# Run OCR on all images
+# Run OCR on all images using TrOCR
 OCR_TEXT=""
 for IMG in "$TEMP_FOLDER"/*.png; do
-  echo "Running OCR on $IMG"
-  TEXT=$(tesseract "$IMG" stdout --psm 6 -l eng)
+  echo "Running OCR (TrOCR) on $IMG"
+  TEXT=$(python3 trocr.py "$IMG")
   OCR_TEXT+=$'\n'"$TEXT"
 done
+
 
 # Clean temporary images
 rm -rf "$TEMP_FOLDER"
