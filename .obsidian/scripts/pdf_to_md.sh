@@ -1,60 +1,72 @@
 #!/bin/bash
 
-# Set your folders
-INPUT_FOLDER="/home/kasper/Documents/Noter/handwritten-notes"
-OUTPUT_FOLDER="/home/kasper/Documents/Noter/written_markdown"
+# Input and output folders
+INPUT_FOLDER="../../handwritten-notes"
+OUTPUT_FOLDER="../../written_markdown"
 
-# Find the most recently modified PDF
-LATEST_FILE=$(ls -t "$INPUT_FOLDER"/*.pdf | head -n 1)
-echo "Input file: $LATEST_FILE"
+# Temporary folder for intermediate images
+TEMP_FOLDER="./temp_images"
+mkdir -p "$TEMP_FOLDER"
 
-# Check if a file was found
-if [ -z "$LATEST_FILE" ]; then
-    echo "No PDF files found in $INPUT_FOLDER"
-    exit 1
+# Find the latest file (even inside subfolders)
+LATEST_FILE=$(find "$INPUT_FOLDER" -type f -printf "%T@ %p\n" | sort -n | tail -1 | cut -d' ' -f2-)
+
+# Check if file found
+if [ ! -f "$LATEST_FILE" ]; then
+  echo "No files found in $INPUT_FOLDER."
+  exit 1
 fi
 
-# Temp file locations
-TMP_IMG="/tmp/ocr_image.png"
-TMP_TXT="/tmp/ocr_text.txt"
+echo "Processing file: $LATEST_FILE"
 
-# Convert PDF to multiple PNGs
-pdftoppm -png "$LATEST_FILE" /tmp/ocr_image
+# Convert PDF to images (if it's a pdf)
+EXT="${LATEST_FILE##*.}"
+if [[ "$EXT" == "pdf" ]]; then
+  pdftoppm -png "$LATEST_FILE" "$TEMP_FOLDER/page"
+else
+  cp "$LATEST_FILE" "$TEMP_FOLDER/page-1.png"
+fi
 
-# Prepare a fresh OCR text file
-TMP_TXT="/tmp/ocr_text.txt"
-> "$TMP_TXT"
-
-# OCR all images
-for IMG in /tmp/ocr_image-*.png; do
-    echo "Processing $IMG..."
-    tesseract "$IMG" "${IMG%.png}" --psm 6 -l eng
-    cat "${IMG%.png}.txt" >> "$TMP_TXT"
-    echo -e "\n\n" >> "$TMP_TXT"
+# Run OCR on all images
+OCR_TEXT=""
+for IMG in "$TEMP_FOLDER"/*.png; do
+  echo "Running OCR on $IMG"
+  TEXT=$(tesseract "$IMG" stdout --psm 6 -l eng)
+  OCR_TEXT+=$'\n'"$TEXT"
 done
 
-# Read the full OCR text
-OCR_CONTENT=$(cat "$TMP_TXT")
+# Clean temporary images
+rm -rf "$TEMP_FOLDER"
 
-# Prompt the model
-PROMPT="You are a professional transcription assistant. Clean up the following OCR text from a handwritten note and:
+# Build the fancy prompt
+PROMPT=$(cat <<EOF
+You are a professional transcription assistant. Clean up the following OCR text from a handwritten note:
 - Fix all misspelled words (even if it requires guessing based on context).
 - Correct formatting into proper Markdown.
 - Reconstruct broken sentences when needed.
 - If you detect a checkbox like '[ ]', format it properly.
 - Interpret headings, bullets, and paragraphs from the structure.
 
+OCR text:
+"""
+$OCR_TEXT
+"""
 Output only the final Markdown without any comments.
-"
+EOF
+)
 
-# Send to Ollama
-MARKDOWN_CONTENT=$(echo -e "$PROMPT" | ollama run mistral)
+# Send the prompt to Ollama
+echo "Sending prompt to Ollama..."
+MARKDOWN=$(echo "$PROMPT" | ollama run mistral)
 
-# Save the output
-TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-OUTPUT_FILE="$OUTPUT_FOLDER/note_$TIMESTAMP.md"
+# Generate output filename
+FILENAME=$(basename "$LATEST_FILE")
+BASENAME="${FILENAME%.*}"
+OUTFILE="$OUTPUT_FOLDER/${BASENAME}.md"
 
-echo "$MARKDOWN_CONTENT" > "$OUTPUT_FILE"
+# Save Markdown output
+mkdir -p "$OUTPUT_FOLDER"
+echo "$MARKDOWN" > "$OUTFILE"
 
-echo "Done! Saved as $OUTPUT_FILE"
+echo "Saved Markdown to $OUTFILE"
 

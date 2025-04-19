@@ -174,7 +174,7 @@
     {
       "id": "i8hx88q7tx",
       "platform_specific_commands": {
-        "default": "sh ~/Documents/Noter/.obsidian/scripts/pdf_to_md.sh"
+        "default": "bash ~/Documents/Noter/.obsidian/scripts/pdf_to_md.sh"
       },
       "shells": {},
       "alias": "",
