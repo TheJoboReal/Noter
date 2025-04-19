@@ -1,3 +1,4 @@
+import sys
 from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from PIL import Image
 
@@ -5,9 +6,15 @@ from PIL import Image
 processor = TrOCRProcessor.from_pretrained("microsoft/trocr-base-handwritten")
 model = VisionEncoderDecoderModel.from_pretrained("microsoft/trocr-base-handwritten")
 
-# Load the image (ensure the image path is correct)
-image_path = 'image.png'  # Replace with your image path
-image = Image.open(image_path)
+# Get the image path from the command line argument
+image_path = sys.argv[1]  # This gets the image path passed by the Bash script
+
+try:
+    # Load the image
+    image = Image.open(image_path)
+except FileNotFoundError:
+    print(f"Error: The image file at {image_path} was not found.")
+    sys.exit(1)
 
 # Preprocess the image and run OCR with TrOCR
 inputs = processor(images=image, return_tensors="pt")

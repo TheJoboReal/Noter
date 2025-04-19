@@ -19,7 +19,7 @@ fi
 
 echo "Processing file: $LATEST_FILE"
 
-# Convert PDF to images
+# Convert PDF to images (if it's a pdf)
 EXT="${LATEST_FILE##*.}"
 if [[ "$EXT" == "pdf" ]]; then
   pdftoppm -png "$LATEST_FILE" "$TEMP_FOLDER/page"
@@ -32,13 +32,12 @@ for IMG in "$TEMP_FOLDER"/*.png; do
   echo "Running OCR (TrOCR) on $IMG"
   
   # Run the Python script to extract text using TrOCR
-  python3 trocr_script.py "$IMG"
+  python3 trocr_script.py "$IMG"  # Ensure that the path to the image is passed here
+done
 
-  # Once OCR is done, we can capture the markdown output from Python script (if any)
 
   # Example: You can directly move or rename the output markdown file
   mv output.md "$OUTPUT_FOLDER/$(basename "$IMG" .png).md"
-done
 
 # Clean temporary images
 rm -rf "$TEMP_FOLDER"
