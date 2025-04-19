@@ -19,55 +19,29 @@ fi
 
 echo "Processing file: $LATEST_FILE"
 
-# Convert PDF to images (if it's a pdf)
+# Convert PDF to images
 EXT="${LATEST_FILE##*.}"
 if [[ "$EXT" == "pdf" ]]; then
-  pdftoppm -png -rx 300 -ry 300 "$LATEST_FILE" "$TEMP_FOLDER/page"
+  pdftoppm -png "$LATEST_FILE" "$TEMP_FOLDER/page"
 else
   cp "$LATEST_FILE" "$TEMP_FOLDER/page-1.png"
 fi
 
-# Run OCR using EasyOCR
-OCR_TEXT=""
+# Process the image with the TrOCR Python script
 for IMG in "$TEMP_FOLDER"/*.png; do
-  echo "Running OCR with EasyOCR on $IMG"
-  OCR_TEXT=$(python3 ./easyocr_script.py "$IMG")
-done
+  echo "Running OCR (TrOCR) on $IMG"
+  
+  # Run the Python script to extract text using TrOCR
+  python3 trocr_script.py "$IMG"
 
-echo "OCR TEXT: $OCR_TEXT"
+  # Once OCR is done, we can capture the markdown output from Python script (if any)
+
+  # Example: You can directly move or rename the output markdown file
+  mv output.md "$OUTPUT_FOLDER/$(basename "$IMG" .png).md"
+done
 
 # Clean temporary images
 rm -rf "$TEMP_FOLDER"
 
-# Build the fancy prompt
-PROMPT=$(cat <<EOF
-You are a professional transcription assistant. Clean up the following OCR text from a handwritten note:
-- Fix all misspelled words (even if it requires guessing based on context).
-- Correct formatting into proper Markdown.
-- Reconstruct broken sentences when needed.
-- If you detect a checkbox like '[ ]', format it properly.
-- Interpret headings, bullets, and paragraphs from the structure.
-
-OCR text:
-"""
-$OCR_TEXT
-"""
-Output only the final Markdown without any comments.
-EOF
-)
-
-# Send the prompt to Ollama
-echo "Sending prompt to Ollama..."
-MARKDOWN=$(echo "$PROMPT" | ollama run mistral)
-
-# Generate output filename
-FILENAME=$(basename "$LATEST_FILE")
-BASENAME="${FILENAME%.*}"
-OUTFILE="$OUTPUT_FOLDER/${BASENAME}.md"
-
-# Save Markdown output
-mkdir -p "$OUTPUT_FOLDER"
-echo "$MARKDOWN" > "$OUTFILE"
-
-echo "Saved Markdown to $OUTFILE"
+echo "OCR and Markdown conversion completed. Files are saved in $OUTPUT_FOLDER"
 
