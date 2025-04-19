@@ -6,6 +6,7 @@ OUTPUT_FOLDER="/home/kasper/Documents/Noter/written_markdown"
 
 # Find the most recently modified PDF
 LATEST_FILE=$(ls -t "$INPUT_FOLDER"/*.pdf | head -n 1)
+echo "Input file: $LATEST_FILE"
 
 # Check if a file was found
 if [ -z "$LATEST_FILE" ]; then
@@ -36,17 +37,13 @@ done
 OCR_CONTENT=$(cat "$TMP_TXT")
 
 # Prompt the model
-PROMPT="You are a professional transcription assistant. Clean up the following OCR text from a handwritten note:
+PROMPT="You are a professional transcription assistant. Clean up the following OCR text from a handwritten note and:
 - Fix all misspelled words (even if it requires guessing based on context).
 - Correct formatting into proper Markdown.
 - Reconstruct broken sentences when needed.
 - If you detect a checkbox like '[ ]', format it properly.
 - Interpret headings, bullets, and paragraphs from the structure.
 
-OCR text:
-"""
-[YOUR OCR TEXT]
-"""
 Output only the final Markdown without any comments.
 "
 
