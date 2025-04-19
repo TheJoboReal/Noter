@@ -1,11 +1,11 @@
-- [ ] Find vsCode VIM lua
-- [ ] Lav custom keybind i vsCode til at køre make kommandoer.
+- [x] Find vsCode VIM lua
+- [x] Lav custom keybind i vsCode til at køre make kommandoer.
 - [x] 🔼 Skriv note om Null vektor
 - [x] Fix numpad i linux
 - [x] ⏫  Find tp-link til mormor
 - [x] 🔺  Reset bærbar til Camilla
 - [x] ⏫  Lav Numerisk Exercise færdig
-- [ ] ⏫  Få matlab til at køre på razer
+- [x] ⏫  Få matlab til at køre på razer
 - [ ] 🔽   Få lavet dele til gevær
 - [x] ⏫ Færdiggør Assignment template
 - [x] ⏫ Få sat gamle noter ind i nyt system
