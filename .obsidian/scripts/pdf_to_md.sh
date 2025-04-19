@@ -17,22 +17,31 @@ fi
 TMP_IMG="/tmp/ocr_image.png"
 TMP_TXT="/tmp/ocr_text.txt"
 
-# Convert PDF to image (1st page only)
+# Convert PDF to multiple PNGs
 pdftoppm -png "$LATEST_FILE" /tmp/ocr_image
 
-# OCR the image
-pytesseract /tmp/ocr_image-1.png > "$TMP_TXT"
+# Prepare a fresh OCR text file
+TMP_TXT="/tmp/ocr_text.txt"
+> "$TMP_TXT"
 
-# Read the OCR result
+# OCR all images
+for IMG in /tmp/ocr_image-*.png; do
+    echo "Processing $IMG..."
+    tesseract "$IMG" "${IMG%.png}" -l eng
+    cat "${IMG%.png}.txt" >> "$TMP_TXT"
+    echo -e "\n\n" >> "$TMP_TXT"
+done
+
+# Read the full OCR text
 OCR_CONTENT=$(cat "$TMP_TXT")
 
-# Create a prompt for the model
-PROMPT="You are a markdown assistant. Convert the following handwritten note into clean, organized Markdown. Fix common OCR mistakes like '||' -> '[ ]', '_--' -> '---'. Format lists, checkboxes, headings, and separators properly. Do not add or interpere anything to the file, only convert.\n\n$OCR_CONTENT"
+# Prompt the model
+PROMPT="You are a markdown assistant. Convert the following handwritten note into clean, organized Markdown. Fix OCR mistakes like '||' -> '[ ]', '_--' -> '---'. Format lists, checkboxes, headings, and separators properly.\n\n$OCR_CONTENT"
 
-# Run through Ollama + mistral
+# Send to Ollama
 MARKDOWN_CONTENT=$(echo -e "$PROMPT" | ollama run mistral)
 
-# Save output to a Markdown file
+# Save the output
 TIMESTAMP=$(date +%Y%m%d_%H%M%S)
 OUTPUT_FILE="$OUTPUT_FOLDER/note_$TIMESTAMP.md"
 
