@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Set your folders
-INPUT_FOLDER="../../handwritten-notes"
-OUTPUT_FOLDER="../../written_markdown"
+INPUT_FOLDER="/home/kasper/Documents/Noter/handwritten-notes"
+OUTPUT_FOLDER="/home/kasper/Documents/Noter/written_markdown"
 
 # Find the most recently modified PDF
 LATEST_FILE=$(ls -t "$INPUT_FOLDER"/*.pdf | head -n 1)
