@@ -22,7 +22,7 @@ echo "Processing file: $LATEST_FILE"
 # Convert PDF to images (if it's a pdf)
 EXT="${LATEST_FILE##*.}"
 if [[ "$EXT" == "pdf" ]]; then
-  pdftoppm -png "$LATEST_FILE" "$TEMP_FOLDER/page"
+	pdftoppm -png -rx 300 -ry 300 "$LATEST_FILE" "$TEMP_FOLDER/page"
 else
   cp "$LATEST_FILE" "$TEMP_FOLDER/page-1.png"
 fi
@@ -56,7 +56,12 @@ Output only the final Markdown without any comments.
 EOF
 )
 
+
 # Send the prompt to Ollama
+echo "=== PROMPT TO OLLAMA ==="
+echo "$PROMPT"
+echo "=== END PROMPT ==="
+
 echo "Sending prompt to Ollama..."
 MARKDOWN=$(echo "$PROMPT" | ollama run mistral)
 

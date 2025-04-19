@@ -3,12 +3,12 @@ from transformers import TrOCRProcessor, VisionEncoderDecoderModel
 from PIL import Image
 
 # Load model and processor
-processor = TrOCRProcessor.from_pretrained('microsoft/trocr-base-handwritten')
+processor = TrOCRProcessor.from_pretrained('microsoft/trocr-base-handwritten', use_fast=True)
 model = VisionEncoderDecoderModel.from_pretrained('microsoft/trocr-base-handwritten')
 
 # Read image filename from command-line arguments
 image_path = sys.argv[1]
-image = Image.open(image_path).convert("RGB")
+image = Image.open(sys.argv[1]).convert("RGB")
 
 # OCR
 pixel_values = processor(images=image, return_tensors="pt").pixel_values
