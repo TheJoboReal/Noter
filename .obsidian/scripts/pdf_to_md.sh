@@ -22,19 +22,17 @@ echo "Processing file: $LATEST_FILE"
 # Convert PDF to images (if it's a pdf)
 EXT="${LATEST_FILE##*.}"
 if [[ "$EXT" == "pdf" ]]; then
-	pdftoppm -png -rx 300 -ry 300 "$LATEST_FILE" "$TEMP_FOLDER/page"
+  pdftoppm -png -rx 300 -ry 300 "$LATEST_FILE" "$TEMP_FOLDER/page"
 else
   cp "$LATEST_FILE" "$TEMP_FOLDER/page-1.png"
 fi
 
-# Run OCR on all images using TrOCR
+# Run OCR using EasyOCR
 OCR_TEXT=""
 for IMG in "$TEMP_FOLDER"/*.png; do
-  echo "Running OCR (TrOCR) on $IMG"
-  TEXT=$(python3 trocr.py "$IMG")
-  OCR_TEXT+=$'\n'"$TEXT"
+  echo "Running OCR with EasyOCR on $IMG"
+  OCR_TEXT=$(python3 ./easyocr_script.py "$IMG")
 done
-
 
 # Clean temporary images
 rm -rf "$TEMP_FOLDER"
@@ -56,12 +54,7 @@ Output only the final Markdown without any comments.
 EOF
 )
 
-
 # Send the prompt to Ollama
-echo "=== PROMPT TO OLLAMA ==="
-echo "$PROMPT"
-echo "=== END PROMPT ==="
-
 echo "Sending prompt to Ollama..."
 MARKDOWN=$(echo "$PROMPT" | ollama run mistral)
 
