@@ -27,7 +27,7 @@ TMP_TXT="/tmp/ocr_text.txt"
 # OCR all images
 for IMG in /tmp/ocr_image-*.png; do
     echo "Processing $IMG..."
-    tesseract "$IMG" "${IMG%.png}" -l eng
+    tesseract "$IMG" "${IMG%.png}" --psm 6 -l eng
     cat "${IMG%.png}.txt" >> "$TMP_TXT"
     echo -e "\n\n" >> "$TMP_TXT"
 done
@@ -36,7 +36,19 @@ done
 OCR_CONTENT=$(cat "$TMP_TXT")
 
 # Prompt the model
-PROMPT="You are a markdown assistant. Convert the following handwritten note into clean, organized Markdown. Fix OCR mistakes like '||' -> '[ ]', '_--' -> '---'. Format lists, checkboxes, headings, and separators properly.\n\n$OCR_CONTENT"
+PROMPT="You are a professional transcription assistant. Clean up the following OCR text from a handwritten note:
+- Fix all misspelled words (even if it requires guessing based on context).
+- Correct formatting into proper Markdown.
+- Reconstruct broken sentences when needed.
+- If you detect a checkbox like '[ ]', format it properly.
+- Interpret headings, bullets, and paragraphs from the structure.
+
+OCR text:
+"""
+[YOUR OCR TEXT]
+"""
+Output only the final Markdown without any comments.
+"
 
 # Send to Ollama
 MARKDOWN_CONTENT=$(echo -e "$PROMPT" | ollama run mistral)
