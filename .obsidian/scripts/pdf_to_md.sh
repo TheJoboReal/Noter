@@ -34,6 +34,8 @@ for IMG in "$TEMP_FOLDER"/*.png; do
   OCR_TEXT=$(python3 ./easyocr_script.py "$IMG")
 done
 
+echo "OCR TEXT: $OCR_TEXT"
+
 # Clean temporary images
 rm -rf "$TEMP_FOLDER"
 
