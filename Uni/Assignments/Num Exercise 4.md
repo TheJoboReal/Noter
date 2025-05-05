@@ -13,7 +13,7 @@ completed: false
 
 Complete exercise 3:
 
-![[eks2022.pdf#4]]
+![[_eks2023.pdf]]
 
 ##### Further explained
 **DMPs** are a way to model **goal-directed movement** (like how a robot arm or a pen might draw a shape) using **differential equations**. They help guide a system from a **starting position to a goal**, while allowing flexibility to **modify the path taken** by using **learned trajectories**.
