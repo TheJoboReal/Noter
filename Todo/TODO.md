@@ -1,3 +1,4 @@
+- [ ] Python range finding
 - [x] Find vsCode VIM lua
 - [x] Lav custom keybind i vsCode til at køre make kommandoer.
 - [x] 🔼 Skriv note om Null vektor
