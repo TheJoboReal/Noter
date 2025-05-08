@@ -6,7 +6,7 @@ course: Numeriske Metoder
 due_date: 05-05-2025
 date: 2025-04-30
 progress: Not Startet
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description
