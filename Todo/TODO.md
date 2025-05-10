@@ -1,3 +1,4 @@
+- [x] Husk det der 🔽
 - [x] Python range finding
 - [x] Find vsCode VIM lua
 - [x] Lav custom keybind i vsCode til at køre make kommandoer.
