@@ -5,7 +5,7 @@ tags:
 course: Numeriske Metoder
 due_date: 22-04-2025
 date: 2025-04-07
-progress: Not Startet
+progress: afleveret
 completed: true
 ---
 --- 

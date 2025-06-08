@@ -9,7 +9,6 @@ progress: Not Startet
 completed: false
 ---
 --- 
-Only do exercise 4
 #### Assignment Description
 ![[Uni/Assignments/eks2022.pdf|eks2022]]
 
