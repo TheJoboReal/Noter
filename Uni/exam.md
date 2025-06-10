@@ -31,7 +31,7 @@ The following is the nullspace matrix, as a vector for this situation:
 
 ##### iii
 
-Using SVD, we get the following:
+Using SVD, we get the following $x$ vector:
 
 ```bash
 -47.2484       0.368843        79.6538       -4.71197        40.4043        69.7427       -42.7351         5.2933
@@ -212,30 +212,17 @@ The following is a plot of our values from evaluating $-10<=t<=10$:
 ![[Figure_1 1.png]]
 ##### iv
 
-Looking at the bottom plot it can be seen as distance to the other car decreases, so does acceleration. This is logical as the behind driver would slow down when getting closer to avoid collision.
+Looking at the plots, it can be seen as distance to the other car decreases, so does acceleration. This is logical as the behind driver would slow down when getting closer to avoid collision.
 
 ##### v
 
-Using midpoint method with a threshold at $2\times 10^{-5}$, we get the following output:
+Using midpoint method with a threshold at $2\times 10^{-5}$ and with $N=20,40,80,160,\dots$ , we get the following output:
 
 ```bash
 | its | N-1 |   A(hi)   | A(hi-1) - A(hi) |  alp^k   | Rich-error         | f computations |
 |-----|-----|-----------|------------------|----------|---------------------|-----------------|
 |  0  |  20 | 10.11675  | 0                | 0        | 0                   | 40              |
 |  1  |  40 | 10.09636  | 0.02039609       | 0        | 6.952948e-310       | 80              |
-|  2  |  80 | 10.09218  | 0.004177354      | 4.882538 | -0.001075934        | 160             |
-|  3  | 160 | 10.09121  | 0.0009647469     | 4.33     | -0.0002897138       | 320             |
-|  4  | 320 | 10.09098  | 0.0002324257     | 4.150776 | -7.376777e-05       | 640             |
-|  5  | 640 | 10.09092  | 5.707916e-05     | 4.071989 | -1.858052e-05       | 1280            |
-```
-
-The following is midpoint method with $N=20,40,80,160,\dots$ :
-
-```bash
-| its | N-1 |   A(hi)   | A(hi-1) - A(hi) |  alp^k   | Rich-error         | f computations |
-|-----|-----|-----------|------------------|----------|---------------------|-----------------|
-|  0  |  20 | 10.11675  | 0                | 0        | 0                   | 40              |
-|  1  |  40 | 10.09636  | 0.02039609       | 0        | 6.953279e-310       | 80              |
 |  2  |  80 | 10.09218  | 0.004177354      | 4.882538 | -0.001075934        | 160             |
 |  3  | 160 | 10.09121  | 0.0009647469     | 4.33     | -0.0002897138       | 320             |
 |  4  | 320 | 10.09098  | 0.0002324257     | 4.150776 | -7.376777e-05       | 640             |
@@ -318,14 +305,14 @@ At $20$ iterations the estimated error is $0.00000255$.
 For high precision at few computations, DE rule would be a good choice.
 
 #### Exercise 5
-
+For exercise 5 code from exam/exam5/ is used. Note that this code is from class and is thus based on the solutions from the classes.
 ##### i
 
 The following is the expression on semi-discrete form.
 ![[Pasted image 20250610204738.png]]
 ##### ii
 
-The following is calculated using modified code from the classes.
+The following is calculated using the modified code from the classes.
 
 The following is the estimate after running for multiple hours. This is due to the f-calculations growing exponentially. This could be optimized further by making it recursive or using other methods, this was not done:
 
