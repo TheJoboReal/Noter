@@ -1,6 +1,6 @@
 ### Exam
 
-The files initia_value_problem_funcs.h and print_table.h are created in class together with Andreas Skeem, Asge, Christian and Jacob
+The files initial_value_problem_funcs.h and print_table.h are created in class together with Andreas Skeem, Asge, Christian and Jacob
 
 #### Exercise 1
 
