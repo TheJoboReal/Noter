@@ -7,7 +7,7 @@ lecture: Lecture 8
 date: 2025-03-26
 ---
 
-#### Definition[[Linux Querks]]
+#### Definition
 Compute $I=\int_{a}^b f(x) \, dx$
 We should assume that $f(x)$ is expensive to evaluate, e.g. $f(x)$ may be the result of physical simulation of some physical system with input $x$.
 
