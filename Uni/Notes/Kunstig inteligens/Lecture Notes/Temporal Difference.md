@@ -37,6 +37,7 @@ It is common to use the **weighted** importance since the difference between the
 Each node is a state where a new action can be taken.
 So when looking at the value of a state, we trace a path down a see what would happen.
 We can see that monte Carlo runs until it reaches a terminal, and then updates the values.
+
 ![[Pasted image 20241114125438.png]]
 
 ##### Dynamic Programing
