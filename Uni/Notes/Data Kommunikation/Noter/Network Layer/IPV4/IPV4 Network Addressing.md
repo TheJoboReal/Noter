@@ -17,7 +17,8 @@ More levels of hierarchy can be created using subnetting. An organization (or an
 * All data is sent to a router connected to the rest of the Internet.
 * The router also forward data to the relevant subnets.
 
->The network block has one mask, and each subnet inside also has their own mask.
+>[!Tip] The network block has one mask, and each subnet inside also has their own mask.
+>The default subnet address is usually `255.255.255.0`
 
 ***
 ##### Subnetting Design
