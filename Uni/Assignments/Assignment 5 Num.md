@@ -6,7 +6,7 @@ course: Numeriske Metoder
 due_date: 03-06-2025
 date: 2025-05-14
 progress: Not Startet
-completed: false
+completed: true
 ---
 --- 
 Only do exercise 4
