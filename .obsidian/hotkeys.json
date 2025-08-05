@@ -162,9 +162,36 @@
       "key": "M"
     }
   ],
+  "vimium:show-markers": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
+  ],
   "app:toggle-left-sidebar": [
     {
       "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "app:toggle-right-sidebar": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "L"
+    }
+  ],
+  "app:go-back": [
+    {
+      "modifiers": [
+        "Mod",
         "Alt"
       ],
       "key": "ArrowLeft"
@@ -176,9 +203,10 @@
       "key": "H"
     }
   ],
-  "app:toggle-right-sidebar": [
+  "app:go-forward": [
     {
       "modifiers": [
+        "Mod",
         "Alt"
       ],
       "key": "ArrowRight"
