@@ -4,9 +4,9 @@ tags:
   - course
 semester: Semester 7
 course: Embedded Systems
-Exam form: null
-Exam Date: null
-dato: 06-08-2025
+Exam form: Project Hand-in
+Exam Date: 20-01-2026
+dato: 01-09-2025
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
 
