@@ -16,24 +16,23 @@ course: Digital Programmerbar elektronik
 #### VHDL Example
 ![[Pasted image 20240320123751.png]]
 ```vhdl
-entity com is
+entity comparator is
 	port(
 	a : in std_logic_vector(3 downto 0);
 	b : in std_logic_vector(3 downto 0);
 	y : out std_logic
 	);
-end comp;
+end comparator;
 
-architecture Behavioral of comp is
-
+architecture Behavioral of comparator is
 begin
-	process(a,b)
-		begin
-			if(a=b) then
-				y <= '1';
-			else
-				y <= '0'
-			end if;
-		end process;
-end Behavioral; 
+    process(a,b)
+    begin
+      if (a = b) then
+          y <= '1';
+      else
+          y <= '0';
+      end if;
+    end process;
+end Behavioral;
 ```
