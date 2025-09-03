@@ -4,8 +4,8 @@ tags:
   - course
 semester: Semester 7
 course: Scientific Method
-Exam form: null
-Exam Date: 
+Exam form: Portfolio and MCQ
+Exam Date:
 dato: 06-08-2025
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
