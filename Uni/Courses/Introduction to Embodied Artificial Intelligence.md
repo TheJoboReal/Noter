@@ -4,8 +4,8 @@ tags:
   - course
 semester: Semester 7
 course: Introduction to Embodied Artificial Intelligence
-Exam form: Oral
-Exam Date: null
+Exam form: Oral and Final Report
+Exam Date:
 dato: 06-08-2025
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`
