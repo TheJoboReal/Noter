@@ -8,7 +8,7 @@
 - [x] 🔺  Reset bærbar til Camilla
 - [x] ⏫  Lav Numerisk Exercise færdig
 - [x] ⏫  Få matlab til at køre på razer
-- [ ] 🔽   Få lavet dele til gevær
+- [ ] ⏫    Få lavet dele til gevær
 - [x] ⏫ Færdiggør Assignment template
 - [x] ⏫ Få sat gamle noter ind i nyt system
 - [x] Fix matlab
