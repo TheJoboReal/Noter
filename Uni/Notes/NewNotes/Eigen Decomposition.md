@@ -143,7 +143,7 @@ $$
 
 #### Matrix Square Root
 
-For a **symmetric positive definite (SPD)** matrix Σ\SigmaΣ, the same idea extends:
+For a **symmetric positive definite (SPD)** matrix $\Sigma$, the same idea extends:
 $$
 \Sigma^{1/2}=V diag(\sqrt{ \lambda_{i} })P^T
 $$
