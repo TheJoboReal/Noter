@@ -10,7 +10,7 @@ date: 2025-09-07
 
 #### Eqigen Decomposition
 >[!tldr] Eigen decomposition is a method used in linear algebra to break down a square matrix into simpler components called eigenvalues and eigenvectors. This process helps us understand how a matrix behaves and how it transforms data.
--  $\Sigma^{1/2}$**creates correlation/variance structure** (stretch + rotate space according to eigenvalues/eigenvectors).
+-  $\Sigma^{1/2}$ **creates correlation/variance structure** (stretch + rotate space according to eigenvalues/eigenvectors).
 - $\Sigma^{-1/2}$ **removes correlation/variance structure** (makes the data spherical / uncorrelated).
 
 It’s like having a colored, stretched cloud of points — multiplying by $\Sigma^{-1/2}$ "whitens" it into a nice round sphere.
@@ -165,7 +165,7 @@ Where $I$ is the identity matrix.
 
 
 #### Practical Use cases
-Suppose $x$ is a random vector with covariance Σ\SigmaΣ.  
+Suppose $x$ is a random vector with covariance $\Sigma$.  
 If we transform it by the inverse square root:
 
 $$
