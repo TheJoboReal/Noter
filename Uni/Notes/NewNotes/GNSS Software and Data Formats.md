@@ -6,18 +6,20 @@ course: Droner
 lecture: null
 date: 2025-09-17
 ---
+>[!TIP] See [link](https://www.unoosa.org/documents/pdf/icg/2024/Tokyo2024/B04_GNSS_Software_and_Data_Formats_Avinab.pdf)
+#### NMEA Format
 
-#### GNSS
-GPGGA$,123519,4807.038,\text{N},01131.000,\text{E},1,08,0.9,545.4,\text{M},46.9,\text{M},,47$
 
-Talker ID (GN: GNSS, GP: GPS, GL: GLONASS…)
+<span style="color: red;">GP</span><span style="color: green;">GGA</span>$,123519,4807.038,\text{N},01131.000,\text{E},1,08,0.9,545.4,\text{M},46.9,\text{M},,$<span style="color: purple;">47</span>
+
+<span style="color: red;">Talker ID (GN: GNSS, GP: GPS, GL: GLONASS…)</span> 
 
 Different NMEA Message Types contain different types of GNSS information
-* **RMC**: 2D Position, Date/Time, Speed, Heading
-* **GGA**: 3D Position(Lat/Lon), Time, Fix Quality, DOP, DGPS status
-* **GSA**: Active Satellites
-* **GSV**: Satellites in view, Azimuth, Elevation, SNR
-* **GST**: Estimated accuracy
+* <span style="color: green;">RMC</span>: 2D Position, Date/Time, Speed, Heading
+* <span style="color: green;">GGA</span>: 3D Position(Lat/Lon), Time, Fix Quality, DOP, DGPS status
+* <span style="color: green;">GSA</span>: Active Satellites
+* <span style="color: green;">GSV</span>: Satellites in view, Azimuth, Elevation, SNR
+* <span style="color: green;">GST</span>: Estimated accuracy
 
 | Felt                    | Værdi            | Beskrivelse                      |
 | ----------------------- | ---------------- | -------------------------------- |
