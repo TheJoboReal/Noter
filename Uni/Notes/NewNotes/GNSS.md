@@ -8,15 +8,16 @@ date: 2025-09-17
 ---
 
 #### GNSS
-**GPGGA**$,123519,4807.038,\text{N},01131.000,\text{E},1,08,0.9,545.4,\text{M},46.9,\text{M},,47$
+GPGGA$,123519,4807.038,\text{N},01131.000,\text{E},1,08,0.9,545.4,\text{M},46.9,\text{M},,47$
+
 Talker ID (GN: GNSS, GP: GPS, GL: GLONASS…)
 
 Different NMEA Message Types contain different types of GNSS information
-• **RMC**: 2D Position, Date/Time, Speed, Heading
-• **GGA**: 3D Position(Lat/Lon), Time, Fix Quality, DOP, DGPS status
-• **GSA**: Active Satellites
-• **GSV**: Satellites in view, Azimuth, Elevation, SNR
-• **GST**: Estimated accuracy
+* **RMC**: 2D Position, Date/Time, Speed, Heading
+* **GGA**: 3D Position(Lat/Lon), Time, Fix Quality, DOP, DGPS status
+* **GSA**: Active Satellites
+* **GSV**: Satellites in view, Azimuth, Elevation, SNR
+* **GST**: Estimated accuracy
 
 | Felt                    | Værdi            | Beskrivelse                      |
 | ----------------------- | ---------------- | -------------------------------- |
