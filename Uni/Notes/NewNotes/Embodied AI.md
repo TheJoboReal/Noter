@@ -3,7 +3,7 @@ tags:
   - lecture-slide
   - uni
 course: Introduction to Embodied Artificial Intelligence
-lecture: null
+lecture: Lecture 1
 date: 2025-09-04
 ---
 >[!TLDR] Embodied AI is interacting with the environment.
