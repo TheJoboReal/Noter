@@ -3,7 +3,7 @@ tags:
   - lecture-slide
   - uni
 course: Multivariat Statistik
-lecture: null
+lecture: Lecture 2
 date: 2025-09-11
 ---
 
