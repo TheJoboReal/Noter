@@ -7,4 +7,4 @@ lecture: Lecture 3
 date: 2025-09-21
 ---
 #### Slides
-![[UAS Safety & Risk Assessment Assignment Template.pdf]]
+![[utf-8''UAS_20Safety_20and_20Risk_20Assessment_20-_20Sep_2025-1.pdf]]
