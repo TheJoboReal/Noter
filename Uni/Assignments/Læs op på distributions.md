@@ -14,7 +14,7 @@ Få styr på:
 * F-distribution
 * $\chi²$ distribution
 * normal-distribution
-* student$^T$ distribution
+* Student's t-distribution
 
 
 #### Assignment Answer
