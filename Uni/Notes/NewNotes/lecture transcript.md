@@ -305,3 +305,127 @@ This property is heavily used in inference (e.g. confidence regions, likelihood 
   - $(n-1)S$ follows a [[Wishart Distribution]].  
 - Independence of $\bar{\mathbf{X}}$ and $S$ is unique to the normal case.  
 - These results form the backbone of **multivariate hypothesis testing (Hotelling’s $T^2$, MANOVA, etc.)**.
+
+---
+
+## [[Hotelling's T^2 Statistic]]
+
+Hotelling’s $T^2$ is the multivariate generalization of the univariate $t$-test.
+
+### One-Sample Case
+Suppose:
+$$
+\mathbf{X}_1, \dots, \mathbf{X}_n \sim \text{iid } N_p(\mu, \Sigma)
+$$
+
+We want to test:
+$$
+H_0: \mu = \mu_0 \quad \text{vs} \quad H_a: \mu \neq \mu_0
+$$
+
+Define:
+$$
+T^2 = n(\bar{\mathbf{X}} - \mu_0)^T S^{-1} (\bar{\mathbf{X}} - \mu_0)
+$$
+
+---
+
+### Distribution
+Under $H_0$:
+$$
+\frac{n-p}{p(n-1)} T^2 \sim F_{p, n-p}
+$$
+
+*(margin note: “like a $t^2$ but matrix-valued → $F$ distribution”)*
+  
+- Numerator df = $p$ (dimension of vector)  
+- Denominator df = $n-p$  
+
+---
+
+### Interpretation
+- Large $T^2$ → evidence against $H_0$  
+- $T^2$ accounts for covariance between variables (unlike doing $p$ separate $t$-tests).  
+
+💡 Intuition:  
+Hotelling’s $T^2$ measures the **Mahalanobis distance** of $\bar{\mathbf{X}}$ from $\mu_0$, scaled by $S$.  
+
+---
+
+## [[Confidence Regions for μ]]
+
+Using $T^2$, we can form a **confidence ellipsoid** for the mean vector $\mu$:
+
+$$
+\left\{ \mu : n(\bar{\mathbf{X}} - \mu)^T S^{-1} (\bar{\mathbf{X}} - \mu) \leq c \right\}
+$$
+
+where $c$ is chosen from the $F$ distribution:
+$$
+c = \frac{p(n-1)}{n-p} F_{p, n-p, \; 1-\alpha}
+$$
+
+- Region shape = ellipsoid centered at $\bar{\mathbf{X}}$  
+- Orientation/axes = determined by $S$  
+
+*(margin note: “generalizes univariate CI to multivariate ellipse”)*
+  
+---
+
+## [[Simultaneous Confidence Intervals]]
+
+Instead of ellipsoids, we can derive **intervals for each component** of $\mu$ that control family-wise error.  
+
+For each $j = 1, \dots, p$:
+
+$$
+\mu_j \in \bar{X}_j \pm 
+\sqrt{\frac{p(n-1)}{n-p} F_{p, n-p, \; 1-\alpha}} \;
+\sqrt{\frac{S_{jj}}{n}}
+$$
+
+These intervals are **simultaneous**:  
+- Guarantee all contain true $\mu_j$ with probability $1-\alpha$.  
+- More conservative than marginal CIs.  
+
+💡 Applications: comparing multiple group means simultaneously.
+
+---
+
+## [[Two-Sample Hotelling's T^2]]
+
+Testing if two mean vectors are equal:
+
+$$
+H_0: \mu_1 = \mu_2
+$$
+
+Suppose:
+- Sample 1: $\mathbf{X}_1, \dots, \mathbf{X}_{n_1} \sim N_p(\mu_1, \Sigma)$  
+- Sample 2: $\mathbf{Y}_1, \dots, \mathbf{Y}_{n_2} \sim N_p(\mu_2, \Sigma)$  
+
+Define pooled covariance:
+$$
+S_p = \frac{(n_1-1)S_1 + (n_2-1)S_2}{n_1 + n_2 - 2}
+$$
+
+Statistic:
+$$
+T^2 = \frac{n_1 n_2}{n_1 + n_2} 
+(\bar{\mathbf{X}} - \bar{\mathbf{Y}})^T S_p^{-1} (\bar{\mathbf{X}} - \bar{\mathbf{Y}})
+$$
+
+Distribution:
+$$
+\frac{n_1+n_2-p-1}{p(n_1+n_2-2)} T^2 \sim F_{p, n_1+n_2-p-1}
+$$
+
+---
+
+## Key Takeaways (Pages 13–18)
+
+- [[Hotelling's T^2 Statistic]] generalizes the $t$-test.  
+- Confidence regions for $\mu$ are **ellipsoids** instead of intervals.  
+- [[Simultaneous Confidence Intervals]] handle multiple testing in multivariate setting.  
+- Two-sample $T^2$ extends the logic to comparing two populations.  
+- The geometry is always about **distances measured in covariance space (Mahalanobis distance)**.
