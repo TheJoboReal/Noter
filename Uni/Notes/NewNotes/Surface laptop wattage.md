@@ -12,3 +12,7 @@ https://www.reddit.com/r/SurfaceLinux/comments/pgq7qd/comment/ka1yuri/
 
 ![[Pasted image 20250923235157.png]]
 ![[Pasted image 20250923235207.png]]
+```bash
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+```
