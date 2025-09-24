@@ -8,7 +8,10 @@ date: 2025-09-24
 ---
 > [!link] [Link](https://www.geeksforgeeks.org/engineering-mathematics/chi-squared-distributions/)
 
-> [!Video] <iframe width="560" height="315" src="https://www.youtube.com/embed/HKDqlYSLt68?si=0bpL57ypPJB223kj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+> [!Video] 
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/HKDqlYSLt68?si=0bpL57ypPJB223kj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+>
+> <iframe width="560" height="315" src="https://www.youtube.com/embed/O6a76Dnn104?si=4G9OeJty6lEy2nH_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 #### Definition
 The Chi-Squared distribution (also chi-square or $\chi^ 2$-distribution) represents the distribution of the sum of the squares of k independent standard normal random variables. If $Z_{1},Z_{2}\dots,Z_{k}$​ are independent standard normal random variables, the Chi-Squared variable is: $X^ 2=Z^ 2_{1}+Z^ 2_{2}+ \dots + Z^2_{k}$
