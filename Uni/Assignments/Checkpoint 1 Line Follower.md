@@ -5,8 +5,8 @@ tags:
 course: Introduction to Embodied Artificial Intelligence
 due_date: 25/09-2025
 date: 2025-09-18
-progress: 25%
-completed: false
+progress: 100%
+completed: true
 ---
 --- 
 #### Assignment Description
