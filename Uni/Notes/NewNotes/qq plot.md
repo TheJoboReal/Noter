@@ -47,7 +47,7 @@ disp([h p]);
 
 - `h = 0` → the chi-square test did **not reject** the null hypothesis.
     
-- `p = 0.7464` → the p-value is very high (much greater than 0.05), which means your observed distribution is statistically consistent with a **uniform distribution**.
+- `p = 0.7464` → the p-value is very high (much greater than 0.05), which means our observed distribution is statistically consistent with a **uniform distribution**.
 
 As seen bellow, the rolls are nicely distributed.
 ![[d20_flat.png]]
