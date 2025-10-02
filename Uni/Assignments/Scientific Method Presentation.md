@@ -6,7 +6,7 @@ course: Scientific Method
 due_date: 24/09-2025
 date: 2025-09-21
 progress: 75%
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description
