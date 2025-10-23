@@ -6,7 +6,7 @@ course: Introduction to Drone Technologies
 due_date: 08/10-2025
 date: 2025-10-01
 progress: 75%
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description

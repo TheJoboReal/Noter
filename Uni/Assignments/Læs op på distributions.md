@@ -5,7 +5,7 @@ tags:
 course: Multivariat Statistik
 due_date: 25/09-2025
 date: 2025-09-19
-progress: Not Startet
+progress: 25%
 completed: false
 ---
 --- 

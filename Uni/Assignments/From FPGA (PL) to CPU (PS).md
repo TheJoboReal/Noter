@@ -6,7 +6,7 @@ course: Embedded Systems
 due_date: 05/10-2025
 date: 2025-09-16
 progress: 25%
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description
