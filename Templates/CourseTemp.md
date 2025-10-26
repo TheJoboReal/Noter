@@ -14,7 +14,7 @@ semester: <%*
     let selectedCourse = await tp.system.suggester(courseNames, courseNames);
     tR += selectedCourse; // Return selected course
 %>
-course: <% tp.file.title %>
+course: <% tp.file.titlew %>
 Exam form: <% await tp.system.suggester(["Oral", "Portfolio", "Written", "Attendance"], ["Oral", "Portfolio", "Written", "Attendance"]) %>
 Exam Date: <%* tR += await tp.system.prompt("Enter the Exam Date (DD-MM-YYYY):"); %>
 dato: <%tp.date.now('DD-MM-YYYY')%>
