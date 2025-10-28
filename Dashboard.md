@@ -1,4 +1,4 @@
-- [ ] Total file Count: `$=dv.pages().length`
+Total file Count: `$=dv.pages().length`
 ```dataview
 	TASK
 	FROM "Calendar" or "Todo"

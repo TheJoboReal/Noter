@@ -1,4 +1,6 @@
-- [ ] ⏫  Fix printer
+- [ ] Fix Dk keys on keyboard
+- [ ] Fix Matlab
+- [x] ⏫  Fix printer
 - [x] Husk det der 🔽
 - [x] Python range finding
 - [x] Find vsCode VIM lua
