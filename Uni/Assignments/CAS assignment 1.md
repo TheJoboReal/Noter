@@ -5,7 +5,7 @@ tags:
 course: Control of Autonomous Systems
 due_date:
 date: 2025-10-30
-progress:
+progress: 25%
 completed: false
 ---
 --- 
