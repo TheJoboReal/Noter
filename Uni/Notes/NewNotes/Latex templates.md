@@ -53,4 +53,3 @@ subfigure with 4 images:
 \end{figure}
 
 ```
-
