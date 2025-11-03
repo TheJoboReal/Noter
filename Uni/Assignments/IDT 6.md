@@ -5,7 +5,7 @@ tags:
 course: Introduction to Drone Technologies
 due_date: 05/11-2025
 date: 2025-10-24
-progress: 25%
+progress: 75%
 completed: false
 ---
 --- 
