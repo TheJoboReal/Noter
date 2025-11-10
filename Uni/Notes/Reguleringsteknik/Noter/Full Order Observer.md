@@ -51,7 +51,7 @@ $$
 (A+LC)^T=A^T+C^T+L^T
 $$
 $$
-L=place(A^T,-C^T,poler)^T
+L=place(A^T,C^T,poler)^T
 $$
 
 #### Theorem
