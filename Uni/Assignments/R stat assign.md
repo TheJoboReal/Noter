@@ -6,7 +6,7 @@ course: Scientific Method
 due_date: 13/11-2025
 date: 2025-10-29
 progress: Not Startet
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description
