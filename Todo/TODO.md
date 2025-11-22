@@ -1,4 +1,4 @@
-- [ ] Fix YAZI
+- [x] Fix YAZI
 - [ ] Fix Dk keys on keyboard
 - [ ] Fix Matlab
 - [x] ⏫  Fix printer
