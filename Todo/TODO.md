@@ -1,3 +1,4 @@
+- [ ] Lav training function til CNN
 - [x] Fix YAZI
 - [ ] Fix Dk keys on keyboard
 - [ ] Fix Matlab
