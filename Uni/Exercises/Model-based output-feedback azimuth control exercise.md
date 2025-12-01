@@ -14,7 +14,7 @@ completed: false
 #### Exercise Answer
 
 ### Opg 1.2
-We implement the system and check if it is stable. The integrators initial value are set to 2 and the system input is 0. The system seems stable as the 
+We implement the system and check if it is stable. The integrators initial value are set to 2 and the system input is 0. The system seems stable as the
 
 ![[Pasted image 20251117145537.png]]
 ![[statefeedback.png]]
