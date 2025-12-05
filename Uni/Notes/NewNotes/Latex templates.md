@@ -15,7 +15,7 @@ subfigure with 4 images:
 
 ```latex
 
-\begin{figure}[htbp]
+\begin{figure}[H]
     \centering
     % First row
     \begin{subfigure}[b]{0.45\textwidth}
