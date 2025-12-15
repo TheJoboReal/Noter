@@ -14,7 +14,7 @@ A lot of copy paste latex templates
 ```latex
   \begin{figure}[H]
     \centering
-    \includegraphics[width=0.65\textwidth]{figs/example.png}
+    \includegraphics[angle=90,width=0.65\textwidth]{figs/example.png}
     \caption{Neural Network Layers}
     \label{fig:layers}
     \end{figure}
