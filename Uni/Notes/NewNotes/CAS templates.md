@@ -24,5 +24,5 @@ Checking equilibrium points in a continuous system:
 State Feedback Controller:
 [[State feedback controller in simulink]]
 
-
-
+Adding disturbance and using state-feedback controller with an integral term to compensate for the disturbance:
+[[compensating disturbance with integral term]]
