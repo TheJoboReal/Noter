@@ -17,3 +17,8 @@ Making a block diagram of a system by hand:
 
 Discrete time version of system:
 [[Discrete time using euler]]
+
+Checking equilibrium points in a continuous system:
+[[Check equilibrium points in continuous system]]
+
+State Feedback Controller:
