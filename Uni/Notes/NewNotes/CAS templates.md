@@ -16,3 +16,4 @@ Making a block diagram of a system by hand:
 [[block diagrams]]
 
 Discrete time version of system:
+[[Discrete time using euler]]
