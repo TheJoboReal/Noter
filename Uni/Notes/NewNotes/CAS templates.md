@@ -22,3 +22,7 @@ Checking equilibrium points in a continuous system:
 [[Check equilibrium points in continuous system]]
 
 State Feedback Controller:
+[[State feedback controller in simulink]]
+
+
+
