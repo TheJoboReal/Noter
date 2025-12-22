@@ -25,3 +25,5 @@ K = lqr(A,B,Q,R)
 Where $A$ and $B$ matrices are aquired from the Jacobian.
 
 ![[Pasted image 20251222154332.png]]
+
+![[Assignment cas re.pdf#page=4]]
