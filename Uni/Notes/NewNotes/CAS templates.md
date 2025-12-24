@@ -25,7 +25,7 @@ Checking equilibrium points in a continuous system:
 [[Check equilibrium points in continuous system]]
 
 State Feedback Controller:
-[[State feedback controller in simulink]]
+[[State feedback controller in simulink]] and a complex set of poles 
 
 Stabelise system around given states and modify feedback controller to system around this equilibrium point:
 [[Stabelise system around given states]]
