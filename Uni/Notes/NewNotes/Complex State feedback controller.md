@@ -36,9 +36,9 @@ r = rank(ctrb(A,B))
 
 % Valid pole set (complex conjugate pair)
 
-poles = [-1 + 1i, -1 - 1i, -2, -3];
+poles = [-3/2 + 4/3i, -3/2 - 4/3i, -1, -1];
 
-K = place(A,B,poles)
+K = acker(A, B, poles) % acker is more forgiving when placing complex poles
 ```
 
 ![[Pasted image 20251224152058.png]]
