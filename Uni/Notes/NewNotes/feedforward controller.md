@@ -1,0 +1,24 @@
+---
+tags:
+  - lecture-slide
+  - uni
+course: Control of Autonomous Systems
+lecture: null
+date: 2025-12-24
+---
+
+#### Definition
+
+To implement feedforward we calculate the gain as follows:
+```matlab
+% feedforward gain computation
+
+C = [1 0 0 0]
+
+Acl = A - B*K;
+
+Nbar = -1 / (C * (Acl \ B)) % feedfoward gain
+```
+Where $C$ is the controller vector that determines what state that the system should be controlled around.
+
+![[Pasted image 20251224153521.png]]

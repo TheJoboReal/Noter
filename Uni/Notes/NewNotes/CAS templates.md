@@ -28,6 +28,9 @@ date: 2025-12-22
 [[State feedback controller in simulink]] 
 And a complex set of poles [[Complex State feedback controller]]
 
+##### Feed forward controller.
+
+
 ##### Stabelise system around given states and modify feedback controller to system around this equilibrium point:
 [[Stabelise system around given states]]
 
