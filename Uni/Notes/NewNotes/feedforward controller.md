@@ -21,4 +21,8 @@ Nbar = -1 / (C * (Acl \ B)) % feedfoward gain
 ```
 Where $C$ is the controller vector that determines what state that the system should be controlled around.
 
+
+Here the exercise states the following:
+![[Pasted image 20251224154805.png]]
+Thus we use a step block to simulate this.
 ![[Pasted image 20251224153521.png]]

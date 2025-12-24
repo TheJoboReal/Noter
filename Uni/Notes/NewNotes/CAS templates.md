@@ -29,13 +29,15 @@ date: 2025-12-22
 And a complex set of poles [[Complex State feedback controller]]
 
 ##### Feed forward controller.
-
+[[feedforward controller]]
 
 ##### Stabelise system around given states and modify feedback controller to system around this equilibrium point:
 [[Stabelise system around given states]]
 
 ##### Adding disturbance and using state-feedback controller with an integral term to compensate for the disturbance:
 [[compensating disturbance with integral term]]
+
+##### Observers and observability
 
 
 #### See assignments and exams
