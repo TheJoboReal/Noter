@@ -38,7 +38,7 @@ And a complex set of poles [[Complex State feedback controller]]
 [[compensating disturbance with integral term]]
 
 ##### Observers and observability
-
+[[Observers in CAS]]
 
 #### See assignments and exams
 
