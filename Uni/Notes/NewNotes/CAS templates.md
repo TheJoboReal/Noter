@@ -7,39 +7,40 @@ lecture: null
 date: 2025-12-22
 ---
 
-#### Templates for exam
+## Core System Analysis & Control Templates
 
-##### Characterizing linear/non-linear systems: 
-[[characterizing linear and non linear systems]]
+| Topic | Description | Link |
+|------|------------|------|
+| Linear vs Nonlinear Systems | How to characterize whether a system is linear or nonlinear | [[characterizing linear and non linear systems]] |
+| Block Diagrams | Constructing block diagrams by hand | [[block diagrams]] |
+| Equilibrium Points | Finding equilibrium points of a system | [[Finding equilibrium points]] |
+| Discrete-Time Systems | Converting continuous systems using Euler discretization | [[Discrete time using euler]] |
+| Equilibrium (Continuous) | Checking equilibrium points in continuous-time systems | [[Check equilibrium points in continuous system]] |
 
-##### Making a block diagram of a system by hand:
-[[block diagrams]]
+---
 
-##### Finding Equilibrium points:
-[[Finding equilibrium points]]
+## Controllers
 
-##### Discrete time version of system:
-[[Discrete time using euler]]
+| Controller Type                | Description                                             | Link                                            |
+| ------------------------------ | ------------------------------------------------------- | ----------------------------------------------- |
+| State Feedback                 | Designing a state feedback controller (Simulink)        | [[State feedback controller in simulink]]       |
+| State Feedback (Complex Poles) | State feedback with complex pole placement              | [[Complex State feedback controller]]           |
+| Feedforward Control            | Designing a feedforward controller                      | [[feedforward controller]]                      |
+| Stabilization                  | Stabilizing a system around a given equilibrium point   | [[Stabelise system around given states]]        |
+| Integral Action                | Compensating disturbances using integral state feedback | [[compensating disturbance with integral term]] |
 
-##### Checking equilibrium points in a continuous system:
-[[Check equilibrium points in continuous system]]
+---
 
-##### State Feedback Controller:
-[[State feedback controller in simulink]] 
-And a complex set of poles [[Complex State feedback controller]]
+## Observers
 
-##### Feed forward controller.
-[[feedforward controller]]
+| Topic | Description | Link |
+|------|------------|------|
+| Observers & Observability | Observer design and observability analysis in CAS | [[Observers in CAS]] |
 
-##### Stabelise system around given states and modify feedback controller to system around this equilibrium point:
-[[Stabelise system around given states]]
+---
 
-##### Adding disturbance and using state-feedback controller with an integral term to compensate for the disturbance:
-[[compensating disturbance with integral term]]
+## Assignments & Past Exams
 
-##### Observers and observability
-[[Observers in CAS]]
-
-#### See assignments and exams
-
-[[Assignment cas re.pdf]]
+| Resource              | Link                      |
+| --------------------- | ------------------------- |
+| Assignment / Exam PDF | [[Assignment cas re.pdf]] |
