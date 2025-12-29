@@ -26,7 +26,7 @@ date: 2025-12-22
 | State Feedback                 | Designing a state feedback controller (Simulink)        | [[State feedback controller in simulink]]       |
 | State Feedback (Complex Poles) | State feedback with complex pole placement              | [[Complex State feedback controller]]           |
 | Feedforward Control            | Designing a feedforward controller                      | [[feedforward controller]]                      |
-| Stabilization                  | Stabilizing a system around a given equilibrium point   | [[Stabelise system around given states]]        |
+| Stabilization                  | Stabilizing a system around a given equilibrium point   | [[Stabelize system around given states]]        |
 | Integral Action                | Compensating disturbances using integral state feedback | [[compensating disturbance with integral term]] |
 
 ---
