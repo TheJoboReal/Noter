@@ -8,7 +8,7 @@ date: 2025-12-24
 ---
 
 #### Definition
-The observer matrix is defined as follows:
+The observervability matrix is defined as follows:
 $$
 \mathcal{O} = 
 \begin{bmatrix}
@@ -63,12 +63,8 @@ L = acker(A', C', obs_poles)';
 ```
 
 ```matlab
-function xhat_dot = observer(u, y, xhat)
-
-% Luenberger observer for inverted pendulum
-
-epsilon = 2.5;
-
+function xhat_dot = observer(L, u, y, xhat)
+% The observer gain L is given as input from a const block.
 % System matrices (OPEN-LOOP)
 
 A = []
@@ -77,10 +73,6 @@ A = []
 
 C = [1 0 0 0];
 
-% Observer gain (PRECOMPUTED, paste your numeric L here)
-
-L = [0;0;0;0];
-
 % Observer dynamics
 
 xhat_dot = A*xhat + B*u + L*(y - C*xhat);
@@ -88,6 +80,10 @@ xhat_dot = A*xhat + B*u + L*(y - C*xhat);
 end
 ```
 
+![[Pasted image 20260104124621.png]]
+
+
+##### Subsystem observer
 An example of an observer implemented in a subsystem:
 ![[Pasted image 20251229171859.png]]
 ![[Pasted image 20251229171935.png]]
