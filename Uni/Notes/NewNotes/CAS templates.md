@@ -16,7 +16,7 @@ date: 2025-12-22
 | Equilibrium Points          | Finding equilibrium points of a system                      | [[Finding equilibrium points]]                    |
 | Discrete-Time Systems       | Converting continuous systems using Euler discretization    | [[Discrete time using euler]]                     |
 | Equilibrium (Continuous)    | Checking equilibrium points in continuous-time systems      | [[Check equilibrium points in continuous system]] |
-| Linearizeation              |                                                             |                                                   |
+| Linearizeation              | Linearizing a nonlinear system                              | [[Linearizing system]]                            |
 
 ---
 
@@ -29,6 +29,8 @@ date: 2025-12-22
 | Feedforward Control            | Designing a feedforward controller                      | [[feedforward controller]]                      |
 | Stabilization                  | Stabilizing a system around a given equilibrium point   | [[Stabelize system around given states]]        |
 | Integral Action                | Compensating disturbances using integral state feedback | [[compensating disturbance with integral term]] |
+| Open Loop Control              |                                                         |                                                 |
+|                                |                                                         |                                                 |
 
 ---
 
