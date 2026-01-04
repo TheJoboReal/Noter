@@ -8,7 +8,7 @@ date: 2025-12-24
 ---
 
 #### Definition
-The observer matrix is defined as follows:
+The observervability matrix is defined as follows:
 $$
 \mathcal{O} = 
 \begin{bmatrix}
@@ -64,10 +64,6 @@ L = acker(A', C', obs_poles)';
 
 ```matlab
 function xhat_dot = observer(u, y, xhat)
-
-% Luenberger observer for inverted pendulum
-
-epsilon = 2.5;
 
 % System matrices (OPEN-LOOP)
 
