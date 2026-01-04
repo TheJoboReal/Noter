@@ -16,11 +16,7 @@ A = [ 0 1/2 ; -4/3 0 ];
 
 B = [ 0 ; 1 ];
 
-Q = eye(2);
-
-R = eye(1);
-
-K = lqr(A,B,Q,R)
+K = place(A,B, [-9.9 -10.1])
 ```
 Where $A$ and $B$ matrices are aquired from the Jacobian.
 
