@@ -45,3 +45,7 @@ date: 2025-12-22
 | Resource              | Link                      |
 | --------------------- | ------------------------- |
 | Assignment / Exam PDF | [[Assignment cas re.pdf]] |
+| CAS 2023 re exam      | [[Cas 2023 re.pdf]]       |
+| CAS 2023              | [[Cas 2023 exam.pdf]]     |
+| CAS 2024              | [[Cas 2024.pdf]]          |
+| CAS 2024 re exam      | [[Cas 2024 re.pdf]]       |
