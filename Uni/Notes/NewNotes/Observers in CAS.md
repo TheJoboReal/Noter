@@ -63,8 +63,8 @@ L = acker(A', C', obs_poles)';
 ```
 
 ```matlab
-function xhat_dot = observer(u, y, xhat)
-
+function xhat_dot = observer(L, u, y, xhat)
+% The observer gain L is given as input from a const block.
 % System matrices (OPEN-LOOP)
 
 A = []
@@ -72,10 +72,6 @@ A = []
 % Output matrix
 
 C = [1 0 0 0];
-
-% Observer gain (PRECOMPUTED, paste your numeric L here)
-
-L = [0;0;0;0];
 
 % Observer dynamics
 
