@@ -80,6 +80,10 @@ xhat_dot = A*xhat + B*u + L*(y - C*xhat);
 end
 ```
 
+![[Pasted image 20260104124621.png]]
+
+
+##### Subsystem observer
 An example of an observer implemented in a subsystem:
 ![[Pasted image 20251229171859.png]]
 ![[Pasted image 20251229171935.png]]

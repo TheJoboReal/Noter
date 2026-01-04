@@ -9,14 +9,15 @@ date: 2025-12-22
 
 ## Core System Analysis & Control Templates
 
-| Topic                       | Description                                                 | Link                                              |
-| --------------------------- | ----------------------------------------------------------- | ------------------------------------------------- |
-| Linear vs Nonlinear Systems | How to characterize whether a system is linear or nonlinear | [[characterizing linear and non linear systems]]  |
-| Block Diagrams              | Constructing block diagrams by hand                         | [[block diagrams]]                                |
-| Equilibrium Points          | Finding equilibrium points of a system                      | [[Finding equilibrium points]]                    |
-| Discrete-Time Systems       | Converting continuous systems using Euler discretization    | [[Discrete time using euler]]                     |
-| Equilibrium (Continuous)    | Checking equilibrium points in continuous-time systems      | [[Check equilibrium points in continuous system]] |
-| Linearizeation              | Linearizing a nonlinear system                              | [[Linearizing system]]                            |
+| Topic                       | Description                                                 | Link                                                               |
+| --------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------ |
+| Linear vs Nonlinear Systems | How to characterize whether a system is linear or nonlinear | [[characterizing linear and non linear systems]]                   |
+| Block Diagrams              | Constructing block diagrams by hand                         | [[block diagrams]]                                                 |
+| Equilibrium Points          | Finding equilibrium points of a system                      | [[Finding equilibrium points]]                                     |
+| Discrete-Time Systems       | Converting continuous systems using Euler discretization    | [[Discrete time using euler]]                                      |
+| Equilibrium (Continuous)    | Checking equilibrium points in continuous-time systems      | [[Check equilibrium points in continuous system]]                  |
+| Linearizeation              | Linearizing a nonlinear system                              | [[Linearizing system]]                                             |
+| Controllability             | Check if a system is controllable                           | [[External/Balder's Notes/Notes/Controllability\|Controllability]] |
 
 ---
 
