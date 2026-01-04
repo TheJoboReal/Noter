@@ -37,9 +37,10 @@ date: 2025-12-22
 
 ## Observers
 
-| Topic | Description | Link |
-|------|------------|------|
-| Observers & Observability | Observer design and observability analysis in CAS | [[Observers in CAS]] |
+| Topic                               | Description                                       | Link                                    |
+| ----------------------------------- | ------------------------------------------------- | --------------------------------------- |
+| Observers & Observability           | Observer design and observability analysis in CAS | [[Observers in CAS]]                    |
+| Observer with multiple measurements | Observing more than one state                     | [[Observer with multiple measurements]] |
 
 ---
 
