@@ -10,16 +10,17 @@ date: 2025-12-22
 #### Definition
 To implement state feedback we need the K vector:
 ```matlab
-xstar = [ 0.5 ; 1];
+% Variable q_n are defined above.
 
-A = [ 0 1/2 ; -4/3 0 ];
+A = [-q_1*omega, -q_1*m;
+q_2/J, -q_3/J]
 
-B = [ 0 ; 1 ];
+B = [1;0];
 
-K = place(A,B, [-9.9 -10.1])
+K = double(place(A,B, [-9.99999 -10.0]))
 ```
-Where $A$ and $B$ matrices are aquired from the Jacobian.
+Where $A$ and $B$ matrices are acquired from the Jacobian.
+The added constant in the bottom is the desired point. It is to make sure that the system stops when the point is reached.
 
-![[Pasted image 20251222154332.png]]
-
+![[Pasted image 20260104113822.png]]
 ![[Assignment cas re.pdf#page=4]]
