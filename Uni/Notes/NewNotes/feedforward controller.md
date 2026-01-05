@@ -8,6 +8,7 @@ date: 2025-12-24
 ---
 
 #### Definition
+>[!TIP] See [[CAS-2025-Lecture4-stability.pdf#page=16|slide]]
 
 To implement feedforward we calculate the gain as follows:
 ```matlab
