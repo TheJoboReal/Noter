@@ -23,4 +23,8 @@ Where $A$ and $B$ matrices are acquired from the Jacobian.
 The added constant in the bottom is the desired point. It is to make sure that the system stops when the point is reached.
 
 ![[Pasted image 20260104113822.png]]
+
+And another example with a system stabelized 
+
+#### Written example
 ![[Assignment cas re.pdf#page=4]]
