@@ -27,3 +27,5 @@ Here the exercise states the following:
 ![[Pasted image 20251224154805.png]]
 Thus we use a step block to simulate this.
 ![[Pasted image 20251224153521.png]]
+The following output is thus:
+![[Pasted image 20260105112919.png]]
