@@ -12,8 +12,7 @@ date: 2026-01-04
 To observe an additional state with an observer, we must change the Control matrix accordingly:
 ```matlab
 C_obs = [1 0 0 0
-
-0 1 0 0];
+		 0 1 0 0];
 
 obs_poles = [-3 -4 -5 -6];
 
