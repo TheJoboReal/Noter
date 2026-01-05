@@ -70,7 +70,7 @@ function xhat_dot = observer(L, u, y, xhat)
 % The observer gain L is given as input from a const block.
 % System matrices (OPEN-LOOP)
 
-A = []
+A = [] % Your system.
 
 % Output matrix
 
