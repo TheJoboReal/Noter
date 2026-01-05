@@ -30,7 +30,7 @@ date: 2025-12-22
 | Feedforward Control            | Designing a feedforward controller                      | [[feedforward controller]]                      |
 | Stabilization                  | Stabilizing a system around a given equilibrium point   | [[Stabelize system around given states]]        |
 | Integral Action                | Compensating disturbances using integral state feedback | [[compensating disturbance with integral term]] |
-| Open Loop Control              |                                                         |                                                 |
+| Open Loop Control              | Implementing open loop control for a system             | [[Designing Open Loop Control]]                 |
 |                                |                                                         |                                                 |
 
 ---
