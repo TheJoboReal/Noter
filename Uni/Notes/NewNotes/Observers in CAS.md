@@ -30,8 +30,11 @@ $n$: Number of states.
 
 A system is observable if and only if the rank of the observability matrix equals the number of states.
 
-An example is:
-
+Two examples are:
+```matlab
+rank(obsv(A,C))
+```
+or:
 ```matlab
 % Opg 7
 
