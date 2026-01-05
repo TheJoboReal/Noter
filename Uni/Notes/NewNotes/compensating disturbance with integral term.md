@@ -29,3 +29,5 @@ K_state = K_lqi(1:2) % 2 is number of states.
 K_int = K_lqi(3)  % the parameter to be tracked.
 
 ```
+
+![[disturbance_compensation.png]]
