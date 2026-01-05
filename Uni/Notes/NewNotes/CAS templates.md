@@ -42,6 +42,7 @@ date: 2025-12-22
 | Observers & Observability           | Observer design and observability analysis in CAS | [[Observers in CAS]]                    |
 | Observer with multiple measurements | Observing more than one state                     | [[Observer with multiple measurements]] |
 | Observer with given eigs            | Observer with given eigenvalues                   |                                         |
+| Observing Disturbance               | Observing disturbance with an observer            |                                         |
 
 ---
 
