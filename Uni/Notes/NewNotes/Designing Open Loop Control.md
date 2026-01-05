@@ -77,7 +77,7 @@ vT = 0;
 aT = 0;
 
 % calculations polynomial coefficients
-alpha_vect = poly5traj([h0;v0;a0],[hT;vT;aT],T);
+alpha_vect = poly5traj(Tcoord*[h0;v0;a0],Tcoord*[hT;vT;aT],T); %If not work, remove Tcoord from this line.
 ```
 
 Where the function block for `Build vector of polynomials`
