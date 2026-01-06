@@ -41,8 +41,8 @@ date: 2025-12-22
 | ----------------------------------- | ------------------------------------------------- | --------------------------------------- |
 | Observers & Observability           | Observer design and observability analysis in CAS | [[Observers in CAS]]                    |
 | Observer with multiple measurements | Observing more than one state                     | [[Observer with multiple measurements]] |
-| Observer with given eigs            | Observer with given eigenvalues                   |                                         |
-| Observing Disturbance               | Observing disturbance with an observer            |                                         |
+| Observer with given eigs            | Just use the eigs when using place or acker       |                                         |
+| Observing Disturbance               | Observing disturbance with an observer            | Add rækker af nuller                    |
 
 ---
 
