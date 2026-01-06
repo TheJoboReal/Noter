@@ -55,3 +55,10 @@ date: 2025-12-22
 | CAS 2023              | [[Cas 2023 exam.pdf]]     |
 | CAS 2024              | [[Cas 2024.pdf]]          |
 | CAS 2024 re exam      | [[Cas 2024 re.pdf]]       |
+
+
+check:
+
+- [ ] opg 6: scope is wierd.
+- [ ] Opg 4: Pdf might be wrong.
+- [ ] opg 4-5: Annotate everything.
