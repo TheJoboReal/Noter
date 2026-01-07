@@ -30,8 +30,11 @@ $n$: Number of states.
 
 A system is observable if and only if the rank of the observability matrix equals the number of states.
 
-An example is:
-
+Two examples are:
+```matlab
+rank(obsv(A,C))
+```
+or:
 ```matlab
 % Opg 7
 
@@ -67,7 +70,7 @@ function xhat_dot = observer(L, u, y, xhat)
 % The observer gain L is given as input from a const block.
 % System matrices (OPEN-LOOP)
 
-A = []
+A = [] % Your system.
 
 % Output matrix
 

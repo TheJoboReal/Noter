@@ -30,7 +30,7 @@ date: 2025-12-22
 | Feedforward Control            | Designing a feedforward controller                      | [[feedforward controller]]                      |
 | Stabilization                  | Stabilizing a system around a given equilibrium point   | [[Stabelize system around given states]]        |
 | Integral Action                | Compensating disturbances using integral state feedback | [[compensating disturbance with integral term]] |
-| Open Loop Control              |                                                         |                                                 |
+| Open Loop Control              | Implementing open loop control for a system             | [[Designing Open Loop Control]]                 |
 |                                |                                                         |                                                 |
 
 ---
@@ -41,6 +41,8 @@ date: 2025-12-22
 | ----------------------------------- | ------------------------------------------------- | --------------------------------------- |
 | Observers & Observability           | Observer design and observability analysis in CAS | [[Observers in CAS]]                    |
 | Observer with multiple measurements | Observing more than one state                     | [[Observer with multiple measurements]] |
+| Observer with given eigs            | Just use the eigs when using place or acker       |                                         |
+| Observing Disturbance               | Observing disturbance with an observer            | Add rækker af nuller                    |
 
 ---
 
@@ -53,3 +55,10 @@ date: 2025-12-22
 | CAS 2023              | [[Cas 2023 exam.pdf]]     |
 | CAS 2024              | [[Cas 2024.pdf]]          |
 | CAS 2024 re exam      | [[Cas 2024 re.pdf]]       |
+
+
+check:
+
+- [ ] opg 6: scope is wierd.
+- [ ] Opg 4: Pdf might be wrong.
+- [ ] opg 4-5: Annotate everything.
