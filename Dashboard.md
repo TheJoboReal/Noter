@@ -1,7 +1,7 @@
 Total file Count: `$=dv.pages().length`
 ```dataview
 	TASK
-	FROM "Calendar" or "Todo"
+	FROM "Todo"
 	WHERE !completed
 	SORT text asc
 ```

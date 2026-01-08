@@ -1,24 +1,3 @@
-- [x] Lav training function til CNN
-- [x] Fix YAZI
+- [ ] Check out remotely save plugin for obsidian.
 - [ ] Fix Dk keys on keyboard
-- [ ] Fix Matlab
-- [x] ⏫  Fix printer
-- [x] Husk det der 🔽
-- [x] Python range finding
-- [x] Find vsCode VIM lua
-- [x] Lav custom keybind i vsCode til at køre make kommandoer.
-- [x] 🔼 Skriv note om Null vektor
-- [x] Fix numpad i linux
-- [x] ⏫  Find tp-link til mormor
-- [x] 🔺  Reset bærbar til Camilla
-- [x] ⏫  Lav Numerisk Exercise færdig
-- [x] ⏫  Få matlab til at køre på razer
-- [x] 🔼  Få lavet dele til gevær
-- [x] ⏫ Færdiggør Assignment template
-- [x] ⏫ Få sat gamle noter ind i nyt system
-- [x] Fix matlab
-- [x] Fix matlab gui
-- [x] Lav Algo portfolio ✅ 2025-02-02
-- [x] Install fallout on 3ds
-- [x] Færdiggør et projekt! ✅ 2025-02-02
-- [x] Rebind print screen på keyboard
+- [x] Fix Matlab
