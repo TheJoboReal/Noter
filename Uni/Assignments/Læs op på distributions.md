@@ -6,7 +6,7 @@ course: Multivariat Statistik
 due_date: 30/10-2025
 date: 2025-09-19
 progress: 25%
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description

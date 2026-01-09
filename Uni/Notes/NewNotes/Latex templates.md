@@ -10,6 +10,17 @@ date: 2025-11-03
 #### Definition
 A lot of copy paste latex templates
 
+##### Figure
+```latex
+  \begin{figure}[H]
+    \centering
+    \includegraphics[angle=90,width=0.65\textwidth]{figs/example.png}
+    \caption{Neural Network Layers}
+    \label{fig:layers}
+    \end{figure}
+
+```
+
 ##### Subfigure 2x2
 subfigure with 4 images:
 
