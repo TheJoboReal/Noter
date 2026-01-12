@@ -58,7 +58,7 @@ Intelligence arises from the interaction between an agent's brain, body, and its
 Structured framework for conceptualizing robot systems' software and hardware arrangements and interactions.
 Key characteristics:
 - Modularity
-- Interoperability
+- Interoperability: The ability of different systems, devices, or applications to work together and exchange information effectively
 - Scalability
 - Maintainability
 - Performance
