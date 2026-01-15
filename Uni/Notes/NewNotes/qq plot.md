@@ -10,12 +10,12 @@ date: 2025-09-11
 #### Definition
 ![[qq_plot.png]]
 
-First we use mahalonobis to calculate the statistical distance from the $\mu=\bar{x}$ and then plot it as a QQ-plot to then sammenligne a generated $\sqrt{ \chi }$ dataset with the real model. With that we can see where the median stops and the points start leaning to one side of the line.
+First we use mahalonobis to calculate the statistical distance from the $\mu=\bar{x}$ and then plot it as a QQ-plot to then compare a generated $\sqrt{ \chi }$ dataset with the real model. With that we can see where the median stops and the points start leaning to one side of the line.
 
 
 #### Example
 
-The following is a test to see if my dice roll function for my DnD game is uniform. We have 10.000 D20 dice rolls and we want to see if the are uniformly distributed.
+The following is a test to see if my dice roll function for my DnD game is uniform. We have 10.000 D20 dice rolls and we want to see if they are uniformly distributed.
 To determine if the rolls are uniform, we use a QQ-plot.
 ![[D20_test.png]]
 
