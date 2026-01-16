@@ -176,8 +176,8 @@ $$
 
 ### Example Interpretation
 
-- $$z_1$$: hours studied
-- $$z_2$$: hours at lectures
+- $z_1$: hours studied
+- $z_2$: hours at lectures
 
 Each coefficient measures the **partial effect** of a predictor while holding the others fixed.
 
@@ -219,16 +219,16 @@ $$
 $$
 
 Where:
-- $$\hat{\beta}$$ is a $$(r+1) \times m$$ matrix
+- $\hat{\beta}$ is a $(r+1) \times m$ matrix
 - Each column corresponds to one response variable
 
 ---
 
 ### Example
 
-- $$z$$: hours studied
-- $$Y_1$$: final exam score in class 1
-- $$Y_2$$: final exam score in class 2
+- $z$: hours studied
+- $Y_1$: final exam score in class 1
+- $Y_2$: final exam score in class 2
 
 The model estimates **multiple regression equations simultaneously**, accounting for correlation between responses.
 
@@ -242,7 +242,7 @@ $$
 \hat{\Sigma} = \frac{\hat{\varepsilon}'\hat{\varepsilon}}{n}
 $$
 
-- $$\hat{\Sigma}$$ is an $$m \times m$$ covariance matrix
+- $\hat{\Sigma}$ is an $m \times m$ covariance matrix
 - Diagonal entries: residual variances
 - Off-diagonal entries: residual covariances
 
@@ -282,8 +282,8 @@ $$
 $$
 
 Interpretation:
-- $$\Lambda \approx 1$$: reduced model is sufficient
-- $$\Lambda \approx 0$$: removed predictors are important
+- $\Lambda \approx 1$: reduced model is sufficient
+- $\Lambda \approx 0$: removed predictors are important
 
 ---
 
@@ -304,7 +304,7 @@ $$
 
 ## 9. Key Intuition Summary
 
-- Regression is geometric: projection of $$Y$$ onto the column space of $$Z$$
+- Regression is geometric: projection of $Y$ onto the column space of $Z$
 - Least squares minimizes **sum of squared residuals**
 - Multivariate regression models **correlated outcomes**
 - Model simplification tests whether predictors add **explanatory power**
