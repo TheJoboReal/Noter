@@ -39,11 +39,11 @@ This framework unifies:
 A university wants to understand student performance.
 
 - **Response variable**:
-  - $$Y$$: final exam score
+  - $Y$: final exam score
 
 - **Predictors**:
-  - $$z_1$$: hours studied
-  - $$z_2$$: attendance rate (hours at lectures)
+  - $z_1$: hours studied
+  - $z_2$: attendance rate (hours at lectures)
 
 Goal: explain and predict exam scores using student behavior.
 
@@ -57,9 +57,9 @@ $$
 Y = \beta_0 + \beta_1 z + \varepsilon
 $$
 
-- $$\beta_0$$: intercept (expected score when $$z = 0$$)
-- $$\beta_1$$: slope (change in score per hour studied)
-- $$\varepsilon$$: random noise
+- $\beta_0$: intercept (expected score when $z = 0$)
+- $\beta_1$: slope (change in score per hour studied)
+- $\varepsilon$: random noise
 
 ---
 
@@ -102,7 +102,7 @@ $$
 $$
 
 Interpretation:
-- Each additional hour studied increases the exam score by approximately $$2.4$$ points.
+- Each additional hour studied increases the exam score by approximately $2.4$ points.
 
 ---
 
