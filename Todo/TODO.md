@@ -1,3 +1,4 @@
+- [ ] Fix herbstlut desktop
 - [ ] book tandlæge
 - [ ] Check out remotely save plugin for obsidian.
 - [ ] Fix Dk keys on keyboard
