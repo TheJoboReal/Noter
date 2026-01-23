@@ -1,43 +1,47 @@
 #!/usr/bin/env python3
 
 import sys
-from time import sleep
+import time
 from os import listdir
 from os.path import isfile, join
-from re import match
+import re
 
-# supply path via Templater user function definition: <path>/obs_todo_migr.py <% tp.file.folder(true) %>
 daily_notes_dir = sys.argv[1]
 
-unchecked = r"- \[ \]"
+unchecked = r"^\s*-\s*\[\s*\]"  # flexible regex for unchecked todos
 prevnote = []
 open_todos = []
-carryover_tally = "." # append each time todo is migrated
+carryover_tally = "."  # append each time todo is migrated
 
+# get files
 files = [f for f in listdir(daily_notes_dir) if isfile(join(daily_notes_dir, f))]
 
 if len(files) >= 2:
     files.sort(reverse=True)
-    prevfile = files[1] # need second newest file since new note exists when this is called
+    prevfile = files[1]  # second newest file
 
-    # avoid race by waiting for the obs_dates_nav script which may be invoked at same time
-    sleep(2)
+    # wait a bit to avoid race conditions
+    time.sleep(2)
 
-    # grab unchecked todos to move to new day, remove from previous day's note
-    with open(daily_notes_dir+"/"+prevfile, 'r+') as f:
+    # read previous note and separate todos
+    prev_path = join(daily_notes_dir, prevfile)
+    with open(prev_path, "r+") as f:
         lines = f.readlines()
         for line in lines:
-            if match(unchecked, line):
+            if re.search(unchecked, line):
                 open_todos.append(line)
             else:
                 prevnote.append(line)
+        # rewrite previous note without moved todos
         f.seek(0)
-        for line in prevnote:
-            f.write(line)
+        f.writelines(prevnote)
         f.truncate()
 
-    # Templater plugin completes macro from sdout
-    for todo in open_todos:
-        print(todo[:-1] + carryover_tally)
+    # output todos for Templater
+    if open_todos:
+        for todo in open_todos:
+            print(todo.rstrip() + carryover_tally)
+    else:
+        print("- [ ]")
 else:
-    print('- [ ]')
+    print("- [ ]")

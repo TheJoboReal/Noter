@@ -1,13 +1,14 @@
 ---
+date: <% tp.date.now("DD-MM-YYYY") %>
 ---
 
-````col
-```col-md
-> [!warning] + Overdue
-> ```tasks
-> not done
-> description includes #work
-> sort by due date
-> due before 12-12-2026
+#### Backlog
+```dataview
+	TASK
+	FROM "Daily Notes"
+	WHERE !completed
+	SORT text asc
 ```
-```
+
+
+#### Tasks Today
