@@ -8,7 +8,7 @@ Total file Count: `$=dv.pages().length`
 > [!Linux]
 > [[Linux Querks]]
 
-> [!column] #### Semesters and Assignments
+> [!column] 
 >> [!note] Semesters
 >>```dataviewjs
 >>let folderPath = `Uni/Semesters`; // Folder path 
