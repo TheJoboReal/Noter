@@ -3,7 +3,7 @@ tags:
   - uni
   - course
 semester: Semester 8
-course: undefined
+course: Advanced Application of PL
 Exam form: Portfolio
 Exam Date: 30-06-2026
 dato: 26-01-2026

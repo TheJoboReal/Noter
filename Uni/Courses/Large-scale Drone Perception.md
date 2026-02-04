@@ -3,7 +3,7 @@ tags:
   - uni
   - course
 semester: Semester 8
-course: undefined
+course: Large-scale Drone Perception
 Exam form: Portfolio
 Exam Date: 30-05-2026
 dato: 03-02-2026
