@@ -87,3 +87,6 @@ or
 $$
 v^e_{b/e}=R^e_{b}(\Theta)v^b_{b/e} \quad , \quad R^e_{b}(\Theta)=R_{z}(\psi)_{z}R(\theta)_{y}R(\phi)_{x}
 $$
+Where $v^b$ means vector $v$ expressed in frame $b$. Example $v^2$ is vector $v$ expressed in frame $2$.
+Example:
+![[Pasted image 20260211110917.png]]

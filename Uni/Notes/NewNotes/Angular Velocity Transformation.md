@@ -8,6 +8,7 @@ date: 2026-02-03
 ---
 
 #### Definition
+![[Pasted image 20260211110938.png]]
 $$
 \omega^b_{b/e}=\begin{bmatrix}
 1 & 0 & -\sin \theta \\
