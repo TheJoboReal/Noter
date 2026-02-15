@@ -85,7 +85,7 @@ v^e_{b/e}=v^0_{b/e}=R_{z}(\psi)_{z}R(\theta)_{y}R(\phi)_{x}v^b_{b/e}
 $$
 or
 $$
-v^e_{b/e}=R^e_{b}(\Theta)v^b_{b/e} \quad , \quad R^e_{b}(\Theta)=R_{z}(\psi)_{z}R(\theta)_{y}R(\phi)_{x}
+v^e_{b/e}=R^e_{b}(\Theta)v^b_{b/e} \quad , \quad R^e_{b}(\Theta)=R(\psi)_{z}R(\theta)_{y}R(\phi)_{x}
 $$
 Where $v^b$ means vector $v$ expressed in frame $b$. Example $v^2$ is vector $v$ expressed in frame $2$.
 Example:
