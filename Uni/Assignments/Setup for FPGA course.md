@@ -6,7 +6,7 @@ course: Advanced Application of PL
 due_date: 02-02-2026
 date: 2026-01-26
 progress: Not Startet
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description
