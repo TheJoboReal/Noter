@@ -13,7 +13,7 @@ Describes realationship between the Ray inside the camera and the ray outside th
 ![[Pasted image 20260213085717.png]]
 Coordinates of pixels in the camera(typically described as pixels), Camera matrix, rotation and translation matrix, actual coordinates in space outside the camera.
 
-OpenCV typically give homogenus coordinates and will thus have to be normelized to get the coordinates we want
+OpenCV typically give homogenus(meaning the lower value beneath $u$ and $v$ is not $1$. Dividing the vector with the value will normalize it) coordinates and will thus have to be normelized to get the coordinates we want
 
 > [!Tip] We use this to example estimate the distance to a chair we are looking at. Humans have 2 eyes, ei 2 cameras, meaning that we can triangulate the coordinates outside the camera. Pinhole model is basically Raytracing
 
