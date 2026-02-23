@@ -8,6 +8,8 @@ date: 2026-02-23
 ---
 >[!TIP] See [Link](https://en.wikipedia.org/wiki/Quaternion) for more info
 
+>[!TIP] Quaternions also drift just like [[3D Rotation Matrices]] but can be avoided with [[Kinematic Differential Equation using Quaternions#Dealing with drift|Dealing with drift]]
+
 #### Definition
 A quaternion is a number with one scalar part and 3 imaginary parts:
 $$
