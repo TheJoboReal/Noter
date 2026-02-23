@@ -17,6 +17,15 @@ q=\eta+i\epsilon_{1}+j\epsilon_{2}+k\epsilon_{3}
 $$
 With $i,j,k$ being the imaginary numbers.
 
+Or:
+$$
+q=\begin{bmatrix}
+\cos \frac{\beta}{2} \\
+k\sin \frac{\beta}{2}
+\end{bmatrix}
+$$
+
+
 
 Similarly to imaginary numbers, a quaternion can be represented by a vector:
 ![[Pasted image 20260223124323.png]]
