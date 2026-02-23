@@ -23,6 +23,8 @@ Similarly to imaginary numbers, a quaternion can be represented by a vector:
 Where $\eta$ being the real part and $\epsilon$ being the imaginary part.
 ![[Pasted image 20260223124334.png]]
 
+> [!TIP] For a quaternion there is 2 solutions for a rotation, $q$ and $-q$. Where for a [[3D Rotation Matrices|rotation matrix]] only has 1 unique solution for each rotation.
+
 #### Properties of Quaternions
 
 ![[Pasted image 20260223124549.png]]
