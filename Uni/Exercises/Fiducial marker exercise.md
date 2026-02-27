@@ -8,7 +8,7 @@ completed: false
 ---
 --- 
 #### Exercise Description
-![[fiducial_marker_exercise.pdf]]
+![[fiducial_marker_exercise.pdf#page=20]]
 
 
 #### Exercise Answer
