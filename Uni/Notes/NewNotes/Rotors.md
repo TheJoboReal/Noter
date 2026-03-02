@@ -26,3 +26,7 @@ $k_{T},k_{m}$ constant, $\Omega$ angular velocity of propeller and $k_{T}$ and $
 ![[Pasted image 20260302122606.png]]
 
 
+#### Thrust Matrix
+![[Pasted image 20260302123852.png]]
+![[Pasted image 20260302123902.png]]
+![[Pasted image 20260302123955.png]]
