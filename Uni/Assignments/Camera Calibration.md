@@ -9,6 +9,7 @@ progress: 50%
 completed: false
 ---
 --- 
+
 #### Assignment Description
 ![[Uni/Assignments/_exercisesheets-lsdp-2.pdf|_exercisesheets-lsdp-2#page=24]]
 
