@@ -14,4 +14,3 @@ Drone lander paa platform udstyret med solcelle batteri.
 Low power cam turner on en gang imellem og tjekker om der er en valid observation, hvis ja, aktiverer en high power algoritme og confirmer observation, hvis ja, sender drone i luften efter observationen.
 
 #### Questions
-j
