@@ -33,3 +33,6 @@ See how the Hat response to an input signal
 ![[Pasted image 20260313084818.png]]
 ![[Pasted image 20260313084843.png]]
 ![[Pasted image 20260313084853.png]]
+
+#### Example of SIFT matching
+![[Pasted image 20260313091918.png]]
