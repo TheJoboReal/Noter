@@ -3,10 +3,10 @@ tags:
   - assignment
   - uni
 course: Large-scale Drone Perception
-due_date: null
+due_date:
 date: 2026-03-06
 progress: 50%
-completed: false
+completed: true
 ---
 --- 
 
