@@ -2,45 +2,41 @@
 tags:
   - lecture-slide
   - uni
-course: <%*
-    // Get all course files inside "Uni/Courses"
-    let courseFiles = app.vault.getMarkdownFiles()
-        .filter(file => file.path.startsWith("Uni/Courses/"));
-
-    // Extract course names from file titles
-    let courseNames = courseFiles.map(file => file.basename);
-
-    // Prompt user to select a course
-    let selectedCourse = await tp.system.suggester(courseNames, courseNames);
-    tR += selectedCourse; // Return selected course
-%>
-lecture: <%*
-    // Ensure a course is selected before proceeding
-    if (!selectedCourse) {
-        tR += "No Course Selected"; 
-    } else {
-        // Get all files in "Uni/Slides" with matching course
-        let lectureFiles = app.vault.getMarkdownFiles()
-            .filter(file => file.path.startsWith("Uni/Slides/"));
-
-        // Extract lecture names based on the 'lecture' property inside the files
-        let lectureMetadata = await Promise.all(lectureFiles.map(async (file) => {
-            let metadata = await app.metadataCache.getFileCache(file);
-            if (metadata?.frontmatter?.course === selectedCourse && metadata?.frontmatter?.lecture) {
-                return metadata.frontmatter.lecture;
-            }
-            return null;
-        }));
-
-        // Filter out null values and remove duplicates
-        let lectureNames = [...new Set(lectureMetadata.filter(name => name))];
-
-        // Prompt user to select a lecture
-        let selectedLecture = await tp.system.suggester(lectureNames, lectureNames);
-        tR += selectedLecture; // Return selected lecture
-    }
-%>
-date: <% tp.date.now('YYYY-MM-DD') %>
+course: Large-scale Drone Perception
+lecture: Lecture 7
+date: 2026-03-27
 ---
 
 #### Definition
+![[Pasted image 20260327082424.png]]
+
+$$
+F=\begin{bmatrix}
+f_{11} & f_{12} & f_{13} \\
+f_{21} & f_{22} & f_{23} \\
+f_{31} & f_{32} & f_{33}
+\end{bmatrix}
+$$
+
+$$
+\vec{x}_{1}^T\cdot F \cdot \vec{x}_{2}=0
+\rightarrow
+\begin{pmatrix}
+x_{1} \\
+y_{1} \\
+1
+\end{pmatrix}
+^T
+(F)
+\begin{pmatrix}
+x_{2} \\
+y_{2} \\
+1
+\end{pmatrix}
+=0
+$$
+
+Where $\vec{x_{1}}$ is a point in image one and $\vec{x_{2}}$ is a point in image two. and are given in homogeneous coordinates.
+![[Pasted image 20260327082807.png]]
+![[Pasted image 20260327082817.png]]
+
