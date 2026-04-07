@@ -8,9 +8,10 @@ date: 2026-04-06
 ---
 ### General todos
 - [ ] setup mounting HDD and SSD with ntfs-3g(install ntfs-3g)
-- [ ] fix gpu monitor waybar
+- [x] fix gpu monitor waybar ✅ 2026-04-07
 - [ ] tailscale run at boot
 - [ ] setup Sunshine
+- [ ] make dot repo for configs
 
 ### obsidian todos
 - [ ] Latex OCR (local interferrence on laptop)
