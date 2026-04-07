@@ -9,7 +9,7 @@ date: 2026-04-06
 ### General todos
 - [x] setup mounting HDD and SSD with ntfs-3g(install ntfs-3g) ✅ 2026-04-07
 - [x] fix gpu monitor waybar ✅ 2026-04-07
-- [ ] setup steam finding the other drives
+- [x] setup steam finding the other drives ✅ 2026-04-07
 - [x] tailscale run at boot ✅ 2026-04-07
 - [ ] setup Sunshine
 - [ ] yazi image preview
