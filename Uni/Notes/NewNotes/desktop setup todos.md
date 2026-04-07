@@ -10,6 +10,7 @@ date: 2026-04-06
 - [ ] setup mounting HDD and SSD with ntfs-3g(install ntfs-3g)
 - [ ] fix gpu monitor waybar
 - [ ] tailscale run at boot
+- [ ] setup Sunshine
 
 ### obsidian todos
 - [ ] Latex OCR (local interferrence on laptop)
