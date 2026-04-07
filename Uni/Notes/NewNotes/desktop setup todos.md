@@ -12,7 +12,7 @@ date: 2026-04-06
 - [x] setup steam finding the other drives ✅ 2026-04-07
 - [x] tailscale run at boot ✅ 2026-04-07
 - [ ] setup Sunshine
-- [ ] yazi image preview
+- [ ] yazi image preview. Install ueberzugpp
 - [x] make dot repo for configs ✅ 2026-04-07
 - [x] Make wallpaper ✅ 2026-04-07
 
