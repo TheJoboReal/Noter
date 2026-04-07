@@ -12,6 +12,7 @@ date: 2026-04-06
 - [ ] setup steam finding the other drives
 - [x] tailscale run at boot ✅ 2026-04-07
 - [ ] setup Sunshine
+- [ ] yazi image preview
 - [x] make dot repo for configs ✅ 2026-04-07
 - [ ] Make wallpaper
 
