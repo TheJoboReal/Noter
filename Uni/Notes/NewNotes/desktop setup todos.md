@@ -14,7 +14,7 @@ date: 2026-04-06
 - [ ] setup Sunshine
 - [ ] yazi image preview
 - [x] make dot repo for configs ✅ 2026-04-07
-- [ ] Make wallpaper
+- [x] Make wallpaper ✅ 2026-04-07
 
 ### obsidian todos
 - [ ] Latex OCR (local interferrence on laptop)
