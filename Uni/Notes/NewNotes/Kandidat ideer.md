@@ -6,14 +6,12 @@ course: null
 lecture: No Course Selected
 date: 2025-11-19
 ---
-##### Drone som lander og "overvaager" 
-saa en meget power efficient image recognition algoritme der kan aktivere dronen hvis den detekter et dyr eller noget.
-Evt undersoeg wild drones projektet.
+#### Overall idea
+A fixed wing drone that can loiter/monitor an area and detect specific animals, rhinos in our case. Further, an algorithm that can detect individual animals of the same species.
 
-Drone lander paa platform udstyret med solcelle batteri.
-Low power cam turner on en gang imellem og tjekker om der er en valid observation, hvis ja, aktiverer en high power algoritme og confirmer observation, hvis ja, sender drone i luften efter observationen.
+Using the solar fixed wing that Guy has to increase flight time.
 
-##### Narrowed down
-Focus on the sleeper drone aspect. Landing and other stuff makes the project too broad.
+Implementing it all on a low powered system.
 
-#### Questions
+#### Related
+https://www.sciencedirect.com/science/article/pii/S1574954124003844
