@@ -15,6 +15,10 @@ Implementing it all on a low powered system.
 
 The system does not need to be fully real time as the rhinos does not move much and the fixed wing can loiter while waiting for an output of the model. Thus Models such as YOLO are not needed.
 
+#### Research question
+Is it possible to integrate animal detection of individual animals on an autonomous drone?
+
+
 #### Related
 https://www.sciencedirect.com/science/article/pii/S1574954124003844
 
