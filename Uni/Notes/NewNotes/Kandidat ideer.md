@@ -15,11 +15,12 @@ Implementing it all on a low powered system.
 
 The system does not need to be fully real time as the rhinos does not move much and the fixed wing can loiter while waiting for an output of the model. Thus Models such as YOLO are not needed.
 
-From **Guy**, make the project an integrated payload that can be mounted on any drone and only needs power input. So it has integrated telemetry and stuff. So we wont be limited by what drone we can take. This way we help our selves a lot if we are unable to fly at moments.
+From **Guy**, make the project an integrated payload that can be mounted on any drone and only needs power input. So it has integrated telemetry and stuff. So we wont be limited by what drone we can take. This way we help our selves a lot if we are unable to fly at moments. This way, we will not have to deal with the hell of integrating the system flight flight controllers.
 We should also have contingency plans for if we are unable to in the open category,meaning we should be able to make a bare minimum test at the airport.
 
 #### Research question
-Is it possible to integrate animal detection of individual animals on an autonomous drone?
+* Is it possible to integrate animal detection of individual animals on an autonomous drone?
+* Is it possible to create a fully integrated payload with gimbal camera for animal detection, telemetry and data-safety software(encryption), only needing power input.
 
 
 #### Related
