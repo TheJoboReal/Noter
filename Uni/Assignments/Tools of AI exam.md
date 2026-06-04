@@ -6,7 +6,7 @@ course: Kunstig Intelligens Værktøjer
 due_date: 28-05-2026
 date: 2026-03-11
 progress: 25%
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description

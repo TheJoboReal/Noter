@@ -6,7 +6,7 @@ course: Large-scale Drone Perception
 due_date: 09/05-2026
 date: 2026-04-01
 progress: Not Startet
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description

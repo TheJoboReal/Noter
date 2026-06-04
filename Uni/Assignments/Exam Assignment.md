@@ -6,7 +6,7 @@ course: Bio-inspired Autonomous Systems
 due_date: 17-05-2026
 date: 2026-02-03
 progress: Not Startet
-completed: false
+completed: true
 ---
 --- 
 #### Assignment Description
