@@ -15,3 +15,15 @@ $$
 $$
 \tau=\tau_{a}+\tau_{g}+\tau_{p}
 $$
+
+$$
+M_{RB}\dot{\nu}-D\nu=\tau
+$$
+
+$$
+\dot{\nu}=M^{-1}(\tau-D\nu)
+$$
+
+$$
+\dot{\eta}=R_{b/e}^e\nu 
+$$
