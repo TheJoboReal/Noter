@@ -27,3 +27,10 @@ $$
 $$
 \dot{\eta}=R_{b/e}^e\nu 
 $$
+
+$$
+\dot{\eta}=J_{\theta}(\eta)\nu
+$$
+$$
+\tau_{g}=R_{e}^b F_{g}^e \quad \leftarrow \quad F_{g}^e=[0;0;mg]
+$$
