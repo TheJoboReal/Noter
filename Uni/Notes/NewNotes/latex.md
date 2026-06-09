@@ -35,5 +35,5 @@ $$
 \tau_{g}=R_{e}^b F_{g}^e \quad \leftarrow \quad F_{g}^e=[0;0;mg]
 $$
 $$
-\tau=R_{e}^b \eta k_{p} + \int R_{e}^b \eta \, d  
+\tau= k_{p} R_{e}^b \eta + k_{i} \int R_{e}^b \eta \,  -k_{d}\nu  
 $$
