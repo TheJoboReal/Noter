@@ -26,5 +26,10 @@ We should also have contingency plans for if we are unable to in the open catego
 #### Related
 https://www.sciencedirect.com/science/article/pii/S1574954124003844
 
+#### Cameras
+https://www.mouser.com/catalog/specsheets/FRAMOS_2-12-2026_FSM.GO-IMX900_Datasheet_v1.2a.pdf
+https://www.mouser.dk/ProductDetail/FRAMOS/FSMGO-IMX900C-M12-L33A-PM-A1Q1?qs=G4MbTVxgV4EMNOWjdeyf6A%3D%3D
+https://framos.com/products-services/camera-modules/fsm-go-camera-modules/
+
 
 ![[Pasted image 20260426141153.png]]
