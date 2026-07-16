@@ -8,6 +8,7 @@ date: 2026-07-15
 ---
 
 #### Definition
+The pico pi can enter **sleep mode** leaving the clock active to be able to wake up at a determined time. This mode consumes approx $33$mW. Instead the pico can be put into **dormant mode** with the clock turned off and setting up an external wake signal on a pin. This mode consumes approx $6$mW
 
 
 ![[Pasted image 20260715145911.png]]

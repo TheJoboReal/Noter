@@ -3,11 +3,7 @@ tags:
   - uni
   - semester
 Semester Start: 01-09-2026
-<<<<<<< HEAD
 Semester End: 31-12-2026
-=======
-Semester End: 30-01-2027
->>>>>>> 1600e43 (added isa)
 semester: Semester 9
 ---
 Last Changed: `=dateformat(this.file.mtime, "yyyy-MM-dd - HH:mm")`

@@ -3,7 +3,7 @@ tags:
   - uni
   - course
 semester: Semester 9
-course: undefined
+course: Isa Watering pot
 Exam form: Portfolio
 Exam Date:
 dato: 09-07-2026

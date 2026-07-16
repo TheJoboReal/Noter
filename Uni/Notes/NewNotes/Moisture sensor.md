@@ -3,7 +3,7 @@ tags:
   - lecture-slide
   - uni
 course: Isa Watering pot
-lecture: null
+lecture:
 date: 2026-07-09
 ---
 
