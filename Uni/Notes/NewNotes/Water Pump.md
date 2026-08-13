@@ -11,3 +11,4 @@ date: 2026-08-12
 
 Water pump used is [link](https://www.laskakit.cz/en/sc3101pw-vakuove-membranove-cerpadlo-3v/).
 Motor controller is [[tb6612fng_datasheet_en_20141001.pdf|datasheet]].
+Using this motor controller guide: [link](https://lastminuteengineers.com/tb6612fng-dc-motor-control-arduino-tutorial/)
