@@ -3,7 +3,7 @@ tags:
   - uni
   - course
 semester: Semester 9
-course: undefined
+course: Master
 Exam form: Oral
 Exam Date: 21-05-2027
 dato: 28-08-2026
