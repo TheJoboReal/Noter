@@ -18,7 +18,7 @@ Book:
 let currentCourse = dv.current().course; // Get the course property of the current note
 
 if (!currentCourse) {
-    dv.paragraph("⚠️ No 'course' property found in this file.");
+    dv.paragraph("No 'course' property found in this file.");
 } else {
     let folderPath = "Uni/Notes"; // Base folder path
     let slidesFolder = "Uni/Slides"; // Folder for slides
@@ -33,7 +33,7 @@ if (!currentCourse) {
         .sort(p => p.file.mtime, 'desc'); // Sort by last modified time
 
     if (notes.length === 0) {
-        dv.paragraph("⚠️ No notes found for this course.");
+        dv.paragraph("No notes found for this course.");
     } else {
         // Display results in a table with "Lecture" column linking to slides
         dv.table(["File Name", "Lecture", "Last Modified"], 
@@ -55,7 +55,7 @@ if (!currentCourse) {
 let currentCourse = dv.current().course; // Get the course property of the current note
 
 if (!currentCourse) {
-    dv.paragraph("⚠️ No 'course' property found in this file.");
+    dv.paragraph("No 'course' property found in this file.");
 } else {
     let folderPath = "Uni/Slides"; // Base folder path
 
@@ -65,7 +65,7 @@ if (!currentCourse) {
         .sort(p => p.file.mtime, 'desc'); // Sort by last modified time
 
     if (slides.length === 0) {
-        dv.paragraph("⚠️ No slides found for this course.");
+        dv.paragraph("No slides found for this course.");
     } else {
         dv.table(["File Name", "Lecture", "Last Modified"], 
             slides.map(p => [
@@ -85,7 +85,7 @@ let folderPath = "Uni/Assignments"; // Define the folder to search
 let currentCourse = dv.current().course; // Get the course property of the current note
 
 if (!currentCourse) {
-    dv.paragraph("⚠️ No 'course' property found in this note.");
+    dv.paragraph("No 'course' property found in this note.");
 } else {
     // Find all assignments in the folder that match the same course
     let assignments = dv.pages(`"${folderPath}"`)
@@ -111,7 +111,7 @@ if (!currentCourse) {
 let currentCourse = dv.current().course; // Get the course property of the current note
 
 if (!currentCourse) {
-    dv.paragraph("⚠️ No 'course' property found in this file.");
+    dv.paragraph("No 'course' property found in this file.");
 } else {
     let folderPath = "Uni/Exercises"; // Base folder path
 
