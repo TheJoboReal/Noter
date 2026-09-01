@@ -2,7 +2,7 @@
 tags:
   - lecture-slide
   - uni
-course: null
+course: Master
 lecture: No Course Selected
 date: 2025-10-28
 ---

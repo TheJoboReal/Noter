@@ -11,4 +11,5 @@ date: 2026-09-01
 ## September
 * Get animal Re-ID from elephant article up and running. And run some test on it.
 * Get camera on the Raspberry Pi up and running.
+* Get YOLO running on the Pi for simple animal detection.
 * Read literature. 
