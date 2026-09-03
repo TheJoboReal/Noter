@@ -67,3 +67,4 @@ views:
     config:
       columnWidth: 280
       hideEmptyColumns: false
+    columnOrder: '{"note.status":["none","open","in-progress","done"]}'
