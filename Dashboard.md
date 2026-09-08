@@ -1,10 +1,6 @@
 Total file Count: `$=dv.pages().length`
-```dataview
-	TASK
-	FROM "Daily Notes/Todo"
-	WHERE !completed
-	SORT text asc
-```
+![[TaskNotes/View/kanban-default]]
+
 > [!Linux]
 > [[Linux Querks]]
 
