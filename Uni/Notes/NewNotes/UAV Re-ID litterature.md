@@ -15,4 +15,4 @@ In this article [Rapid article](https://besjournals.onlinelibrary.wiley.com/doi/
 In the context of [[SIFT feature Detection|SIFT features]] Deep embeddings are less interpretable but often more robust in challenging scenarios, achieving high accuracy and generali-sation. Yet, their successful extraction demands large-scale annotated datasets, extensive training and GPU hardware.
 **This need for hardware acceleration should not be an issue for us, since we send images back to the ground station for processing meaning a GPU should be accessable**
 
-[WildlifeDataset](https://arxiv.org/pdf/2311.09118) an open source toolkit for animal re-id.
+[WildlifeDataset](https://arxiv.org/pdf/2311.09118) an open source toolkit for animal re-id. CLIP and DINOv2 are some animal Re-ID models.
