@@ -1,5 +1,5 @@
 Total file Count: `$=dv.pages().length`
-![[TaskNotes/View/kanban-default]]
+	![[kanban-default.base]]
 
 > [!Linux]
 > [[Linux Querks]]
