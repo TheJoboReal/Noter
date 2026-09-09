@@ -1,6 +1,4 @@
 - [ ] 
-- [ ] 
-- [ ] 
 - [x] Fix herbstlut desktop
 - [x] book tandlæge
 - [x] Check out remotely save plugin for obsidian.
