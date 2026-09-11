@@ -1,5 +1,0 @@
----
-tags:
-  - project
-completed: false
----

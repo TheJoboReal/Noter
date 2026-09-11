@@ -1,9 +1,8 @@
 ---
-status: none
+status: in-progress
 priority: normal
-scheduled: 2026-09-10
 dateCreated: 2026-09-10T23:07:42.094+02:00
-dateModified: 2026-09-10T23:11:17.635+02:00
+dateModified: 2026-09-11T09:19:10.370+02:00
 tags:
   - task
 ---

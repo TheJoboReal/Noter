@@ -1,10 +1,10 @@
 ---
 tags:
   - project
-project: <% tp.file.title %>
-due_date: <% await tp.system.prompt("Enter Due Date (DD-MM-YYYY):") %>
-date: <% tp.date.now('YYYY-MM-DD') %>
-progress: <% await tp.system.suggester(["We are cooked", "Not Startet", "25%", "50%", "75%", "95%",],["We are cooked", "Not Startet", "25%", "50%", "75%", "95%",]) %>
+project: Test project
+due_date: null
+date: 2026-09-11
+progress: We are cooked
 completed: false
 ---
 --- 

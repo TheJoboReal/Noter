@@ -16,33 +16,19 @@ Total file Count: `$=dv.pages().length`
 >>);
 >>```
 >
->> [!info] Unfinished Assignments
+>> [!info] Projects
 >> 
 >>```dataviewjs
->>let folderPath = "Uni/Assignments"; // Define the folder to search
->>let coursesFolder = "Uni/Courses"; // Define the folder where course notes are stored
+>>let folderPath = "Projects/Project Headers"; // Define the folder to search
 >>
->>// Get all course notes and map their file names to their links
->>let courseNotes = {};
->>let coursePages = dv.pages(`"${coursesFolder}"`);
->>
->>if (coursePages) {
-    >>coursePages.forEach(course => {
-        >>courseNotes[course.file.name] = course.file.link;
-    >>});
->>}
->>
->>// Find all assignments in the folder that are incomplete (completed === false or missing)
+>>// Find all assignments in the folder
 >>let incompleteAssignments = dv.pages(`"${folderPath}"`)
-    >>.where(p => p.completed !== true && p.completed !== "true") // Filter by incomplete status
     >>.sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 >>
 >>// Display results in a table
->>dv.table(["Assignment", "Due Date", "Course", "Progress"], 
+>>dv.table(["Assignment", "Progress"], 
     >>incompleteAssignments.map(p => [
         >>p.file.link, // Assignment file link
-        >>p.due_date ?? "No Due Date", // Due date or default text
-        >>courseNotes[p.course] ?? "❌ Course Not Found", // Link to the course note or error message
         >>p.progress ?? "No Progress Info" // Display progress or fallback text
     >>])
 >>);

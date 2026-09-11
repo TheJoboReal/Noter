@@ -63,26 +63,26 @@ if (!currentCourse) {
 
 ### Lecture Slides
 ```dataviewjs
-let currentCourse = dv.current().course; // Get the course property of the current note
+let currentcourse = dv.current().course; // get the course property of the current note
 
-if (!currentCourse) {
-    dv.paragraph("⚠️ No 'course' property found in this file.");
+if (!currentcourse) {
+    dv.paragraph("⚠️ no 'course' property found in this file.");
 } else {
-    let folderPath = "Uni/Slides"; // Base folder path
+    let folderpath = "uni/slides"; // base folder path
 
-    // Find slides in Uni/Slides where course property matches the current file
-    let slides = dv.pages(`"${folderPath}"`)
-        .where(p => p.course && p.course == currentCourse) // Match course property
-        .sort(p => p.file.mtime, 'desc'); // Sort by last modified time
+    // find slides in uni/slides where course property matches the current file
+    let slides = dv.pages(`"${folderpath}"`)
+        .where(p => p.course && p.course == currentcourse) // match course property
+        .sort(p => p.file.mtime, 'desc'); // sort by last modified time
 
     if (slides.length === 0) {
-        dv.paragraph("⚠️ No slides found for this course.");
+        dv.paragraph("⚠️ no slides found for this course.");
     } else {
-        dv.table(["File Name", "Lecture", "Last Modified"], 
+        dv.table(["file name", "lecture", "last modified"], 
             slides.map(p => [
-                p.file.link, // File link
-                p.lecture ?? "No Lecture Info", // Display lecture property or fallback text
-                p.file.mtime // Last modified time
+                p.file.link, // file link
+                p.lecture ?? "no lecture info", // display lecture property or fallback text
+                p.file.mtime // last modified time
             ])
         );
     }
