@@ -12,6 +12,8 @@ Running YOLO on a raspberry pi for detecting the location of rhinos. We are usin
 
 #related This [paper](https://www.ijert.org/research/an-edge-computing-approach-for-real-time-wildlife-detection-and-alert-system-using-yolov8-on-raspberry-pi-5-IJERTV14IS080137.pdf) also uses yolo for wildlife detection. However, this project uses an extensive manual labelled database which results in high accuracy, but low adaptability and scalability due to its very targeted database. 
 
+For dataset for rhino this [dataset](https://platform.ultralytics.com/ultralytics/datasets/african-wildlife) can be used.
+
 ### YOLO Pose estimation
 Pose estimation using a custom Yolo model can be found here [[Animal yolo pose estimation.pdf]] 
 
