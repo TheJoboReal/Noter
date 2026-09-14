@@ -7,5 +7,6 @@ tags:
   - task
 projects:
   - "[[Finish plant ISA]]"
+tasknotes_manual_order: tnkkkkkkkkkk
 ---
 
