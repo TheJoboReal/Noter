@@ -13,4 +13,6 @@ Running YOLO on a raspberry pi for detecting the location of rhinos. We are usin
 ### Hardware
 We need:
 - Pi 5 4gb or 8gb.
-- pi cam v3
+- pi cam v3.
+- Active cooler for pi(maybe some passive air-cooling).
+- 
