@@ -12,8 +12,12 @@ Running YOLO on a raspberry pi for detecting the location of rhinos. We are usin
 
 #related This [paper](https://www.ijert.org/research/an-edge-computing-approach-for-real-time-wildlife-detection-and-alert-system-using-yolov8-on-raspberry-pi-5-IJERTV14IS080137.pdf) also uses yolo for wildlife detection. However, this project uses an extensive manual labelled database which results in high accuracy, but low adaptability and scalability due to its very targeted database. 
 
+### YOLO Pose estimation
+
+
 ### Hardware
 We need:
 - Pi 5 4gb or 8gb.
 - pi cam v3.
 - Active cooler for pi(maybe some passive air-cooling).
+
