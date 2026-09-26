@@ -24,4 +24,4 @@ We should use a $1 \mu F$ Capacitor for the $f_{osc}\approx \frac{1}{2.2\cdot R_
 The target frequency of once every 6 hours is $f_{osc}=\frac{16384}{6\cdot33600}$. This gives a resistor of $$R=\frac{1}{2.2\cdot C_{f}}=\frac{1}{2.2\cdot_{1}\mu F\cdot_{0}.7593}=598k\ohm$$ 
 So $\approx 600k\ohm$.
 
-It might be possible to wire the output of the bin counter to its own rst to have it only go high for a quick pulse, then reset and then wait another 6 hours.
+The pico will pull the MR(master reset) high on the counter after it wakes and let it go low when it goes back to sleep to avoid the counter being high for 6 hours as well.
