@@ -13,7 +13,7 @@ We need:
 - Active cooler for pi(maybe some passive air-cooling).
 
 ### Gimbal
-This [Gimbal](https://www.printables.com/model/227060-raspberry-pi-hq-camera-drone-gimbal) can be used if DIY is good enough.
+This [Gimbal](https://www.printables.com/model/227060-raspberry-pi-hq-camera-drone-gimbal) can be used if DIY is good enough. It uses SG90 servos, which i have at home.
 This $\approx 300$$ [gimbal](https://copterlab.com/2-axis-raspberry-pi-high-quality-camera-micro-gimbal) could also be useful as it has built in support for an extra pi cam.
 
 ### Camera and Lens
