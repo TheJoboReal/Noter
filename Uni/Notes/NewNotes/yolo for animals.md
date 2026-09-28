@@ -19,10 +19,3 @@ For dataset for rhino this [dataset](https://platform.ultralytics.com/ultralytic
 - [poseanything](https://github.com/orhir/PoseAnything) could be trained on rhinos for this. 
 - Vandita's work on [3D pose estimation](https://scholar.google.com/citations?user=zuJv0hwAAAAJ&hl=en) might also be useful.470pF1
 
-### Hardware
-We need:
-- Pi 5 4gb or 8gb.
-- pi cam v3.
-- Active cooler for pi(maybe some passive air-cooling).
-- Zoom cam: [100mm telephoto lens, C-mount](https://www.berry-base.pro/en/100mm-telephoto-lens-c-mount).
-- High budget cam: VA-LCM-12MP-100MM-F2.6-110
