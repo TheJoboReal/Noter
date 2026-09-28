@@ -17,7 +17,7 @@ For dataset for rhino this [dataset](https://platform.ultralytics.com/ultralytic
 ### YOLO Pose estimation
 - Pose estimation using a custom Yolo model can be found here [[Animal yolo pose estimation.pdf]] 
 - [poseanything](https://github.com/orhir/PoseAnything) could be trained on rhinos for this. 
-- Vandita's work on [3D pose estimation](https://scholar.google.com/citations?user=zuJv0hwAAAAJ&hl=en) might also be useful.
+- Vandita's work on [3D pose estimation](https://scholar.google.com/citations?user=zuJv0hwAAAAJ&hl=en) might also be useful.470pF1
 
 ### Hardware
 We need:
