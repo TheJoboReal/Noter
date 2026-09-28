@@ -24,4 +24,5 @@ We need:
 - Pi 5 4gb or 8gb.
 - pi cam v3.
 - Active cooler for pi(maybe some passive air-cooling).
-
+- Zoom cam: [100mm telephoto lens, C-mount](https://www.berry-base.pro/en/100mm-telephoto-lens-c-mount).
+- High budget cam: VA-LCM-12MP-100MM-F2.6-110
