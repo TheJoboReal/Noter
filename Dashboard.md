@@ -26,7 +26,7 @@ Total file Count: `$=dv.pages().length`
     >>.sort(p => p.file.mtime, 'desc'); // Sort by last modified date
 >>
 >>// Display results in a table
->>dv.table(["Assignment", "Progress"], 
+>>dv.table(["Project", "Progress"], 
     >>incompleteAssignments.map(p => [
         >>p.file.link, // Assignment file link
         >>p.progress ?? "No Progress Info" // Display progress or fallback text
