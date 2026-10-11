@@ -12,23 +12,23 @@ Eink display that shows the kanbann table from obsidian for quick task overview.
 
 
 ```dataviewjs
-let currentproject = dv.current().project; // get the course property of the current note
+let currentproject = dv.current().project; // get the project property of the current note
 
 if (!currentproject) {
     dv.paragraph("no 'project' property found in this file.");
 } else {
     let folderpath = "Projects/Project Notes"; // base folder path
 
-    // find slides in uni/slides where course property matches the current file
-    let slides = dv.pages(`"${folderpath}"`)
-        .where(p => p.project && p.prroject == currentproject) // match course property
+    // find notes where project property matches the current file (case-insensitive)
+    let notes = dv.pages(`"${folderpath}"`)
+        .where(p => p.project && p.project.toLowerCase() == currentproject.toLowerCase())
         .sort(p => p.file.mtime, 'desc'); // sort by last modified time
 
-    if (slides.length === 0) {
+    if (notes.length === 0) {
         dv.paragraph(" no notes found for this project.");
     } else {
         dv.table(["file name", "last modified"], 
-            slides.map(p => [
+            notes.map(p => [
                 p.file.link, // file link
                 p.file.mtime // last modified time
             ])

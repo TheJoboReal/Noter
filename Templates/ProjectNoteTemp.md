@@ -11,7 +11,7 @@ project: <%*
     let projectNames = projectFiles.map(file => file.basename);
 
     // Prompt user to select a course
-    let selectedCourse = await tp.system.suggester(projectNames, projectNames);
+    let selectedProject = await tp.system.suggester(projectNames, projectNames);
     tR += selectedProject; // Return selected project
 %>
 date: <% tp.date.now('YYYY-MM-DD') %>
