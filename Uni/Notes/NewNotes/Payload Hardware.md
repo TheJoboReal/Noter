@@ -31,3 +31,5 @@ Battery should be able to power the cam, pi and the motors which needs 5V.
 For image telemetry, this [drone-kit](https://hobbywireless.com/58-ghz-receiver-transmitter-set-c-179_117_7_174/fpv584-58-ghz-400mw-plug-play-fpv-system-f-band-p-825.html) could be useful. Instead, [OpenHD](https://github.com/OpenHD/OpenHD) which is an open source project could be used. MQTT and meshtastic is not suitable for this project as Mesh priornitices long range over throughput and MQTT is application layer messaging so sending states or value updates, not video feed.
 
 The Wifi adapter used could be the ASUS AC56.
+
+After looking, WFB-NG is gonna be a more fitting setup as it fits well on raspberry and with our receive only ground station
