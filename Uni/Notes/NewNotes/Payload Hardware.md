@@ -28,4 +28,6 @@ A battery of ample size is needed to power the closed payload system. A battery 
 Battery should be able to power the cam, pi and the motors which needs 5V.
 
 ### Telemetry 
-For image telemetry, this [drone-kit](https://hobbywireless.com/58-ghz-receiver-transmitter-set-c-179_117_7_174/fpv584-58-ghz-400mw-plug-play-fpv-system-f-band-p-825.html) could be useful
+For image telemetry, this [drone-kit](https://hobbywireless.com/58-ghz-receiver-transmitter-set-c-179_117_7_174/fpv584-58-ghz-400mw-plug-play-fpv-system-f-band-p-825.html) could be useful. Instead, [OpenHD](https://github.com/OpenHD/OpenHD) which is an open source project could be used.
+
+The Wifi adapter used could be the ASUS AC56.
