@@ -39,3 +39,9 @@ The ground station will be using a [14dB Directional](https://www.aliexpress.com
 
 #### Air Point
 The payload will be using the ASUS AC56 usb wifi adapter for TX.
+
+The asus dongle might need a patch to function properly [link](https://github.com/svpcom/wfb-ng/wiki/WiFi-hardware). It might also be useful to look at the wfb [setup](https://github.com/svpcom/wfb-ng/wiki/Setup-HOWTO).
+
+This could be a transmission budget when [FEC](https://www.geeksforgeeks.org/computer-networks/forward-error-correction-in-computer-networks/) is in use.
+
+![[Pasted image 20261019141852.png]]
