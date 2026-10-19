@@ -32,4 +32,10 @@ For image telemetry, this [drone-kit](https://hobbywireless.com/58-ghz-receiver-
 
 The Wifi adapter used could be the ASUS AC56.
 
-After looking, WFB-NG is gonna be a more fitting setup as it fits well on raspberry and with our receive only ground station
+After looking, WFB-NG is gonna be a more fitting setup as it fits well on raspberry and with our receive only ground station.
+
+#### Ground Station
+The ground station will be using a [14dB Directional](https://www.aliexpress.com/item/1005002007469173.html) antenna for RX connected to the [BL-M8812EU2](https://www.aliexpress.com/item/1005007386940533.html?cn=e-c&aff_fcid=c17dec0d6db649df998a251cf12683a0-1741439858818-03617-_ol0Mdtc&aff_fsk=_ol0Mdtc&aff_platform=api-new-link-generate&aff_trace_key=c17dec0d6db649df998a251cf12683a0-1741439858818-03617-_ol0Mdtc&afSmartRedirect=y&gatewayAdapt=esp2glo) wifi module.
+
+#### Air Point
+The payload will be using the ASUS AC56 usb wifi adapter for TX.
