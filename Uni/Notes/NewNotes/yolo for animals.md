@@ -19,3 +19,4 @@ For dataset for rhino this [dataset](https://platform.ultralytics.com/ultralytic
 - [poseanything](https://github.com/orhir/PoseAnything) could be trained on rhinos for this. 
 - Vandita's work on [3D pose estimation](https://scholar.google.com/citations?user=zuJv0hwAAAAJ&hl=en) might also be useful.470pF1
 
+This project [Ultralytics](https://docs.ultralytics.com/modes/track) could be used for animal tracking as it also gives id's on the tracked animals, allowing us to slew the gimbal easier.

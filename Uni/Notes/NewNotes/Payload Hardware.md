@@ -22,13 +22,6 @@ This $\approx 300$$ [gimbal](https://copterlab.com/2-axis-raspberry-pi-high-qual
 - pi cam v3. Rhino detection.
 - pi cam HQ. Rhino RE-ID.
 
-Since the pi runs ubuntu 24, we need to build the rpi cam drivers manually using this [guide](https://dev.to/minindu_pasan_8f0e03c1063/how-to-setup-raspberry-pi-camera-module-3-on-ubuntu-2404-4pme). Rpicam had to be built libav enabled as the cmd5 does not have hardware encoding for video. 
-
-To 
-
-```bash
-rpicam-vid -n -t 0   --codec yuv420   --width 1280 --height 720   --framerate 30   -o - | ffmpeg -f rawvideo   -pixel_format yuv420p   -video_size 1280x720   -framerate 30   -i pipe:0   -c:v libx264   -preset ultrafast   -tune zerolatency   -b:v 2M   -f mpegts   "udp://192.168.0.193:8080?pkt_size=1316"
-```
 ### Powertronics
 A battery of ample size is needed to power the closed payload system. A battery shield can be mounted with the battery to enable external power for charging: This could be output power from Guys drone as an example, thus providing even higher up time.
 Battery should be able to power the cam, pi and the motors which needs 5V.
