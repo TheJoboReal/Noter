@@ -1,10 +1,12 @@
 ---
-status: open
+status: done
 priority: normal
 dateCreated: 2026-09-14T12:59:47.758+02:00
-dateModified: 2026-09-26T15:35:38.712+02:00
+dateModified: 2026-11-01T15:51:40.529+01:00
 tags:
   - task
-tasknotes_manual_order: tnhuuuuuuuuu
+  - archived
+tasknotes_manual_order: tnsdupeirirf
+completedDate: 2026-11-01
 ---
 
