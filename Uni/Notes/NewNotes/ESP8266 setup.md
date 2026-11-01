@@ -17,7 +17,7 @@ Setting up an ESP8266MOD on arduino-cli using lazyvim:
 - Flash Size: 4MB (FS:2MB OTA:~1019KB).
 - Flash Mode: QIO.
 - Flash Frequency: 40MHz.
-- Reset Method: No dtr(aka ck) Use PROG and RST button on the dev board.
+- Reset Method: Use dtr(aka nodemcu)
 - lwIP Variant: lower memory.
 - VTables: FLash.
 - C++ Exeptions: Disabled
