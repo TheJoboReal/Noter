@@ -17,6 +17,9 @@ For dataset for rhino this [dataset](https://platform.ultralytics.com/ultralytic
 ### YOLO
 This project [Ultralytics](https://docs.ultralytics.com/modes/track) could be used for animal tracking as it also gives id's on the tracked animals, allowing us to slew the gimbal easier.
 
+#### Yolo26
+Pose estimation in yolo uses [Residual Log-likelyhood Estimation](https://arxiv.org/abs/2107.11291).
+
 ### YOLO Pose estimation
 - Pose estimation using a custom Yolo model can be found here [[Animal yolo pose estimation.pdf]] 
 - [poseanything](https://github.com/orhir/PoseAnything) could be trained on rhinos for this. 
