@@ -41,10 +41,12 @@ Aerial 5G Communications](https://www.researchgate.net/profile/Matteo-Bordin-2/p
 [Enabling Beyond-Visual-Line-of-Sight Drones Operation Over Open RAN 5G Networks With Slicing](https://ieeexplore.ieee.org/abstract/document/10578056)
 
 #### 5G telemetry
-Safaricom mobile seems to have 4G+ coverage over some conservancies.
+Safaricom mobile seems to have 4G+ coverage over some conservancies. Ol Pejeta Conservation seems to have great 5G coverage from user experience as can also be seen in the image below:
+![[Pasted image 20261113132337.png|984]]
+
 
 #### Ground Station
-The ground station will be using a [14dB Directional](https://www.aliexpress.com/item/1005002007469173.html) antenna for RX connected to the [BL-M8812EU2](https://www.aliexpress.com/item/1005007386940533.html?cn=e-c&aff_fcid=c17dec0d6db649df998a251cf12683a0-1741439858818-03617-_ol0Mdtc&aff_fsk=_ol0Mdtc&aff_platform=api-new-link-generate&aff_trace_key=c17dec0d6db649df998a251cf12683a0-1741439858818-03617-_ol0Mdtc&afSmartRedirect=y&gatewayAdapt=esp2glo) wifi module.
+The ground station could be using a [14dB Directional](https://www.aliexpress.com/item/1005002007469173.html) antenna for RX connected to the [BL-M8812EU2](https://www.aliexpress.com/item/1005007386940533.html?cn=e-c&aff_fcid=c17dec0d6db649df998a251cf12683a0-1741439858818-03617-_ol0Mdtc&aff_fsk=_ol0Mdtc&aff_platform=api-new-link-generate&aff_trace_key=c17dec0d6db649df998a251cf12683a0-1741439858818-03617-_ol0Mdtc&afSmartRedirect=y&gatewayAdapt=esp2glo) wifi module.
 
 #### Air Point
 The payload will be using the ASUS AC56 usb wifi adapter for TX.
