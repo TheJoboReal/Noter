@@ -40,6 +40,7 @@ Aerial 5G Communications](https://www.researchgate.net/profile/Matteo-Bordin-2/p
 
 [Enabling Beyond-Visual-Line-of-Sight Drones Operation Over Open RAN 5G Networks With Slicing](https://ieeexplore.ieee.org/abstract/document/10578056)
 
+[An Investigation of 5G, LTE, LTE-M and NB-IoT Coverage for Drone Communication Above 450 Feet](https://ieeexplore-ieee-org.proxy1-bib.sdu.dk/stamp/stamp.jsp?tp=&arnumber=10195446)
 #### 5G telemetry
 Safaricom mobile seems to have 4G+ coverage over some conservancies. Ol Pejeta Conservation seems to have great 5G coverage from user experience as can also be seen in the image below:
 ![[Pasted image 20261113132337.png|984]]
