@@ -33,6 +33,13 @@ The Wifi adapter used could be the ASUS AC56.
 
 After looking, WFB-NG is gonna be a more fitting setup as it fits well on raspberry and with our receive only ground station.
 
+These papers can prove useful:
+
+[5G Aero: A Prototyping Platform for Evaluating
+Aerial 5G Communications](https://www.researchgate.net/profile/Matteo-Bordin-2/publication/392561136_5G_Aero_A_Prototyping_Platform_for_Evaluating_Aerial_5G_Communications/links/69cff94760c0371a60f5c180/5G-Aero-A-Prototyping-Platform-for-Evaluating-Aerial-5G-Communications.pdf)
+
+[Enabling Beyond-Visual-Line-of-Sight Drones Operation Over Open RAN 5G Networks With Slicing](https://ieeexplore.ieee.org/abstract/document/10578056)
+
 #### 5G telemetry
 Safaricom mobile seems to have 4G+ coverage over some conservancies.
 
