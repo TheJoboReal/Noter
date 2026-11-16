@@ -15,3 +15,7 @@ LORA should be used for this. A cheap antenna can be used for givskud or airport
 
 #### 5G setup
 This [guide](https://github.com/nidhi-ii24/Quectel-RM520N-GL-5G-HAT-setup) could be useful for 5G setup. Using [Open5GS](https://github.com/open5gs/open5gs) core and [srsRAN](https://github.com/srsran) using [OpenCells](https://www.opencells.dev/). programable 
+
+
+#### Jes 5G
+From Jes we got a SIM8292E-M2 5G sim adapter, so we now need an SD card from a teleoperator.
