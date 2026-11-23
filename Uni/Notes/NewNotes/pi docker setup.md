@@ -29,3 +29,10 @@ docker context use default
 ```bash
 sudo usermod -aG docker kasper
 ```
+
+
+### Build
+Build docker image with:
+```bash
+ocker compose build --build-arg BUILD_JOBS=7
+```
