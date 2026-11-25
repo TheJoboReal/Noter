@@ -34,5 +34,5 @@ sudo usermod -aG docker kasper
 ### Build
 Build docker image with:
 ```bash
-ocker compose build --build-arg BUILD_JOBS=7
+docker compose build --build-arg BUILD_JOBS=7
 ```
